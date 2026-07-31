@@ -34,7 +34,11 @@ SRC = ROOT / "source"
 OUT = ROOT / "data" / "oral"
 IMGDIR = ROOT / "images"
 
+# 配分通常寫成「(20%)」。114 年例外，寫成沒有括號的「20%」——但這種寫法太容易
+# 誤中題幹裡的數值（「SpO2 97%」「Left main > 90% stenosis」），所以只對確定
+# 需要的檔案開啟（見 ORAL 的 bare 欄位）。
 WEIGHT = re.compile(r"[（(]\s*(\d{1,3})\s*%\s*[）)]")
+WEIGHT_BARE = re.compile(r"[（(]\s*(\d{1,3})\s*%\s*[）)]|(?<![\d.])(\d{1,3})\s*%\s*$")
 NUMBERED = re.compile(r"^\s*(?:子題\s*)?[一二三四五六七八九十\d]+\s*[.、)]\s*")
 ANSWER_HEAD = re.compile(r"(?m)^\s*(?:參考)?解答\s*[:：]")
 PAGE_REF = re.compile(r"[（(]\s*p+\.?\s*[\d,\s\-–]+[）)]", re.I)
@@ -78,8 +82,30 @@ def merged_image_rects(page):
     return merged
 
 
+def docx_lines(path):
+    """114 年的口試檔是 docx，沒有圖，直接讀段落。"""
+    import zipfile
+
+    with zipfile.ZipFile(path) as z:
+        xml = z.read("word/document.xml").decode("utf-8")
+    out = []
+    for para in re.split(r"</w:p>", xml):
+        text = "".join(re.findall(r"<w:t[^>]*>([^<]*)</w:t>", para))
+        text = html_unescape(text).replace(" ", " ").strip()
+        if text:
+            out.append(("line", text))
+    return out
+
+
+def html_unescape(s):
+    import html as _html
+    return _html.unescape(s)
+
+
 def events(path):
     """整份檔案依閱讀順序排成事件串：('line', 文字) 或 ('img', (page, rect))。"""
+    if str(path).lower().endswith(".docx"):
+        return docx_lines(path)
     out = []
     for page in fitz.open(path):
         items = []
@@ -96,25 +122,36 @@ def events(path):
     return out
 
 
-def collect(path):
+def collect(path, start=None, end=None, bare=False):
     """把事件串整理成 (前言, [子題])，子題以配分標記認定。
 
     標題可能跨行（112 年有「…需考慮那些可能原因?\\n(20%)」），
     所以碰到配分標記時，往回把尚未歸屬的文字行併進標題。
     """
     heads, pending, preamble = [], [], []
+    weight_re = WEIGHT_BARE if bare else WEIGHT
+    stream = events(path)
+
+    # 113、114 年是一個檔案裝兩題，用題目標題把該題的範圍切出來
+    if start:
+        idx = [i for i, (k, v) in enumerate(stream) if k == "line" and re.search(start, v)]
+        stream = stream[idx[0]:] if idx else stream
+    if end:
+        idx = [i for i, (k, v) in enumerate(stream) if k == "line" and re.search(end, v)]
+        stream = stream[:idx[0]] if idx else stream
 
     def sink():
         return heads[-1]["body"] if heads else preamble
 
-    for kind, value in events(path):
+    for kind, value in stream:
         if kind == "img":
             sink().append(("img", value))
             continue
-        m = WEIGHT.search(value)
+        m = weight_re.search(value)
         if not m:
             pending.append(value)
             continue
+        weight = int(m.group(1) or m.group(2))
         head_line = value[:m.start()].strip()
         # 只數實際文字，空白與標點不算——否則「量 ?」會被誤判成完整標題
         head_len = len(re.sub(r"[\s?？。，,.、!！:：]", "", NUMBERED.sub("", head_line)))
@@ -130,7 +167,7 @@ def collect(path):
         sink().extend(("text", x) for x in leftover)
         title = tidy(" ".join(parts + [value[:m.start()]]))
         title = PAGE_REF.sub("", NUMBERED.sub("", title)).strip()
-        heads.append({"title": title, "weight": int(m.group(1)), "body": []})
+        heads.append({"title": title, "weight": weight, "body": []})
         tail = value[m.end():].strip()
         if tail:
             heads[-1]["body"].append(("text", tail))
@@ -172,9 +209,9 @@ def trim_to_full_marks(subs):
     return out
 
 
-def build(rel, year, qid, title, prefix, layout):
+def build(rel, year, qid, title, prefix, layout, span=(None, None), bare=False):
     path = SRC / rel
-    preamble, heads = collect(path)
+    preamble, heads = collect(path, span[0], span[1], bare)
     counter = [0]
     whole = ""
 
@@ -232,13 +269,22 @@ ORAL = [
     (111, 2, "口試第二題", "oral/111_口試2.pdf", "answers"),
     (112, 1, "口試第一題", "oral/112_口試1.pdf", "inline"),
     (112, 2, "口試第二題", "oral/112_口試2.pdf", "inline"),
+    # 113、114 年兩題在同一個檔案裡，用標題切範圍
+    (113, 1, "口試第一題", "oral/113_口試.pdf", "none", (r"第一題", r"第二題")),
+    (113, 2, "口試第二題", "oral/113_口試.pdf", "none", (r"第二題", None)),
+    # 114 年的配分沒有括號，需要開啟 bare
+    (114, 1, "口試第一題", "oral/114_口試.docx", "none", (r"第一題", r"第二題"), True),
+    (114, 2, "口試第二題", "oral/114_口試.docx", "none", (r"第二題", None), True),
 ]
 
 
 def main():
     by_year = {}
-    for year, qid, title, rel, layout in ORAL:
-        item = build(rel, year, qid, title, f"{year}_oral{qid}", layout)
+    for entry in ORAL:
+        year, qid, title, rel, layout = entry[:5]
+        span = entry[5] if len(entry) > 5 else (None, None)
+        bare = entry[6] if len(entry) > 6 else False
+        item = build(rel, year, qid, title, f"{year}_oral{qid}", layout, span, bare)
         by_year.setdefault(year, []).append(item)
         w = sum(s["weight"] for s in item["subquestions"])
         nref = sum(1 for s in item["subquestions"] if s["reference"] or s["reference_images"])

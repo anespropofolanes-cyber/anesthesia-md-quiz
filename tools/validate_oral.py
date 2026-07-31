@@ -14,8 +14,9 @@ ROOT = Path(__file__).resolve().parent.parent
 QDIR = ROOT / "data" / "oral"
 IMGDIR = ROOT / "images"
 
-# 學會確實沒有公布參考答案的年份，不該被當成抽取失敗
-NO_OFFICIAL_ANSWER = {110}
+# 學會確實沒有公布參考答案的年份，不該被當成抽取失敗。
+# 這幾年的原檔通篇找不到「解答」或「參考答案」字樣，只有題目與配分。
+NO_OFFICIAL_ANSWER = {110, 113, 114}
 
 
 def check_oral(path):

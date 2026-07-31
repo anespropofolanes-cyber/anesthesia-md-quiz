@@ -1,0 +1,84 @@
+{
+ "meta": {
+  "year": 113,
+  "type": "oral",
+  "subject_name": "口試",
+  "source": "台灣麻醉醫學會口試試題與評分表"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 113,
+   "type": "oral",
+   "title": "口試第一題",
+   "scenario": "口試題目 第一題\n一位38 歲產婦，懷孕38 週， G1P0A0，身高150 cm、體重90 kg，\n因子癲前症(preeclampsia)，在產房接受hydralazine 以及magnesium 治\n療，突發嚴重腹痛，陰道出血與胎兒窘迫，欲安排緊急剖腹生產手術。\n病史:無過敏史、無其他內科病史。\n理學檢查: Mallampati Class IV，心跳70bpm、血壓160/90mmHg、呼吸\n速率24/分，雙下肢水腫、體溫 36.2°C。\n實驗室檢查: Hb:10.2g/dL, Hct 27%, Platelet: 95000/μL，GOT/GPT:\n100/90 IU/L，PT/aPTT: 報告尚未出來。\n請回答以下問題:",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "術前評估: 請評估此產婦的相關風險。",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "材準備、監視儀器、藥物考量)。",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "誘導後，發生困難插管，該如何處理?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "胎兒娩出後，子宮無張力(uterine atony)並持續出血，失血量為 2000ml，此時血壓顯示為70/30mmHg，請問如何處置(請分別針對 uterine atony 和 management of massive obstetric hemorrhage 說 明) ?",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "",
+   "has_reference": false,
+   "source_file": "oral/113_口試.pdf"
+  },
+  {
+   "id": 2,
+   "year": 113,
+   "type": "oral",
+   "title": "口試第二題",
+   "scenario": "口試題目 第二題\n一位70 歲之冠狀動脈心臟病女性病人，預計接受常規冠狀動脈繞道手\n術(CABG)。\n病史: 規則服藥之高血壓、糖尿病。\n心導管檢查: Left main > 90% stenosis, Left anterior descending artery: 75%\nstenosis.\n心臟超音波: Left ventricle ejection fraction (EF) 40%。Trivial MR.\n理學檢查學檢查: 心跳 72 bpm、血壓136/82 mmHg、呼吸速率\n14/分、血氧濃\n度 97%， Mallampati II、頸部活動正常、無搖晃牙齒。\n心電圖: Sinus rhythm。\n請回答以下問題:",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "請問麻醉誘導流程與藥物考量 ?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "成心肌缺氧?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "符合脫離體外循環的條件?",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "請問麻醉誘導的注意事項與藥物選擇?",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "",
+   "has_reference": false,
+   "source_file": "oral/113_口試.pdf"
+  }
+ ]
+}

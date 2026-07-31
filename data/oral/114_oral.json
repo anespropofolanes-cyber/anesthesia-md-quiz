@@ -1,0 +1,90 @@
+{
+ "meta": {
+  "year": 114,
+  "type": "oral",
+  "subject_name": "口試",
+  "source": "台灣麻醉醫學會口試試題與評分表"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 114,
+   "type": "oral",
+   "title": "口試第一題",
+   "scenario": "口試題目 第一題\n65歲148cm, 68kg女性，預計接受常規胸腔鏡左下肺葉楔狀切除手術。\n過敏史: 無。過去病史: 糖尿病、高血壓、2年前曾經因冠心症放過冠狀動脈支架，現規則在心臟科門診追蹤。\n術前用藥: 胰島素，鈣離子阻斷劑，阿斯匹靈，Plavix。\n理學檢查: Mallampati Class III，心跳70bpm、血壓140/90mmHg、呼吸速率14/分、體溫36.2°C、SpO2 96% under room air。\n實驗室檢查: Hb 10.2g/dL, Platelet 140000/μL, 其餘正常\n心電圖: Q wave in lead II, III, aVF\n胸腔X光: 左下肺葉1 cm mass\n心臟超音波: 左心室收縮力正常(LVEF 60%)，無肺高壓\n請回答以下問題:",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "術前評估還需要詢問什麼?術前藥物需要調整嗎?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "麻醉科one lung ventilation的方式有哪些?比較其優缺點(至少兩種)",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "如何確認one lung ventilation良好?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "側躺翻身之後，突然呼吸道阻力增加，血氧降低，要如何處理?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "病人拔管抵達恢復室之後，血壓略低 (95/50 mmHg)，心跳偏快 (HR 115/分鐘)，SpO2 94% under room air。有甚麼可能的原因?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "",
+   "has_reference": false,
+   "source_file": "oral/114_口試.docx"
+  },
+  {
+   "id": 2,
+   "year": 114,
+   "type": "oral",
+   "title": "口試第二題",
+   "scenario": "口試題目 第二題\n一位88歲老人，右側proximal humerus fracture需接受復位內固定手術, 手術採半坐姿。術前已空腹時間20小時，病人剛入手術室報到。病史: 高血壓、中風。\n外觀與理學檢查: 身高160 cm、體重43 kg，意識清醒可配合指令、清楚回應，右側偏癱。生命徵象: 心跳54 bpm、血壓190/102 mmHg、呼吸速率24/分、血氧濃度97% under room air、體溫36.2°C。\n藥物史: Beta-blocker 1 tablet BID, ACE inhibitor 1 tablet QD\n過敏史: 無。\n心電圖: Sinus bradycardia\n胸部X光: no active lung lesion\n實驗室檢查: Hb 10.2 g/dL, Platelet 215000/μL, BUN/CRE 33/1.53mg/dl, eGFR 33ml/min/1.73m2, GOT/GPT 30/20 IU/L，PT/aPTT 10.2/21sec。\n請回答以下問題:",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "麻醉前評估的考量有那些?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "說明麻醉誘導藥物, 與相關處置計畫?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "手術進行1小時後，平均動脈壓< 50 mmHg，心跳50下/分，說明您的初步鑑別診斷與處置(藥物、輸液…等)。",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "病人在恢復室40分鐘後突發口齒不清。應立即進行哪些初步評估?",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "",
+   "has_reference": false,
+   "source_file": "oral/114_口試.docx"
+  }
+ ]
+}

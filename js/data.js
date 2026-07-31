@@ -10,7 +10,7 @@ const LEGACY_YEARS = [102, 103, 104, 106, 107];
 const ALL_YEARS = [...YEARS].reverse().concat([...LEGACY_YEARS].reverse());
 
 /** 口試與超音波是情境練習，不計分，與筆試分開存放。 */
-const ORAL_YEARS = [112, 111, 110, 108];
+const ORAL_YEARS = [114, 113, 112, 111, 110, 108];
 
 const DB = {
   oral: null,        // [{year, id, title, scenario, subquestions, …}]
