@@ -11,7 +11,7 @@
    "year": 111,
    "type": "oral",
    "title": "口試第一題",
-   "scenario": "口試題目規則: 每人讀題一分鐘，回答長度預設10 分鐘內結束。\n口試題目共兩題。\n85 歲男性，身高170 公分，體重65 公斤，有old CVA、type 2 DM，以及Af 等\n病史接受內科治療。因腸道缺血性壞死需進行緊急手術。\n術前生命徵象: 呼喚他反應遲鈍，BP: 88/45 mmHg, ECG: Af with RVR:155\nbpm，RR: 26/min, BT: 38.9 °C。實驗診斷數據:Hb: 8.5 g/dL, WBC: 12500;\nPlatelet:25K; CRP:20; Na:135 meq/L; K: 5.0 meq/L\n子題\n1.",
+   "scenario": "口試題目規則: 每人讀題一分鐘，回答長度預設10 分鐘內結束。\n口試題目共兩題。\n85 歲男性，身高170 公分，體重65 公斤，有old CVA、type 2 DM，以及Af 等\n病史接受內科治療。因腸道缺血性壞死需進行緊急手術。\n術前生命徵象: 呼喚他反應遲鈍，BP: 88/45 mmHg, ECG: Af with RVR:155\nbpm，RR: 26/min, BT: 38.9 °C。實驗診斷數據:Hb: 8.5 g/dL, WBC: 12500;\nPlatelet:25K; CRP:20; Na:135 meq/L; K: 5.0 meq/L\n子題",
    "scenario_images": [],
    "subquestions": [
     {
@@ -39,7 +39,7 @@
      "reference_images": []
     },
     {
-     "title": "CVP: 15 cmH2O，如何處理?",
+     "title": "術中已給fluid 2500 ml, BP:76/42 mmHg; HR: Af 135 bpm, Hb: 7.0 g/dL， CVP: 15 cmH2O，如何處理?",
      "weight": 30,
      "reference": "",
      "reference_images": []

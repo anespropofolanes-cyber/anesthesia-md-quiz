@@ -155,8 +155,17 @@ def collect(path, start=None, end=None, bare=False):
         head_line = value[:m.start()].strip()
         # 只數實際文字，空白與標點不算——否則「量 ?」會被誤判成完整標題
         head_len = len(re.sub(r"[\s?？。，,.、!！:：]", "", NUMBERED.sub("", head_line)))
+        prev = next((x for x in reversed(pending) if x.strip()), "")
+        # 判斷這一行是不是「標題的續行」：
+        #   一、自己就帶編號 → 是完整標題，不必往回
+        #   二、上一行結尾有句讀 → 上一行已經講完，這行是新的標題
+        # 113 年有「…呼吸道器⏎材準備、監視儀器、藥物考量)。(30%)」這種續行很長的情況，
+        # 光看長度擋不住，要靠上一行結尾判斷。
+        continued = (not NUMBERED.match(head_line)
+                     and (head_len < MIN_INLINE_TITLE
+                          or not re.search(r"[。？?！!：:%）)]\s*$", prev)))
         parts = []
-        if head_len < MIN_INLINE_TITLE:
+        if continued:
             for ln in reversed(pending):
                 if len(parts) >= MAX_TITLE_LINES:
                     break

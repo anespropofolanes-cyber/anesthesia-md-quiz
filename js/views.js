@@ -237,8 +237,11 @@ function renderList(kind) {
   const map = { wrong: 'wrong-list', mark: 'mark-list', note: 'note-list' }[kind];
   const el = document.getElementById(map);
   const table = kind === 'wrong' ? store.s.wrong : kind === 'mark' ? store.s.marks : store.s.notes;
-  const items = Object.keys(table).map(s => DB.index[s]).filter(Boolean);
-  if (!items.length) {
+  const keys = Object.keys(table);
+  // 口試筆記的鍵不在筆試索引裡，要另外查，否則會整批消失
+  const oralKeys = kind === 'note' ? keys.filter(isOralNoteKey) : [];
+  const items = keys.filter(k => !isOralNoteKey(k)).map(s => DB.index[s]).filter(Boolean);
+  if (!items.length && !oralKeys.length) {
     const msg = { wrong: '還沒有錯題。開始練習後答錯的題目會自動收進來。',
                   mark: '還沒有書籤。在答題畫面點右上角的星號即可標記。',
                   note: '還沒有筆記。在任何一題下方的筆記欄寫下想法即可。' }[kind];
@@ -246,7 +249,8 @@ function renderList(kind) {
     return;
   }
   items.sort((a, b) => (table[b.source].at || 0) - (table[a.source].at || 0));
-  el.innerHTML = `<div class="list">${items.map(q => {
+  oralKeys.sort((a, b) => (table[b].at || 0) - (table[a].at || 0));
+  el.innerHTML = `<div class="list">${oralKeys.map(oralNoteItem).join('')}${items.map(q => {
     const extra = kind === 'wrong'
       ? `<div class="ans">你答過：<strong>${esc(store.s.wrong[q.source].my || '—')}</strong>　正解：<strong>${esc(answerText(q))}</strong>　答錯 ${store.s.wrong[q.source].n} 次</div>`
       : kind === 'note'
@@ -262,6 +266,21 @@ function renderList(kind) {
       </div>
     </div>`;
   }).join('')}</div>`;
+}
+
+/** 筆記頁裡的口試筆記。索引沒建起來時（還沒載入口試資料）也要看得到內容。 */
+function oralNoteItem(key) {
+  const hit = (DB.oralIndex || {})[key];
+  const [, year, qid, idx] = key.split(':');
+  const head = hit ? `${hit.question.year} 年 ${hit.question.title}` : `${year} 年 口試第${qid}題`;
+  const title = hit ? hit.sub.title : `子題 ${idx}`;
+  return `<div class="item">
+    <div class="top"><strong>${esc(head)}</strong>
+      <span class="tag topic">口試</span>
+      <button class="btn sm" style="margin-left:auto" onclick="go('oral')">前往口試</button></div>
+    <div class="q">${esc(title)}</div>
+    <div class="explain" style="margin-top:10px"><span class="h">我的答案</span>${esc(store.getNote(key))}</div>
+  </div>`;
 }
 
 /* ══ 搜尋 ══ */
@@ -320,14 +339,17 @@ function oralCard(q) {
     <div class="scenario">${esc(q.scenario)}</div>
     ${(q.scenario_images || []).map(figTag).join('')}
     <div class="sect-label">子題（配分合計 ${total}%）</div>
-    ${q.subquestions.map((s, i) => `
-      <details class="sub">
+    ${q.subquestions.map((s, i) => {
+      const hasRef = s.reference || (s.reference_images || []).length;
+      return `<details class="sub">
         <summary><span class="w">${s.weight}%</span>${esc(s.title)}</summary>
-        ${s.reference || (s.reference_images || []).length ? `
+        ${hasRef ? `
           <div class="ref">${s.reference ? esc(s.reference) : ''}
             ${(s.reference_images || []).map(figTag).join('')}</div>`
-          : '<div class="ref none">學會未公布這一子題的參考答案。</div>'}
-      </details>`).join('')}
+          : '<div class="ref none">學會未公布這一子題的參考答案。下面可以寫下你自己整理的版本。</div>'}
+        ${oralNote(s.noteKey || oralNoteKey(q, i), hasRef)}
+      </details>`;
+    }).join('')}
     ${q.reference_text ? `
       <details class="sub">
         <summary><span class="w">解答</span>官方參考答案（未分子題）</summary>
@@ -349,6 +371,19 @@ function usCard(q) {
       <summary><span class="w">參考</span>逐項參考答案</summary>
       <div class="ref">${esc(q.criteria)}</div>
     </details>
+  </div>`;
+}
+
+/** 口試每個子題都給一個作答欄。
+    有官方參考答案時是「先寫再對照」，沒有時這裡就是唯一能留下答案的地方。 */
+function oralNote(key, hasRef) {
+  return `<div class="noteblk oral">
+    <div class="lbl">${hasRef ? '我的答案（先自己寫，再對照上面的參考答案）'
+                              : '我自己整理的答案'}
+      <span class="saved" id="saved-${esc(key)}">已儲存</span></div>
+    <textarea placeholder="${hasRef ? '把你會講的重點寫下來，再展開參考答案看漏了什麼…'
+                                    : '查了 Miller 或和同事討論後，把結論寫在這裡…'}"
+      oninput="onNote('${esc(key)}', this.value)">${esc(store.getNote(key))}</textarea>
   </div>`;
 }
 

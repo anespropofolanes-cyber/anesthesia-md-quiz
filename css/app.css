@@ -516,3 +516,7 @@ details.sub > summary .w {
 }
 .ref { padding: 0 14px 13px; white-space: pre-wrap; line-height: 1.85; font-size: .95rem; }
 .ref.none { color: var(--ink-3); }
+
+/* 口試的作答欄在 details 內部，與參考答案區隔開 */
+.noteblk.oral { padding: 0 14px 13px; margin-top: 4px; border-top: 1px dashed var(--line); padding-top: 12px; }
+.noteblk.oral .lbl { font-size: .82rem; }

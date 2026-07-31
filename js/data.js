@@ -15,6 +15,7 @@ const ORAL_YEARS = [114, 113, 112, 111, 110, 108];
 const DB = {
   oral: null,        // [{year, id, title, scenario, subquestions, …}]
   ultrasound: null,
+  oralIndex: null,   // 筆記鍵 -> {題目, 子題}，筆記頁要靠它把口試筆記找回來
   taxonomy: null,
   papers: {},      // 108 -> {meta, questions}
   index: null,     // source -> question（全部載入後才有）
@@ -74,8 +75,22 @@ async function loadOral() {
     getJSON(`data/oral/${y}_oral.json`).catch(() => null)));
   DB.oral = files.filter(Boolean).flatMap(f => f.questions);
   DB.ultrasound = (await getJSON('data/oral/108_ultrasound.json').catch(() => null))?.questions || [];
+
+  DB.oralIndex = {};
+  for (const q of DB.oral) {
+    q.subquestions.forEach((s, i) => {
+      s.noteKey = oralNoteKey(q, i);
+      DB.oralIndex[s.noteKey] = { question: q, sub: s, index: i };
+    });
+  }
   return DB.oral;
 }
+
+/** 口試筆記的鍵。用年份＋題號＋子題序號，重跑解析器也不會變。 */
+function oralNoteKey(q, i) {
+  return `oral:${q.year}:${q.id}:${i + 1}`;
+}
+function isOralNoteKey(k) { return String(k).startsWith('oral:'); }
 
 function byCategory(code, { verifiedOnly = false } = {}) {
   return allQuestions()
