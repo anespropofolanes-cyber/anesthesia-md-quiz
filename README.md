@@ -50,6 +50,7 @@ python3 tools/validate_oral.py        # 口試與超音波：配分、圖檔、�
 | `tools/parse_oral.py` | 抽口試題目、子題配分與參考答案 |
 | `tools/parse_ultrasound.py` | 抽 108 年超音波三站 |
 | `tools/validate_oral.py` | 口試與超音波的驗證 |
+| `tools/inventory_legacy.py` | 盤點 2003–2012 的答案來源（只讀不寫） |
 
 `parse_*.py` 會覆蓋題庫檔，所以重跑之後要接著跑 `apply_answer_notes.py`、
 `apply_taxonomy.py`、`extract_images.py`，再跑驗證。
