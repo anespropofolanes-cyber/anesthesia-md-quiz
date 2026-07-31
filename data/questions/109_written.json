@@ -1,0 +1,1634 @@
+{
+ "meta": {
+  "year": 109,
+  "role": "doctor",
+  "subject": "written",
+  "subject_name": "筆試",
+  "total": 100,
+  "source": "台灣麻醉醫學會公告之官方試題與答案",
+  "extracted_by": "tools/parse_official.py"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 109,
+   "question": "腎臟之autoregulation 的生理及病理表現，下列敘述何者為非？",
+   "options": {
+    "A": "此作用使腎臟能維持水分調節的穩定，當動脈壓力在80 至 180 mm Hg 之間時，能保持 腎臟血流量穩定並維持過濾率。",
+    "B": "Calcium channel blocker 不會抑制腎臟autoregulation 的作用，但大部分麻醉藥物則會抑制 autoregulation 的作用。",
+    "C": "尿液的生成速率和autoregulation 並無直接相關，而是腎小管的水分再吸收決定。",
+    "D": "當病患合併有糖尿病腎病變時，autoregulation 反應可能會消失。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q1",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 2,
+   "year": 109,
+   "question": "關於propofol infusion syndrome 的臨床表現，下列敘述何者為非？",
+   "options": {
+    "A": "Acute refractory bradycardia。",
+    "B": "Metabolic acidosis(base deficit > 10 mmol/L)。",
+    "C": "Rhabdomyolysis。",
+    "D": "Hypokalemia。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q2",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 3,
+   "year": 109,
+   "question": "關於 train of four (TOF) ratio 與臨床觀察的相關性，下列敘述何者為非？",
+   "options": {
+    "A": "TOF ratio 0.6 代表病人舌頭可強力頂開壓舌板壓迫。",
+    "B": "病人可維持抬頭姿勢至少五秒代表TOF ratio 已達0.7-0.75。",
+    "C": "病人有正常足夠的咳嗽反應代表TOF ratio 已達0.9。",
+    "D": "TOF ratio 達到0.9 以上，代表喉部功能恢復正常。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q3",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 4,
+   "year": 109,
+   "question": "關於吸入性麻醉藥對心血管系統之作用，下列敘述何者最不適當？",
+   "options": {
+    "A": "吸入性麻醉藥會抑制心臟收縮功能(negative inotropic) 與心肌細胞內鈣離子恆定有關。",
+    "B": "對於接受冠狀動脈繞道手術之病患 使用sevoflurane 比使用propofol 麻醉之病患，術後 心肌酵素(TroponinI,CK-MB)數值明顯較高。",
+    "C": "笑氣 (Nitrous Oxide) 會抑制心臟收縮功能 (negative inotropic)，但不影響舒張功能。",
+    "D": "Desflurane 只有輕度冠狀動脈擴張效果，即使用於冠心病患者也不會產生coronary steal。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q4",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 5,
+   "year": 109,
+   "question": "關於血氧監視儀(pulse oximeter)的敘述中，下列何者為非？",
+   "options": {
+    "A": "Severe acidosis 會使顯示的 SpO2 數值低於真實的。",
+    "B": "Anemia 會使顯示的 SpO2 數值低於真實的。",
+    "C": "IABP 會使顯示的 SpO2 數值低於真實的。",
+    "D": "fetal Hb，會使顯示的 SpO2 數值高於真實的。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q5",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 6,
+   "year": 109,
+   "question": "關於 interscalene block 之敘述，下列何者為非？",
+   "options": {
+    "A": "Interscalene block 主要用在麻醉肩膀部位的手術。",
+    "B": "麻醉阻斷的層次是在middle and inferior trunks。",
+    "C": "通常會阻斷同側phrenic nerve，造成橫膈的麻痹以及呼吸功能的下降。",
+    "D": "可能併發嚴重的低血壓和心率過慢。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q6",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 7,
+   "year": 109,
+   "question": "有關於麻醉深度監測方面敘述，下列何者為非？",
+   "options": {
+    "A": "以EEG 為理論基礎的監測器有 論基礎的監測器有bispectral index（BIS）、Patient Safety Index（PSI）、 Narcotrend、Entropy。",
+    "B": "麻醉下確保病人無意識之Patient Safety Index（PSI） 值是40-60。",
+    "C": "Entropy 數值有值有response entropy（RE）及state entropy（SE），當病人變得更沒意識時， RE 會下降的比 的比SE 快。",
+    "D": "BIS 值下降通常與意識喪失有相關性，但是有三個麻醉藥例外，分別是 通常與意識喪失有相關性，但是有三個麻醉藥例外，分別是ketamine、 nitrousoxide、dexmedetomidine。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q7",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 8,
+   "year": 109,
+   "question": "懷孕過程會造成許多生理狀況改變，下列敘述何者錯誤？",
+   "options": {
+    "A": "懷孕會影響凝血功能會產生hypercoagulable state，factor I 與factor VII 凝血因子會增 加，血小板數目大多正常也有部分人會因血漿容積增加而略微下降 。",
+    "B": "懷孕期間心輸出量會增加，這個現象會在剛生產完達到最大值，相較於懷孕前最多可增 會增加，這個現象會在剛生產完達到最大值，相較於懷孕前最多可增 加80%-100%，主要是最後子宮收縮產生的自體輸血效應。",
+    "C": "為促進在胎盤運送氧氣給胎兒，生理機轉上會促使胎兒的氧合血紅素曲線 機轉上會促使胎兒的氧合血紅素曲線(oxyhemoglobin dissociation curve)右移與母體的氧合血紅素曲線左移。",
+    "D": "即使給予母體100%氧氣，胎兒的氧氣分壓(fetal PaO2)也不會超過 會超過60 mmHg。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q8",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 9,
+   "year": 109,
+   "question": "關於 cancer pain 的治療，下列敘述何者錯誤？",
+   "options": {
+    "A": "Palliative radiotherapy 通常可立即緩解bone metastases 所造成的疼痛。",
+    "B": "Tricyclic antidepressants 除了可用於治療opioid-refractory neuropathic pain，也可用於治療 患者的depression。",
+    "C": "Gabapentin 及pregabalin 可用於治療opioid-refractory neuropathic pain。",
+    "D": "對於因abdominal tumor 造成bowel obstruction 的患者，可使用steroid 及octreotide 減輕患 者的不適 適。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q9",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 10,
+   "year": 109,
+   "question": "60 歲男性，因 ascending colon cancer 預計實行 laparoscopic right colecotomy，有關腸胃 道生理與麻醉處置之敘述，下列何者正確？",
+   "options": {
+    "A": "CO2 Pneumoperitoneum 可能造成vasodilatation 因而使spla nchnic blood flow 增加。",
+    "B": "手術中出現非預期的瞬間大量出血，splanchnic venous system 內的 blood 可因為 venous vasoconstriction 而回到systemic circulation，甚至可達 800 mL 以上。",
+    "C": "Postoperative ileus 主要的因素是因為麻醉藥物的影響，尤其是 opioid 類藥物會強烈抑制 GI motility 達數天之久。",
+    "D": "手術中 combine 使用 low thoracic epidural infusion of local anesthetic 除了可以改善止痛 效果外，也可以抑制手術當中的腸胃道蠕動 (peristalsis)，讓外科手術更容易進行。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q10",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 11,
+   "year": 109,
+   "question": "處理one lung ventilation 病人desaturation 時，下列處理何者較不適當？",
+   "options": {
+    "A": "若發生嚴重 desaturation 在可能的情況下可恢復 two lung ventilation。",
+    "B": "確保FiO2 為1.0，並確認double lumen tube 在正確位置。",
+    "C": "確保有足夠的心搏出量，降低吸入性麻醉藥物濃度至 < 1 MAC。",
+    "D": "在有emphysematous 疾病的病人身上，可在通氣肺使用5 cm H2O PEEP。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q11",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 12,
+   "year": 109,
+   "question": "有關Pulmonary vascular resistance(PVR) 與 lung volume 間的關係，下列敘述何者為真？",
+   "options": {
+    "A": "PVR 是肺中所有血管阻力的總和，在total lung capacity (TLC) 時為最低。",
+    "B": "當lung volume 超過functional residual capacity (FRC)時肺部小血管的阻力會下降。",
+    "C": "隨著 lung volume 增加PVR 會先升高後降低。",
+    "D": "隨著 lung volume 增加，肺部大血管的阻力會下降。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q12",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 13,
+   "year": 109,
+   "question": "有關胸腔手術的麻醉監測，下列敘述何者正確？",
+   "options": {
+    "A": "在 one lung ventilation(OLV) 時 PaCO2-PetCO2 的 gradient會較 two lung ventilation(TLV) 時為高。",
+    "B": "病人使用 FiO2 1.0下，若TLV PaO2 >300 mmHg，OLV將比較不會發生 desaturation。",
+    "C": "使用double lumen tube或 blocker時，若聽診正確，可以不使用fiberoptic bronchoscopy 確 認位置。",
+    "D": "目前已經有證據證明在胸腔手術中使用 indirect monitors of cardiac output 可以改善術中 的fluid management。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q13",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 14,
+   "year": 109,
+   "question": "有關 hypoxic pulmonary vasoconstriction (HPV) ，下列敘述何者正確？",
+   "options": {
+    "A": "HPV 最高可降低流至非通氣肺的血流量70%，並且Alveolar hypoxia 之後約30 分鐘即可 達到第一階段rapid-onset HPV 的高原期。",
+    "B": "Alveolar hypoxia 之後2 小時左右，可達到第二階段slow-onset HPV 的高原期。",
+    "C": "在長時間one lung ventilation 之後，Pulmonary vascular resistance(PVR) 通常會在恢復two lung ventilation 1 小時內回到基準值。",
+    "D": "HPV可以被pre-conditioning ，面對第二次的 Hypoxia時HPV的反應較弱。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q14",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 15,
+   "year": 109,
+   "question": "有關胸腔手術中使用的 left double-lumen endotracheal tubes(ETT) 大小的選擇，下列何者 為非？",
+   "options": {
+    "A": "管子的 bronchial tip 需要至少比病人的左側main bronchus 小1-2 mm。",
+    "B": "術前胸部X 光或胸部電腦斷層可以提供相關的資訊作為選擇的依據。",
+    "C": "32 Fr 的 double-lumen ETT 其外徑較8.0 single lumen ETT 外徑還大，並可讓3.5mm 的 fiberoptic bronchoscope 通過。",
+    "D": "身高不及152公分的女性病患可考慮使用32 Fr double-lumen ETT。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q15",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 16,
+   "year": 109,
+   "question": "調高PEEP(positive-end-expiratory pressure)對呼吸及循環可能造成的影響，下列何者為 非？",
+   "options": {
+    "A": "可能會藉由alveolar recruitment，達到減少shunt 及改善oxygenation。",
+    "B": "會增加dead space 及提高PaCO2。",
+    "C": "對於心臟功能正常的病人，主要會造成venous return 及cardiac output 下降。",
+    "D": "對於congestive heart failure的病人，調高PEEP對cardiac output的影響較小。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q16",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 17,
+   "year": 109,
+   "question": "下列有關PONV(postoperative nausea and vomiting)的敍述，何者有誤？",
+   "options": {
+    "A": "相對於以propofol 為主的total intravenous anesthesia(TIVA)及regional anesthesia，吸入性 氣體麻醉的PONV 風險較高，且各種halogenated inhalational gas 之間的風險並無明顯差 異。",
+    "B": "可用於預防或治療 PONV 的藥物種類有dopamine antagonists、histamine antagonists、 serotonin antagonists、dexamethasone、neurokinin antagonists。",
+    "C": "成人PONV 的風險因子主要有female gender、nonsmoker、history of PONV、postoperative opioids。",
+    "D": "兒童PONV 的風險因子主要有：手術時間 ≧30 min，年齡<3 歲，斜視手術，雙親手足或 本人有PONV 的病史。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q17",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 18,
+   "year": 109,
+   "question": "關於perioperative period 輸液的給予，下列何者有誤？",
+   "options": {
+    "A": "GDT(goal-directed therapy)的研究中，經常顯示出使用GDT 組會比對照組給予較少的輸 液。",
+    "B": "給予過多且大量的輸液，可能會造成傷口癒合不佳，增加住院天數，延後腸道功能的恢 復。",
+    "C": "GDT(goal-directed therapy)中，可參考的指標包括PAC(pulmonary artery catheter), esophageal Doppler monitor, arterial waveform analysis, thoracic impedance, CVP(central venous pressure), echocardiography, lactate, ScvO2(central venous saturation)。",
+    "D": "GDT 可以減少術後腎功能受損, respiratory failure, wound infection。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q18",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 19,
+   "year": 109,
+   "question": "有關眼科麻醉的相關敍述，下列何者有誤？",
+   "options": {
+    "A": "拉動眼外肌(extraocular muscle)可能會引起包含bradycardia, ventricular ectopy, sinus arrest, ventricular fibrillation 等心律不整。",
+    "B": "在眼部周圍黏膜給予滴液型藥物，其吸收速度介於靜脈注射和皮下注射之間。",
+    "C": "Succinylcholine 會增加眼內壓達5-10 mmHg，因此在open eye injuries 中使用為禁忌。",
+    "D": "Echothiophate 為治療 glaucoma 的藥物，它可能會延長succinylcholine 的作用時間。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q19",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 20,
+   "year": 109,
+   "question": "下列有關於advanced life support 的敍述，何者正確？",
+   "options": {
+    "A": "成人用的電擊板(defibrillation pad)，不能使用於體重小於20 公斤的兒童。",
+    "B": "在cardiac arrest 的急救中，氣管內插管(tracheal tube placement)有明確證據會有幫助。",
+    "C": "在電擊前給予一段時間的chest compression 可以增加ROSC(return of spontaneous circulation)的機會。",
+    "D": "兒童(children)急救中，壓胸吹氣比為30：2，壓胸速率與成人相同，約為每分鐘100 下。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q20",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 21,
+   "year": 109,
+   "question": "關於POCD(postoperative cognitive dysfunction)的敍述，下列何者有誤？",
+   "options": {
+    "A": "在動物實驗中，isoflurane 引起的腦部細胞的細胞淍亡(apoptosis)，會因加入midazolam 或 N2O 而加重。",
+    "B": "POCD 可能的風險因子包括較大的年齡，有呼吸或感染相關的併發症、較長的麻醉時 間、再次手術及較低的教育程度等。",
+    "C": "相對於general anesthesia, regional anesthesia 的POCD 發生率較低，但在術後3 個月則無 明顯差異。",
+    "D": "使用neuropsychological test 來偵測POCD 時，短時間內重覆施行，若其結果一致，代表 沒有腦部損傷。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q21",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 22,
+   "year": 109,
+   "question": "使用Pacemaker 的病人術中出現Pacemaker failure 的情況時，下列敘述何者為非？",
+   "options": {
+    "A": "需考慮是否有心肌缺血的狀況並進行矯正。",
+    "B": "需要時可以使用transcutaneous、transvenous 或transesophageal 的方式給予temporary pacing，其中又以transesophageal 的方式最有效且適用於所有病人。",
+    "C": "可以考慮使用sympathomimetic drugs 來維持足夠的心臟輸出，例如 如epinephrine 或 dopamine。",
+    "D": "處理上需排除血液酸鹼值不平衡、電解質異常的情況。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q22",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 23,
+   "year": 109,
+   "question": "有鑑於Pulmonary artery catheter 使用上具有潛在的風險和併發症，以下何種情況不建議 置放？",
+   "options": {
+    "A": "Hepatic transplantation",
+    "B": "Orthotopic heart transplantation",
+    "C": "Tricuspid or pulmonic valvular stenosis",
+    "D": "Cardiogenic or septic shock or multiple organ failure"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q23",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 24,
+   "year": 109,
+   "question": "以下關於心臟手術病人術後CNS injury or dysfunction 的相關敘述何者為非？",
+   "options": {
+    "A": "2009 年的資料顯示overt postoperative stroke after isolated CABG 的發生率約為 1.2%。",
+    "B": "目前認為最可能的原因為embolization，其次是hypoperfusion。",
+    "C": "採用EEG 技術的監控工具(如BIS)對於cerebral ischemia 的偵測有相當不錯的sensitivity 和specificity。",
+    "D": "使用Cerebral oximetry 監控腦血氧時，目前建議regional cerebral oxygen saturation (rSO2) 下降超過術前基礎值的20% 即需採取行動。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q24",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 25,
+   "year": 109,
+   "question": "Weaning from cardiopulmonary bypass 時，下列何者非出現ventricular dysfunction 的risk factors ?",
+   "options": {
+    "A": "Age (>65 yr)",
+    "B": "COPD (chronic obstructive pulmonary disease)",
+    "C": "Male sex",
+    "D": "eGFR (estimated glomerular filtration rate) < 60 mL/min"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q25",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 26,
+   "year": 109,
+   "question": "關於Pericardial tamponade 在全身麻醉處理上的相關敘述，以下何者為非？",
+   "options": {
+    "A": "當心臟超音波上同時出現RV collapse 和 RA collapse，表示是hemodynamically significant pericardial effusion。",
+    "B": "Pulsus paradoxus 是指吸氣時 systolic blood pressure 下降超過 10 mm Hg，但並非所有 cardiac tamponade 的病人都會出現這個現象。",
+    "C": "可以考慮讓病人維持自發性呼吸直到pericardial sac 被打開。",
+    "D": "因心臟處於高壓力狀態，為減少心肌耗氧量、維持足夠收縮力，過程中應絕對避免心跳 過快。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q26",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 27,
+   "year": 109,
+   "question": "以下關於血管手術 (Vascular surgery) 的相關敘述何者為非?",
+   "options": {
+    "A": "接受血管手術的病人中，冠心病(CAD)是手術全期最主要的死亡原因 (perioperative mortality)。",
+    "B": "研究顯示若術後Hb < 9.0 g/dL 時會增加myocardial ischemia 和 cardiac morbidity 的發生 率，所以建議這類手術的病人應採用較寬鬆的輸血策略 (liberal strategy) 以維持在此數值 之上。",
+    "C": "在aortic cross-clamping 時，Total body oxygen extraction 是減少的，所以Mixed venous oxygen saturation 會上升。",
+    "D": "對於主動脈修補手術，研究顯示手術中若全身麻醉合併使用epidural anesthetic techniques 的話，相較於單純只使用全身麻醉的病人，有較低的死亡率和併發症。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q27",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 28,
+   "year": 109,
+   "question": "關於產婦的止痛方式選擇，下列何者為非？",
+   "options": {
+    "A": "N2O 合併氧氣使用時，會造成子宮收縮力（uterine contractility）下降所以現在已經很少 使用。",
+    "B": "Remifentanil 主要是靠組織及血漿esterase 代謝，胎兒的代謝功能也已完全成熟，所以可 以安心使用。",
+    "C": "目前認為打painless labor 時機，不需考慮cervical dilation 程度。",
+    "D": "Remifentanil 用在產婦身上仍然可能造成呼吸抑制，故使用時仍需監測血氧濃度。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q28",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 29,
+   "year": 109,
+   "question": "關於產婦的疼痛機轉與臨床處置，下列何者為正確？",
+   "options": {
+    "A": "疼痛傳導路徑包含副交感神經，例如 如uterovaginal plexus 及inferior hypogastric plexus。",
+    "B": "第二產程的疼痛應該包含T10-S4。",
+    "C": "Spinal opioid alone 除了 Morphine 外，其他opioid 藥物無法達到motor block 程度。",
+    "D": "Intrathecal morphine for labor 建議劑量是1 mg。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q29",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 30,
+   "year": 109,
+   "question": "關於懷孕婦女接受非產科手術，下列何者為非？",
+   "options": {
+    "A": "原則上可以的話，盡量選妊娠第二期（second trimester）手術。",
+    "B": "胎兒心跳變慢原因可能是母體體溫低、酸血症（acidosis）及藥物給予，如 β-blockers。",
+    "C": "開顱手術中，為了降低腦水腫情形，可給予 降低腦水腫情形，可給予mannitol。",
+    "D": "若需要Cardiopulmonary bypass，不降溫的bypass 對子宮胎盤循環較好。"
+   },
+   "answer": "送分",
+   "scoring": "free",
+   "source": "109_written_Q30",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 31,
+   "year": 109,
+   "question": "關於產婦接受緊急剖腹產的全身麻醉注意事項，下列何者為非？",
+   "options": {
+    "A": "適應症包含：胎兒心跳變慢、產婦出血或凝血功能異常、子宮破裂、產婦創傷。",
+    "B": "Ketamine 能刺激交感神經系統及抑制norepinephrine 被再吸收，對於維持血壓、心跳、心 輸出量均有幫助。",
+    "C": "非去極化的肌肉鬆弛劑會通過胎盤進入胎兒，但succinylcholine 則沒有影響。",
+    "D": "全身麻醉維持期，給較高濃度吸入性麻醉氣體，可能會造成子宮無力而出血量較多。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q31",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 32,
+   "year": 109,
+   "question": "關於產婦的麻醉注意事項，下列何者為非？",
+   "options": {
+    "A": "產婦因為呼吸道容易水腫，全身麻醉誘導時皆要當作困難插管個案來處理。",
+    "B": "產婦由於glomerular filtration rate 下降，所以容易併發蛋白尿及水腫。",
+    "C": "胎兒 PaO2 正常是 40 mmHg，產婦吸100%氧氣，胎兒 PaO2 也不會超過60 mmHg。",
+    "D": "影響藥物從母體進入胎兒的因素包含藥物分子量大小、脂溶性、離子化程度等。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q32",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 33,
+   "year": 109,
+   "question": "關於懷孕時的生理變化，下列何者正確？",
+   "options": {
+    "A": "生產時的疼痛常常造成產婦過度換氣，甚至PaCO2 有時候會低於20 mm Hg。",
+    "B": "在妊娠第一期(first trimester)，PaCO2 不變。",
+    "C": "由於Functional residual capacity 下降，但呼吸次數增加，所以FEV1 下降。",
+    "D": "由於Functional residual capacity 下降，但呼吸次數增加，所以Minute ventilation 不變。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q33",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 34,
+   "year": 109,
+   "question": "有關小兒麻醉的生理特徵的敘述，何者錯誤？",
+   "options": {
+    "A": "相對於成人，小兒的心臟順應性較差，心輸出量主要與心跳速度有關。",
+    "B": "小兒的橫膈膜肌肉組成百分比當中第一型肌肉 (type I fiber) 較多，因此易產生呼吸衰 竭。",
+    "C": "新生兒的體溫調節機制以shivering 為主。",
+    "D": "腎絲球過濾率在新生兒時期快速發育，在兩歲左右和成人約相同。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q34",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 35,
+   "year": 109,
+   "question": "5 周大嬰兒有噴射狀嘔吐被帶至急診室，表現疲累，呼吸速率16 次/分，心跳180 次/分， K：2.7 mEq/L，且已三小時沒有解尿。診斷為幽門狹窄(pyloric stenosis)，要進行幽門切 開術，請問此時最適當的處置為何？",
+   "options": {
+    "A": "置放鼻胃管抽吸胃容物後，清醒下插管。",
+    "B": "靜脈快速誘導，給予ketamine, atropine, rocuronium。",
+    "C": "sevoflurane 吸入性誘導同時按壓cricoid 以防嘔吐。",
+    "D": "延後手術以矯正代謝不平衡及缺水情形。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q35",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 36,
+   "year": 109,
+   "question": "關於嬰兒和大人的呼吸道的差異，下列描述何者錯誤？ 描述何者錯誤？",
+   "options": {
+    "A": "嬰兒的舌頭相對比較大。",
+    "B": "嬰兒的 larynx 位置相對比較高。",
+    "C": "嬰兒的會厭形狀呈現omega 型。",
+    "D": "嬰兒呼吸道最窄的部份在聲帶。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q36",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 37,
+   "year": 109,
+   "question": "一位2 歲15 公斤男童進行疝氣修補術，近一週內有流鼻水咳嗽等感冒症狀，關於麻醉考 量何者錯誤？",
+   "options": {
+    "A": "可能增加手術中的呼吸道併發症，如laryngospasm, postintubation croup。",
+    "B": "延後一週手術可降低支氣管的過度反應(bronchial hyperreactivity)，減少呼吸道併發症。",
+    "C": "可以使用 supraglottic device 來降低呼吸道併發症。",
+    "D": "給予抗膽鹼藥物或支氣管擴張劑都無法降低呼吸道併發症。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q37",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 38,
+   "year": 109,
+   "question": "關於鼻竇內視鏡(Endoscopic surgery)的麻醉，以下何者錯誤？",
+   "options": {
+    "A": "控制性低血壓常被使用來改善手術視野，ß-adrenergic blockage 比vasodilation drugs 有更 好的效果。",
+    "B": "Propofol-remifentanil 靜脈麻醉方式可能比isoflurane-opioid technique 可以提供比較好的手 術視野，可能是因為出血量比較少。",
+    "C": "跟endotracheal tube(ETT) 比起來，使用supraglottic airway(SGA) device 比較有可能放置 位置不好以及較多gastric regurgitation 的機會。",
+    "D": "使用SGA device 比ETT 有比較好的手術視野以及平順的甦醒狀態。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q38",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 39,
+   "year": 109,
+   "question": "一個四十歲男性有20 年以上抽菸史，接受鼻竇內視鏡手術，過程順利。在恢復室醒來時 突然一陣咳嗽，不久後他的呼吸就開始有inspiratory stridor，以下敘述何者為非？",
+   "options": {
+    "A": "Laryngospasm 是其中一個鑑別診斷，可能由於血塊或分泌物刺激recurrent laryngeal nerve 所引發。",
+    "B": "由於pH 值差異，肺部吸入血液比吸入胃內容物較不嚴重。",
+    "C": "此時應避免給予鎮定劑，以免呼吸道反射受到影響。",
+    "D": "經處理後如果出血不止需要開刀，麻醉誘導使用rapid-sequence induction 是比較優先考慮 的作法。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q39",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 40,
+   "year": 109,
+   "question": "Lithotomy 是婦科手術時常使用的姿勢，關於Lithotomy 的敘述，以下何者為非？",
+   "options": {
+    "A": "Lithotomy 姿勢的擺位是先抬一隻腳，固定好後，再抬另外一隻腳完成擺位。",
+    "B": "大腿跟軀幹之間彎曲80-100 度，小腿離中線30-45 度。",
+    "C": "最常造成的下肢運動神經病變是common peroneal nerve 損傷。",
+    "D": "手術結束把手術台腳板升高時，要很小心避免造成手或手指的壓傷。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q40",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 41,
+   "year": 109,
+   "question": "關於Transurethral resection of the prostate(TURP)麻醉的敘述，以下何者為非？",
+   "options": {
+    "A": "脊椎麻醉是傳統單極的TURP(mono-polar TURP)最好的麻醉選擇方式，因為水中毒的症 狀可以早期發現。",
+    "B": "膀胱的感覺由hypogastric plexus 的交感神經支配，level 從T11 到L2。",
+    "C": "脊椎麻醉的sensory level 應到達T8，以減少手術中的不適感。",
+    "D": "跟全身麻醉比起來，脊椎麻醉可減少深部靜脈血栓的發生以及減少出血量。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q41",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 42,
+   "year": 109,
+   "question": "The Model for End-stage Liver Disease(MELD) score 從2002 年開始取代Child-Turcotte- Pugh(CTP) classification 來決定器官分配的優先順序，它是一個連續性的衡量標準，由一 些生物指標經過數學算式得出，關於這些生物指標，以下何者為非？",
+   "options": {
+    "A": "creatinine",
+    "B": "Internal normal ratio",
+    "C": "albumin",
+    "D": "bilirubin"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q42",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 43,
+   "year": 109,
+   "question": "關於 Ankylosing Spondylitis 病患麻醉的敘述，下列何者錯誤 ?",
+   "options": {
+    "A": "術中擺位需小心避免 fracture of the fused spine。",
+    "B": "Ossification of the spinal ligaments 使得 caudal epidural 無法施行。",
+    "C": "可能造成骨骼以外症狀，如 aortic insufficiency, cardiac conduction abnormalities, 與 pleural effusions。",
+    "D": "因為頸椎及 temporomandibular joints 活動受限，常需要awake fiberoptic intubation。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q43",
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 44,
+   "year": 109,
+   "question": "下列那一項因子，較不影響 Epidural Anesthesia 的阻斷高度(level) ?",
+   "options": {
+    "A": "病患擺位。",
+    "B": "藥劑容積。",
+    "C": "局部麻醉藥物的輔助劑(adjuvant)。",
+    "D": "老年病患。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q44",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 45,
+   "year": 109,
+   "question": "關於周邊神經阻斷術 (Peripheral Nerve Block)，下列何者正確 ?",
+   "options": {
+    "A": "使用ropivacaine 執行周邊神經阻斷時，總劑量應於3 mg/kg 之內。",
+    "B": "相對於 neuraxial techniques，周邊神經阻斷術較容易發生神經性併發症。",
+    "C": "Interscalene nerve block 涵蓋上肢的部分很廣，在前臂及手部手術中也可以發揮良好的麻 醉止痛作用。",
+    "D": "Axillary nerve block 通常可以涵蓋 musculocutaneous nerve 的阻斷。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q45",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 46,
+   "year": 109,
+   "question": "三個獨立影響酸鹼平衡的因子，何者為非 影響酸鹼平衡的因子，何者為非 ?",
+   "options": {
+    "A": "動脈血二氧化碳分壓 (PaCO2)。",
+    "B": "Strong ion difference (SID)。",
+    "C": "弱酸總濃度 (total concentration of weak acids)。",
+    "D": "動脈血氧分壓 (PaO2)。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q46",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 47,
+   "year": 109,
+   "question": "關於骨科手術引起的 Fat Embolism Syndrome(FES)，下列敘述何者錯誤 ?",
+   "options": {
+    "A": "機械性因素阻塞周邊血流是可能的機轉。",
+    "B": "引發全身性發炎反應是可能的機轉。",
+    "C": "臨床上骨盆或股骨骨折患者幾乎都發生 fat embolization，因此造成 FES 的機率常高達 10 %。",
+    "D": "儘管有 10 % 的病患需要呼吸器治療，但大多數都可在 ，但大多數都可在3至7天後痊癒。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q47",
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 48,
+   "year": 109,
+   "question": "關於鴉片類止痛藥物(opioid analgesics)用於手術全期(perioperative period)的敘述，何者最 不適當？",
+   "options": {
+    "A": "全身麻醉下，投予大劑量remifentanil，可能造成acute tolerance，導致術後opioid 需要量 增加。",
+    "B": "長時間投予 opioid 可能導致opioid-induced hyperalgesia，病人反而對疼痛刺激更敏感。 敏感。",
+    "C": "反覆投予opioid會導致physical dependence，意味著病人需要更大劑量的 大劑量的opioid來達到相同 止痛效果。",
+    "D": "對於post-anesthesia shivering的治療， ，intravenous meperidine比起morphine 和fentanyl，有 較佳的治療效果。 效果。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q48",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 49,
+   "year": 109,
+   "question": "使用IVPCA (intravenous patient controlled analgesia)時，何者最容易發生呼吸抑制的副作 用？",
+   "options": {
+    "A": "中年婦女。",
+    "B": "同時服用其他非成癮性止痛藥物(如ibuprofen) 。",
+    "C": "中年男性，給予continuous infusion dose。",
+    "D": "沒有呼吸中止症(obstructive sleep apnea)的患者。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q49",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 50,
+   "year": 109,
+   "question": "施行epidural anesthesia時，下列何種情況最容易造成block level過高？",
+   "options": {
+    "A": "從epidural catheter快速給藥。",
+    "B": "Local anesthetics添加NaHCO3。",
+    "C": "Local anesthetics添加epinephrine。",
+    "D": "產婦給予一般成人劑量。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q50",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 51,
+   "year": 109,
+   "question": "50歲男性病人，大腸癌合併脊椎骨轉移壓迫spinal cord導致下肢無力，預接受T8-L1 脊椎 減壓及固定手術。病人因慢性癌症疼痛長期使用fentanyl patch 50 mcg/h，下列何者止痛策 略最合適？最合適？",
+   "options": {
+    "A": "術前移除貼片，術中僅根據生命徵象給予opioid，術後立即貼回貼片。 即貼回貼片。",
+    "B": "術前移除貼片並給予fentanyl background infusion，術後盡快貼回貼片。",
+    "C": "術前不移除貼片，術中根據生命徵象給予opioid，術後不需額外給予opioid。",
+    "D": "術前不移除貼片，術中也不給予opioid，以免病人過量。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q51",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 52,
+   "year": 109,
+   "question": "78歲病人因Peripheral arterial occlusion disease(PAOD)導致右腳第三腳趾壞疽(gangrene)， 預行toe amputation手術，手術醫師表示不需要綁止血帶(tourniquet)，請問下列哪一種周邊 神經阻斷最適合此手術麻醉？",
+   "options": {
+    "A": "Adductor canal block。",
+    "B": "Obturator nerve block。",
+    "C": "Sural nerve block。",
+    "D": "Popliteal fossa block。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q52",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 53,
+   "year": 109,
+   "question": "關於輸血治療 (transfusion therapy)的描述，下列何者正確？",
+   "options": {
+    "A": "術前貧血不會增加術後併發症(如腎功能損傷)。",
+    "B": "老年且有心臟衰竭病患，因考慮fluid overload 問題，術中失血可容忍Hb低於7-8 g/dL再輸 血。",
+    "C": "現今與輸血相關的併發症中，最常見的原因是病毒感染。",
+    "D": "輸血導致急性肺損傷的原因和血品中含有human leukocyte antigen(HLA) antibody有關。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q53",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 54,
+   "year": 109,
+   "question": "哪些臨床情況會導致檢驗結果如下: Prothrombin time: unaffected; activated partial thromboplastin time: unaffected; bleeding time: prolonged, platelet counted: unaffected. Vitamin K 缺乏 (2) 服用aspirin (3) liver failure (4) Uremia",
+   "options": {
+    "A": "1+2",
+    "B": "1+3",
+    "C": "2+4",
+    "D": "3+4"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q54",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 55,
+   "year": 109,
+   "question": "術中神經生理監測，下列何者較不受吸入性麻醉藥物影響？",
+   "options": {
+    "A": "SSEP(somatosensory-evoked potentials)。",
+    "B": "BAEPs(brainstem auditory-evoked potentials)。",
+    "C": "VEPs(visual-evoked potentials)。",
+    "D": "TcMEP(transcranial motor-evoked potentials)。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q55",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 56,
+   "year": 109,
+   "question": "下列有關neurologic monitoring 的敘述，何者錯誤？",
+   "options": {
+    "A": "進行intracranial aneurysm clipping 手術時，建議可採用somatosensory evoked potentials(SSEP)與 electroencephalogram(EEG)進行監測。",
+    "B": "吸入性麻醉氣體的給予，會增加cortical SSEPs 的latency 與amplitude。",
+    "C": "高劑量的propofol 會讓EEG 產生burst suppression。",
+    "D": "Ketamine 與opiates 並不會讓EEG 產生burst suppression。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q56",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 57,
+   "year": 109,
+   "question": "有關處理頭部外傷 (Traumatic head injury) 所造成顱內高壓 (IICP) 的作法，下列何者為 非？",
+   "options": {
+    "A": "於前8-12 小時，利用過度換氣（hyperventilation）來降低病人PaCO2。",
+    "B": "可快速給予利尿劑 (如mannitol) 來降腦壓。",
+    "C": "可考慮給予propofol 或barbiturates 來降低cerebral metabolic rate。",
+    "D": "維持顱內壓（intracranial pressure）< 20 mmHg。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q57",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 58,
+   "year": 109,
+   "question": "老年人接受手術或麻醉後，較容易產生postoperative delirium。下列哪些不是造成的 postoperative delirium 的risk factor？",
+   "options": {
+    "A": "大於65 歲的男性。",
+    "B": "術前有視覺或聽覺受損。",
+    "C": "有使用haloperidol。",
+    "D": "轉入加護病房。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q58",
+   "category": "C5",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 59,
+   "year": 109,
+   "question": "關於老人麻醉geriatric anesthesia 的敘述，下列何者為錯？",
+   "options": {
+    "A": "對吸入性麻醉藥(inhaled anesthetics)而言，年紀每增長10 歲，MAC 值約下降6%。",
+    "B": "年紀對於muscle relaxants 的pharmacodynamics 影響極大，例如 如Cisatracurium，便會因年 紀因素而延長藥效。",
+    "C": "針對老年族群，使用regional anesthesia，相較於general anesthesia，仍未能顯著降低術後 cognition dysfunction 的機率。",
+    "D": "針對下肢手術，regional anesthesia 可能的優點，包含減少blood loss 與可以維持原本的呼 吸功能。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q59",
+   "category": "C5",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 60,
+   "year": 109,
+   "question": "關於減重手術(Bariatric surgery)病人的麻醉注意事項，以下敘述何者為非？",
+   "options": {
+    "A": "止痛藥 fentanyl 與肌肉鬆弛劑 cisatracurium 的劑量給予依照實際體重(total body weight)。",
+    "B": "靜脈麻醉藥 propofol 與肌肉鬆弛劑 rocuronium 的劑量給予依照理想體重(ideal body weight)。",
+    "C": "以 NPO 8 小時為例，肥胖病人麻醉誘導前2 小時飲用清水 300 毫升，胃內液體容積會 明顯高於未飲用清水者。",
+    "D": "手術時間2~3 小時，可經靜脈注射晶體輸液4~5 升，避免急性腎臟損傷(acute tubular necrosis)。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q60",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 61,
+   "year": 109,
+   "question": "關於器官捐贈的處理目標(donor management goals)，下列敘述何者最合適？",
+   "options": {
+    "A": "平均動脈血壓目標維持在50~60 mmHg。",
+    "B": "中央靜脈壓目標維持在12~15 mmHg。",
+    "C": "血氧分壓(PaO2)目標維持在300 mmHg 以上。",
+    "D": "血糖值目標維持在150~180 mg/dL。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q61",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 62,
+   "year": 109,
+   "question": "一位24 歲男性因車禍導致腹內大量出血，預計接受緊急剖腹探查手術，關於手術及麻醉 的注意事項，下列敘述何者不正確？",
+   "options": {
+    "A": "早期與晚期復甦(resuscitation)以動脈血壓是否穩定來區分。",
+    "B": "外科緊急止血之前積極給予大量輸液會增加失血量與抑制免疫。",
+    "C": "手術中控制性低血壓(deliberate hypotension)有助於止血與復甦。",
+    "D": "輸血使用血液製品紅血球：新鮮冷凍血漿：血小板比例為 1：1：1。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q62",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 63,
+   "year": 109,
+   "question": "慢性肝硬化病人如產生與門靜脈高壓(portal hypertension)有關的肺動脈高壓，稱為 portopulmonary hypertension(POPH)，下列敘述何者為非？",
+   "options": {
+    "A": "與肺血管塑形(remodeling)有關，如平滑肌增生、血管收縮、纖維化。",
+    "B": "臨床表現為肺動脈阻力上升，右心室過負荷與右心衰竭。",
+    "C": "如以肺動脈導管測量，肺動脈壓與肺微血管楔壓(PCWP)均會上升。",
+    "D": "麻醉使用肌肉鬆弛劑rocuronium 需要較高的起始劑量與較低的維持劑量。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q63",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 64,
+   "year": 109,
+   "question": "關於各種麻醉因素對腎臟功能的影響，下列敘述何者為非？",
+   "options": {
+    "A": "全身麻醉併用吐氣末端正壓(PEEP)會同時降低腎臟血流與尿量。",
+    "B": "靜脈麻醉藥 midazolam 不影響腎臟血流但會減少尿量。",
+    "C": "硬膜外麻醉併用 epinephrine ，會同時降低腎臟血流與尿量。",
+    "D": "脊椎麻醉會同時降低腎臟血流與尿量。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q64",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 65,
+   "year": 109,
+   "question": "成人肝臟移植手術、再灌流(reperfusion)於新肝初期，下列敘述何者正確？",
+   "options": {
+    "A": "低血鉀、氫離子濃度降低。",
+    "B": "體溫上升、凝血功能降低。",
+    "C": "周邊血管阻力下降、前負荷增加。",
+    "D": "血壓上升、肺動脈壓下降。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q65",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 66,
+   "year": 109,
+   "question": "Sugammadex 用於Rocuronium 深度肌肉鬆弛之拮抗，下列陳述何者有誤？",
+   "options": {
+    "A": "於成人給予IV 0.6 mg/Kg Rocuronium，3 分鐘後給予8 mg/Kg Sugammadex 之劑量拮抗， 2 分鐘內 TOF ratio 可恢復至 0.9。",
+    "B": "施打1.5 mg/Kg 之Rocuronium 後，立即給予 即給予16 mg/Kg 之Sugammadex 拮抗，較 Succinylcholine 之自然恢復時間快速。",
+    "C": "Sugammadex 用於肝膽疾病之患者，其拮抗恢復期比較使用anticholinesterase 還快，但須 小心使用。",
+    "D": "對於過度肥胖患者BMI > 40 Kg/m2，仍然可以考慮在正常的拮抗劑去使用，而不需換算 理想體重。"
+   },
+   "answer": "送分",
+   "scoring": "free",
+   "source": "109_written_Q66",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 67,
+   "year": 109,
+   "question": "根據WHO 保守醫療照顧宗旨為，促進病患生活品質及減緩家屬心理、精神壓力；安寧 照顧宗旨為，促進病患生活品質及減緩家屬心理、精神壓力；安寧 照顧為病人生命末期之照護，下列敘述何者為誤？",
+   "options": {
+    "A": "兩者皆需醫療團隊介入，包括：社工師、心理師、營養師等。 團隊介入，包括：社工師、心理師、營養師等。",
+    "B": "安寧末期為預期生命終了 < 3 個月(可以每3 個月評估一次)。",
+    "C": "保守醫療多以門診醫療照顧，安寧醫療則以居家照護為主。 則以居家照護為主。",
+    "D": "保守醫療可以施以積極醫療介入處理，安寧醫療則以病患舒適及臨終尊嚴為主。 則以病患舒適及臨終尊嚴為主。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q67",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 68,
+   "year": 109,
+   "question": "眼科手術球後阻斷麻醉(retrobulbar block)可能導致下列合併症，下列何者例外？ 外？",
+   "options": {
+    "A": "球後出血。",
+    "B": "增加眼內壓。",
+    "C": "心眼反射。",
+    "D": "眼內灌流壓增加。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q68",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 69,
+   "year": 109,
+   "question": "術後認知障礙POCD ( Postoperative Cognitive Dysfunction )之原因，下列何者為非？",
+   "options": {
+    "A": "Hypoxia",
+    "B": "Hypotension",
+    "C": "Low levels of glucocorticoids",
+    "D": "Micro embolism"
+   },
+   "answer": "送分",
+   "scoring": "free",
+   "source": "109_written_Q69",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 70,
+   "year": 109,
+   "question": "關於手術室外麻醉(Non–operating room anesthesia ; NORA)的檢查或治療執行 執行，下列敘述 何者正確？",
+   "options": {
+    "A": "流程步驟通常會跟手術室內的麻醉相似。",
+    "B": "檢查或治療大多數是由外科醫師執行。 大多數是由外科醫師執行。",
+    "C": "由於病情複雜度，麻醉結束後也有需要送至加護單位照護。",
+    "D": "許多治療多數無法用外科手術處理。 多數無法用外科手術處理。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q70",
+   "category": "C12",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 71,
+   "year": 109,
+   "question": "腦部手術麻醉下對於PaCO2 的數值改變，下列敘述何者正確？",
+   "options": {
+    "A": "PaCO2 數值大於20 mmHg 也會對健康病人的腦部造成缺血情形。",
+    "B": "過度換氣(Hyperventilation)應該要運用在各種神經外科手術麻醉。",
+    "C": "與呼吸性酸中毒(Respiratory acidosis)相同，急性代謝性酸中毒(metabolic acidosis)也會對 CBF(cerebral blood flow)有明顯影響。",
+    "D": "持續過度換氣後造成PaCO2 下降，影響到腦部的pH 值和腦血流(cerebral blood flow)會在 8~12 小時後回到正常。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q71",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 72,
+   "year": 109,
+   "question": "請問下列哪一種影像氣道插管工具，需要特別調整stylet 角度？",
+   "options": {
+    "A": "C-MAC Macintosh laryngoscope (Karl Storz, Tuttlingen, Germany)",
+    "B": "GlideScope (Verathon, Bothell, WA)",
+    "C": "Airtraq",
+    "D": "Pentax Airway Scope (AWS; Pentax Medical)"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q72",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 73,
+   "year": 109,
+   "question": "關於複雜性脊柱重建手術(Complex reconstructive spinal surgery)麻醉術中脊椎神經監測相 關事項，下列敘述何者正確?",
+   "options": {
+    "A": "需要多樣性神經監測儀器，包括體感誘發電位somatosensory evoked potential (SSEP) ,運動 誘發電位motor evoked potential (MEP), and 腦電波 electroencephalography (EEG)。",
+    "B": "MEP 較不易被opioids, midazolam, and Ketamine 干擾而影響波形判讀。",
+    "C": "使用SSEP 監測時，手術中肌肉鬆弛劑給予劑量需要調整。",
+    "D": "低血壓、低體溫、貧血及缺氧對手術中神經監測影響不會太大。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q73",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 74,
+   "year": 109,
+   "question": "有關於EEG (electroencephalogram -based)為主作為麻醉深度指標，下列敘述何者正確？",
+   "options": {
+    "A": "Bispectral index (BIS)數值介於60至80，可當作適合的手術麻醉深度。",
+    "B": "Patient Safety Index (PSI)也是利用EEG(electroencephalogram)來判斷麻醉深度，適當麻醉 深度的範圍和BIS相同。",
+    "C": "Entropy monitor包含兩個數值response entropy (RE)和state entropy (SE)，數值差異可以說明 EEG變化是因麻醉深度改變或是干擾。",
+    "D": "Unprocessed EEG的Real-time analysis和spectrogram (density spectral array)在全身麻醉深度 狀態下，propofol和sevoflurane會有不同的alpha和slow oscillations的EEG表現。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q74",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 75,
+   "year": 109,
+   "question": "針對緊急氣道處理(emergency airway management)，下列敘述何者正確？",
+   "options": {
+    "A": "Laryngeal mask airway (LMA)適用在任何外傷病患的氣道維持。",
+    "B": "針對無法合作或是缺氧的病患，執行氣管插管時儘量避免給予肌肉鬆弛劑和鎮靜麻醉。",
+    "C": "一般而言，經口比經鼻插入氣管內管有利於緊急狀況處置。",
+    "D": "對於頸椎保護部分，使用direct laryngoscopy 比video assisted laryngoscopy 建立氣道會有 氣道會有 較差的outcome。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q75",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 76,
+   "year": 109,
+   "question": "關於小兒麻醉的麻醉藥物劑量，下列何者「不正確」：",
+   "options": {
+    "A": "嬰兒( Infant ) 的吸入性麻藥的MAC (minimal alveolar concentration) 較成人為高。",
+    "B": "新生兒 (Neonate) 對吸入性麻藥的需要量較3 個月的小孩少。",
+    "C": "Sevoflurane 較 Halothane 容易有 emergence delirium。",
+    "D": "年紀越小，Propofol 每公斤體重的誘導劑量要更少。 少。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q76",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 77,
+   "year": 109,
+   "question": "關於麻醉藥物對小兒腦部的發展，下列何者「不正確」：",
+   "options": {
+    "A": "由於網路的盛行，很多家長對於3 歲以下的小兒接受長時間或多次的麻醉是否會影響腦 部發展，還是感到憂心。",
+    "B": "大部分的麻醉藥物影響腦部的發展多是動物實驗，人體的資料還不明確。",
+    "C": "Dexmedetomidine 及 propofol 較少發生藥物引起的細胞凋亡 (apoptosis)。",
+    "D": "吸入性麻藥在動物實驗顯示會增加細胞凋亡的比率。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q77",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 78,
+   "year": 109,
+   "question": "關於懷孕時的生理變化，下列何者「不正確」：",
+   "options": {
+    "A": "懷孕時心跳會增快。",
+    "B": "懷孕時心輸出量(Cardiac output)會增加。",
+    "C": "懷孕時紅血球製造會增加，使Hemoglobin (g/dL)濃度上升。",
+    "D": "懷孕時全身血管阻力(systemic vascular resistance )會下降。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q78",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 79,
+   "year": 109,
+   "question": "癲癇手術中，無法由皮質腦電波監測找出癲癇病兆位置。請問下列何種處置可以誘發癲 癇波，除了？ ？",
+   "options": {
+    "A": "Methohexital 0.3 mg/kg IV",
+    "B": "Etomidate 0.1 mg/kg IV",
+    "C": "Irrigation of the cortex with cold saline",
+    "D": "Hyperventilation"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q79",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 80,
+   "year": 109,
+   "question": "50 歲男性進行二尖瓣手術，但卻因低血壓，而無法順利脫離體外循環。心臟超音波顯示 左心室中隔肥大及二尖瓣的收縮期前移(systolic anterior motion)，下列哪種處置較不適 宜？",
+   "options": {
+    "A": "輸液 Normal saline 500 mL",
+    "B": "給予Dobutamine 5 mcg/kg/min IV",
+    "C": "停止Nitroglycerin 5 mcg/kg/min IV",
+    "D": "給予Esmolol 50 mcg/kg/min IV"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q80",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 81,
+   "year": 109,
+   "question": "心臟手術後發生中樞神經系統受損或功能不全的最常見原因是？",
+   "options": {
+    "A": "Hypotension",
+    "B": "Electrolyte imbalance",
+    "C": "Inflammatory response to surgery",
+    "D": "Microemboli"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q81",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 82,
+   "year": 109,
+   "question": "關於標靶控制輸注 (Target-Controlled Infusion, TCI) 的使用，下列敘述何者錯誤？",
+   "options": {
+    "A": "TCI 的預設濃度與實際濃度間仍然有顯著差距，最主要原因來自個體間的變異性 (biologic variability)。",
+    "B": "TCI with propofol，成人可以使用Marsh or Schinider mode，小兒可以使用Kataria or Paedfusor mode。",
+    "C": "TCI with remifentanil，成人及小兒皆可以使用 Marsh mode。",
+    "D": "Marsh model 缺乏effect compartment 資訊且僅以體重作為唯一變數。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q82",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 83,
+   "year": 109,
+   "question": "關於肝臟移植麻醉，下列敘述何者錯誤？",
+   "options": {
+    "A": "末期肝病病人會呈現hyperdynamic circulation 狀態：高心搏出量，高血壓和低SVR，通 常是effective circulating volume 增加所導致的現象。",
+    "B": "肺高壓 (portopulmonary hypertension, PPHTN) 的出現與否與疾病的嚴重度無關。",
+    "C": "肝腦病變 (hepatic encephalopathy) 的嚴重程度不必然跟ammonia level 有關。",
+    "D": "肝硬化病人常會呈現thrombocytopenia 狀態，原因是portal hypertension 導致的splenic sequestration。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q83",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 84,
+   "year": 109,
+   "question": "關於手術後疼痛 (postoperative pain)，下列敘述何者錯誤？",
+   "options": {
+    "A": "胸外手術後的硬脊膜外止痛 (epidural analgesia)，使用fentanyl 相較於morphine 比較不會 引起噁心嘔吐。",
+    "B": "COX-2 抑制劑可能會增加冠狀動脈繞道手術病患手術後心血管相關併發症的風險。 動脈繞道手術病患手術後心血管相關併發症的風險。",
+    "C": "病患自控式靜脈藥物止痛 (IV patient controlled analgesia) 使用連續輸注 (background infusion)，可減少藥物使用量及減少呼吸抑制發生機率。",
+    "D": "慢性術後疼痛 (chronic postsurgical pain, CPSP) 的發生率10 to 65%，好發於截肢、開 胸、乳房或膽囊切除手術。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q84",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 85,
+   "year": 109,
+   "question": "術後加速康復療程 程(Enhanced Recovery After Surgery, ERAS)主要是透過整體手術過程的處 置改善，以達到加速康復的目的。下列關於ERAS 的敘述，何者為非？",
+   "options": {
+    "A": "強調的是手術全期(Perioperative period)的多學科(multidisciplinary)參與。",
+    "B": "主要的手法包括術前衛教、疼痛控制、以及早期復健(Early rehabilitation)。",
+    "C": "實證醫學文獻顯示可以成功縮短住院天數30%，以及降低術後併發症50%。",
+    "D": "除了對常規的腸胃道微創手術有明顯幫助外，對其他類型手術的幫助不大。 對常規的腸胃道微創手術有明顯幫助外，對其他類型手術的幫助不大。"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q85",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 86,
+   "year": 109,
+   "question": "過去半個多世紀以來麻醉醫學知識的增長，與實驗性數據和經驗式觀察的數理評估有著 的增長，與實驗性數據和經驗式觀察的數理評估有著 緊密的關聯性。下列關於統計方法學的敘述，何者為非？",
+   "options": {
+    "A": "標準差(Standard deviation, SD)是用以比較數據組間差異性的工具，而平均值的標準誤 (Standard error of the mean, SEM)則是用以描述數據的分布離散狀況(Spread)的常用工具。",
+    "B": "與單變項迴歸(Univariate regression)相比較，多變項迴歸(Multivariate)檢測一個以上的因子 和研究結果的相關性，需要更多的數據筆數，但是比較可以發掘出單變項迴歸所忽略的 的 相關性。",
+    "C": "假設檢定(Hypothesis testing)過程中，陰性結果(Negative result)可能表示兩組間確實沒有差 異，但也可能是因為研究檢定力不夠(Underpowered)，不足以顯示確實存在的小型差異。",
+    "D": "選擇性偏差(Selection bias)可能使得很多實際臨床研究(Real-life clinical studies)的結果難以 解釋，隨機臨床試驗(Randomized clinical trials)是降低這種風險的最佳解決方案。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q86",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 87,
+   "year": 109,
+   "question": "開心手術病人接受體外心肺循環（On-pump cardiac surgery）產生之高度發炎反應易導致 嚴重合併症，下列藥物皆被認為可以降低發炎反應，惟何者藥物因急性腎損傷增加而不 再建議使用？",
+   "options": {
+    "A": "Dexamethasone",
+    "B": "Aprotinin",
+    "C": "Statin",
+    "D": "Ketamine"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q87",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 88,
+   "year": 109,
+   "question": "胸腔手術病人施行單肺通氣（One-lung ventilation）時可能發生低血氧（Hypoxemia）的 情況，下列何者非主要的危險因子（Risk predictors）？",
+   "options": {
+    "A": "左側開胸手術（Left-side thoracotomy）。",
+    "B": "側臥時雙肺通氣有出現低血氧值。",
+    "C": "術前ventilation/perfusion 的掃描顯示手術側肺部是佔病人高比例的肺部換氣或是灌注量 的肺部換氣或是灌注量 (High percentage of ventilation or perfusion)。",
+    "D": "平躺姿勢進行單肺通氣（Supine position during one-lung ventilation）。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q88",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 89,
+   "year": 109,
+   "question": "胸腔肺切除手術週期中有30~50 %的病人易發生心律不整，其中高達60~70 % 是心房顫 動 Atrial fibrillation，針對高風險病人何者藥物最常做為術後心律不整的預防 （Prophylaxis）？",
+   "options": {
+    "A": "β-blockers",
+    "B": "Amiodarone",
+    "C": "Digoxin",
+    "D": "Diltiazem"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q89",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 90,
+   "year": 109,
+   "question": "進行主動脈（瘤）血管重建或修復時所採取的主動脈夾阻斷術（Aortic cross-clamping） 或顯影劑，常導致術後腎功能惡化，手術中有哪些臨床治療或處置可以避免腎功能受損 或處置可以避免腎功能受損 （Renal protection）？(1) Converting enzyme inhibitors (2) Mannitol (3) Fluid administration (4) Epidural anesthesia to a T6 level of sympathetic blockade",
+   "options": {
+    "A": "1+2+3",
+    "B": "2+3+4",
+    "C": "2+3",
+    "D": "2+4"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q90",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 91,
+   "year": 109,
+   "question": "關於麻醉科醫師可能遭遇的醫學倫理情境，下列何者為非？",
+   "options": {
+    "A": "由於手術室中情境不同，麻醉科醫師有義務針對拒絕嘗試急救(Do-Not-Attempt- Resuscitation)與病患或法定代理人再討論，以了解其對手術目的與說明手術室中急救的優 解其對手術目的與說明手術室中急救的優 缺點。",
+    "B": "通常可由病人能否接受(receive)或理解(understanding)相關資訊、理解決策的可能益處與 風險、充分表達其決定或溝通其評價，作為麻醉科醫師判斷病人是否具意識能力。 能力。",
+    "C": "醫師為避免增加壓力而導致病患心理或生理傷害，在知情同意過程中，引用治療特權 特權 (therapeutic privilege)單方面決定省略或避免討論相關風險是合乎倫理的。 相關風險是合乎倫理的。",
+    "D": "麻醉科醫師有權拒絕病患所提出之不適當或是超出合理範圍的要求。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q91",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 92,
+   "year": 109,
+   "question": "在美國，關於耶和華見證人的輸血議題，下列何者為非？",
+   "options": {
+    "A": "除了身為耶和華見證人信徒的病患外，若其他病人以輸血可能增加感染或併發症為由拒 身為耶和華見證人信徒的病患外，若其他病人以輸血可能增加感染或併發症為由拒 絕輸血治療時，醫師應予以拒絕。 時，醫師應予以拒絕。",
+    "B": "耶和華見證人的信徒，對於不輸血的細節與規範可能隨時間與教會規範有所差異，麻醉 科醫師應在術前與所屬教徒的病患有充分溝通，並討論替代方案與註記於病歷。 替代方案與註記於病歷。",
+    "C": "醫師若無法遵從耶和華見證人病患提出的不輸血要求時，在道德上應有協助病患尋求另 一位醫師的義務。",
+    "D": "當身為耶和華見證人信徒的父母，要求醫師不得為其未成年的年幼子女輸血治療時，醫 時，醫 師亦可尋求法律支援，以保護未成年病患安全。"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "source": "109_written_Q92",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 93,
+   "year": 109,
+   "question": "關於麻醉醫師臨床可能遭遇的倫理衝突，下列何者為非？",
+   "options": {
+    "A": "懷孕婦女與其胎兒可能發生倫理上的利益衝突，通常孕婦仍有作為醫療決策者的權利。 決策者的權利。",
+    "B": "分娩中的孕婦若欲執行硬脊膜外減痛分娩(epidural analgesia)時發生尤里西斯指令(Ulysses directives)的倫理衝突，因分娩孕婦因疼痛不具有行為能力(capacity)而無法取得知情同意 (informed consent)，應以預設醫療指令 指令(advance directive)為優先。",
+    "C": "在心死後器捐(donation after cardiac death, DCD)的情況下，可能發生於何時決定移除維生 裝置介入與器官捐贈，並且忽略捐贈者而有利於受贈者的利益。 捐贈者而有利於受贈者的利益。",
+    "D": "關於器官捐贈可能存在蓄意殺人的指控部分，心死後器捐由於臨床指引不一，更容易發 容易發 生類似錯誤。"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q93",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 94,
+   "year": 109,
+   "question": "你在進行胸腔手術麻醉誘導時使用left double-lumen tube，並使用 fiberoptic bronchoscope 來確認其正確置放位置，下圖是你看到的正確位置畫面，其中各數字代表的結構分別 是？",
+   "options": {
+    "A": "1. Posterior wall of trachea; 2. Carina; 3. Right Upper Lobe Bronchus 4.Bronchus intermedius",
+    "B": "1. Bronchial Cuff; 2. Bronchus intermedius; 3. Right Upper Lobe Bronchus ; 4. Carina",
+    "C": "1. Bronchial Cuff; 2 Carina; 3. Bronchus intermedius; 4. Posterior wall of trachea",
+    "D": "1. Posterior wall of trachea; 2 Carina; 3. Right Upper Lobe Bronchus; 4. Bronchus intermedius"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q94",
+   "images": [
+    "109_Q94_stem.png"
+   ],
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 95,
+   "year": 109,
+   "question": "有關病人站立時肺部血流的垂直分布區域 時肺部血流的垂直分布區域I-IV，其中Zone III 的壓力大小下列何者敘述為 真？( PALV: Positive intraalveolar pressure; PPA: Pulmonary artery pressure PLA : Positive artery pressure)",
+   "options": {
+    "A": "PALV>PPA>PLA",
+    "B": "PPA>PALV>PLA",
+    "C": "PLA>PPA>PALV",
+    "D": "PPA>PLA>PALV Pulmonary Pulmonary"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q95",
+   "images": [
+    "109_Q95_stem.png"
+   ],
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 96,
+   "year": 109,
+   "question": "機械手臂心臟手術進行體外循環時，經食道超音波可用於導引手術醫師置放導管，此影 像為食道中段bicaval view，請問圓圈處標示為何？",
+   "options": {
+    "A": "肺動脈導管。",
+    "B": "下腔靜脈導管。",
+    "C": "上腔靜脈導管。",
+    "D": "主動脈導管。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q96",
+   "images": [
+    "109_Q96_stem.png"
+   ],
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 97,
+   "year": 109,
+   "question": "在執行femoral nerve block 時，需辨認femoral artery 及femoral nerve 附近的結構，以本 超音波圖形為例 ，若FA 代表femoral artery，請問紅色線條代表那個解剖構造？",
+   "options": {
+    "A": "Fascia Iliaca",
+    "B": "Fascia Lata",
+    "C": "Fascia Cruris",
+    "D": "Fascia Sartoriaca"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "source": "109_written_Q97",
+   "images": [
+    "109_Q97_stem.png"
+   ],
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 98,
+   "year": 109,
+   "question": "進行Adductor canal block (ACB)時，除superficial femoral artery 尚須辨認重要的thigh muscles，請問下圖標示” ? “是哪一條肌肉 FA: superficial femoral artery FV: femoral vein F: Femur",
+   "options": {
+    "A": "Gracilis muscle",
+    "B": "Vastus lateralis muscle",
+    "C": "Semitendinosus muscle",
+    "D": "Sartorius muscle"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "source": "109_written_Q98",
+   "images": [
+    "109_Q98_stem.png"
+   ],
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 99,
+   "year": 109,
+   "question": "在進行shoulder surgery 時，可以進行所謂Phrenic nerve sparing shoulder block，以下超音 波影像中AS 代表anterior scalene muscle，MS 代表middle scalene muscle，較小的黃色圈 圈下有箭頭代表的是phrenic nerve，較大的黃色圈圈代表superior trunk of brachial plexus，紅色圈圈代表的解剖構造為何?",
+   "options": {
+    "A": "Platysma muscle",
+    "B": "Sternohyoid muscle",
+    "C": "Omohyoid muscle",
+    "D": "Scalene posterior muscle"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q99",
+   "images": [
+    "109_Q99_stem.png"
+   ],
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  },
+  {
+   "id": 100,
+   "year": 109,
+   "question": "47歲男性因左前降支動脈阻塞進行冠狀動脈繞道手術，於脫離體外循環之後，心電圖 (ECG) 及肺動脈楔狀壓力圖 (PAWP tracing) 顯示如圖。造成的原因最可能為何？",
+   "options": {
+    "A": "主動脈剝離。",
+    "B": "右心室功能異常。",
+    "C": "左側心臟乳突肌功能異常。",
+    "D": "心包填塞。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "source": "109_written_Q100",
+   "images": [
+    "109_Q100_stem.png"
+   ],
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+.DS_Store
+
+# 使用者放進來的原始資料複本與個人筆記，絕對不要上傳
+麻醫考題/
+麻醉科專科醫師考題系統/
+source/legacy_src/
+source/oral/
+source/ultrasound/
+source/official/
+source/answer_keys/*.pdf
+source/answer_keys/*.jpg
+source/answer_keys/*.docx
+
+# 分類與稽核的中間產物
+audit/

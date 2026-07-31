@@ -1,0 +1,24 @@
+{
+  "name": "麻醉專科醫師題庫",
+  "short_name": "麻醫題庫",
+  "description": "台灣麻醉醫學會麻醉科專科醫師甄審歷屆筆試試題 108–114 年共 700 題，答案與學會公告答案卡逐題核對。",
+  "lang": "zh-Hant",
+  "dir": "ltr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f4f4",
+  "theme_color": "#fff9b3",
+  "categories": ["education", "medical"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "分類練習", "url": "./#cats" },
+    { "name": "錯題本", "url": "./#wrong" },
+    { "name": "搜尋", "url": "./#search" }
+  ]
+}

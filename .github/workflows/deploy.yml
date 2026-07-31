@@ -1,0 +1,51 @@
+name: 部署到 GitHub Pages
+
+# 推送到 main 就自動部署。這是純靜態網站，不需要編譯。
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時只跑一個部署；有新的推送就取消排隊中的舊部署
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 檢查題庫完整性
+        # 這三道任何一道沒過就不會部署。
+        # validate_questions 會逐題比對學會公告的答案卡；
+        # crosscheck_legacy 會確認舊考題與官方年份的重複題沒有矛盾。
+        run: |
+          python3 tools/validate_questions.py
+          python3 tools/validate_legacy.py
+          python3 tools/crosscheck_legacy.py
+
+      - uses: actions/configure-pages@v5
+
+      - name: 打包網站（排除非網站檔案）
+        run: |
+          mkdir -p _site
+          cp -r index.html manifest.webmanifest sw.js robots.txt \
+                css js data images icons assets _site/
+          rm -f _site/assets/logo-src.png   # 原始大圖，網站用不到
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

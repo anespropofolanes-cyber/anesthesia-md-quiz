@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>麻醉專科醫師題庫</title>
+<meta name="description" content="台灣麻醉醫學會麻醉科專科醫師甄審歷屆筆試試題，108–114 年共 700 題，答案與學會公告答案卡逐題核對。">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="theme-color" content="#fff9b3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1e2122" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="麻醫題庫">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&family=Noto+Serif+TC:wght@500;700&display=swap">
+<link rel="stylesheet" href="css/app.css?v=20260801g">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <button class="brand" onclick="go('home')" aria-label="回首頁">
+      <img class="logo" src="assets/logo.png" alt=""><span class="full">麻醉專科醫師題庫</span><span class="short">麻醫題庫</span>
+    </button>
+    <div class="fontctl">
+      <button class="iconbtn" id="btn-font-down" onclick="stepFont(-1)" title="縮小字體" aria-label="縮小字體">A−</button>
+      <span class="fontlv" id="font-level" aria-live="polite">中</span>
+      <button class="iconbtn" id="btn-font-up" onclick="stepFont(1)" title="放大字體" aria-label="放大字體">A+</button>
+    </div>
+    <button class="iconbtn" id="btn-theme" onclick="cycleTheme()" title="淺色／深色">◐</button>
+    <button class="iconbtn" onclick="go('search')" title="搜尋" aria-label="搜尋">⌕</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ══ 首頁 ══ -->
+  <section id="s-home" class="screen on">
+    <div id="resume-slot"></div>
+
+    <h1 class="page">要練哪一種？</h1>
+    <p class="lede">108–114 年共 700 題，答案與台灣麻醉醫學會公告的答案卡逐題核對過。另收錄 102、103、104、106、107 年考卷，那幾年沒有公開公告的答案卡：104、106 年的答案取自命題端檔案（每題附教科書出處），其餘三年取自考卷檔案本身。</p>
+
+    <div class="modes">
+      <button class="mode brandish" onclick="go('years')">
+        <span class="t">歷屆試題</span>
+        <span class="d">依年份整卷練習，可用練習模式即時對答案，或模擬考試最後計分。</span>
+        <span class="n">12 卷 · 每卷 100 題</span>
+      </button>
+      <button class="mode accentish" onclick="go('cats')">
+        <span class="t">分類練習</span>
+        <span class="d">依學會出題系統本身的分類代碼，把跨年度的同類題目集中練。</span>
+        <span class="n">17 類 · B 基礎／C 臨床</span>
+      </button>
+    </div>
+
+    <div class="sect-label">我的紀錄</div>
+    <div class="quicklinks">
+      <button class="quick" onclick="go('wrong')">錯題本 <span class="badge" id="n-wrong">0</span></button>
+      <button class="quick" onclick="go('marks')">書籤 <span class="badge" id="n-mark">0</span></button>
+      <button class="quick" onclick="go('notes')">筆記 <span class="badge" id="n-note">0</span></button>
+      <button class="quick" onclick="go('data')">備份與匯出</button>
+    </div>
+  </section>
+
+  <!-- ══ 歷屆試題：選卷 ══ -->
+  <section id="s-years" class="screen">
+    <h1 class="page">歷屆試題</h1>
+    <p class="lede">選一卷開始。同一卷可重複練習，進度會自動保存。</p>
+    <div class="card">
+      <div class="field"><label>年份（民國）</label><div class="chips" id="pick-year"></div>
+        <p class="legend">每一年都是完整 100 題、每題都有答案。虛線框代表<strong>答案來源不是學會的公開公告</strong>：
+          104、106 年出自命題端檔案（每題附教科書出處），標 ※ 的年份則出自考卷檔案本身。</p>
+      </div>
+      <div class="field"><label>分類篩選（不選＝全部）</label><div class="chips" id="pick-cat"></div></div>
+      <div class="field">
+        <label>模式</label>
+        <div class="chips" id="pick-mode">
+          <button class="chip on" data-v="practice" onclick="setMode('practice')">練習：作答後立即對答案</button>
+          <button class="chip" data-v="exam" onclick="setMode('exam')">模擬考試：全部答完才計分</button>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:0">
+        <label>出題順序</label>
+        <div class="chips">
+          <button class="chip on" id="chip-order" onclick="toggleShuffle()">依題號</button>
+        </div>
+      </div>
+    </div>
+    <p class="hint" id="year-count"></p>
+    <button class="btn primary wide" onclick="startYear()">開始練習</button>
+  </section>
+
+  <!-- ══ 分類總覽 ══ -->
+  <section id="s-cats" class="screen">
+    <h1 class="page">分類練習</h1>
+    <p class="lede">這套分類不是自訂的，是還原自學會出題系統本身的代碼——104 年的官方解答檔每題都標了完整分類名稱，106 年標的是同一套代碼的縮寫。進度條顯示你在該類答對過的比例。</p>
+    <div id="cat-list"></div>
+  </section>
+
+  <!-- ══ 單一分類 ══ -->
+  <section id="s-cat" class="screen">
+    <button class="btn sm" onclick="go('cats')" style="margin-bottom:14px">← 所有分類</button>
+    <div id="cat-detail"></div>
+  </section>
+
+  <!-- ══ 答題 ══ -->
+  <section id="s-quiz" class="screen">
+    <div id="quiz-head"></div>
+    <div id="quiz-body"></div>
+    <div class="navrow">
+      <button class="btn" id="btn-prev" onclick="move(-1)">上一題</button>
+      <button class="btn" id="btn-next" onclick="move(1)">下一題</button>
+    </div>
+    <div style="margin-top:10px">
+      <button class="btn wide" id="btn-finish" onclick="finish()">完成作答</button>
+    </div>
+  </section>
+
+  <!-- ══ 結果 ══ -->
+  <section id="s-result" class="screen">
+    <div id="result-body"></div>
+  </section>
+
+  <!-- ══ 錯題／書籤／筆記 ══ -->
+  <section id="s-wrong" class="screen">
+    <h1 class="page">錯題本</h1>
+    <p class="lede">答錯的題目會自動收進來。答對兩次後可以移除，或手動清掉。</p>
+    <div class="btnrow" style="margin-bottom:16px">
+      <button class="btn sm" onclick="clearWrong()">清除全部</button>
+      <button class="btn sm" onclick="practiceList('wrong')">練習這些題</button>
+    </div>
+    <div id="wrong-list"></div>
+  </section>
+
+  <section id="s-marks" class="screen">
+    <h1 class="page">書籤</h1>
+    <p class="lede">標記起來待複習的題目。</p>
+    <div class="btnrow" style="margin-bottom:16px">
+      <button class="btn sm" onclick="practiceList('mark')">練習這些題</button>
+    </div>
+    <div id="mark-list"></div>
+  </section>
+
+  <section id="s-notes" class="screen">
+    <h1 class="page">我的筆記</h1>
+    <p class="lede">你在各題寫下的筆記。筆記只存在這台裝置的瀏覽器裡，記得定期匯出備份。</p>
+    <div id="note-list"></div>
+  </section>
+
+  <!-- ══ 搜尋 ══ -->
+  <section id="s-search" class="screen">
+    <h1 class="page">搜尋</h1>
+    <div class="search">
+      <input id="q" type="search" placeholder="輸入關鍵字，例如 sugammadex、TEE、ERAS" oninput="doSearch()" autocomplete="off">
+    </div>
+    <div id="search-result"></div>
+  </section>
+
+  <!-- ══ 資料 ══ -->
+  <section id="s-data" class="screen">
+    <h1 class="page">備份與匯出</h1>
+    <p class="lede">你的作答紀錄、錯題、書籤與筆記都只存在這台裝置的瀏覽器中，不會上傳到任何地方。換裝置或清除瀏覽器資料前請先匯出。</p>
+    <div class="card">
+      <h2>匯出</h2>
+      <p class="hint" style="margin-top:0">下載一個 JSON 檔，包含錯題本、書籤、筆記與各題作答紀錄。</p>
+      <button class="btn primary" onclick="exportData()">下載備份檔</button>
+    </div>
+    <div class="card">
+      <h2>匯入</h2>
+      <p class="hint" style="margin-top:0">選擇先前匯出的備份檔。匯入會與現有資料合併，不會覆蓋掉你現在的筆記。</p>
+      <input type="file" id="importfile" accept="application/json" onchange="importData(this)">
+    </div>
+    <div class="card">
+      <h2>離線使用</h2>
+      <p class="hint" style="margin-top:0">題目在你第一次開啟後就會自動存在裝置上，之後沒有網路也能作答。<strong>圖片題的圖檔預設不會自動下載</strong>，以免耗用行動網路。若你想在完全離線的情況下也看得到圖，可以在有 Wi-Fi 時先下載。</p>
+      <div class="btnrow">
+        <button class="btn primary" id="btn-dl-img" onclick="cacheImages()">下載圖檔以供離線使用</button>
+      </div>
+      <p class="hint" id="dl-status"></p>
+    </div>
+    <div class="card">
+      <h2>清除</h2>
+      <p class="hint" style="margin-top:0">刪除這台裝置上的所有紀錄。此動作無法復原。</p>
+      <button class="btn" onclick="wipeAll()">清除所有紀錄</button>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">
+  <p>題目與答案依台灣麻醉醫學會歷年公告。本站沒有解析，只提供題目、答案與答案出處。</p>
+  <p>102、103、104、106、107 年沒有學會公開公告的答案卡。其中 104、106 年的答案來自命題端檔案（每題附教科書出處與難易度），其餘三年取自考卷檔案本身，請自行查證。</p>
+  <p>這五年與 108–114 年重複出現的題目共 10 題，答案交叉比對後<strong>沒有任何矛盾</strong>。</p>
+  <p id="build-info"></p>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="x" aria-label="關閉">×</button>
+  <img id="lightbox-img" alt="">
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="js/store.js?v=20260801g"></script>
+<script src="js/data.js?v=20260801g"></script>
+<script src="js/quiz.js?v=20260801g"></script>
+<script src="js/views.js?v=20260801g"></script>
+<script src="js/app.js?v=20260801g"></script>
+</body>
+</html>

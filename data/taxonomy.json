@@ -1,0 +1,139 @@
+{
+ "_meta": {
+  "version": "1.0",
+  "created": "2026-08-01",
+  "description": "麻醉專科醫師甄審筆試的分類架構。這不是自訂的分類，而是還原自學會出題系統本身的分類代碼。",
+  "provenance": [
+   "民國 104 年（2015）的官方解答檔每題都標了『分類：C8心臟血管胸腔麻醉』這種完整名稱，",
+   "民國 106 年（2017）標的是同一套代碼的縮寫（B1、C13…）。兩年交叉比對即可還原整份代碼表。",
+   "B4 在 104 年併在 B3 的標籤裡（『B3 麻醉設備 / 醫品病安/airway』），106 年才拆出來獨立成一碼；",
+   "依 106 年實際歸類的題目內容判定：B3 是監測與設備，B4 是醫療品質病安與氣道處理。"
+  ],
+  "known_gaps": [
+   "104 年有 1 題標『A』、106 年有 6 題沒有分類欄位，代碼表裡查無 A 這一碼，來源不明。",
+   "少數題目標了兩碼（例如『C7神經麻醉, C10重症及呼吸治療』），資料裡保留原字串於 category_raw。",
+   "108–114 年的官方檔案沒有分類欄位，要另外歸類；本表可作為歸類的依據。"
+  ],
+  "related": "學會每年另外公告命題範圍（見 source/命題範圍_115年.md），115 年是 Miller 第十版＋18 篇 Review Article，分 Cardiothoracic／CCM_Airway_Neuro／OB_Ped／Regional and Pain 四主題。那是讀書範圍的分法，與本表的出題分類是兩套不同的東西。"
+ },
+ "sections": [
+  {
+   "id": "basic",
+   "prefix": "B",
+   "name": "基礎",
+   "note": "跨所有專科的共通基礎"
+  },
+  {
+   "id": "clinical",
+   "prefix": "C",
+   "name": "臨床",
+   "note": "依手術類別或病人族群區分"
+  }
+ ],
+ "categories": [
+  {
+   "code": "B1",
+   "section": "basic",
+   "name": "麻醉生理",
+   "full_name_104": "B1麻醉生理"
+  },
+  {
+   "code": "B2",
+   "section": "basic",
+   "name": "麻醉藥理",
+   "full_name_104": "B2 麻醉藥理"
+  },
+  {
+   "code": "B3",
+   "section": "basic",
+   "name": "麻醉設備與監測",
+   "full_name_104": "B3 麻醉設備 / 醫品病安/airway",
+   "note": "104 年與 B4 併為同一碼；106 年起 B3 專指監測與設備（capnogram、pulse oximetry、TOF、心輸出量監測等）"
+  },
+  {
+   "code": "B4",
+   "section": "basic",
+   "name": "醫品病安與氣道處理",
+   "note": "106 年才從 B3 拆出來（醫療品質與病人安全、awake airway management）"
+  },
+  {
+   "code": "C1",
+   "section": "clinical",
+   "name": "全身麻醉",
+   "full_name_104": "C1全身麻醉"
+  },
+  {
+   "code": "C2",
+   "section": "clinical",
+   "name": "區域麻醉",
+   "full_name_104": "C2區域麻醉"
+  },
+  {
+   "code": "C3",
+   "section": "clinical",
+   "name": "骨科麻醉",
+   "full_name_104": "C3骨科麻醉"
+  },
+  {
+   "code": "C4",
+   "section": "clinical",
+   "name": "小兒麻醉",
+   "full_name_104": "C4小兒麻醉"
+  },
+  {
+   "code": "C5",
+   "section": "clinical",
+   "name": "老人麻醉",
+   "full_name_104": "C5 老人麻醉"
+  },
+  {
+   "code": "C6",
+   "section": "clinical",
+   "name": "產科麻醉",
+   "full_name_104": "C6產科麻醉"
+  },
+  {
+   "code": "C7",
+   "section": "clinical",
+   "name": "神經麻醉",
+   "full_name_104": "C7神經麻醉"
+  },
+  {
+   "code": "C8",
+   "section": "clinical",
+   "name": "心臟血管胸腔麻醉",
+   "full_name_104": "C8心臟血管胸腔麻醉"
+  },
+  {
+   "code": "C9",
+   "section": "clinical",
+   "name": "疼痛治療",
+   "full_name_104": "C9 疼痛治療"
+  },
+  {
+   "code": "C10",
+   "section": "clinical",
+   "name": "重症及呼吸治療",
+   "full_name_104": "C10重症及呼吸治療"
+  },
+  {
+   "code": "C11",
+   "section": "clinical",
+   "name": "眼科耳鼻喉科麻醉",
+   "full_name_104": "C11眼科耳鼻喉科麻醉"
+  },
+  {
+   "code": "C12",
+   "section": "clinical",
+   "name": "手術室外麻醉",
+   "full_name_104": "C12 手術室外麻醉"
+  },
+  {
+   "code": "C13",
+   "section": "clinical",
+   "name": "其他",
+   "full_name_104": "C13其他",
+   "note": "104 年在這碼後面手寫補了細目：POR、Palliative medicine、GS、Uro、移植麻醉、trauma 等"
+  }
+ ]
+}
