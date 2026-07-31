@@ -491,3 +491,28 @@ mark { background: var(--paper); color: inherit; border-radius: 3px; padding: 0 
 /* 答案出處區塊的逐行資訊 */
 .explain > div{ margin-top:6px; }
 .explain > div:first-of-type{ margin-top:0; }
+
+/* ── 口試與超音波 ── */
+.mode.paperish { background: var(--paper); border-color: var(--paper-deep); }
+.mode.paperish .d, .mode.paperish .n { color: var(--paper-ink); }
+.mode.paperish .n { opacity: .75; }
+
+.sect-year { font-family: var(--serif); font-weight: 700; font-size: 1.05rem; margin: 18px 0 10px; }
+
+.card.scen h2 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.card.scen .scenario { white-space: pre-wrap; line-height: 1.85; margin: 10px 0 4px; }
+
+details.sub { border: 1px solid var(--line); border-radius: var(--radius-sm); margin-bottom: 8px; background: var(--surface); }
+details.sub > summary {
+  cursor: pointer; padding: 11px 14px; display: flex; gap: 10px; align-items: baseline;
+  font-weight: 600; line-height: 1.65; list-style: none;
+}
+details.sub > summary::-webkit-details-marker { display: none; }
+details.sub > summary::after { content: '＋'; margin-left: auto; color: var(--ink-3); flex: none; }
+details.sub[open] > summary::after { content: '−'; }
+details.sub > summary .w {
+  flex: none; min-width: 40px; text-align: center; padding: 2px 6px; border-radius: 6px;
+  background: var(--brand); color: var(--brand-ink); font-size: .78rem; font-weight: 700;
+}
+.ref { padding: 0 14px 13px; white-space: pre-wrap; line-height: 1.85; font-size: .95rem; }
+.ref.none { color: var(--ink-3); }

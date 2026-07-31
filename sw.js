@@ -5,8 +5,8 @@
    VERSION 一改，activate 時舊快取整個清掉，不會留下上一版的殘骸。
    app.js 的 CACHE_NAME 也必須與這裡的 CACHE 一致。 */
 
-const VERSION = 'v7';
-const ASSET_V = '20260801g';   // 與 index.html 的 ?v= 一致
+const VERSION = 'v8';
+const ASSET_V = '20260801h';   // 與 index.html 的 ?v= 一致
 const CACHE = `anes-md-${VERSION}`;
 
 const YEARS = [108, 109, 110, 111, 112, 113, 114];
@@ -20,7 +20,9 @@ const CORE = [
   './assets/logo.png',
   './icons/icon-192.png', './icons/icon-512.png', './icons/icon-180.png',
   './data/taxonomy.json',
-  ...YEARS.map(y => `./data/questions/${y}_written.json`)
+  ...YEARS.map(y => `./data/questions/${y}_written.json`),
+  ...[112, 111, 110, 108].map(y => `./data/oral/${y}_oral.json`),
+  './data/oral/108_ultrasound.json'
 ];
 
 // 舊考題尚未定案要不要上線，抓不到也不該讓安裝失敗

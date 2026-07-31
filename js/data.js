@@ -9,7 +9,12 @@ const LEGACY_YEARS = [102, 103, 104, 106, 107];
 
 const ALL_YEARS = [...YEARS].reverse().concat([...LEGACY_YEARS].reverse());
 
+/** 口試與超音波是情境練習，不計分，與筆試分開存放。 */
+const ORAL_YEARS = [112, 111, 110, 108];
+
 const DB = {
+  oral: null,        // [{year, id, title, scenario, subquestions, …}]
+  ultrasound: null,
   taxonomy: null,
   papers: {},      // 108 -> {meta, questions}
   index: null,     // source -> question（全部載入後才有）
@@ -61,6 +66,16 @@ async function loadAll() {
 }
 
 function allQuestions() { return Object.values(DB.index || {}); }
+
+/** 口試（各年）與超音波（108 年三站）。抓不到就當作沒有，不擋其他功能。 */
+async function loadOral() {
+  if (DB.oral) return DB.oral;
+  const files = await Promise.all(ORAL_YEARS.map(y =>
+    getJSON(`data/oral/${y}_oral.json`).catch(() => null)));
+  DB.oral = files.filter(Boolean).flatMap(f => f.questions);
+  DB.ultrasound = (await getJSON('data/oral/108_ultrasound.json').catch(() => null))?.questions || [];
+  return DB.oral;
+}
 
 function byCategory(code, { verifiedOnly = false } = {}) {
   return allQuestions()

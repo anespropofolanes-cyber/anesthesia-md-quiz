@@ -1,0 +1,84 @@
+{
+ "meta": {
+  "year": 111,
+  "type": "oral",
+  "subject_name": "口試",
+  "source": "台灣麻醉醫學會口試試題與評分表"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 111,
+   "type": "oral",
+   "title": "口試第一題",
+   "scenario": "口試題目規則: 每人讀題一分鐘，回答長度預設10 分鐘內結束。\n口試題目共兩題。\n85 歲男性，身高170 公分，體重65 公斤，有old CVA、type 2 DM，以及Af 等\n病史接受內科治療。因腸道缺血性壞死需進行緊急手術。\n術前生命徵象: 呼喚他反應遲鈍，BP: 88/45 mmHg, ECG: Af with RVR:155\nbpm，RR: 26/min, BT: 38.9 °C。實驗診斷數據:Hb: 8.5 g/dL, WBC: 12500;\nPlatelet:25K; CRP:20; Na:135 meq/L; K: 5.0 meq/L\n子題\n1.",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "請針對此病人吸入性肺炎的風險以及如何做評估?",
+     "weight": 15,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "針對此病人應該如何進行麻醉誘導?儀器、藥物、誘導方法?",
+     "weight": 15,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "若插管時發生吸入性肺炎，請問當下該如何處置?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "Induction 後，ABG 如下，請問你會如何處理?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "CVP: 15 cmH2O，如何處理?",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "1. 術前評估\nFull stomach 的評估，Sono of stomach，如胃內容物多可置放NG tube 及引\n流。\n\n2. 麻醉前準備及麻醉誘導\n生命徵象監測(基本+特殊監測BIS (Entropy), NMT, brain oximeter)，設備(抽\n吸/保暖)，藥物選擇(ketamine or etomidate)，快速插管誘導(避免\nsuccinylcholine，選用rocuronium) or awake intubation\n麻醉術特殊監測\nCNS (BIS/Entropy, NMT, brain oximeter)講出理由\nCV (hemodynamic monitor: A-line, CVC, ScvO2, I/O)\n不建議使用FloTrac 的理由(因為Af)\n3. 麻醉誘導發生發生嘔吐造成吸入性肺炎，如何處置?\n頭低/oral suction/Fiberoptic suction/照會胸外醫師/抗生素/NaHCO3\nLung protection strategy: acute lung injury\n需注意driving pressure (10-12 cmH2O), low tidal volume (6-8 ml/kg; PBW),\noptimal PEEP (開始設定5 cm H2O), pressure limit <35 cm H2O\nRegular insulin for control hyperglycemia<200 mg/\nFluid resuscitation due to septic shock\n家屬解釋\n4. metabolic acidosis、acute lung injury, hyperglycemia, hypoperfusion 的處理\n5. 術中已給fluid 2500 ml, BP:76/42mmHg, HR: Af 135 bpm, Hb: 7.0 g/dL, CVP:\n15 cmH2O,目標導向（goal-directed therapy）為何與如何處理?\nFluid management: including blood transfusion (Hgb>10 g/dL)/urine output\n0.5 ml/kg/hr; ScvO2>70%/CVP:8-12 cmH2O\nHemodynamic management:升壓劑 (first choice norepinephrine)\naminodarone（控制心律）: MAP:60-65 mmHg/steroid（增加升壓劑效\n果）\n\n評分表\n題號 題目\n比重\n得分\n術前評估\n1\n吸入性肺炎評估與處置:NPO (Sono of stomach)/置放\nNG tube(如果胃內容物多)及引流\n15\n\n麻醉前準備及麻醉誘導\n2\n生命徵象監測(基本+特殊監測BIS (Entropy), NMT,\nbrain oximeter)，設備(抽吸/保暖)，藥物選擇(ketamine\nor etomidate 等藥物)，快速插管誘導(避免\nsuccinylcholine，選用rocuronium) or awake intubation\n\n15\n\n麻醉誘導發生嘔吐造成吸入性肺炎，如何處置?\n3\n頭低\nOral suction\nFiberoptic suction\n照會胸外醫師\n抗生素\n20\n\nInduction 後，ABG 如下，請問你會如何處理?(20%)\n4\n肺部保護措施\n需注意driving pressure (10-12 cmH2O)\nlow tidal volume (6-8 ml/kg; PBW)\noptimal PEEP\npressure limit <35 cm H2O\nMetabolic acidosis 的處理\nHypoperfusion 的處理\n血糖控制\n20\n\n術中已給fluid 2500 mL, BP 76/42mmHg, HR: Af 135 bpm, Hb: 7.0 g/dL, CVP\n15: cmH2O, 目標導向（goal-directed therapy）為何與如何處理?\n5\nFluid management\nHemodynamic management\n30\n\n總分",
+   "has_reference": true,
+   "source_file": "oral/111_口試1.pdf"
+  },
+  {
+   "id": 2,
+   "year": 111,
+   "type": "oral",
+   "title": "口試第二題",
+   "scenario": "口試題目規則: 每人讀題一分鐘，回答長度預設10 分鐘內結束。\n口試題目共兩題。\n65 歲男性，身高170 公分，體重80 公斤。因罹患大腸癌要接受大腸切除手\n術，有第二型糖尿病與高血壓加接受口服降血糖與ACEI 藥物治療，有抽菸和\n喝酒習慣。實驗室檢查，除貧血(Hgb:8.5 g/dL)外都正常。貴醫院有執行ERAS\n（enhanced recovery after surgery）計畫。請問如何執行？\n子題",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "請以ERAS 來跟病人解釋麻醉『前』注意事項",
+     "weight": 40,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "ERAS 麻醉中應注意事項為何?",
+     "weight": 40,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "ERAS 麻醉後的照護重點為何?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "1. 請以ERAS 來跟病人解釋麻醉『前』注意事項\nNPO（糖水２小時）\n麻醉照會說明麻醉方法與步驟，以減少病人焦慮\n麻醉照會教導病人使用術後止痛\n戒菸4 週（至少術前12 小時不抽菸）\n高血壓藥物服用除ACEI 和ARB\n戒酒（4-8 週）\n血糖控制（<200 mg/dL）\n心肺功能復健\n營養評估\n矯正貧血\n2. ERAS 麻醉中應注意事項為何\n(1)維持血行動力學穩定\n(2)選擇短效麻醉藥物\n(3)適當的麻醉深度：運用腦波(BIS or Entropy) 避免長時間深度麻醉\n(4)適當的輸液：如運用FloTrac 監測SVV\n(5)最佳肌力放鬆輔助處置：Rocuronium 搭配TOF 與Sugammadex\n(6)維持體溫：溫毯與加溫的輸液\n(7)預防術後噁心嘔吐：術中給與propofol，methason, droperido, 5-HT 等\n(8)提供多模式止痛((multiple model analgesia, MMA)\n3. ERAS 麻醉後的照護重點為何\n(1)適當的止痛：給與多模式止痛(含PCA/NB/NSAIDs 等)\n(2)術後噁心嘔吐：減少opioid 使用量／高風險病人給予不同藥物\n(3)鼓勵早期進食\n(4)鼓勵早期下床\n可以參照Miller p 417- p418\nERAS for GI procedures highlights a perioperative regimen with emphasis on95,96:\n1. Regional anesthesia\n2. Avoidance of opioids\n3. Multimodal analgesia\n4. Nutrition and preoperative carbohydrates\n5. Selective bowel preparation\n6. Fluid optimization\n7. Temperature control\n8. Early removal of drains and tubes\n9. Early mobilization\n10. Early oral intake\n題\n號\n題目\n比重 得分\n請以ERAS 來跟病人解釋麻醉『前』注意事項\n1\n\n麻醉照會說明麻醉方法與步驟，以減少病人焦慮\n麻醉照會教導病人使用術後止痛\nNPO（麻醉前2 小時可以喝＜200 ml 的糖水）\n戒菸4 週（至少術前12 小時不抽菸）/\n戒酒（4-8 週）(每項5 分)\n高血壓藥物服用除ACEI 和ARB\n血糖控制（< 200 mg/dL）/矯正貧血(每項2.5 分)\n心肺復健/營養評估(每項2.5 分)\n40\n\nERAS 麻醉中應注意事項為何\n2\n(1)維持血行動力學穩定\n(2)選擇短效麻醉藥物\n(3)適當的麻醉深度：運用腦波(BIS or Entropy) 避免長時\n間深度麻醉\n(4)適當的輸液：如運用FloTrac 監測SVV\n(5)最佳肌力放鬆輔助處置：Rocuronium 搭配TOF 與\nSugammadex\n(6)維持體溫：溫毯與加溫的輸液\n(7)預防術後噁心嘔吐\n(8)提供MMA (multiple model analgesia)\n40\n\nERAS 麻醉後的照護重點為何\n3\n適當的止痛：給與多模式止痛(MMA)\n術後噁心嘔吐：減少opioid 使用量/高風險病人給予不同\n藥物\n早期進食\n早期下床\n20\n\n總分",
+   "has_reference": true,
+   "source_file": "oral/111_口試2.pdf"
+  }
+ ]
+}

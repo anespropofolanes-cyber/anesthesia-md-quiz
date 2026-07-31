@@ -1,0 +1,49 @@
+{
+ "meta": {
+  "year": 108,
+  "type": "ultrasound",
+  "subject_name": "超音波實作",
+  "source": "台灣麻醉醫學會 108 年超音波試題評分表與參考答案"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 108,
+   "type": "ultrasound",
+   "title": "第一題　血管超音波",
+   "task": "台灣麻醉醫學會108 年麻醉科專科醫師甄審超音波試題\n第一題-血管超音波\n情境1:50 歲男性接受右肝切除手術,週邊靜脈導管置放困難,預計進行右頸靜脈\n中央靜脈導管置放\nz 任務:穿刺前以超音波評估右側頸靜脈Internal jugular vein (IJV)\n1. 選擇合適超音波探頭\n2. 病人頭頸擺位與表面解剖定位\n3. 超音波影像下識別 IJV ,carotid artery (CA) 與相鄰組織 (存檔)\n4. 超音波影像下如何區別IJV & CA (存檔)\n5. 以Color & PW Doppler mode 確認IJV 之血流\n\n情境2:80 歲男性接受第三至第五腰椎減壓手術,雙側橈動脈(Radial artery)置放\n動脈導管失敗,左側穿刺部位嚴重血腫\nz 任務:以超音波評估右側Radial artery 進行動脈導管置放\n1. 選擇合適超音波探頭/右手擺位\n2. 短軸影像(2D, Color/ PW Doppler)評估Radial artery 血流(存檔)\n3. 長軸影像(2D, Color)評估Radial artery 血流(存檔)",
+   "grading": "第一題-血管超音波\n考生編號及姓名:\n個人任務: 粗框內(「總評」); 對各個考生之表現,做到的項目請打勾\n備註:考官可協助ultrasound 功能鍵操作 其餘不可提示\n\n考官簽名\n\n任務項目\n說明\nYes No\n情境:50 歲男性接受右肝切\n除手術,週邊靜脈導管置放\n困難,預計進行右頸靜脈中\n央靜脈導管置放\n任務:穿刺前以超音波評估\nInternal jugular vein (IJV)\n1) 選擇linear 超音波探頭\n\n2) 病人頭頸擺位 supine with head turned for\nexposure 與表面解剖定位 Central landmark\n\n3) 至少識別 IJV, carotid artery (CA) ,SCM, thyroid\n\n4)超音波影像下如何區別IJV & CA\nA) IJV/carotid artery (CA) location\nB) compressibility\nC) diameter change during breathing\n\n5) Color & PW Doppler mode 確認IJV 之血流\n\n情境:雙側橈動脈置放動脈\n導管失敗\n任務:評估右側Radial\nartery\n6 選擇linear 超音波探頭\nright wrist dorsiflexion with support\n\n7)Short axis 2D, Color/ PW Doppler mode\n\n8)Long axis image 2D, color\n\n總評:\n五級分評分 (請用圈的)\n極優\n優\n佳\n尚可\n待加強\n8 項全有\n7 項\n5-6 項\n4 項\n3 項\n\n☐通過\n☐不通過",
+   "criteria": "1.Miller Ch045, p1363~1364\n1.Miller Ch045, p1350\n\nInternal jugular vein (IJV)\n1.Liner probe\n2. Central landmark, supine with head turned\nfor exposure\n3. Minimal requirements:IJV, CA, SCM, thyroid\n4. A) IJV/carotid artery (CA) location\nB) compressibility\nC) diameter change during breathing\n5. IJV Doppler mode: continuous flow\n\nRadial artery\n6.Linear probe, Dorsiflexion with support\n7. Short 2D, Color/Doppler mode\n8. Long axis by 2D, Color",
+   "images": [
+    "108_us1_p3_1.png",
+    "108_us1_p3_2.png"
+   ],
+   "has_reference": true,
+   "source_file": "ultrasound/108_超音波1_血管.pdf"
+  },
+  {
+   "id": 2,
+   "year": 108,
+   "type": "ultrasound",
+   "title": "第二題　經食道心臟超音波",
+   "task": "台灣麻醉醫學會108 年麻醉科專科醫師甄審超音波試題\n第二題-經食道心臟超音波\n題目:一位73 歲男性病患冠心症病史,今天清晨因胸痛呼吸困難至急診,診斷為\n急性心肌梗塞併心因性休克,心導管檢查無法施行PTCA,緊急置放IABP 後,\n入手術室接受冠狀動脈繞道手術。完成插管全麻與管路置放後,請您使用TEE\n評估病人狀況並回答下列問題。\n\n一、 請簡述TEE 探頭置入之操作程序,並說明使用TEE 之禁忌症與可能之併發\n症。\n二、 術中TEE 之基本應用目標有哪些?請試以TEE midesophageal 4 chamber view\n與transgastric short axis view 說明。並指出各解剖結構。\n三、 請說明並呈現如何找出主動脈瓣並指出其解剖結構。\n四、 灌注心臟麻痺液時,請呈現TEE 之適合切面以協助評估主動脈瓣是否逆流。\n五、 請以TEE 評估IABP 之位置。",
+   "grading": "第二題- 經食道心臟超音波\n考生編號及姓名:\n題目\n達成目標\n2(完整)\n1(部分)\n0(未答)\n1.1\nTEE 置入適當保護措施\n\n1.2\nTEE 禁忌症(兩項以上為完整)\n\n1.3\nTEE 併發症(兩項以上為完整)\n\n2.1\n找到4 chamber view\n\n2.2\n找到 TG SAX view\n\n2.3\n指出解剖結構\n\n2.4\n指出評估目標(兩項以上為完整)\n\n3.1\n指出切面名稱\n\n3.2\n指出適當角度\n\n3.3\n指出AV 三葉片名稱\n\n4.1\n指出切面名稱\n\n4.2\n指出適當角度\n\n4.3\n指出評估AR 方式\n\n5.1\n指出切面名稱\n\n5.2\n指出適當角度\n\n5.3\n指出左鎖骨下動脈\n\n加總\n\n共16 項\n總分\n\n備註:滿分32 分\n20 以上為及格\n\n考官簽名:",
+   "criteria": "一、Miller 8\nth edition Page 1410\nBefore performing TEE, the operator must determine that the benefits of TEE outweigh the risks. Except in the presence of\nesophageal disease or injury, the risk is quite low. Absolute contraindications include prior esophagectomy, severe\nesophageal obstruction, esophageal perforation, and ongoing esophageal hemorrhage. Relative contraindications include\nesophageal diverticulum, varices, fistula, and prior esophageal surgery, as well as a history of a gastric surgery, mediastinal\nirradiation, unexplained swallowing difficulties, and other conditions that might worsen with the placement and\nmanipulation of the TEE probe.\nIn some studies, TEE has been associated with an infrequent incidence of oral and pharyngeal injuries (0.1% to 0.3%), but\nin other studies, the incidence of postoperative gastrointestinal complaints did not significantly differ from that in\ncomparable patients who had not undergone TEE. The reported incidence of transient hoarseness after TEE is 0.1% to 12%\nin uncontrolled studies. Serious pharyngeal or esophageal injury after TEE has been reported but is rare. Two case reports\nindicate the possibility of TEE-associated splenic injury. Among 10,218 patients (in a multicenter European study) under-\ngoing TEE (primarily outpatients), esophageal perforation occurred in one who subsequently died; the autopsy revealed a\nmalignant tumor invading the esophagus. Although bacteremia during TEE is uncommon, endocarditis has been reported in\noutpatients. Endocarditis from intraoperative TEE has not been reported, and the risk is probably near zero because\nantibiotics are usually administered for the prevention of surgical wound infection. In infants, TEE has a low complication\nrate, but even an appropriate-sized TEE probe may obstruct the airway distal to the endotracheal tube or compress the\ndescending aorta (also see Chapter 94). Once the patient is anesthetized and the trachea securely intubated, the contents of\nthe stomach should be removed by gentle suctioning. Gentle massage of the left upper quadrant of the abdomen during\nsuctioning may help remove air that can otherwise degrade imaging. The patient’s neck is extended, and the well-lubricated\nTEE probe is then introduced into the midline of the hypopharynx with the transducer side facing anteriorly. Usually, with\nminimal force, the probe will blindly pass into the esophagus, especially if the neck is extended. If the probe does not\nblindly pass, then a laryngoscope is used to lift the larynx anteriorly and the probe is placed into the esophagus under direct\nvision. During transducer insertion or withdrawal, the controls of the gastroscope must be in the neutral or relaxed position\nto allow the transducer to follow the natural course of the esophagus, thereby potentially minimizing the risk of injury.\n\n二、Miller 8\nth edition Page 1411\n\nThe basic applications of TEE as outlined in the original guidelines for perioperative TEE, that is, to detect significant\nabnormal ventricular filling or function, extensive myocardial ischemia or infarction, large air embolism, severe valvular\ndysfunction, large cardiac masses or thrombi, large pericardial effusions, and major lesions of the great vessels. A minimum\nof 8 different cross sections drawn from the 20 cross sections delineated in the comprehensive examination are required to\nmeet these diagnostic goals.\n\n三~五、Miller 8\nth edition Page 1412\nFigure 46-20. Transesophageal echocardiographic (TEE) cross sections in the comprehensive examination.",
+   "images": [],
+   "has_reference": true,
+   "source_file": "ultrasound/108_超音波2_TEE.pdf"
+  },
+  {
+   "id": 3,
+   "year": 108,
+   "type": "ultrasound",
+   "title": "第三題　周邊神經超音波",
+   "task": "台灣麻醉醫學會108 年麻醉科專科醫師甄審超音波試題\n第三題-周邊神經超音波\n題目:病患有Right Supraspinatous tendon full thickness tear,預計進行open\ntendon repair,請問\n1. Regional anesthesia technique 的選擇為何?\n2. 擺位執行nerve block\n3. 找到你要的ultrasound image\n4. Freeze image! 說明你如何進行regional anesthesia\n5. 你應該避免意外穿刺哪些構造, 列出至少四個\n6. 你預計使用的局部麻醉藥物的名稱, 濃度與體積為何?",
+   "grading": "第三題-周邊神經超音波\n考生編號及姓名:\n備註:\n1. 考官可以協助考生操作機器但不可提示\n2. Freeze image 要記錄存檔(機器與考官手機皆存)\n總評:\n通過\n不通過\n\n五級分評分 (請用圈的)\n極優\n優\n通過\n不通過\n差\n6 項全有\n5 項\n4 項\n2-3 項\n0-1 項\n考官簽名:",
+   "criteria": "Yes\nNo\n1. 選擇interscalene BP block\n\n2. 確認handedness\n\n慣用右手, 醫師坐頭側機器擺病患右側左手持probe 右手持針\n或醫師坐病患右側機器擺病患左側病患半側躺\n\n慣用左手, 醫師坐病患右側機器擺頭端左手持針右手探頭\n或醫師坐病患右側機器擺病患左側病患半側躺\n\n3. 正確指出scalene ant, medius 兩條muscle 及nerve root C5C6C7\n指出Superior trunk 更好\n\n4. Needle lateral to medial direction, through middle Scalene m.\nthrough C5C6 間gap 到medial 處 OK\n\n只docking 在C5C6 lateral edge 但說明LA 有包圍C5C6 root\nor even C567 root 可接受\n\n5. 請考生掃出IJV CCA VA Phrenic nerve\n(phrenic nerve 掃不出來可接受)\n\nDorsal scapular nerve, long thoracic nerve, vagus n 很棒\n\n6. LA 是for surgical anesthesia, 所以應該是2% lidocaine (有加\nepinephrine 7mg/kg, 沒加4.5mg/kg, 所以10-20ml reasonable)\n0.5% bupi or levobupivacaine (less than 30ml)\n Ropivacaine 作為surgical anesthesia 效果可能不佳",
+   "images": [],
+   "has_reference": true,
+   "source_file": "ultrasound/108_超音波3_周邊神經.pdf"
+  }
+ ]
+}

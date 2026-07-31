@@ -287,3 +287,72 @@ function doSearch() {
       <div class="ans">正解：<strong>${esc(answerText(q))}</strong></div>
     </div>`).join('')}</div>`;
 }
+
+/* ══ 口試與超音波 ══
+   這兩種是情境演練，不計分也不記錯題。用法是先自己把答案講一遍，
+   再展開官方參考答案補漏掉的地方——所以參考答案預設收合。 */
+
+function renderOral() {
+  const el = document.getElementById('oral-list');
+  const oral = DB.oral || [], us = DB.ultrasound || [];
+  if (!oral.length && !us.length) {
+    el.innerHTML = '<div class="empty"><div class="big">·</div>口試資料載入失敗。</div>';
+    return;
+  }
+
+  const byYear = {};
+  for (const q of oral) (byYear[q.year] ||= []).push(q);
+
+  el.innerHTML = `
+    <div class="sect-label">口試</div>
+    ${Object.keys(byYear).sort((a, b) => b - a).map(y => `
+      <div class="sect-year">${y} 年</div>
+      ${byYear[y].sort((a, b) => a.id - b.id).map(oralCard).join('')}`).join('')}
+    ${us.length ? `<div class="sect-label">108 年超音波實作</div>
+      ${us.map(usCard).join('')}` : ''}`;
+}
+
+function oralCard(q) {
+  const total = q.subquestions.reduce((n, s) => n + s.weight, 0);
+  return `<div class="card scen">
+    <h2>${esc(q.title)}
+      ${q.has_reference ? '' : '<span class="tag disputed">學會未公布參考答案</span>'}</h2>
+    <div class="scenario">${esc(q.scenario)}</div>
+    ${(q.scenario_images || []).map(figTag).join('')}
+    <div class="sect-label">子題（配分合計 ${total}%）</div>
+    ${q.subquestions.map((s, i) => `
+      <details class="sub">
+        <summary><span class="w">${s.weight}%</span>${esc(s.title)}</summary>
+        ${s.reference || (s.reference_images || []).length ? `
+          <div class="ref">${s.reference ? esc(s.reference) : ''}
+            ${(s.reference_images || []).map(figTag).join('')}</div>`
+          : '<div class="ref none">學會未公布這一子題的參考答案。</div>'}
+      </details>`).join('')}
+    ${q.reference_text ? `
+      <details class="sub">
+        <summary><span class="w">解答</span>官方參考答案（未分子題）</summary>
+        <div class="ref">${esc(q.reference_text)}</div>
+      </details>` : ''}
+  </div>`;
+}
+
+function usCard(q) {
+  return `<div class="card scen">
+    <h2>${esc(q.title)}</h2>
+    <div class="scenario">${esc(q.task)}</div>
+    ${(q.images || []).map(figTag).join('')}
+    <details class="sub">
+      <summary><span class="w">評分</span>評分方式</summary>
+      <div class="ref">${esc(q.grading)}</div>
+    </details>
+    <details class="sub">
+      <summary><span class="w">參考</span>逐項參考答案</summary>
+      <div class="ref">${esc(q.criteria)}</div>
+    </details>
+  </div>`;
+}
+
+function figTag(src) {
+  return `<div class="fig"><img src="images/${esc(src)}" alt="附圖" loading="lazy"
+    onclick="openLightbox(this.src)" onerror="this.parentNode.style.display='none'"></div>`;
+}

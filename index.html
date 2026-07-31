@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&family=Noto+Serif+TC:wght@500;700&display=swap">
-<link rel="stylesheet" href="css/app.css?v=20260801g">
+<link rel="stylesheet" href="css/app.css?v=20260801h">
 </head>
 <body>
 
@@ -54,6 +54,11 @@
         <span class="t">分類練習</span>
         <span class="d">依學會出題系統本身的分類代碼，把跨年度的同類題目集中練。</span>
         <span class="n">17 類 · B 基礎／C 臨床</span>
+      </button>
+      <button class="mode paperish" onclick="go('oral')">
+        <span class="t">口試與超音波</span>
+        <span class="d">情境演練，不計分。先自己把答案講一遍，再展開學會的官方參考答案補漏掉的地方。</span>
+        <span class="n">8 題口試 · 3 站超音波</span>
       </button>
     </div>
 
@@ -99,6 +104,13 @@
     <h1 class="page">分類練習</h1>
     <p class="lede">這套分類不是自訂的，是還原自學會出題系統本身的代碼——104 年的官方解答檔每題都標了完整分類名稱，106 年標的是同一套代碼的縮寫。進度條顯示你在該類答對過的比例。</p>
     <div id="cat-list"></div>
+  </section>
+
+  <!-- ══ 口試與超音波 ══ -->
+  <section id="s-oral" class="screen">
+    <h1 class="page">口試與超音波</h1>
+    <p class="lede">這些是<strong>命題委員自己的參考答案指引</strong>——除了標準答案，還有給口試委員的追問提示與加分選項，內容照抄學會原檔。建議先自己把答案講一遍，再展開參考答案。</p>
+    <div id="oral-list"></div>
   </section>
 
   <!-- ══ 單一分類 ══ -->
@@ -204,10 +216,10 @@
 </div>
 <div class="toast" id="toast"></div>
 
-<script src="js/store.js?v=20260801g"></script>
-<script src="js/data.js?v=20260801g"></script>
-<script src="js/quiz.js?v=20260801g"></script>
-<script src="js/views.js?v=20260801g"></script>
-<script src="js/app.js?v=20260801g"></script>
+<script src="js/store.js?v=20260801h"></script>
+<script src="js/data.js?v=20260801h"></script>
+<script src="js/quiz.js?v=20260801h"></script>
+<script src="js/views.js?v=20260801h"></script>
+<script src="js/app.js?v=20260801h"></script>
 </body>
 </html>

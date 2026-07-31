@@ -11,6 +11,7 @@ function go(name) {
   window.scrollTo({ top: 0, behavior: 'instant' });
 
   if (name === 'cats') renderCategories();
+  if (name === 'oral') loadOral().then(renderOral);
   if (name === 'wrong') renderList('wrong');
   if (name === 'marks') renderList('mark');
   if (name === 'notes') renderList('note');
@@ -243,7 +244,7 @@ function importData(input) {
   r.readAsText(f);
 }
 
-const CACHE_NAME = 'anes-md-v7';   // 必須與 sw.js 的 CACHE 一致
+const CACHE_NAME = 'anes-md-v8';   // 必須與 sw.js 的 CACHE 一致
 
 /** 核心資源（不含圖片）。由頁面確保入快取，不倚賴 service worker 的安裝時機——
     使用者清過瀏覽器資料、或 sw.js 未改版時 install 不會重跑，靠這裡補齊。 */
@@ -257,6 +258,8 @@ function coreUrls() {
     './manifest.webmanifest', './assets/logo.png',
     './icons/icon-192.png', './icons/icon-512.png', './icons/icon-180.png',
     './data/taxonomy.json',
+    ...ORAL_YEARS.map(y => `./data/oral/${y}_oral.json`),
+    './data/oral/108_ultrasound.json',
     ...YEARS.map(y => `./data/questions/${y}_written.json`),
     ...LEGACY_YEARS.map(y => `./data/legacy_wip/${y}_legacy.json`)
   ];

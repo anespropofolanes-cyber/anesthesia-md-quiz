@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "year": 108,
+  "type": "oral",
+  "subject_name": "口試",
+  "source": "台灣麻醉醫學會口試試題與評分表"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 108,
+   "type": "oral",
+   "title": "口試第一題",
+   "scenario": "題目1.\n72 歲女性，因右側humeral neck open fracture 預進行open reduction internal\nfixation 急診手術。\n過去病史:\n1. Well controlled Hypertension\n2. Type 2 DM 以口服降血糖藥物控制， 最近一次的糖化血色素為7.2\n3. Coronary artery disease，兩年前置放兩支塗藥支架在左前降支與左迴旋支，\n最近一年無胸痛。\nLab data & PE:\n1. PT/PTT, AST/ALT, normal, BUN 17 Cre1.5; Hb 10.5, WBC9,000, Plt 125000\n2. BP 140/80, HR 96, resp rate 14, SpO2 97%\n3. Below elbow 的motor and sensory function intact\nNPO 時間足夠(大於八小時)\n子題",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "如何評估麻醉與手術的風險",
+     "weight": 20,
+     "reference": "Fig 38-5 , 此病人為Emergency surgery 應該直接手術。\nTable 38-3 病人的cardiac risk score =1 分\nHumeral open fracture 屬於 major orthopedic surgery, 算在intermediate\nrisk\n另外病人為humeral open fracture 因此可估計受傷機轉為trauma，故評估\n應該包含trauma survey, 包括R/O C-spine, R/O solid organ\nlarceration/internal bleeding, R/O hemopneumothorax 等。\n病人心血管系統相關評估(如exercise tolerance, 當初做心導管的理由是AMI\n還是elective，目前抗凝血藥物使用狀況等。 (加分選項)",
+     "reference_images": [
+      "108_oral1_a1_1.png",
+      "108_oral1_a1_2.png",
+      "108_oral1_a1_3.png"
+     ]
+    },
+    {
+     "title": "麻醉方式的選擇, 你如何向家屬做相關說明",
+     "weight": 10,
+     "reference": "手術會採sitting or semisitting position, 且病人有multiple cormorbidity, 故\n應以ETGA 為宜。\n若考生堅持應執行regional anesthesia 例如interscalene block, 請直接\nchallenge 考生有關藥物選擇, 濃度, 劑量及phrenic nerve palsy 的處理與\nintraoperative airway management 的困難處。",
+     "reference_images": []
+    },
+    {
+     "title": "如何選取合理的Intra-operative monitor device 及其理由",
+     "weight": 20,
+     "reference": "5 lead ECG\nA line or pulse contour analysis 類cardiac output monitor\nBIS : 避免oversedation , 降低POCD (算合理)\nCerebral oximetry: sitting position 怕cerebral perfusion 太低, 應考慮使用\nFoley: check urine output, 避免renal perfusion 不足\nTEE (請敘述原因, 要觀察的項目，可當加分選項)\nABG\nBlood sugar: 尤其是啟動perioperative insulin infusion 的時機 (sugar > 300)",
+     "reference_images": []
+    },
+    {
+     "title": "Fluid management plan 為何? 何時啟動Transfusion?",
+     "weight": 20,
+     "reference": "若上一子題考生有提及cardiac output monitor, 可問考生根據什麼項目評估\n體液狀況? 請考生說出例如SVV 數值多少視為體液缺乏。\n以失血量及病人狀態考量，可請考生算acceptable blood loss。\n然而Humeral fracture ORIF 手術中失血量大, 所以可提早輸血因應。",
+     "reference_images": []
+    },
+    {
+     "title": "病人自述非常怕痛, 你的止痛的計劃為何?",
+     "weight": 20,
+     "reference": "Polymodal analgesia\nInterscalene block (even catheterization)\nPhrenic nerve sparing (superior trunk) block\n注意local anesthetic agent concentration 只要止痛即可\nOpioid based IVPCA, IV paracetamol, low dose ketamine 皆屬合理\nIV NSAID 與COX-2 inhibitor 皆有爭議, 請考生詳述其背後rationale 並評\n估其合理性",
+     "reference_images": []
+    },
+    {
+     "title": "病人術後在恢復室出現delirium 的risk factor 有哪些?",
+     "weight": 10,
+     "reference": "在這張表格裏面沒有包含術中factor 這項目，但考生應該要提到包括麻太深,\nhemodynamic 維持不好, 術中hypotension episode 等。",
+     "reference_images": [
+      "108_oral1_a6_4.png",
+      "108_oral1_a6_5.png",
+      "108_oral1_a6_6.png"
+     ]
+    }
+   ],
+   "reference_text": "",
+   "has_reference": true,
+   "source_file": "oral/108_口試1_含參考答案.pdf"
+  },
+  {
+   "id": 2,
+   "year": 108,
+   "type": "oral",
+   "title": "口試第二題",
+   "scenario": "題目2.\n一位20歲產婦，懷孕38週、 G2P1A0，身高160cm、體重70kg，前一胎接受剖腹\n產，產檢均在地區醫院完成，家屬轉訴胎位不正、產檢無異常，此次因嚴重腹痛、\n陰道出血與胎兒心跳過慢，地區醫院轉至急診，婦產科醫師照會後表示產婦子宮\n停止收縮、產程停滯，欲安排緊急剖腹生產手術。\n病史: 剖腹產、家屬表示產婦無過敏、無其他內科疾病。\n理學檢查:意識躁動不安、無法配合檢查氣道與牙齒、心跳120bpm、血壓80/46\nmmHg、呼吸速率24/分、體溫 36.2°C。\n實驗室檢查:Hb:10.2, Hct 27, 凝血功能、肝腎功能、電解質: 正常範圍\n禁食時間超過8小時，\n子題：\n1.",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "術前評估:解釋可能發生的麻醉風險與麻醉方式之選擇。",
+     "weight": 10,
+     "reference": "I. Aspiration / Massive bleeding/ Difficult airway\nII. GA indications: fetal bradycardia, maternal hemorrhage or\ncoagulopathy, uterine rupture, maternal trauma",
+     "reference_images": []
+    },
+    {
+     "title": "剖腹產全身麻醉誘導準備、藥物考量與血液動力學監視器選擇。",
+     "weight": 20,
+     "reference": "I. Standard monitor\nII. Pre-Oxygenation\nIII. Surgeon readyinduction\nIV. Rapid sequence: etomidate or ketamine\n請考生講解選擇NIBP/A line/ Cardiac output monitor/ large-bore IV 之理由。",
+     "reference_images": [
+      "108_oral2_a2_1.png",
+      "108_oral2_a2_2.png",
+      "108_oral2_a2_3.png",
+      "108_oral2_a2_4.png",
+      "108_oral2_a2_5.png"
+     ]
+    },
+    {
+     "title": "麻醉誘導後，使用喉頭鏡時發生困難插管，試問如何處理。",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "誘導完成後進行手術，術中手術醫師警示子宮破裂與持續出血，流動護理師 計數失血量為2000ml，此時血壓顯示為60/30mmHg，試問處置時有何考 量 ?",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "剖腹產後轉入加護病房觀察，病人發生ARDS，請問如何設定病人的呼吸 器?",
+     "weight": 20,
+     "reference": "Miller 8th. Fig. 101-2",
+     "reference_images": [
+      "108_oral2_a5_6.png"
+     ]
+    }
+   ],
+   "reference_text": "",
+   "has_reference": true,
+   "source_file": "oral/108_口試2_含參考答案.pdf"
+  }
+ ]
+}

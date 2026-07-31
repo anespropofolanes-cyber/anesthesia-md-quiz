@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "year": 110,
+  "type": "oral",
+  "subject_name": "口試",
+  "source": "台灣麻醉醫學會口試試題與評分表"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 110,
+   "type": "oral",
+   "title": "口試第一題",
+   "scenario": "65 歲男性病人, 身高168 公分, 體重110 公斤。自述過去病史包含CAD，6 個\n月前在他院放過冠狀動脈支架。糖尿病20 年，規則服藥。\n連續三天腹痛，今天腹痛加劇，故到急診就醫。\n手術史：10 年前鎖骨骨折開過刀。\n急診血壓175/110 mmHg，HR 110 /min，SpO2 95.\n抽血檢查，Hb: 13.5, WBC 9500, blood glucose 270.\nEKG: nonspecific ST-T change, HR 125/min\n預定手術: laparoscopic exploration",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "麻醉評估",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "麻醉計畫",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "鑑別診斷? 如何處置?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "外科腹腔鏡初步診斷為hallow organ perforation and peritonitis, 手術開始60 分 鐘後, SBP 從130 降至70 mmHg, HR 115 /min, 請問鑑別診斷? 如何處置?",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "Postanesthesia care",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "",
+   "has_reference": false,
+   "source_file": "oral/110_口試1.pdf"
+  },
+  {
+   "id": 2,
+   "year": 110,
+   "type": "oral",
+   "title": "口試第二題",
+   "scenario": "口試第二題\n58 歲男性，身高160 公分，體重68 公斤，有抽菸習慣，長期高血\n壓(藥物控制)，無藥物過敏史，無過去手術經驗。因患有酒精性肝硬\n化合併腹水(Child C)，預接受常規活體肝臟移植手術。\n術前生命徵象:\nBP: 150/90 mmHg, HR:105/min, RR: 16/min, BT: 36.7 °C\n實驗診斷數據:\nHb: 8.5 g/dL, Platelet:40K, PT: 19 sec, PTT: 35 sec, T. bil: 2.7 mg/dL, K: 3.5\nmeq/L, Cr: 1.3 mg/dL, Alb: 2.2 g/dL\nECG: Nonspecific ST-T change，CXR: No specific findings\n身為一位麻醉主治醫師請說出",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "麻醉前評估注意事項",
+     "weight": 10,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "麻醉前準備及誘導",
+     "weight": 20,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "術中選擇何種監測儀器",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "手術圍期有哪些注意事項",
+     "weight": 30,
+     "reference": "",
+     "reference_images": []
+    },
+    {
+     "title": "術後照護重點",
+     "weight": 10,
+     "reference": "",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "",
+   "has_reference": false,
+   "source_file": "oral/110_口試2.pdf"
+  }
+ ]
+}

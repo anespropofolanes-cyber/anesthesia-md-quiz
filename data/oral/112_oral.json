@@ -1,0 +1,93 @@
+{
+ "meta": {
+  "year": 112,
+  "type": "oral",
+  "subject_name": "口試",
+  "source": "台灣麻醉醫學會口試試題與評分表"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 112,
+   "type": "oral",
+   "title": "口試第一題",
+   "scenario": "2023 口試題目 第一題 (附參考答案)\n一位5 歲男孩，體重25kg，有Obstructive Sleep Apnea 之病史。接受\nTonsillectomy + Adenoidectomy 手術，術前檢查CBC/DC，肝腎功能，凝血功能無\n特別異常，順利完成麻醉誘導和插管。手術完成後，病人送至恢復室觀察。在恢復\n室觀察10 分鐘後，發現病人不斷吐出血水，非常躁動難以安撫，耳鼻喉科醫師診\n視後，決定再次入開刀房手術止血。 再次進入手術室前HR: 145/min，BP: 65/40\nmmHg，SpO2:97%",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "請說明 Bleeding Tonsil 的麻醉前考量 ?",
+     "weight": 40,
+     "reference": "(Miller Chapter 77 p2454)\n1. Establish large-bore iv line\n2. Hypovolemic status: Fluid resuscitation/transfusion before induction\n3. Full stomach (swallowing blood): Prepare for rapid sequence induction/ prevent\naspiration (equipment: Yankauer suction )\n4. Prepare for difficult intubation(active bleeding or swollen airway) /ventilation\n(equipment and personnel)\n5. Awake intubation if necessary",
+     "reference_images": []
+    },
+    {
+     "title": "請說明Bleeding Tonsil 麻醉誘導時，你會選擇哪些藥物? 考量是甚麼 ?",
+     "weight": 15,
+     "reference": "1. Choice of induction agents : ketamine or etomidate\n2. Neuromuscular blocking agents: succinylcholine or rocuronium\n三、麻醉甦醒前如果躁動 (Emergence agitation)易造成再次tonsil bleeding，請問你",
+     "reference_images": []
+    },
+    {
+     "title": "會如何預防Emergence agitation?",
+     "weight": 15,
+     "reference": "(Miller Chapter 77 p2430)\n1. 選擇以TIVA 方式麻醉\n2. 給予2 to 3 mg/kg of propofol before emergence, fentanyl , α2 agonist",
+     "reference_images": []
+    },
+    {
+     "title": "小兒麻醉發生甦醒躁動 (Emergence agitation)需考慮那些可能原因?",
+     "weight": 10,
+     "reference": "1. When managing delirium other causes for agitation should be considered,\nparticularly pain. Emergence delirium may occur after painless procedures;\nhowever there is also some evidence that pain may increase the risk of\nemergence delirium. Other physiologic changes, including hypoxia, metabolic\nderangement, and hyponatremia, may also cause agitation or delirium, so\nmust be ruled out, particularly if the delirium is prolonged. (Miller Chapter 77\np2430)",
+     "reference_images": []
+    },
+    {
+     "title": "請說明如何做Tonsillectomy 術後的疼痛控制 ? ((Miller Chapter 77 p.2454)",
+     "weight": 20,
+     "reference": "1. Acetaminophen alone is insufficient. Nonsteroidal anti-inflammatory drugs\n(NSAIDs) are used in many centers.\n2. Local anesthetic infiltration to the tonsillar bed.\n3. Opioids are often required for tonsillectomy, both in the immediate recovery and\nearly days after the child goes home. They should be used carefully in the\npresence of obstructive sleep apnea.",
+     "reference_images": []
+    }
+   ],
+   "reference_text": "",
+   "has_reference": true,
+   "source_file": "oral/112_口試1.pdf"
+  },
+  {
+   "id": 2,
+   "year": 112,
+   "type": "oral",
+   "title": "口試第二題",
+   "scenario": "2023 口試題目 第二題\n一位21 歲男性因為anterior mediastinal mass 要接受mediastinoscopy 切片。術前訪\n視時，Heart rate: 80/min, Blood pressure: 120/70mmHg, room air SpO2: 98%, 病人表\n示無其他病史，但最近2 個月有咳嗽的症狀，平躺短暫時間之後會開始呼吸困\n難。Chest CT 顯示trachea diameter < 50% of normal。",
+   "scenario_images": [],
+   "subquestions": [
+    {
+     "title": "請說明關於此狀況的麻醉前評估與考量(p. 978, p. 1688)",
+     "weight": 30,
+     "reference": "1. Review chest CT to evaluated tracheobronchial compression(location and\ndegree of compression)\n2. Echocardiography to evaluated vessel compression\n3. Determine optimal positioning of patient\n4. An extrathoracic source of tissue for diagnostic biopsy (pleural effusion or\nextrathoracic lymph node) should be sought as an initial measure in every\npatient\n5. 與外科醫師討論是否可以在local or regional anesthesia 之下完成biopsy",
+     "reference_images": []
+    },
+    {
+     "title": "請說明你的麻醉計劃(包含誘導與維持)",
+     "weight": 30,
+     "reference": "1. Have rigid bronchoscope and an experienced surgeon available at induction of\nanesthesia\n2. O2, iv, Monitoring (p.1688)\nA. Monitoring pulse in the right arm (pulse oximeter on the right hand,\narterial line, or anesthesiologist’s finger) because of possible\ncompression of the innominate artery (supply right internal carotid\nartery) by mediastinoscope and the surgeon usually is not aware that\nthis is happening.\nB.\nNIPB in left upper limb for correct blood pressure\n3. Secure airway beyond stenosis when patient is awake, if feasible\n4. Maintain spontaneous ventilation if possible (induction with ketamine or\nsevoflurane inhalation)\n5. Postop care: Monitor for airway compromise",
+     "reference_images": []
+    },
+    {
+     "title": "請說明如果發生呼吸道阻塞時之處置",
+     "weight": 20,
+     "reference": "1. Awaken the patient as soon as possible\n2. Reposition the patient\n3. Rigid bronchoscopy and ventilation distal to obstruction\n(不包含cardiopulmonary bypass, too late)",
+     "reference_images": []
+    },
+    {
+     "title": "手術當天，病患坐在床上完全無法躺下，請說明您的麻醉計劃",
+     "weight": 20,
+     "reference": "1. 與外科醫師討論是否可以在local or regional anesthesia 之下完成biopsy\n2. 與oncology, surgeon, 討論pre-biopsy radiotherapy, chemotherapy, or steroid\n3. Institution of femorofemoral ECMO before induction",
+     "reference_images": [
+      "112_oral2_a4_1.png",
+      "112_oral2_a4_2.png"
+     ]
+    }
+   ],
+   "reference_text": "",
+   "has_reference": true,
+   "source_file": "oral/112_口試2.pdf"
+  }
+ ]
+}

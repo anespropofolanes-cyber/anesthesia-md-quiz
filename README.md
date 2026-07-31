@@ -10,6 +10,9 @@
 | 民國 104／106 年 | 200 | **命題端檔案**（每題附教科書出處、難易度、分類代碼），非公開公告 |
 | 民國 102／103／107 年 | 300 | 考卷檔案內附，無公開公告可核對 |
 
+另有 **8 題口試與 3 站超音波**（`data/oral/`），照抄學會原檔的官方參考答案，
+不計分。110 年學會未公布參考答案，站上有標示。
+
 三者在網站上明確區隔：沒有公開公告的年份，年份籤是虛線框加 ⚠，
 題目上依 `answer_tier` 顯示「答案來自命題端檔案」或「答案未經官方核對」。
 
@@ -27,6 +30,7 @@ python3 -m http.server 8811
 python3 tools/validate_questions.py   # 700 題：結構＋答案逐題比對官方答案卡
 python3 tools/validate_legacy.py      # 500 題：結構（無官方答案可比對）
 python3 tools/crosscheck_legacy.py    # 跨年重複題交叉驗證，矛盾數必須為 0
+python3 tools/validate_oral.py        # 口試與超音波：配分、圖檔、標題是否切錯
 ```
 
 `validate_questions.py` 沒有全綠就不可以部署。
@@ -43,6 +47,9 @@ python3 tools/crosscheck_legacy.py    # 跨年重複題交叉驗證，矛盾數�
 | `tools/validate_questions.py` | 官方年份的驗證（部署前必跑） |
 | `tools/validate_legacy.py` | 舊考題的結構驗證 |
 | `tools/crosscheck_legacy.py` | 用跨年重複題交叉驗證舊考題的答案 |
+| `tools/parse_oral.py` | 抽口試題目、子題配分與參考答案 |
+| `tools/parse_ultrasound.py` | 抽 108 年超音波三站 |
+| `tools/validate_oral.py` | 口試與超音波的驗證 |
 
 `parse_*.py` 會覆蓋題庫檔，所以重跑之後要接著跑 `apply_answer_notes.py`、
 `apply_taxonomy.py`、`extract_images.py`，再跑驗證。
