@@ -89,7 +89,7 @@
    "options": {
     "A": "預先給氧(Preoxygenation)",
     "B": "吸入性麻醉(Inhaled Anesthesia)",
-    "C": "快速作用的肌肉神經阻斷劑(Rapid-onset neuromuscular blockade) Page",
+    "C": "快速作用的肌肉神經阻斷劑(Rapid-onset neuromuscular blockade)",
     "D": "使用Cricoid Pressure(use of cricoid pressure)"
    },
    "answer": "B",
@@ -171,7 +171,7 @@
    "id": 10,
    "year": 103,
    "western_year": 2014,
-   "question": "Page 圖所示是臂神經叢(Brachial plexus)阻斷的哪一個Level？",
+   "question": "圖所示是臂神經叢(Brachial plexus)阻斷的哪一個Level？",
    "options": {
     "A": "Interscalene",
     "B": "Supraclavicular",
@@ -226,7 +226,7 @@
    "id": 13,
    "year": 103,
    "western_year": 2014,
-   "question": "Page 體外循環 (cardio-pulmonary bypass) 後的出血是麻醉醫師的一大挑戰，2007年美國胸腔外科會和心胸麻醉 學會聯合訂出心臟手術輸血與血液保留的執行準則，明列心臟手術後急需輸血的重要預測因子，不包括：",
+   "question": "體外循環 (cardio-pulmonary bypass) 後的出血是麻醉醫師的一大挑戰，2007年美國胸腔外科會和心胸麻醉 學會聯合訂出心臟手術輸血與血液保留的執行準則，明列心臟手術後急需輸血的重要預測因子，不包括：",
    "options": {
     "A": "年紀大 (advanced age)",
     "B": "出生一個月內幼兒",
@@ -264,7 +264,7 @@
    "id": 15,
    "year": 103,
    "western_year": 2014,
-   "question": "單肺麻醉的成功有賴體內低血氧時肺血管收縮 (hypoxic pulmonary vasoconstriction HPV) 這項生理反應,有 Page 關HPV的描述何者正確?",
+   "question": "單肺麻醉的成功有賴體內低血氧時肺血管收縮 (hypoxic pulmonary vasoconstriction HPV) 這項生理反應,有 關HPV的描述何者正確?",
    "options": {
     "A": "HPV啟動的主要刺激是血中的氧分壓而非肺泡中的氧分壓",
     "B": "HPV產生的生理途徑牽涉到 NO 或是cyclooxygenase合成抑制的途徑",
@@ -319,7 +319,7 @@
    "id": 18,
    "year": 103,
    "western_year": 2014,
-   "question": "承上題，下列敘述何者為非？ Page",
+   "question": "承上題，下列敘述何者為非？",
    "options": {
     "A": "1號位置通往左支氣管",
     "B": "當不使用箝夾時，1號位置和2號位置氣道壓力(airway pressure)是相等的",
@@ -410,7 +410,7 @@
    "question": "關於成人腦死的判定,何者為非？",
    "options": {
     "A": "Core temperature需高於32度C",
-    "B": "執行apnea test前,血壓需高於90mmHg Page",
+    "B": "執行apnea test前,血壓需高於90mmHg",
     "C": "當CBF(cerebral blood flow)低於12-15mL/100g/min,腦波即呈現isoelectric現象",
     "D": "Cushing phenomenon指腦壓升高,壓迫腦幹導致血壓升高.心跳變慢",
     "E": "使用經顱都普勒超音波(Transcranial doppler ultrasonography)偵測CBF,若是完全無血流通過,即可判斷腦 死"
@@ -501,7 +501,7 @@
    "options": {
     "A": "注射heparin,使activated clotting time 增加2-2.5倍",
     "B": "為了減少血管的血流,有時術中會刻意降低血壓",
-    "C": "為了增加側支循環量,有時術中會刻意增加血壓 Page",
+    "C": "為了增加側支循環量,有時術中會刻意增加血壓",
     "D": "術後容易發生栓塞物移動或顱內出血",
     "E": "不建議常規給予止吐藥物"
    },
@@ -592,7 +592,7 @@
     "B": "避免發燒",
     "C": "病人床頭抬高30 degree",
     "D": "病人PaCO2維持在30~35 mmHg",
-    "E": "維持腦部灌流壓cerebral perfusion pressure ≧ 60 mmHg Page"
+    "E": "維持腦部灌流壓cerebral perfusion pressure ≧ 60 mmHg"
    },
    "answer": "A",
    "scoring": "exact",
@@ -770,7 +770,7 @@
     "B": "僅2+3",
     "C": "僅2+3+4",
     "D": "僅1+2+3",
-    "E": "1+2+3+4 Page"
+    "E": "1+2+3+4"
    },
    "answer": "E",
    "scoring": "exact",
@@ -1211,7 +1211,7 @@
    "western_year": 2014,
    "question": "下列關於反轉 (reversing) 非去極化肌肉鬆弛劑的敘述，何者正確？",
    "options": {
-    "A": "為了降低cardiovascular change，atropine應與neostigmine同時給予 Page",
+    "A": "為了降低cardiovascular change，atropine應與neostigmine同時給予",
     "B": "Glycopyrrolate應與edrophonium同時給予",
     "C": "Atropine不會產生中樞系統興奮作用",
     "D": "原則上，要給予muscle relaxant reversal之前，最好確認 Train of four (TOF)至少有出現2~3個刺激反應"
@@ -1299,7 +1299,7 @@
    "western_year": 2014,
    "question": "關於肌無力症（Myasthenia Gravis）的麻醉考量，下列敘述何者最不恰當？",
    "options": {
-    "A": "術前應做肺功能測驗。 Page",
+    "A": "術前應做肺功能測驗。",
     "B": "如使用去極化肌肉鬆弛劑，常需要較大的劑量。",
     "C": "使用周邊神經刺激器,常無法有效監測神經肌肉功能。",
     "D": "術前須停止原來使用之抗乙醯膽鹼水解酶藥物（Cholinesterase inhibitor）。",
@@ -1390,7 +1390,7 @@
    "question": "有關麻醉中體溫的變化，何者敘述最不恰當？",
    "options": {
     "A": "區域麻醉也要監測體溫",
-    "B": "麻醉中常見的體溫異常，hypothermia多於hyperthermia Page",
+    "B": "麻醉中常見的體溫異常，hypothermia多於hyperthermia",
     "C": "Core temperature比較穩定，可用的測量部位包括pulmonary artery, tympanic membrane, nasopharynx, distal part of esophagus",
     "D": "在malignant hyperthermia發生時,緊急處理最好以rectal temperature監測",
     "E": "麻醉中低體溫會增加手術感染率"
@@ -1479,7 +1479,7 @@
    "question": "若一位10個月大、體重8公斤的嬰兒，術前紅血球容積(hematocrit)為40%，可容許之術後紅血球容積為 30%，則最大可容許失血量(maximal allowable blood loss, MABL)約為何? (3至12月大嬰兒之全身血量約為 80 mL/Kg)",
    "options": {
     "A": "100 mL",
-    "B": "160 mL Page",
+    "B": "160 mL",
     "C": "220 mL",
     "D": "280 mL",
     "E": "340 mL"
@@ -1566,7 +1566,7 @@
    "id": 88,
    "year": 103,
    "western_year": 2014,
-   "question": "一位早產32週之新生兒，被送入手術室行左側先天性橫膈疝氣(congenital diaphragmatic hernia)修補術。在 Page 清醒插管後，使用sevoflurane、O2和fentanyl上麻醉。20分鐘後，麻醉醫師突然發現氣擠不進去，SpO2掉 到65%，心跳下降到50 beats/min。下列何種處理方式最恰當?",
+   "question": "一位早產32週之新生兒，被送入手術室行左側先天性橫膈疝氣(congenital diaphragmatic hernia)修補術。在 清醒插管後，使用sevoflurane、O2和fentanyl上麻醉。20分鐘後，麻醉醫師突然發現氣擠不進去，SpO2掉 到65%，心跳下降到50 beats/min。下列何種處理方式最恰當?",
    "options": {
     "A": "將氣管內管外拔一些，確定位置在carina之上",
     "B": "使用positive end-expiratory pressure (PEEP) 和給予利尿劑furosemide",
@@ -1644,7 +1644,7 @@
     "B": "若術前有長期使用tricyclic antidepressants的病患，麻醉當中會減少對麻醉藥的需求量",
     "C": "若使用在心臟缺氧或心臟代償功能不良的病患會產生心肌病變",
     "D": "副作用包括腹瀉、聽力障礙、抽筋",
-    "E": "其副作用在心電圖上可能看到的異常變化為PR間隔縮短 Page"
+    "E": "其副作用在心電圖上可能看到的異常變化為PR間隔縮短"
    },
    "answer": "A",
    "scoring": "exact",
@@ -1732,7 +1732,7 @@
     "A": "除藥物治療外，需常規性合併介入性神經阻斷，以求達到良好止痛效果",
     "B": "Celiac plexus neurolysis 其原理是由於上腹部癌症疼痛的刺激，來自於T5-T12 的內臟神經的交感神經傳 入纖維和副交感神經傳出纖維聚集在celiac plexus",
     "C": "Celiac plexus 神經節位在L1脊椎體旁邊，可注射酒精或7%-12% phenol 將其傳導阻斷",
-    "D": "對神經病變性疼痛，介入性神經阻斷(ablation)治療，在隨機控制變項的研究中(Randomized controlled trials)，顯示只有短期效果，沒有長期效果 Page"
+    "D": "對神經病變性疼痛，介入性神經阻斷(ablation)治療，在隨機控制變項的研究中(Randomized controlled trials)，顯示只有短期效果，沒有長期效果"
    },
    "answer": "A",
    "scoring": "exact",

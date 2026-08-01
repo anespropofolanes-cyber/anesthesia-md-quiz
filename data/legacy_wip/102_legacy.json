@@ -89,7 +89,7 @@
    "western_year": 2013,
    "question": "下列有關小兒呼吸道的敘述何者“正確”?",
    "options": {
-    "A": "正常發育之三歲兒童合適的氣管內管為6號uncuffed endotracheal tube 2013 麻專筆試",
+    "A": "正常發育之三歲兒童合適的氣管內管為6號uncuffed endotracheal tube",
     "B": "嬰兒的larynx 呈funnel shape，最狹窄部位為vocal folds開口",
     "C": "新生兒進行氣管內插管時常用curved blade",
     "D": "會厭(epiglottis)的形狀與成人不同，為C Shape",
@@ -159,7 +159,7 @@
    "id": 9,
    "year": 102,
    "western_year": 2013,
-   "question": "今天晚上值班，產房通知有一名已知懷有先天性橫膈膜疝氣(congenital diaphragmatic hernia CDH)胎兒之產 婦安胎失敗進入規則宮縮，預計於今晚生產，小兒外科醫師將於生產後立即進行先天性橫膈膜疝氣修補手 術，有關CDH麻醉處置的敘述何者正確? 2013 麻專筆試",
+   "question": "今天晚上值班，產房通知有一名已知懷有先天性橫膈膜疝氣(congenital diaphragmatic hernia CDH)胎兒之產 婦安胎失敗進入規則宮縮，預計於今晚生產，小兒外科醫師將於生產後立即進行先天性橫膈膜疝氣修補手 術，有關CDH麻醉處置的敘述何者正確?",
    "options": {
     "A": "病童進開刀房後先進行聽診，確認有呼吸音(無論單側或雙側)後，給予ketamine 1mg/kg，atropine 0.2 mg及rocuronium 1mg/kg，mask bagging，因血氧濃度常無法上升至99%，因此血氧濃度大於90%後即 可進行氣管內插管",
     "B": "為保持較低的代謝需求，可以讓病童維持較低的體溫(mild hypothermia)",
@@ -236,7 +236,7 @@
     "B": "血液纖維溶解(fibrinolysis)增加",
     "C": "腹部脹氣(ileus)可能降低",
     "D": "心肺氧氣供應增加",
-    "E": "可能有一半的機會發生慢性術後疼痛 2013 麻專筆試"
+    "E": "可能有一半的機會發生慢性術後疼痛"
    },
    "answer": "E",
    "scoring": "exact",
@@ -324,7 +324,7 @@
    "options": {
     "A": "其作用機轉可能與改變脊椎痛覺刺激 (nociceptive impulse) 有關",
     "B": "其作用機轉可能與釋放內生性enkephalins有關",
-    "C": "可減少鴉片類藥物的使用量 2013 麻專筆試",
+    "C": "可減少鴉片類藥物的使用量",
     "D": "可作為labor pain的有效止痛",
     "E": "可作為止痛藥物使用的輔佐 (adjuncts) 療法"
    },
@@ -410,7 +410,7 @@
    "id": 23,
    "year": 102,
    "western_year": 2013,
-   "question": "2013 麻專筆試 Axillary block 的超音波短軸圖如下，請問箭頭處為何構造: Exhibit:",
+   "question": "Axillary block 的超音波短軸圖如下，請問箭頭處為何構造:",
    "options": {
     "A": "Median nerve",
     "B": "Ulnar nerve",
@@ -452,7 +452,7 @@
    "question": "下列敘述何者最不恰當?",
    "options": {
     "A": "急性過度換氣造成呼吸性鹼血症可以引發低血壓",
-    "B": "液體復甦，crystalloids 與 colloids的爭議尚未取得定論 2013 麻專筆試",
+    "B": "液體復甦，crystalloids 與 colloids的爭議尚未取得定論",
     "C": "低心輸出量與肝衰竭兩者乳酸都增加，其造成的代謝性酸中毒機轉一致",
     "D": "為了減少輸入液體的水份量，在traumatic brain injury 或 hemorrhagic shock，可以使用hypertonic saline",
     "E": "糖尿病患者的胃排空時間可能延長"
@@ -617,7 +617,7 @@
     "B": "降低systemic vascular resistance",
     "C": "維持sinus rhythm",
     "D": "維持心肌收縮力",
-    "E": "低血壓時，給予norepinephrine 2013 麻專筆試"
+    "E": "低血壓時，給予norepinephrine"
    },
    "answer": "B",
    "scoring": "exact",
@@ -702,7 +702,7 @@
    "western_year": 2013,
    "question": "有關呼吸道雷射手術之麻醉，何者正確?",
    "options": {
-    "A": "FiO2 維持在80%以上，減少缺氧 2013 麻專筆試",
+    "A": "FiO2 維持在80%以上，減少缺氧",
     "B": "最好合併使用N2O以降低FiO2",
     "C": "Jet ventilation較傳統麻醉方式併發症較少",
     "D": "氣管內管可以鋁紙纏繞保護",
@@ -789,7 +789,7 @@
    "id": 44,
    "year": 102,
    "western_year": 2013,
-   "question": "2013 麻專筆試 下列何者不是postoperative nausea and vomiting (PONV)的危險因子?",
+   "question": "下列何者不是postoperative nausea and vomiting (PONV)的危險因子?",
    "options": {
     "A": "女性 (female)",
     "B": "抽煙 (smoker)",
@@ -864,7 +864,7 @@
    "options": {
     "A": "當傷及第五胸椎(T5)以上時，常見心跳過慢(bradycardia)及低血壓(hypotension)。",
     "B": "當傷及第四頸椎(C4)時，不用擔心急性呼吸窘迫(acute respiratory distress)之發生，因為橫膈膜功能依 然完好。",
-    "C": "預防腦部血管痙孿(vasospasm) 發生之 ”triple H” therapy包括：hypertension, hypervolemia和 hyperventilation。 2013 麻專筆試",
+    "C": "預防腦部血管痙孿(vasospasm) 發生之 ”triple H” therapy包括：hypertension, hypervolemia和 hyperventilation。",
     "D": "硬腦膜下腔出血(subdural hemorrhage)之病人，可能有高達70%發生腦部血管痙孿(vasospasm)，造成 高死亡率。",
     "E": "蛛膜下腔出血(subarachnoid hemorrhage)手術麻醉誘導時，應維持收縮壓大於140毫米汞柱以維持腦灌 注壓(CPP)。"
    },
@@ -1026,7 +1026,7 @@
    "options": {
     "A": "維持術中體溫正常",
     "B": "維持收縮壓約80至100 mmHg",
-    "C": "執行氣管內管插管時，應使用in-line cervical stabilization 2013 麻專筆試",
+    "C": "執行氣管內管插管時，應使用in-line cervical stabilization",
     "D": "打central venous catheter 時，femoral或subclavian 較internal jugular vein 合適",
     "E": "以傳統喉頭鏡執行氣管內管插管時，頸圈(cervical collar)不可移除"
    },
@@ -1111,7 +1111,7 @@
    "id": 62,
    "year": 102,
    "western_year": 2013,
-   "question": "靜脈麻醉藥對於腦部血流(cerebral blood flow)及腦部代謝率(cerebral metabolic rate)的影響, 下列何者較不 適當? 2013 麻專筆試",
+   "question": "靜脈麻醉藥對於腦部血流(cerebral blood flow)及腦部代謝率(cerebral metabolic rate)的影響, 下列何者較不 適當?",
    "options": {
     "A": "Midazolam(0.15mg/kg) 比起ketamine(3mg/kg)會降低腦部代謝率",
     "B": "Dexmedetomidine(1.2ng/ml target infusion)比起ketamine(3mg/kg)降低更多的腦部血流",
@@ -1200,7 +1200,7 @@
    "id": 67,
    "year": 102,
    "western_year": 2013,
-   "question": "2013 麻專筆試 Muscarinic anticholinergic drug 的敘述, 下列何者最不適當?",
+   "question": "Muscarinic anticholinergic drug 的敘述, 下列何者最不適當?",
    "options": {
     "A": "Glycopyrrolate的藥效最長",
     "B": "Atropine的antisialagogue效果最好",
@@ -1271,7 +1271,7 @@
    "id": 71,
    "year": 102,
    "western_year": 2013,
-   "question": "圖中為經靜脈給予Rocuronium 1.2mg/kg後以Train-of-four(TOF)監測神經肌肉傳導之恢復情況，完全阻斷神 經肌肉傳導後3分鐘，再經靜脈投予箭號所指藥物，請問最可能是何種藥物與劑量? Exhibit: 2013 麻專筆試",
+   "question": "圖中為經靜脈給予Rocuronium 1.2mg/kg後以Train-of-four(TOF)監測神經肌肉傳導之恢復情況，完全阻斷神 經肌肉傳導後3分鐘，再經靜脈投予箭號所指藥物，請問最可能是何種藥物與劑量?",
    "options": {
     "A": "Neostigmine 0.04mg/kg",
     "B": "Neostigmine 0.08mg/kg",
@@ -1316,7 +1316,7 @@
     "B": "Dexmedetomidine 是高選擇性α2 agonist，兼具有鎮靜止痛效果，臨床使用劑量不會發生呼吸抑制",
     "C": "Etomidate對腎上腺影響主要透過抑制 11β-hydroxylase",
     "D": "Propofol,Thiopental 與Diazepam 均作用於GABAB受體",
-    "E": "Droperidol 即使在低劑量下(0.6-1.2mg)仍有良好止吐效果 2013 麻專筆試"
+    "E": "Droperidol 即使在低劑量下(0.6-1.2mg)仍有良好止吐效果"
    },
    "answer": "D",
    "scoring": "exact",
@@ -1402,7 +1402,7 @@
    "question": "下列有關術中酸鹼異常( acid–base abnormalities)的敘述何者正確？",
    "options": {
     "A": "肺栓塞引起血中二氧化碳濃度升高，是因為left-to-right shunt增加所引起",
-    "B": "當血中二氧化碳濃度急速增加10mmHg時，血中的bicarbonate會增加約10 mEq/L 2013 麻專筆試",
+    "B": "當血中二氧化碳濃度急速增加10mmHg時，血中的bicarbonate會增加約10 mEq/L",
     "C": "輸注過多的normal saline會引起metabolic alkalosis",
     "D": "所謂的Anion gap等於Na+- (Cl- + HCO3- )，正常值約為12 ± 4 mEq/L",
     "E": "Diarrhea與mineralocorticoid excess常常是引起metabolic acidosis的原因"
@@ -1476,7 +1476,7 @@
     "A": "Apnea–hypopnea index (AHI) > 30為嚴重的OSA",
     "B": "50歲以上的男性有Cushing disease病史，有Marfan syndrome病史，或者有抽菸喝酒習慣，都比較容易 發生OSA",
     "C": "診斷OSA最重要也最準確的工具為STOP-Bang questionnaire",
-    "D": "盡量避免使用sedative premedication 2013 麻專筆試",
+    "D": "盡量避免使用sedative premedication",
     "E": "插管時盡量採取rapid sequence，以避免吸入性肺炎的發生"
    },
    "answer": "C",
@@ -1542,7 +1542,7 @@
    "id": 86,
    "year": 102,
    "western_year": 2013,
-   "question": "某病患的arterial pressure waveform如圖所示，此病患最可能為下列哪一選項的狀況？ Exhibit: 2013 麻專筆試",
+   "question": "某病患的arterial pressure waveform如圖所示，此病患最可能為下列哪一選項的狀況？",
    "options": {
     "A": "Aortic stenosis",
     "B": "Hypertrophic cardiomyopathy",
@@ -1605,7 +1605,7 @@
     "B": "右心室功能不佳(RV dysfuction)之病患較易發生此現象",
     "C": "正壓呼吸可以降低右心室之後負荷(RV afterload)",
     "D": "正壓呼吸可以造成心室中隔左移",
-    "E": "左心室可張性(distensibility)受到限制 2013 麻專筆試"
+    "E": "左心室可張性(distensibility)受到限制"
    },
    "answer": "C",
    "scoring": "exact",
@@ -1690,7 +1690,7 @@
    "western_year": 2013,
    "question": "下列有關神經阻斷 (nerve block) 的敘述，何者為非？",
    "options": {
-    "A": "在超音波導引下 (ultrasound-guided) 可以增加神經阻斷的成功率。 2013 麻專筆試",
+    "A": "在超音波導引下 (ultrasound-guided) 可以增加神經阻斷的成功率。",
     "B": "要計算局部麻醉藥物的總劑量以免中毒。",
     "C": "神經毒性 (neurotoxicity) 和針頭直接造成的創傷 (direct needle trauma) 是神經阻斷主要的併發症。",
     "D": "只要小心執行肌間溝阻斷 (interscalene block)，即可避免橫膈麻痺 (diaphragmatic paresis) 的發生。",
@@ -1766,7 +1766,7 @@
     "B": "靜脈注射後，Fetanyl 與血漿蛋白質的結合比例高於 Alfentanil",
     "C": "Normeperidine 的擴清半衰期較 meperidine 短",
     "D": "腎臟在 Morphine 的肝外代謝（extra-hepatic metabolism）扮演著重要角色",
-    "E": "Fentanyl 的主要代謝路徑為 oxidative N-dealkylation、O-demethylation、aromatic-hydroxylation 及 ether glucuronide formation 2013 麻專筆試"
+    "E": "Fentanyl 的主要代謝路徑為 oxidative N-dealkylation、O-demethylation、aromatic-hydroxylation 及 ether glucuronide formation"
    },
    "answer": "D",
    "scoring": "exact",

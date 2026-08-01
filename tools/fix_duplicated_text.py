@@ -25,9 +25,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TARGETS = [ROOT / 'data' / 'questions' / '109_written.json']
 
-MIN_RUN = 8                           # 重複片段至少這麼長才算數
+# 門檻壓到 2 個字，才抓得到「例外？ 外？」「執行 執行」這種短疊字。夠安全的原因是
+# acceptable() 要求重複的兩份之間隔著空白——中文正常書寫不會這樣斷開。
+MIN_RUN = 2
 HAN = re.compile(r'[一-鿿]')
-DUP = re.compile(r'(.{%d,}?)\s*\1' % MIN_RUN)
+DUP = re.compile(r'(.{%d,}?)\s+\1' % MIN_RUN)   # 兩份之間必須隔著空白
 
 
 def acceptable(text: str, m) -> bool:

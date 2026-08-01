@@ -85,7 +85,7 @@
     "A": "肺泡低血氧是造成HPV最主要原因。",
     "B": "Halothane, Isoflurane, Sevoflurane, Desflurane皆可顯著抑制HPV 。",
     "C": "注射性麻醉藥對HPV影響極小。",
-    "D": "HPV可減少shunt的形成。 Page"
+    "D": "HPV可減少shunt的形成。"
    },
    "answer": "B",
    "scoring": "exact",
@@ -214,7 +214,7 @@
    "id": 10,
    "year": 104,
    "western_year": 2015,
-   "question": "62歲男性因慢性腎衰竭每周一、三、五下午固定接受血液透析。本周五早上因肱骨骨折入開刀房欲進行復 位固定術。下列何種異常最不可能發現? Page",
+   "question": "62歲男性因慢性腎衰竭每周一、三、五下午固定接受血液透析。本周五早上因肱骨骨折入開刀房欲進行復 位固定術。下列何種異常最不可能發現?",
    "options": {
     "A": "代謝性酸中毒(metabolic acidosis)。",
     "B": "高血鉀(hyperkalemia)。",
@@ -279,7 +279,7 @@
    "id": 13,
    "year": 104,
    "western_year": 2015,
-   "question": "下列四張高解像度胸部電腦斷層影像中(注意箭頭處的變化)，為實驗狗在不同濃度的halothane麻醉狀態,哪 一張圖的狗處在最深的麻醉狀態? Page",
+   "question": "下列四張高解像度胸部電腦斷層影像中(注意箭頭處的變化)，為實驗狗在不同濃度的halothane麻醉狀態,哪 一張圖的狗處在最深的麻醉狀態?",
    "options": {
     "A": "A。",
     "B": "B。",
@@ -303,7 +303,7 @@
    "id": 14,
    "year": 104,
    "western_year": 2015,
-   "question": "下圖是經典的麻醉機呼吸管路配置圖，ABCD四個開口中 哪一個是做為 fresh gas flow 的入口? Page",
+   "question": "下圖是經典的麻醉機呼吸管路配置圖，ABCD四個開口中 哪一個是做為 fresh gas flow 的入口?",
    "options": {
     "A": "A。",
     "B": "B。",
@@ -355,7 +355,7 @@
     "B": "ALPHA 2。",
     "C": "BETA 1。",
     "D": "BETA 2。",
-    "E": "DELTA。 Page"
+    "E": "DELTA。"
    },
    "answer": "B",
    "scoring": "exact",
@@ -483,7 +483,7 @@
    "id": 22,
    "year": 104,
    "western_year": 2015,
-   "question": "Page 關於麻醉之醫療品質與病人安全，以下何者為非?",
+   "question": "關於麻醉之醫療品質與病人安全，以下何者為非?",
    "options": {
     "A": "麻醉團隊在促進醫療品質與病人安全上，舉足輕重。",
     "B": "醫療品質與病人安全的提升，建立在對臨床成效之監測。",
@@ -548,7 +548,7 @@
    "id": 25,
    "year": 104,
    "western_year": 2015,
-   "question": "下列何者非下圖之鑑別診斷? Page",
+   "question": "下列何者非下圖之鑑別診斷?",
    "options": {
     "A": "Rebreathing",
     "B": "Hypoventilation",
@@ -681,7 +681,7 @@
    "id": 31,
    "year": 104,
    "western_year": 2015,
-   "question": "有關糖尿病病人的敘述，何者最正確? Page",
+   "question": "有關糖尿病病人的敘述，何者最正確?",
    "options": {
     "A": "診斷空腹血醣 >90 mg/dl",
     "B": "第一型糖尿病多為老人",
@@ -834,7 +834,7 @@
    "id": 38,
    "year": 104,
    "western_year": 2015,
-   "question": "Page 關於截石位(lithotomy position)之敘述，何者錯誤?",
+   "question": "關於截石位(lithotomy position)之敘述，何者錯誤?",
    "options": {
     "A": "可以影響肺順應性(compliance)及潮氣量(tidal volume)。",
     "B": "相較其他擺位，下肢腔室症候群(compartment syndrome)的發生率以截石位最低。",
@@ -904,7 +904,7 @@
    "options": {
     "A": "cd",
     "B": "bcd",
-    "C": "bd Page",
+    "C": "bd",
     "D": "acd",
     "E": "abcd"
    },
@@ -1060,7 +1060,7 @@
    "options": {
     "A": "檢測脊髓背側之功能完整性(integrity of the dorsal spinal cord)",
     "B": "若是SSEP(somatosensory evoked potentials)已經監測，則不必再做wake up test",
-    "C": "為了評估上肢感覺功能 Page",
+    "C": "為了評估上肢感覺功能",
     "D": "為了評估病人是否有術中甦醒(recall)",
     "E": "此測試與靜脈空氣栓塞(venous air embolism)的發生有"
    },
@@ -1128,7 +1128,7 @@
     "B": "腹水程度。",
     "C": "血中膽色素(Bilirubin)。",
     "D": "血中白蛋白(Albumin)。",
-    "E": "腦病變嚴重度。 Page"
+    "E": "腦病變嚴重度。"
    },
    "answer": "C",
    "scoring": "exact",
@@ -1279,7 +1279,7 @@
    "western_year": 2015,
    "question": "有關肝臟移植的麻醉準備及方式，下列何者正確？",
    "options": {
-    "A": "目前使用CTP (Child-Turcotte-Pugh)分級，包含肌酸酐(creatinine)、膽紅素(bilirubin)及INR (international Page normalized ratio)三項來排列移植等待名單。",
+    "A": "目前使用CTP (Child-Turcotte-Pugh)分級，包含肌酸酐(creatinine)、膽紅素(bilirubin)及INR (international normalized ratio)三項來排列移植等待名單。",
     "B": "術前須評估肝衰竭病人的腦病變、腦壓升高及肺部合併症；肝硬化引起的心肌病變(cirrhotic cardiomyopathy)主要影響收縮功能。",
     "C": "術中建議合併使用笑氣(N2O)以減少propofol、吸入性麻醉劑(inhalation anesthetics)及鴉片類藥物 (opioids)的劑量。",
     "D": "再灌流(reperfusion)期是最危險的時候，可能會有心律不整、嚴重低血壓及高血鉀。"
@@ -1348,7 +1348,7 @@
     "B": "心輸出(Cardiac output)增加40~50%。",
     "C": "血管內容積(Intravascular volume)增加40%。",
     "D": "每分鐘換氣量(Minute ventilation)增加50%。",
-    "E": "肺活量(Vital capacity)不變。 Page"
+    "E": "肺活量(Vital capacity)不變。"
    },
    "answer": "A",
    "scoring": "exact",
@@ -1429,7 +1429,7 @@
    "id": 65,
    "year": 104,
    "western_year": 2015,
-   "question": "Page 一位約1,500公克的早產兒(GA:28wk)因為自發性氣胸進到開刀房進行開胸手術，術中因出血Hct掉到20%， 如果想要將Hct拉到35%，應輸注約多少mL的濃縮紅血球輸液(假設PRBCs Hct約為60%, Preterm estimated blood volume: 110 ml/kg)？",
+   "question": "一位約1,500公克的早產兒(GA:28wk)因為自發性氣胸進到開刀房進行開胸手術，術中因出血Hct掉到20%， 如果想要將Hct拉到35%，應輸注約多少mL的濃縮紅血球輸液(假設PRBCs Hct約為60%, Preterm estimated blood volume: 110 ml/kg)？",
    "options": {
     "A": "27 ml PRBCs",
     "B": "30 ml PRBCs",
@@ -1498,7 +1498,7 @@
    "options": {
     "A": "開刀時間小於1小時。",
     "B": "使用femoral nerve block來減輕術後疼痛。",
-    "C": "病患在家使用CPAP。 Page",
+    "C": "病患在家使用CPAP。",
     "D": "適當的使用ibuprofen來處理術後疼痛。"
    },
    "answer": "D",
@@ -1648,7 +1648,7 @@
    "options": {
     "A": "周邊靜脈 6 mg,重復劑量 12 mg",
     "B": "中央靜脈 6 mg, 重復劑量 6 mg",
-    "C": "使用含有Theophylline 藥物, 9 mg 周邊靜脈 Page",
+    "C": "使用含有Theophylline 藥物, 9 mg 周邊靜脈",
     "D": "使用 Dipyridamole 藥物,2mg 周邊靜脈"
    },
    "answer": "B",
@@ -1795,7 +1795,7 @@
    "western_year": 2015,
    "question": "下列關於癌症引起的上腹部疼痛之介入性疼痛治療，下列敘述何者為非?",
    "options": {
-    "A": "介入性疼痛治療為WHO止痛階梯(WHO analgesic ladder)的第四步。 Page",
+    "A": "介入性疼痛治療為WHO止痛階梯(WHO analgesic ladder)的第四步。",
     "B": "腹神經叢解離術(celiac plexus neurolysis)僅可用於胰臟癌引起的疼痛。",
     "C": "腹瀉和低血壓是腹神經叢解離術最常見之副作用。",
     "D": "酒精和酚(phenol) 都是適合的神經解離藥物。",
@@ -1928,7 +1928,7 @@
    "id": 88,
    "year": 104,
    "western_year": 2015,
-   "question": "28歲女性預行右手手術，您將採用supraclavicular nerve block，但病人相當擔心氣胸風險，您向她解釋一般 Page 而言，氣胸的發生比例約為多少？",
+   "question": "28歲女性預行右手手術，您將採用supraclavicular nerve block，但病人相當擔心氣胸風險，您向她解釋一般 而言，氣胸的發生比例約為多少？",
    "options": {
     "A": "0.1-0.3%",
     "B": "0.2-1%",
@@ -1999,7 +1999,7 @@
     "A": "低體溫會縮短ACT。",
     "B": "血小板不足會縮短ACT。",
     "C": "手術壓力會延長ACT。",
-    "D": "血小板溶解會縮短ACT。 Page",
+    "D": "血小板溶解會縮短ACT。",
     "E": "血液稀釋會縮短ACT。"
    },
    "answer": "D",
@@ -2129,7 +2129,7 @@
     "B": "當病患的胸內壓增加時, 其PCWP < LVEDP",
     "C": "若病患有mitral valve stenosis時, 其PCWP < LVEDP",
     "D": "若病患之肺血管阻力(pulmonary vascular resistance)增加時, 其PCWP < LVEDP",
-    "E": "若病患有嚴重的left ventricle hypertrophy, 其 PCWP < LVEDP Page"
+    "E": "若病患有嚴重的left ventricle hypertrophy, 其 PCWP < LVEDP"
    },
    "answer": "E",
    "scoring": "exact",

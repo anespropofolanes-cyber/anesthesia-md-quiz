@@ -130,7 +130,7 @@
     "B": "Calcium channel blocker不會抑制腎臟autoregulation 的作用，但大部分麻醉藥物則會抑制 autoregulation 的作用。",
     "C": "尿液的生成速率和autoregulation並無直接相關，而是腎小管的水分再吸收決定。",
     "D": "腎臟的血管阻力主要是由腎絲球前輸入動脈(preglomerular afferent arteriole)的阻力決定。",
-    "E": "當病患合併有糖尿病腎病變時，autoregulation反應可能會消失。 Page #"
+    "E": "當病患合併有糖尿病腎病變時，autoregulation反應可能會消失。"
    },
    "answer": "B",
    "scoring": "exact",
@@ -193,7 +193,7 @@
    "id": 9,
    "year": 106,
    "western_year": 2017,
-   "question": "Page # 下列藥物的藥理作用或副作用，受腎臟功能異常影響最小的是？",
+   "question": "下列藥物的藥理作用或副作用，受腎臟功能異常影響最小的是？",
    "options": {
     "A": "Alfentanil",
     "B": "Pancuronium",
@@ -206,8 +206,8 @@
    "answer_source": "命題端檔案（每題附教科書出處、難易度與分類代碼），非學會公開公告",
    "answer_tier": "examiner",
    "source": "106_written_Q9",
-   "reference": "A",
-   "difficulty": "2014 筆試題庫"
+   "category": "B1",
+   "category_raw": "B1"
   },
   {
    "id": 10,
@@ -256,7 +256,7 @@
    "id": 12,
    "year": 106,
    "western_year": 2017,
-   "question": "下列何種吸入性麻醉藥物，其blood-gas partition coefficient是最低的? Page #",
+   "question": "下列何種吸入性麻醉藥物，其blood-gas partition coefficient是最低的?",
    "options": {
     "A": "Nitrous oxide",
     "B": "Enflurane",
@@ -324,7 +324,7 @@
    "western_year": 2017,
    "question": "關於opioid μ receptor，下列敘述何者為非？",
    "options": {
-    "A": "是一種G-protein-coupled receptor。 Page #",
+    "A": "是一種G-protein-coupled receptor。",
     "B": "其agonist會刺激acetylcholine的分泌。",
     "C": "其agonist在spinal和supra-spinal都有止痛作用。",
     "D": "其antagonist會增加sedation作用。",
@@ -392,7 +392,7 @@
    "options": {
     "A": "Ketamine",
     "B": "Midazolam",
-    "C": "Fentanyl Page #",
+    "C": "Fentanyl",
     "D": "Thiopental",
     "E": "Propofol"
    },
@@ -509,7 +509,7 @@
    "options": {
     "A": "低血壓 (hypotension)。",
     "B": "甲基藍 (methylene blue)。",
-    "C": "Intraaortic balloon pump(IABP)。 Page #",
+    "C": "Intraaortic balloon pump(IABP)。",
     "D": "環境光線 (ambient light)。",
     "E": "Carboxyhemoglobinemia。"
    },
@@ -576,7 +576,7 @@
     "A": "Pulse contour監測方式可以提供continuous, beat-to-beat的cardiac output monitoring。",
     "B": "必須在機械通氣 (controlled mechanical ventilation) 且tidal volume至少 8ml/kg的情況下使用。",
     "C": "Severe tachycardia or dysrhythmia 不會影響數據的準確性。",
-    "D": "Stroke volume variation (SVV) 可用來預測輸液反應性 (fluid responsiveness)。 Page #"
+    "D": "Stroke volume variation (SVV) 可用來預測輸液反應性 (fluid responsiveness)。"
    },
    "answer": "C",
    "scoring": "exact",
@@ -846,7 +846,7 @@
    "options": {
     "A": "鈣離子阻斷劑",
     "B": "beta-blocker",
-    "C": "angiotensin-converting enzyme inhibitors (ACEI) Page #",
+    "C": "angiotensin-converting enzyme inhibitors (ACEI)",
     "D": "clonidine"
    },
    "answer": "C",
@@ -912,7 +912,7 @@
     "B": "利用fiberoptic bronchoscopy檢查double-lumen tube的位置。",
     "C": "於non-dependent lung 使用CPAP。",
     "D": "於dependent lung 使用 PEEP。",
-    "E": "請外科將non-dependent lung的肺動脈夾起來，降低V/Q mismatch。 Page #"
+    "E": "請外科將non-dependent lung的肺動脈夾起來，降低V/Q mismatch。"
    },
    "answer": "E",
    "scoring": "exact",
@@ -1226,8 +1226,7 @@
    "source": "106_written_Q56",
    "category_raw": "C11",
    "category": "C11",
-   "reference": "Chapter 85 Page 2525, 2537; Chapter16, Q40",
-   "difficulty": "分類：C11"
+   "reference": "Chapter 85 Page 2525, 2537; Chapter16, Q40"
   },
   {
    "id": 57,
@@ -1248,8 +1247,7 @@
    "source": "106_written_Q57",
    "category_raw": "C13",
    "category": "C13",
-   "reference": "Chapter 87 Page 2590",
-   "difficulty": "分類：C13"
+   "reference": "Chapter 87 Page 2590"
   },
   {
    "id": 58,
@@ -1516,7 +1514,7 @@
    "id": 70,
    "year": 106,
    "western_year": 2017,
-   "question": "Page # 關於Schonfeld fat embolism syndrome index，下列敘述何者正確?",
+   "question": "關於Schonfeld fat embolism syndrome index，下列敘述何者正確?",
    "options": {
     "A": "Diffuse alveolar infiltrates 是佔分最重的一項指標(sign)。",
     "B": "Hypoxemia: 當FiO2 100% 時，PaO2仍舊小於150 mmHg，為其中一項指標。",
@@ -1585,7 +1583,7 @@
    "id": 73,
    "year": 106,
    "western_year": 2017,
-   "question": "Page # 有關於肌肉鬆弛劑(muscle relaxants)於小兒麻醉使用上的敘述，下列敘述何者為非?",
+   "question": "有關於肌肉鬆弛劑(muscle relaxants)於小兒麻醉使用上的敘述，下列敘述何者為非?",
    "options": {
     "A": "使用succinylcholine時，因為有引起嚴重併發症可能性，要特別小心。",
     "B": "在選擇使用非去極化肌肉鬆弛劑時，藥物副作用及duration是主要考慮因素。",
@@ -1651,7 +1649,7 @@
    "id": 76,
    "year": 106,
    "western_year": 2017,
-   "question": "有關於Maternal-fetal drug transfer的敘述，下列敘述何者為非? Page #",
+   "question": "有關於Maternal-fetal drug transfer的敘述，下列敘述何者為非?",
    "options": {
     "A": "大部分molecular weight 小於1000 daltons藥物，會經由diffusion造成maternal-fetal exchange。",
     "B": "高分子量且低脂溶性非去極化肌肉鬆弛劑，不易通過胎盤。",
@@ -1847,7 +1845,7 @@
    "id": 85,
    "year": 106,
    "western_year": 2017,
-   "question": "根據ACLS guideline，血行動力學與生命徵狀穩定狀態下，narrow QRS tachycardia 治療，下列選項，何者 Page # 不建議優先使用？",
+   "question": "根據ACLS guideline，血行動力學與生命徵狀穩定狀態下，narrow QRS tachycardia 治療，下列選項，何者 不建議優先使用？",
    "options": {
     "A": "給予非同步去顫電擊(non-synchronized defibrillation)。",
     "B": "給予 beta-blockers 或calcium channel blockers。",
@@ -1913,7 +1911,7 @@
    "western_year": 2017,
    "question": "病人在恢復室發生少尿(oligouria)，最常見的原因是?",
    "options": {
-    "A": "心肌梗塞(myocardial infarction) Page #",
+    "A": "心肌梗塞(myocardial infarction)",
     "B": "急性腎小管壞死(acute tubular necrosis)",
     "C": "腎血管阻塞(renal vascular obstruction)",
     "D": "低血量(hypovolemia)"
@@ -1980,7 +1978,7 @@
     "B": "Anterior spinal artery供應脊髓前2/3，而posterior spinal arteries供應脊髓後1/3的血流。",
     "C": "Anterior spinal artery源於vertebral artery。",
     "D": "Posterior spinal artery源於posterior cerebral artery。",
-    "E": "Artery of Adamkiewicz從T7到L4間由左側椎間孔進入，供應胸椎下段與腰椎上段的脊髓。 Page #"
+    "E": "Artery of Adamkiewicz從T7到L4間由左側椎間孔進入，供應胸椎下段與腰椎上段的脊髓。"
    },
    "answer": "D",
    "scoring": "exact",

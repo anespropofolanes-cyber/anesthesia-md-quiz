@@ -110,10 +110,10 @@
    "year": 109,
    "question": "有關於麻醉深度監測方面敘述，下列何者為非？",
    "options": {
-    "A": "以EEG 為理論基礎的監測器有bispectral index（BIS）、Patient Safety Index（PSI）、 Narcotrend、Entropy。",
-    "B": "麻醉下確保病人無意識之Patient Safety Index（PSI） 值是40-60。",
-    "C": "Entropy 數值有值有response entropy（RE）及state entropy（SE），當病人變得更沒意識時， RE 會下降的比 的比SE 快。",
-    "D": "BIS 值下降通常與意識喪失有相關性，但是有三個麻醉藥例外，分別是ketamine、 nitrousoxide、dexmedetomidine。"
+    "A": "以EEG 為理論基礎的監測器有bispectral index（BIS）、Patient Safety Index（PSI）、 Narcotrend、Entropy。",
+    "B": "麻醉下確保病人無意識之Patient Safety Index（PSI） 值是40-60。",
+    "C": "Entropy 數值有response entropy（RE）及state entropy（SE），當病人變得更沒意識時， RE 會下降的比SE 快。",
+    "D": "BIS 值下降通常與意識喪失有相關性，但是有三個麻醉藥例外，分別是ketamine、 nitrousoxide、dexmedetomidine。"
    },
    "answer": "B",
    "scoring": "exact",
@@ -126,10 +126,10 @@
    "year": 109,
    "question": "懷孕過程會造成許多生理狀況改變，下列敘述何者錯誤？",
    "options": {
-    "A": "懷孕會影響凝血功能會產生hypercoagulable state，factor I 與factor VII 凝血因子會增 加，血小板數目大多正常也有部分人會因血漿容積增加而略微下降 。",
-    "B": "懷孕期間心輸出量會增加，這個現象會在剛生產完達到最大值，相較於懷孕前最多可增 加80%-100%，主要是最後子宮收縮產生的自體輸血效應。",
-    "C": "為促進在胎盤運送氧氣給胎兒，生理機轉上會促使胎兒的氧合血紅素曲線(oxyhemoglobin dissociation curve)右移與母體的氧合血紅素曲線左移。",
-    "D": "即使給予母體100%氧氣，胎兒的氧氣分壓(fetal PaO2)也不會超過 會超過60 mmHg。"
+    "A": "懷孕會影響凝血功能會產生hypercoagulable state，factor I 與factor VII 凝血因子會增 加，血小板數目大多正常也有部分人會因血漿容積增加而略微下降 。",
+    "B": "懷孕期間心輸出量會增加，這個現象會在剛生產完達到最大值，相較於懷孕前最多可增 加80%-100%，主要是最後子宮收縮產生的自體輸血效應。",
+    "C": "為促進在胎盤運送氧氣給胎兒，生理機轉上會促使胎兒的氧合血紅素曲線(oxyhemoglobin dissociation curve)右移與母體的氧合血紅素曲線左移。",
+    "D": "即使給予母體100%氧氣，胎兒的氧氣分壓(fetal PaO2)也不會超過60 mmHg。"
    },
    "answer": "C",
    "scoring": "exact",
@@ -140,12 +140,12 @@
   {
    "id": 9,
    "year": 109,
-   "question": "關於 cancer pain 的治療，下列敘述何者錯誤？",
+   "question": "關於 cancer pain 的治療，下列敘述何者錯誤？",
    "options": {
-    "A": "Palliative radiotherapy 通常可立即緩解bone metastases 所造成的疼痛。",
-    "B": "Tricyclic antidepressants 除了可用於治療opioid-refractory neuropathic pain，也可用於治療 患者的depression。",
-    "C": "Gabapentin 及pregabalin 可用於治療opioid-refractory neuropathic pain。",
-    "D": "對於因abdominal tumor 造成bowel obstruction 的患者，可使用steroid 及octreotide 減輕患 者的不適 適。"
+    "A": "Palliative radiotherapy 通常可立即緩解bone metastases 所造成的疼痛。",
+    "B": "Tricyclic antidepressants 除了可用於治療opioid-refractory neuropathic pain，也可用於治療 患者的depression。",
+    "C": "Gabapentin 及pregabalin 可用於治療opioid-refractory neuropathic pain。",
+    "D": "對於因abdominal tumor 造成bowel obstruction 的患者，可使用steroid 及octreotide 減輕患 者的不適 適。"
    },
    "answer": "A",
    "scoring": "exact",
@@ -161,7 +161,7 @@
     "A": "CO2 Pneumoperitoneum 可能造成vasodilatation 因而使spla nchnic blood flow 增加。",
     "B": "手術中出現非預期的瞬間大量出血，splanchnic venous system 內的 blood 可因為 venous vasoconstriction 而回到systemic circulation，甚至可達 800 mL 以上。",
     "C": "Postoperative ileus 主要的因素是因為麻醉藥物的影響，尤其是 opioid 類藥物會強烈抑制 GI motility 達數天之久。",
-    "D": "手術中 combine 使用 low thoracic epidural infusion of local anesthetic 除了可以改善止痛 效果外，也可以抑制手術當中的腸胃道蠕動 (peristalsis)，讓外科手術更容易進行。"
+    "D": "手術中 combine 使用 low thoracic epidural infusion of local anesthetic 除了可以改善止痛 效果外，也可以抑制手術當中的腸胃道蠕動 (peristalsis)，讓外科手術更容易進行。"
    },
    "answer": "B",
    "scoring": "exact",
@@ -572,7 +572,7 @@
   {
    "id": 36,
    "year": 109,
-   "question": "關於嬰兒和大人的呼吸道的差異，下列描述何者錯誤？ 描述何者錯誤？",
+   "question": "關於嬰兒和大人的呼吸道的差異，下列描述何者錯誤？",
    "options": {
     "A": "嬰兒的舌頭相對比較大。",
     "B": "嬰兒的 larynx 位置相對比較高。",
@@ -767,9 +767,9 @@
    "question": "關於鴉片類止痛藥物(opioid analgesics)用於手術全期(perioperative period)的敘述，何者最 不適當？",
    "options": {
     "A": "全身麻醉下，投予大劑量remifentanil，可能造成acute tolerance，導致術後opioid 需要量 增加。",
-    "B": "長時間投予 opioid 可能導致opioid-induced hyperalgesia，病人反而對疼痛刺激更敏感。 敏感。",
-    "C": "反覆投予opioid會導致physical dependence，意味著病人需要更大劑量的 大劑量的opioid來達到相同 止痛效果。",
-    "D": "對於post-anesthesia shivering的治療， ，intravenous meperidine比起morphine 和fentanyl，有 較佳的治療效果。 效果。"
+    "B": "長時間投予 opioid 可能導致opioid-induced hyperalgesia，病人反而對疼痛刺激更敏感。",
+    "C": "反覆投予opioid會導致physical dependence，意味著病人需要更大劑量的opioid來達到相同 止痛效果。",
+    "D": "對於post-anesthesia shivering的治療， ，intravenous meperidine比起morphine 和fentanyl，有 較佳的治療效果。"
    },
    "answer": "C",
    "scoring": "exact",
@@ -812,9 +812,9 @@
   {
    "id": 51,
    "year": 109,
-   "question": "50歲男性病人，大腸癌合併脊椎骨轉移壓迫spinal cord導致下肢無力，預接受T8-L1 脊椎 減壓及固定手術。病人因慢性癌症疼痛長期使用fentanyl patch 50 mcg/h，下列何者止痛策 略最合適？最合適？",
+   "question": "50歲男性病人，大腸癌合併脊椎骨轉移壓迫spinal cord導致下肢無力，預接受T8-L1 脊椎 減壓及固定手術。病人因慢性癌症疼痛長期使用fentanyl patch 50 mcg/h，下列何者止痛策略最合適？",
    "options": {
-    "A": "術前移除貼片，術中僅根據生命徵象給予opioid，術後立即貼回貼片。 即貼回貼片。",
+    "A": "術前移除貼片，術中僅根據生命徵象給予opioid，術後立即貼回貼片。",
     "B": "術前移除貼片並給予fentanyl background infusion，術後盡快貼回貼片。",
     "C": "術前不移除貼片，術中根據生命徵象給予opioid，術後不需額外給予opioid。",
     "D": "術前不移除貼片，術中也不給予opioid，以免病人過量。"
@@ -960,7 +960,7 @@
    "options": {
     "A": "止痛藥 fentanyl 與肌肉鬆弛劑 cisatracurium 的劑量給予依照實際體重(total body weight)。",
     "B": "靜脈麻醉藥 propofol 與肌肉鬆弛劑 rocuronium 的劑量給予依照理想體重(ideal body weight)。",
-    "C": "以 NPO 8 小時為例，肥胖病人麻醉誘導前2 小時飲用清水 300 毫升，胃內液體容積會 明顯高於未飲用清水者。",
+    "C": "以 NPO 8 小時為例，肥胖病人麻醉誘導前2 小時飲用清水 300 毫升，胃內液體容積會 明顯高於未飲用清水者。",
     "D": "手術時間2~3 小時，可經靜脈注射晶體輸液4~5 升，避免急性腎臟損傷(acute tubular necrosis)。"
    },
    "answer": "C",
@@ -993,7 +993,7 @@
     "A": "早期與晚期復甦(resuscitation)以動脈血壓是否穩定來區分。",
     "B": "外科緊急止血之前積極給予大量輸液會增加失血量與抑制免疫。",
     "C": "手術中控制性低血壓(deliberate hypotension)有助於止血與復甦。",
-    "D": "輸血使用血液製品紅血球：新鮮冷凍血漿：血小板比例為 1：1：1。"
+    "D": "輸血使用血液製品紅血球：新鮮冷凍血漿：血小板比例為 1：1：1。"
    },
    "answer": "A",
    "scoring": "exact",
@@ -1055,7 +1055,7 @@
    "question": "Sugammadex 用於Rocuronium 深度肌肉鬆弛之拮抗，下列陳述何者有誤？",
    "options": {
     "A": "於成人給予IV 0.6 mg/Kg Rocuronium，3 分鐘後給予8 mg/Kg Sugammadex 之劑量拮抗， 2 分鐘內 TOF ratio 可恢復至 0.9。",
-    "B": "施打1.5 mg/Kg 之Rocuronium 後，立即給予 即給予16 mg/Kg 之Sugammadex 拮抗，較 Succinylcholine 之自然恢復時間快速。",
+    "B": "施打1.5 mg/Kg 之Rocuronium 後，立即給予16 mg/Kg 之Sugammadex 拮抗，較 Succinylcholine 之自然恢復時間快速。",
     "C": "Sugammadex 用於肝膽疾病之患者，其拮抗恢復期比較使用anticholinesterase 還快，但須 小心使用。",
     "D": "對於過度肥胖患者BMI > 40 Kg/m2，仍然可以考慮在正常的拮抗劑去使用，而不需換算 理想體重。"
    },
@@ -1084,7 +1084,7 @@
   {
    "id": 68,
    "year": 109,
-   "question": "眼科手術球後阻斷麻醉(retrobulbar block)可能導致下列合併症，下列何者例外？ 外？",
+   "question": "眼科手術球後阻斷麻醉(retrobulbar block)可能導致下列合併症，下列何者例外？",
    "options": {
     "A": "球後出血。",
     "B": "增加眼內壓。",
@@ -1116,7 +1116,7 @@
   {
    "id": 70,
    "year": 109,
-   "question": "關於手術室外麻醉(Non–operating room anesthesia ; NORA)的檢查或治療執行 執行，下列敘述 何者正確？",
+   "question": "關於手術室外麻醉(Non–operating room anesthesia ; NORA)的檢查或治療執行，下列敘述 何者正確？",
    "options": {
     "A": "流程步驟通常會跟手術室內的麻醉相似。",
     "B": "檢查或治療大多數是由外科醫師執行。",
@@ -1201,7 +1201,7 @@
     "A": "Laryngeal mask airway (LMA)適用在任何外傷病患的氣道維持。",
     "B": "針對無法合作或是缺氧的病患，執行氣管插管時儘量避免給予肌肉鬆弛劑和鎮靜麻醉。",
     "C": "一般而言，經口比經鼻插入氣管內管有利於緊急狀況處置。",
-    "D": "對於頸椎保護部分，使用direct laryngoscopy 比video assisted laryngoscopy 建立氣道會有 氣道會有 較差的outcome。"
+    "D": "對於頸椎保護部分，使用direct laryngoscopy 比video assisted laryngoscopy 建立氣道會有 較差的outcome。"
    },
    "answer": "C",
    "scoring": "exact",
@@ -1217,7 +1217,7 @@
     "A": "嬰兒( Infant ) 的吸入性麻藥的MAC (minimal alveolar concentration) 較成人為高。",
     "B": "新生兒 (Neonate) 對吸入性麻藥的需要量較3 個月的小孩少。",
     "C": "Sevoflurane 較 Halothane 容易有 emergence delirium。",
-    "D": "年紀越小，Propofol 每公斤體重的誘導劑量要更少。 少。"
+    "D": "年紀越小，Propofol 每公斤體重的誘導劑量要更少。"
    },
    "answer": "D",
    "scoring": "exact",
@@ -1343,7 +1343,7 @@
    "question": "關於手術後疼痛 (postoperative pain)，下列敘述何者錯誤？",
    "options": {
     "A": "胸外手術後的硬脊膜外止痛 (epidural analgesia)，使用fentanyl 相較於morphine 比較不會 引起噁心嘔吐。",
-    "B": "COX-2 抑制劑可能會增加冠狀動脈繞道手術病患手術後心血管相關併發症的風險。",
+    "B": "COX-2 抑制劑可能會增加冠狀動脈繞道手術病患手術後心血管相關併發症的風險。",
     "C": "病患自控式靜脈藥物止痛 (IV patient controlled analgesia) 使用連續輸注 (background infusion)，可減少藥物使用量及減少呼吸抑制發生機率。",
     "D": "慢性術後疼痛 (chronic postsurgical pain, CPSP) 的發生率10 to 65%，好發於截肢、開 胸、乳房或膽囊切除手術。"
    },
@@ -1375,7 +1375,7 @@
    "question": "過去半個多世紀以來麻醉醫學知識的增長，與實驗性數據和經驗式觀察的數理評估有著 緊密的關聯性。下列關於統計方法學的敘述，何者為非？",
    "options": {
     "A": "標準差(Standard deviation, SD)是用以比較數據組間差異性的工具，而平均值的標準誤 (Standard error of the mean, SEM)則是用以描述數據的分布離散狀況(Spread)的常用工具。",
-    "B": "與單變項迴歸(Univariate regression)相比較，多變項迴歸(Multivariate)檢測一個以上的因子 和研究結果的相關性，需要更多的數據筆數，但是比較可以發掘出單變項迴歸所忽略的 的 相關性。",
+    "B": "與單變項迴歸(Univariate regression)相比較，多變項迴歸(Multivariate)檢測一個以上的因子 和研究結果的相關性，需要更多的數據筆數，但是比較可以發掘出單變項迴歸所忽略的相關性。",
     "C": "假設檢定(Hypothesis testing)過程中，陰性結果(Negative result)可能表示兩組間確實沒有差 異，但也可能是因為研究檢定力不夠(Underpowered)，不足以顯示確實存在的小型差異。",
     "D": "選擇性偏差(Selection bias)可能使得很多實際臨床研究(Real-life clinical studies)的結果難以 解釋，隨機臨床試驗(Randomized clinical trials)是降低這種風險的最佳解決方案。"
    },
@@ -1455,8 +1455,8 @@
    "question": "關於麻醉科醫師可能遭遇的醫學倫理情境，下列何者為非？",
    "options": {
     "A": "由於手術室中情境不同，麻醉科醫師有義務針對拒絕嘗試急救(Do-Not-Attempt- Resuscitation)與病患或法定代理人再討論，以了解其對手術目的與說明手術室中急救的優 缺點。",
-    "B": "通常可由病人能否接受(receive)或理解(understanding)相關資訊、理解決策的可能益處與 風險、充分表達其決定或溝通其評價，作為麻醉科醫師判斷病人是否具意識能力。 能力。",
-    "C": "醫師為避免增加壓力而導致病患心理或生理傷害，在知情同意過程中，引用治療特權 特權 (therapeutic privilege)單方面決定省略或避免討論相關風險是合乎倫理的。",
+    "B": "通常可由病人能否接受(receive)或理解(understanding)相關資訊、理解決策的可能益處與 風險、充分表達其決定或溝通其評價，作為麻醉科醫師判斷病人是否具意識能力。",
+    "C": "醫師為避免增加壓力而導致病患心理或生理傷害，在知情同意過程中，引用治療特權 (therapeutic privilege)單方面決定省略或避免討論相關風險是合乎倫理的。",
     "D": "麻醉科醫師有權拒絕病患所提出之不適當或是超出合理範圍的要求。"
    },
    "answer": "C",
@@ -1473,7 +1473,7 @@
     "A": "除了身為耶和華見證人信徒的病患外，若其他病人以輸血可能增加感染或併發症為由拒 絕輸血治療時，醫師應予以拒絕。",
     "B": "耶和華見證人的信徒，對於不輸血的細節與規範可能隨時間與教會規範有所差異，麻醉 科醫師應在術前與所屬教徒的病患有充分溝通，並討論替代方案與註記於病歷。",
     "C": "醫師若無法遵從耶和華見證人病患提出的不輸血要求時，在道德上應有協助病患尋求另 一位醫師的義務。",
-    "D": "當身為耶和華見證人信徒的父母，要求醫師不得為其未成年的年幼子女輸血治療時，醫 時，醫 師亦可尋求法律支援，以保護未成年病患安全。"
+    "D": "當身為耶和華見證人信徒的父母，要求醫師不得為其未成年的年幼子女輸血治療時，醫 師亦可尋求法律支援，以保護未成年病患安全。"
    },
    "answer": "A",
    "scoring": "exact",
@@ -1486,10 +1486,10 @@
    "year": 109,
    "question": "關於麻醉醫師臨床可能遭遇的倫理衝突，下列何者為非？",
    "options": {
-    "A": "懷孕婦女與其胎兒可能發生倫理上的利益衝突，通常孕婦仍有作為醫療決策者的權利。 決策者的權利。",
-    "B": "分娩中的孕婦若欲執行硬脊膜外減痛分娩(epidural analgesia)時發生尤里西斯指令(Ulysses directives)的倫理衝突，因分娩孕婦因疼痛不具有行為能力(capacity)而無法取得知情同意 (informed consent)，應以預設醫療指令 指令(advance directive)為優先。",
+    "A": "懷孕婦女與其胎兒可能發生倫理上的利益衝突，通常孕婦仍有作為醫療決策者的權利。",
+    "B": "分娩中的孕婦若欲執行硬脊膜外減痛分娩(epidural analgesia)時發生尤里西斯指令(Ulysses directives)的倫理衝突，因分娩孕婦因疼痛不具有行為能力(capacity)而無法取得知情同意 (informed consent)，應以預設醫療指令(advance directive)為優先。",
     "C": "在心死後器捐(donation after cardiac death, DCD)的情況下，可能發生於何時決定移除維生 裝置介入與器官捐贈，並且忽略捐贈者而有利於受贈者的利益。",
-    "D": "關於器官捐贈可能存在蓄意殺人的指控部分，心死後器捐由於臨床指引不一，更容易發 容易發 生類似錯誤。"
+    "D": "關於器官捐贈可能存在蓄意殺人的指控部分，心死後器捐由於臨床指引不一，更容易發 生類似錯誤。"
    },
    "answer": "B",
    "scoring": "exact",
