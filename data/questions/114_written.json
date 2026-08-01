@@ -519,7 +519,10 @@
    "scoring": "exact",
    "source": "114_written_Q32",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "images": [
+    "114_Q32_stem.png"
+   ]
   },
   {
    "id": 33,
@@ -535,7 +538,10 @@
    "scoring": "exact",
    "source": "114_written_Q33",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "images": [
+    "114_Q33_stem.png"
+   ]
   },
   {
    "id": 34,
@@ -551,7 +557,10 @@
    "scoring": "exact",
    "source": "114_written_Q34",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "images": [
+    "114_Q34_stem.png"
+   ]
   },
   {
    "id": 35,
@@ -583,7 +592,10 @@
    "scoring": "exact",
    "source": "114_written_Q36",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "images": [
+    "114_Q36_stem.png"
+   ]
   },
   {
    "id": 37,
@@ -743,7 +755,10 @@
    "scoring": "exact",
    "source": "114_written_Q46",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "images": [
+    "114_Q46_stem.png"
+   ]
   },
   {
    "id": 47,

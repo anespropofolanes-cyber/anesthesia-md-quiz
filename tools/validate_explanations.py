@@ -10,6 +10,8 @@
 
 解析檔是分年陸續補上的，缺整年只提示、不算錯。
 """
+from __future__ import annotations   # 這台機器的 python3 是 3.9，需要它才能用 int | None
+
 import json
 import re
 import sys
