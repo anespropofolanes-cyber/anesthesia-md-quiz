@@ -337,10 +337,6 @@ function wipeAll() {
   renderResume();
   if (store.pref('shuffle')) document.getElementById('chip-order').textContent = '隨機出題';
 
-  const verified = allQuestions().filter(q => q.verified).length;
-  document.getElementById('build-info').textContent =
-    `共 ${allQuestions().length} 題，其中 ${verified} 題與學會公告答案卡逐題核對過`;
-
   const h = location.hash.slice(1);
   if (h && document.getElementById('s-' + h) && !['quiz', 'result', 'cat'].includes(h)) go(h);
 
