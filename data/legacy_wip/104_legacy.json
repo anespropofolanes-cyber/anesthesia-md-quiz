@@ -602,15 +602,16 @@
     "D": "Hypertrophic obstructive cardiomyopathy",
     "E": "New onset left bundle branch block"
    },
-   "answer": "E",
-   "scoring": "exact",
+   "answer": "送分",
+   "scoring": "free",
    "answer_source": "命題端檔案（每題附教科書出處、難易度與分類代碼），非學會公開公告",
    "answer_tier": "examiner",
    "source": "104_written_Q27",
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter 48 Page 1468",
-   "difficulty": "B"
+   "difficulty": "B",
+   "answer_note": "原卷題幹註明「本題送分」，全體給分。檔案原本標的答案是 E。"
   },
   {
    "id": 28,

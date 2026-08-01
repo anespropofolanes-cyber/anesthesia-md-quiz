@@ -56,10 +56,17 @@ def check(path, codes):
                 warnings.append(f"{tag}: 選項 {letter} 沒有文字也沒有圖（可能是圖片題）")
 
         answer = q["answer"]
+        # 題幹自己寫「本題送分」的，判分必須是 free，否則作答的人會被判錯
+        if re.search(r"送\s*分", q["question"]) and q.get("scoring") != "free":
+            errors.append(f"{tag}: 題幹寫明送分，scoring 應為 'free'，實際 {q.get('scoring')!r}")
+
         if incomplete:
             if q.get("scoring") != "unscored":
                 errors.append(f"{tag}: 原檔不完整，scoring 應為 'unscored'")
             warnings.append(f"{tag}: {'；'.join(incomplete)}（不計分）")
+        elif q.get("scoring") == "free":
+            if answer != "送分":
+                errors.append(f"{tag}: 送分題的 answer 應為 '送分'，實際 {answer!r}")
         else:
             if not re.fullmatch(r"[A-E]", answer or ""):
                 errors.append(f"{tag}: 答案格式異常 {answer!r}")
