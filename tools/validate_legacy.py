@@ -108,8 +108,8 @@ def main():
             print(f"    ! {w}")
 
     print()
-    print(f"共 {total} 題。**這些年份沒有學會公開公告的答案卡。**")
-    print("104／106 年的答案來自命題端檔案（附教科書出處）；其餘取自考卷檔案本身。")
+    print(f"共 {total} 題。**這些年份學會網站沒有公開公告的答案卡可交叉核對。**")
+    print("答案本身是隨學會發出的考卷檔案一併附上的；104／106 年的檔案還附了教科書出處。")
     print("跨年重複題的交叉驗證請跑 tools/crosscheck_legacy.py。")
     if all_errors:
         print(f"發現 {len(all_errors)} 項結構問題。")

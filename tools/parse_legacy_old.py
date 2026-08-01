@@ -327,7 +327,7 @@ def build(year):
             "options": options,
             "answer": answer,
             "scoring": "exact",
-            "answer_source": "考卷檔案內附，無學會公開公告可核對",
+            "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
             "answer_tier": "exam_file",
             "source": f"{ROC[year]}_written_Q{n}",
         }

@@ -73,8 +73,8 @@ function buildPickers() {
 /** 三級答案來源：official 官方公告／examiner 命題端檔案／exam_file 考卷檔案內附。 */
 const TIER_LABEL = {
   official: '答案出自學會公開公告的答案卡，已逐題核對',
-  examiner: '答案出自命題端檔案（每題附教科書出處與難易度），非公開公告',
-  exam_file: '答案出自考卷檔案本身，沒有公開公告可核對'
+  examiner: '答案出自命題端檔案（每題附教科書出處與難易度），學會網站無對應公告可交叉核對',
+  exam_file: '答案隨考卷檔案一併附上，學會網站無對應公告可交叉核對'
 };
 
 function yearTier(y) {
@@ -244,7 +244,7 @@ function importData(input) {
   r.readAsText(f);
 }
 
-const CACHE_NAME = 'anes-md-v12';   // 必須與 sw.js 的 CACHE 一致
+const CACHE_NAME = 'anes-md-v13';   // 必須與 sw.js 的 CACHE 一致
 
 /** 核心資源（不含圖片）。由頁面確保入快取，不倚賴 service worker 的安裝時機——
     使用者清過瀏覽器資料、或 sw.js 未改版時 install 不會重跑，靠這裡補齊。 */

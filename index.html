@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&family=Noto+Serif+TC:wght@500;700&display=swap">
-<link rel="stylesheet" href="css/app.css?v=20260801l">
+<link rel="stylesheet" href="css/app.css?v=20260801m">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
     <div id="resume-slot"></div>
 
     <h1 class="page">要練哪一種？</h1>
-    <p class="lede">108–114 年共 700 題，答案與台灣麻醉醫學會公告的答案卡逐題核對過。另收錄 93、94、99、100、102、103、104、106、107 年考卷，那幾年沒有公開公告的答案卡：104、106 年的答案取自命題端檔案（每題附教科書出處），其餘三年取自考卷檔案本身。</p>
+    <p class="lede">108–114 年共 700 題，答案與台灣麻醉醫學會公告的答案卡逐題核對過。另收錄 93、94、99、100、102、103、104、106、107 年考卷，那幾年學會網站沒有公開公告的答案卡，答案隨考卷檔案一併附上；其中 104、106 年的檔案還附了教科書出處。</p>
 
     <div class="modes">
       <button class="mode brandish" onclick="go('years')">
@@ -77,8 +77,8 @@
     <p class="lede">選一卷開始。同一卷可重複練習，進度會自動保存。</p>
     <div class="card">
       <div class="field"><label>年份（民國）</label><div class="chips" id="pick-year"></div>
-        <p class="legend">每一年都是完整 100 題、每題都有答案。虛線框代表<strong>答案來源不是學會的公開公告</strong>：
-          104、106 年出自命題端檔案（每題附教科書出處），標 ※ 的年份則出自考卷檔案本身。</p>
+        <p class="legend">每一年都是完整 100 題、每題都有答案。虛線框代表<strong>學會網站沒有對應的公開公告可交叉核對</strong>——
+          答案本身是隨考卷檔案一併附上的，其中 104、106 年還附了教科書出處。</p>
       </div>
       <div class="field"><label>分類篩選（不選＝全部）</label><div class="chips" id="pick-cat"></div></div>
       <div class="field">
@@ -205,7 +205,7 @@
 
 <div class="foot">
   <p>題目與答案依台灣麻醉醫學會歷年公告。本站沒有解析，只提供題目、答案與答案出處。</p>
-  <p>102、103、104、106、107 年沒有學會公開公告的答案卡。其中 104、106 年的答案來自命題端檔案（每題附教科書出處與難易度），其餘三年取自考卷檔案本身，請自行查證。</p>
+  <p>102、103、104、106、107 年沒有學會公開公告的答案卡。其中 104、106 年的答案來自命題端檔案（每題附教科書出處與難易度），其餘年份的答案隨考卷檔案一併附上。這些年份學會網站沒有對應的公開公告可交叉核對。</p>
   <p>這五年與 108–114 年重複出現的題目共 10 題，答案交叉比對後<strong>沒有任何矛盾</strong>。</p>
   <p id="build-info"></p>
 </div>
@@ -216,10 +216,10 @@
 </div>
 <div class="toast" id="toast"></div>
 
-<script src="js/store.js?v=20260801l"></script>
-<script src="js/data.js?v=20260801l"></script>
-<script src="js/quiz.js?v=20260801l"></script>
-<script src="js/views.js?v=20260801l"></script>
-<script src="js/app.js?v=20260801l"></script>
+<script src="js/store.js?v=20260801m"></script>
+<script src="js/data.js?v=20260801m"></script>
+<script src="js/quiz.js?v=20260801m"></script>
+<script src="js/views.js?v=20260801m"></script>
+<script src="js/app.js?v=20260801m"></script>
 </body>
 </html>

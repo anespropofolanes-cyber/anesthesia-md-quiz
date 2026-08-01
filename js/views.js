@@ -122,8 +122,8 @@ function sourceHTML(q) {
   } else {
     rows.push(`<div>答案來源：${esc(q.answer_source || '考卷檔案內附')}。</div>`);
     rows.push(q.answer_tier === 'examiner'
-      ? '<div>這一年沒有學會的公開公告可核對，但檔案帶有命題端才會有的出處與難易度標記。</div>'
-      : '<div><strong>這一年沒有學會的公開公告可核對，請自行查證。</strong></div>');
+      ? '<div>檔案帶有命題端才會有的出處與難易度標記，但學會網站沒有對應的公開公告可交叉核對。</div>'
+      : '<div>學會網站沒有對應的公開公告可交叉核對，<strong>這個答案沒有經過第二個來源驗證</strong>。</div>');
   }
   return `<div class="explain"><span class="h">答案出處</span>${rows.join('')}</div>`;
 }
