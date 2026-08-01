@@ -12,6 +12,9 @@ ROOT = Path(__file__).resolve().parent.parent
 QDIR = ROOT / "data" / "questions"
 KDIR = ROOT / "source" / "answer_keys"
 
+# 題幹裡指向附圖的說法。用來反查「說有圖卻沒抽到圖」的題目。
+FIGURE_WORD = re.compile(r"下圖|如圖|圖示|附圖|圖中|上圖|右圖|左圖|下列圖")
+
 
 def check_year(path):
     errors = []
@@ -49,6 +52,11 @@ def check_year(path):
         for name in list(q.get("images", [])) + list(option_images.values()):
             if not (ROOT / "images" / name).exists():
                 errors.append(f"{tag}: 找不到圖檔 {name}")
+
+        # 反向檢查：題幹說「下圖」卻沒有圖。114 年是 docx，抽圖工具只吃 PDF，
+        # 整年 5 張圖被靜默跳過而沒有任何檢查抓到，所以補上這一條。
+        if FIGURE_WORD.search(q["question"]) and not q.get("images") and not option_images:
+            errors.append(f"{tag}: 題幹提到圖，但這一題沒有任何圖檔")
 
         answer = q["answer"]
         # scoring 決定 PWA 怎麼判分，必須與 answer 的形狀一致
