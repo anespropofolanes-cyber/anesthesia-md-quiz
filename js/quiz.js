@@ -42,7 +42,7 @@ function pick(letter) {
   if (Q.mode === 'practice' && Q.picks[q.source]) return;  // 練習模式作答後鎖定
   Q.picks[q.source] = letter;
 
-  if (Q.mode === 'practice') {
+  if (Q.mode === 'practice' && !isUnscored(q)) {
     if (isCorrect(q, letter)) store.markRight(q.source);
     else store.markWrong(q.source, letter);
   }
@@ -60,11 +60,12 @@ function move(d) {
 function jump(i) { Q.i = i; saveProgress(); renderQuiz(); }
 
 function finish() {
-  const unanswered = Q.list.filter(q => !Q.picks[q.source] && !isFree(q)).length;
+  const unanswered = Q.list.filter(q => !Q.picks[q.source] && !isFree(q) && !isUnscored(q)).length;
   if (unanswered && !confirm(`還有 ${unanswered} 題未作答，確定要結束並計分嗎？`)) return;
 
   if (Q.mode === 'exam') {   // 考試模式收尾才批次記錄
     for (const q of Q.list) {
+      if (isUnscored(q)) continue;
       const p = Q.picks[q.source];
       if (isFree(q) || (p && isCorrect(q, p))) store.markRight(q.source);
       else if (p) store.markWrong(q.source, p);
@@ -85,13 +86,16 @@ function saveProgress() {
 }
 
 function scoreOf() {
-  let ok = 0, no = 0, blank = 0;
+  let ok = 0, no = 0, blank = 0, skipped = 0;
   for (const q of Q.list) {
     const p = Q.picks[q.source];
-    if (isFree(q)) ok++;
+    if (isUnscored(q)) skipped++;      // 原檔缺答案，不列入計分
+    else if (isFree(q)) ok++;
     else if (!p) blank++;
     else if (isCorrect(q, p)) ok++;
     else no++;
   }
-  return { ok, no, blank, total: Q.list.length, pct: Math.round(ok / Q.list.length * 100) };
+  const total = Q.list.length - skipped;
+  return { ok, no, blank, skipped, total,
+           pct: total ? Math.round(ok / total * 100) : 0 };
 }

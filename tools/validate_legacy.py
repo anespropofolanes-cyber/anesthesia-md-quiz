@@ -20,6 +20,7 @@ TAXONOMY = ROOT / "data" / "taxonomy.json"
 def check(path, codes):
     errors = []
     warnings = []
+    notes = []
     data = json.loads(path.read_text("utf-8"))
     year = data["meta"]["year"]
     questions = data["questions"]
@@ -39,9 +40,14 @@ def check(path, codes):
 
         if not q["question"].strip():
             errors.append(f"{tag}: 題幹是空的")
+        for name in q.get("images", []):
+            if not (ROOT / "images" / name).exists():
+                errors.append(f"{tag}: 找不到圖檔 {name}")
 
+        # 原檔本身就缺答案或選項的題目，標成 unscored 只供閱讀，不套用完整性檢查
+        incomplete = q.get("incomplete")
         options = q["options"]
-        if list(options) not in (list("ABCD"), list("ABCDE")):
+        if not incomplete and list(options) not in (list("ABCD"), list("ABCDE")):
             errors.append(f"{tag}: 選項標號異常 {list(options)}")
 
         images = q.get("option_images", {})
@@ -50,13 +56,17 @@ def check(path, codes):
                 warnings.append(f"{tag}: 選項 {letter} 沒有文字也沒有圖（可能是圖片題）")
 
         answer = q["answer"]
-        if not re.fullmatch(r"[A-E]", answer or ""):
-            errors.append(f"{tag}: 答案格式異常 {answer!r}")
-        elif answer not in options:
-            errors.append(f"{tag}: 答案 {answer} 無對應選項")
-
-        if q.get("scoring") != "exact":
-            errors.append(f"{tag}: scoring 應為 'exact'，實際 {q.get('scoring')!r}")
+        if incomplete:
+            if q.get("scoring") != "unscored":
+                errors.append(f"{tag}: 原檔不完整，scoring 應為 'unscored'")
+            warnings.append(f"{tag}: {'；'.join(incomplete)}（不計分）")
+        else:
+            if not re.fullmatch(r"[A-E]", answer or ""):
+                errors.append(f"{tag}: 答案格式異常 {answer!r}")
+            elif answer not in options:
+                errors.append(f"{tag}: 答案 {answer} 無對應選項")
+            if q.get("scoring") != "exact":
+                errors.append(f"{tag}: scoring 應為 'exact'，實際 {q.get('scoring')!r}")
         if not q.get("answer_source"):
             errors.append(f"{tag}: 缺 answer_source（答案來源必須標明）")
         if q.get("answer_tier") not in ("examiner", "exam_file"):

@@ -5,7 +5,7 @@
 const YEARS = [108, 109, 110, 111, 112, 113, 114];
 
 /** 只有考卷檔案內附答案、無官方答案卡可核對的年份。 */
-const LEGACY_YEARS = [102, 103, 104, 106, 107];
+const LEGACY_YEARS = [93, 94, 99, 100, 102, 103, 104, 106, 107];
 
 const ALL_YEARS = [...YEARS].reverse().concat([...LEGACY_YEARS].reverse());
 
@@ -106,12 +106,16 @@ function byCategory(code, { verifiedOnly = false } = {}) {
      free   送分，一律計對
    舊版護理師網站用 split('') 比對，送分題永遠判錯，這裡不重蹈覆轍。 */
 function isFree(q) { return q.scoring === 'free' || q.answer === '送分'; }
+/** 原檔本身缺答案或選項的題目，只能閱讀不能判分。 */
+function isUnscored(q) { return q.scoring === 'unscored'; }
 function isMulti(q) { return q.scoring === 'any'; }
 function isCorrect(q, pick) {
   if (isFree(q)) return true;
+  if (isUnscored(q)) return false;
   return !!pick && q.answer.includes(pick);
 }
 function answerText(q) {
+  if (isUnscored(q)) return '原檔缺答案';
   if (isFree(q)) return '送分（全題給分）';
   return q.answer.split('').join(' 或 ');
 }

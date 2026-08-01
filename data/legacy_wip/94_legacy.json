@@ -1,0 +1,2034 @@
+{
+ "meta": {
+  "year": 94,
+  "western_year": 2005,
+  "role": "doctor",
+  "subject": "written",
+  "subject_name": "筆試",
+  "total": 100,
+  "era": "old",
+  "textbook_era": "Anesthesia 第 5 版",
+  "source": "台灣麻醉醫學會歷年甄審筆試考卷（無官方答案卡公告）",
+  "verified": false,
+  "extracted_by": "tools/parse_legacy_old.py"
+ },
+ "questions": [
+  {
+   "id": 1,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於產婦於懷孕末期的生理變化,下列描述何者是錯的?",
+   "options": {
+    "A": "呼吸系統最明顯的改變是母親的Functional residual capacity (FRC)於懷孕末期降低 15~20%",
+    "B": "懷孕期間,心輸出量的增加主要是心收縮量 (stroke volume)與心跳速率的增加所造成",
+    "C": "懷孕末期,雖然漲大的子宮會使幽門移位,但孕婦對食物胃排空的時間與一般人比較, 並沒有改變 1",
+    "D": "產婦執行脊椎或硬脊膜外麻醉時,要達到麻醉程度 (Level )所需的局部麻醉劑藥量 較少",
+    "E": "腎臟血漿流量與腎絲球過濾速率於懷孕末期,會逐漸回到正常。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q1",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 2,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "執行區域麻醉於生產時所產生的併發症,下列何者最不可能發生 ?",
+   "options": {
+    "A": "因local anesthetics 所引起的convulsions",
+    "B": "Total spinal anesthesia",
+    "C": "Nerve injury",
+    "D": "Dural puncture 所引起的頭痛",
+    "E": "Severe hypertension"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q2",
+   "textbook_era": "Anesthesia 第 5 版",
+   "images": [
+    "94_Q2_fig2.png"
+   ]
+  },
+  {
+   "id": 3,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "甄審進行時間,請勿擅自離開考區。 1、 關於產婦於懷孕末期的生理變化,下列描述何者是錯的?",
+   "options": {
+    "A": "呼吸系統最明顯的改變是母親的Functional residual capacity (FRC)於懷孕末期降低 15~20%",
+    "B": "懷孕期間,心輸出量的增加主要是心收縮量 (stroke volume)與心跳速率的增加所造成",
+    "C": "懷孕末期,雖然漲大的子宮會使幽門移位,但孕婦對食物胃排空的時間與一般人比較, 並沒有改變 1",
+    "D": "產婦執行脊椎或硬脊膜外麻醉時,要達到麻醉程度 (Level )所需的局部麻醉劑藥量 較少",
+    "E": "腎臟血漿流量與腎絲球過濾速率於懷孕末期,會逐漸回到正常。 2、 執行區域麻醉於生產時所產生的併發症,下列何者最不可能發生 ?"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q3",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 4,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "執行腰推硬脊膜外止痛於生產時,下列敘述何者是錯的 ?",
+   "options": {
+    "A": "病人於執行腰椎硬脊膜止痛前,需先準備好靜脈輸液與急救設備等",
+    "B": "於產痛初期,只要較少劑量之局部麻醉劑或類嗎啡藥物即可有效產生T10 到L1 的阻 斷",
+    "C": "因為negative aspiration可以確定catheter放置的位置,故不需要給予test dose",
+    "D": "為了安全,給予藥量時,應先給予小劑量 (≦5ml ),等待30 到60 秒,然後再逐步 增加劑量",
+    "E": "藥物可以選擇局部麻醉劑,類嗎啡藥物或兩者合併使用"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q4",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 5,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "執行脊椎麻醉 (Spinal anesthesia )於剖腹產手術時,發生低血壓 (hypotension ) 現象,下列何種處置不能改善低血壓現象",
+   "options": {
+    "A": "左推子宮",
+    "B": "將病人姿勢頭高腳低",
+    "C": "給予靜脈輸液",
+    "D": "給予ephedrine",
+    "E": "給予phenylephrine"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q5",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 6,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於preeclamptic patient 的麻醉考量,下列何者是錯的 ?",
+   "options": {
+    "A": "硬脊膜外麻醉是一不錯的選擇",
+    "B": "可給予中等量的輸液 (500~1000ml 的crystalloid )",
+    "C": "脊椎麻醉會產生迅速的血形動力變化,但紿予ephedrine即可穩定,故仍常使用 2024~2030 2043 2034 2037~2038 2047 2",
+    "D": "有時因凝血問題,仍有可能選擇全身麻醉",
+    "E": "選擇全身麻醉時,需考量呼吸道的水腫與使用laryngoscop 時所產生的血壓過高"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q6",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 7,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對於懷孕婦女,執行手術需作全身麻醉時的考量何者是錯的 ?",
+   "options": {
+    "A": "常規手術儘可能安排到生產後再執行",
+    "B": "於懷孕期間必需執行手術麻醉,儘可能安排在第一產程",
+    "C": "在某些動物實驗,大部份的麻醉藥物具有teratogenic effects,但在人類則不清楚",
+    "D": "執行緊急手術時,儘可能選擇區域麻醉",
+    "E": "若於第一產程需執行全身麻醉,目前無証據顯示那種藥物最不會傷害胎兒"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q7",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 8,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於Infant 與adult 的airway anatomy,下列何者是對的 ?",
+   "options": {
+    "A": "Infant larynx是funnel-shaped",
+    "B": "Adult larynx 最狹窄的地方是cricoid cartilage",
+    "C": "Infant 的舌頭相對比較之下比adult 小",
+    "D": "Infant larynx 最狹窄的地方是Glottic opening",
+    "E": "當執行氣管內管插管時,於Infant 只要通過Vocal cord 就很容易通過到氣管"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q8",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 9,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於吸入性麻醉劑於Infant 和child 的藥理反應,下列敘述何者是錯的 ?",
+   "options": {
+    "A": "Airway 相關問題較少發生在使用halothane 和sevoflurane",
+    "B": "Halothane 擁有較強的心臟抑制作用",
+    "C": "比起halothane, isoflurane 降低較多的腦部氧氣代謝率",
+    "D": "Desflurane擁有與N2O相似的gas partition coefficient故常用來給infant和child作吸入性誘 導麻醉",
+    "E": "Sevoflurane 擁有比isoflurane 和desflurane 較不刺激呼吸道的特性"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q9",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 10,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於ketamine 使用於children 的敘述,下列何者是錯的 ?",
+   "options": {
+    "A": "使用ketamine 會增加secretions",
+    "B": "Ketamine 的副作用之一為作夢,可同時給予benzodiazepine 來減少其發生",
+    "C": "Ketamine可以使用於腦壓升高的兒童病患",
+    "D": "Ketamine 無法保持gag reflex,故於禁食不夠之病童不宜使用",
+    "E": "Ketamine 給予方式可以口服,直腸給予,肌肉注射與靜脈給予等方式"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q10",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 11,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "2 歲的病童需進行橈骨骨折復位手術,在手術前該病童喝了apple juice (無果粒 ), 請問其禁食時間最好等多久 ?",
+   "options": {
+    "A": "1 小時",
+    "B": "3 小時",
+    "C": "5 小時",
+    "D": "7 小時",
+    "E": "8 小時"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q11",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 12,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於早產兒發生術後窒息 (postoperative apnea )的情形,下列敘述何者是錯的 ?",
+   "options": {
+    "A": "Gestation age 是危險因素之一",
+    "B": "大部候的研究報告認為postconceptual age 小於46 週較易發生",
+    "C": "Anemia 是獨立的危險因子",
+    "D": "Postoperative apnea 在執行區域麻醉的infant,仍會發生",
+    "E": "發生postoperative apnea 的機率與Gesation age 和postconceptual age 成正比"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q12",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 13,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對於一位full stomach 的病童,需執行緊急手術麻醉下列處置何者是錯的 ?",
+   "options": {
+    "A": "儘可能給予preoxygenation",
+    "B": "可給予atropine 0.02mg/kg",
+    "C": "可選擇rocuronium 作為插管時的肌肉鬆弛劑",
+    "D": "Succinylcholine在此病童是禁止使用的",
+    "E": "可以用rapid-sequence induction 來執行麻醉 2059~2060 2093~2094 2095 2100 2102~2103 3"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q13",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 14,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於diaphragmatic hernia 的麻醉,何者是對的 ?",
+   "options": {
+    "A": "清醒插管前,應先用bag-and-mask,以確保不會desaturation",
+    "B": "放置arterial line 是不需要的",
+    "C": "適當的控制ventilation使PaCO2小於40mmHg,PaO2大於100mmHg",
+    "D": "可以使用N2O",
+    "E": "術後不需要到加護病房作積極地術後照顧"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q14",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 15,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關胸腔手術病患全身麻醉時,比較雙肺或單肺通氣(Ventilation)時,動脈血氧 (Arterial Oxygenation)及二氧化碳(Carbon Dioxide)排除之生理變化,下列敘述 何者為最正確?",
+   "options": {
+    "A": "單肺麻醉達-Steady-state時,其對PaO2之影響較對PaCO2為顯著",
+    "B": "在全身麻醉下,雙肺通氣時,在paralyzed, Open-chested 之病患採左側臥姿勢時,其通 氣及血液灌流(Perfusion)不受影響",
+    "C": "Non-Dependent lung 因受壓迫,所以其可能產生Shunting(分流)",
+    "D": "Dependent lung 因受到壓迫,所以其通氣相對較佳",
+    "E": "單肺或雙肺通氣之基本差異為在單肺通氣時,在ventilated lung 仍有一些血流,因此存 在有一些shunt,而此情形在雙肺通氣時不存在"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q15",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 16,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關台灣器官移植麻醉之敘述,何者為最正確?",
+   "options": {
+    "A": "屍肝捐贈者(Cadaveric donor)需至少經兩次腦死判定確認6 小時之後,才可進行移 植手術",
+    "B": "腦死病患,意指”腦幹”死,所以Cranial nerves 之反射均會消失,但Respiratory 之反射 還可能存在,所以抽痰時,病人可能會動",
+    "C": "活體肺移植,捐贈者與受贈者,血型一定需相同,若不同則手術結果必然不會成功",
+    "D": "術前肺部感染或肺嚴重高壓 (PA>50mmHg )之受贈者,依然適合接受肝移植手術",
+    "E": "Post reperfusion syndrome在肝移植手術時經常發生,可造成嚴重低血壓,發生率可達 30~50%"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q16",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 17,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關惡性高熱(Malignant hyperthermia)之敘述,何者為正確?",
+   "options": {
+    "A": "其定義為在全身麻醉時,病患體溫急速上升,達1 °C/10 min 以上。",
+    "B": "早期死亡率可達70%以上,現在已下降為25%",
+    "C": "依Danish 之survey,發生率約為1/250,000,但若使用potent anesthetics 及succinylcholine 則發生率可高達1/6,200",
+    "D": "此病症常有家族遺傳傾向,是一種autosomal dorminant之疾病,目前已知Ryanodine receptor(Ry)之基因突變有關,但其中祇發現Ry3之基因突變與惡性高熱密切相關",
+    "E": "Dantrolene可治療此症之原因,主要是其可降低鈣離子自肌漿網(Sacroplasmic reticulum)之efflux"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q17",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 18,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "一位70 歲,男性身高160 公分、體重50 公斤攝護腺良性肥大病患,接受半身麻醉, 麻醉醫師給予14 mg 之0.5% heavy Marcaine(bupivacaine)後,手術期間,下列敘述 何者最不正確?",
+   "options": {
+    "A": "一般而言,平均此種手術,每一分鐘可經由攝護腺靜脈及其之靜脈竇(Prostatic venous sinus)吸收fluid 10 至30 毫升,所以兩小時之手術,身體可能會吸收6~8 公升之fluid",
+    "B": "目前,在美國,Glycine 及Cytal 是兩種最常被使用的Irrigation solutions for TURP",
+    "C": "當手術中,病患之Extracellular sodium level 低於100 mEg/L 時,病患可能會昏迷及抽 搐(Convulsion)",
+    "D": "使用Glycine 為irrigation solution 時,可能會因其被氧化轉變為ammonia 而造成病患 delayed awakening after TURP",
+    "E": "補充3%NaCl治療TURP syndrome時,可能產生Cerebral myelinolysis及Pontine edema 1705~1706 1979 1033~1050 1949"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q18",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 19,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "上圖,有關於麻醉時利用pressure-volume loop 去診斷不同之狀況,何者為正確之配 對? a- Fixed Obstruction b- Variable Extrathoracic Obstruction c- Variable Intrathoracic Obstruction d- Diffuse Airway Obstruction",
+   "options": {
+    "A": "A-a; B-b; C-c; D-d 4",
+    "B": "A-a; B-c; C-b; D-d",
+    "C": "A-b; B-a; C-c; D-d",
+    "D": "A-c; B-a; C-b; D-d",
+    "E": "A-d; B-b; C-c; D-a"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q19",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 20,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關經食道心臟超音波(Transesophageal Echocardiography)之敘述,何者最 不正確?",
+   "options": {
+    "A": "在心臟手術中,根據統計,使用TEE 對外科處理有明顯之影響,影響比例可達4~33%",
+    "B": "某些minmally invasive cardiac surgery 麻醉中尤其需要此儀器之監控",
+    "C": "使用TEE監控麻醉之病患時,評做其Wall motion時,若發現心室壁出現dyskinesia時, 代表此部份心室收縮功能已達輕微收縮不良之程度",
+    "D": "使用TEE 時,若採Superior vena cava(SVC) long-axis view 監測時,常可檢示病患 是否有SVC 之thrombus 存在",
+    "E": "使用TEE 時,若採Midpapillary Short-axis view 監測時,常可有效監測左心室收縮之 功能 895 1207~1229"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q20",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 21,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於amphetamine addiction(安非他命)病患麻醉時之相關敘述,何者為最 不正確?",
+   "options": {
+    "A": "當初次,急性使用Amphetamine 之病患麻醉時可發現,其麻藥用量明顯增加,反之, 慢性成癮病患,麻醉時,麻醉應減量",
+    "B": "Amptutamine 可影響麻病患低血壓或高血壓時之反應能力",
+    "C": "安非他命成癮病患麻醉時,最近有多篇文獻報導,其可能產生嚴重之併發症,甚至死 5 亡,麻醉醫師不可不慎",
+    "D": "當病患有安非他命成癮之病史,接受麻醉手術時已有明確文獻指出,應延後常規手術 至少六個月",
+    "E": "安非他命成癮病患麻醉手術中,發生Sudden death 之病例報告有增加之趨勢,但確切 之原因,尚不很清楚"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q21",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 22,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關於肺栓塞(Pulmonary embolism),下列敘述何者最正確?",
+   "options": {
+    "A": "肺栓塞發生時,可引起Right-to-left transpulmonary Shunting 增加,並可能引起高達80% 的病人之卵圓孔(foramen ovale)重新打開,及nonembolized 區域的肺發生肺水腫及 抑制其HPV(Hypoxic pulmonary vasoconstriction)",
+    "B": "肺栓塞之發生機制(mechanism)與platelet, Serotonin, bronchodilatation 均有關",
+    "C": "肺栓塞發生時,Pulmonary dead space增加,Hypoxic pulmonary vasoconstriction會減少",
+    "D": "肺栓塞時,肺動脈壓可能會增高,肺exudate fluid 會增加,functional residual capacity (FRC)減少",
+    "E": "肺栓塞發生時,使用TEE(經食道心臟超音波)診斷率極高,可達100%"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q22",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 23,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關病患自控式止痛(PCA)之敘述,何者為錯誤? (1 )為現今相當流行,嘉惠病患之一止痛方法 (2 )合併使用Epidural bupivacaine 及fentanyl 於PCA 病患時,因為Fentanyl 之水 溶性較morphine 高,故可產生Segmental block 之效果 (3 )當Epidural PCA 使用bupivacaine 及fentanly 止痛時,若護士不慎將其infusion set 錯接到病患之靜脈點滴時,通常病患首先出現之併發症為呼吸抑制,而非中樞神 經毒性 (4 )使用IVPCA (靜脈病患自控式止痛 )時,最常採用morphine,此外若加入 低劑量droperidol 也有止吐之效果",
+   "options": {
+    "A": "1,3",
+    "B": "2,3",
+    "C": "2,4",
+    "D": "3,4",
+    "E": "1,4"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q23",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 24,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於麻醉藥物之Pharmacokinetics 或Pharmacodynamics 之敘述何者有誤? (1)Pharmacodynamics 指藥物對身體產生之影響而Pharmacokinetics 指藥物在身體內如何 吸收,分佈及代謝 (2)一般而言,藥物之protein binding 若很強,則其作用時間 (duration )較久,例如 Bupivacaine 在成人,可達85-95% (3)關於pharmacogenetics,被研究最透徹的為Cytochrome P-4503D6 (CYP3D6) (4)t1/2=k/0.693 (註:t1/2=半衰期 ) (k=藥物代謝速率常數 )",
+   "options": {
+    "A": "2,3",
+    "B": "2,4",
+    "C": "3,4",
+    "D": "祇有3 錯誤",
+    "E": "全部都正確 996; 916 609 2818~2819 6"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q24",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 25,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關局部麻醉劑之敘述,何者正確? 1. 局部麻藥之基本化學結構為具有一拒水端之芳香基(Hydrophobic aromatic group),其藉著一個intermediate bond 聯接到一個親水端的碱基(A more hydrophilic base)及一個三級胺(Tertiary amine)的結構 2. 通常,在酸性之環境下,局部麻醉藥的藥效較佳,因局部麻醉藥一般為弱碱性 3. 局部麻醉劑之作用機制為Sodium channel blocker 4. B 及C 類之nerve fibers 均沒有myelin",
+   "options": {
+    "A": "1,3",
+    "B": "2,3",
+    "C": "1,2,3",
+    "D": "1,3,4",
+    "E": "3,4"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q25",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 26,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關Airway management 之敘述,何者正確? 1. 一般而言,laryngeal mas airway (喉頭罩 )現已成為ACLS guideline 中,Class I 之治療。 (※註:Class I:大型,隨機、雙盲研究顯示為有效之治療 ) 2. 正常6 歲之小孩,一般插口管時,會考慮採用4 號 (內徑4.0mm )之氣管內管, 膠布固定於距嘴唇約12cm 處 3. 病患有Huge anterior mediastinal tumor 時,麻醉插管時宜用succinylcholine 較安全 4. Nasal endotracheal intubation 也有可能造成病患不明發燒,bacteremia",
+   "options": {
+    "A": "1,4",
+    "B": "僅4 為正確",
+    "C": "3,4",
+    "D": "2,4",
+    "E": "1,2,4"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q26",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 27,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於麻醉深度之監測之敘述,何者為錯誤? 1. Plomley 早在1847 年,首先定義麻醉之深度為三個階段(Stages):即○ 1 intoxication ○ 2 excitement ○ 3 the deeper level of narcosis 2. 其後,John Snow 描述了乙醚麻醉時之”five degrees of narcotism.” 3. 目前,Bispectral EEG monitoring 有極佳之麻醉深度監測效果,沒有什麼爭議,可 信度極高 4. 早期研究顯示,Auditory Evoked potential 無法有效監測麻醉深度,故現在AEP monitor 已沒有發展之前景了",
+   "options": {
+    "A": "1,2",
+    "B": "3,4",
+    "C": "2,3,4",
+    "D": "1,3,4",
+    "E": "1,2,3,4"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q27",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 28,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關非巴比妥酸監類之靜脈麻醉劑(Nonbarbiturate Intravenous Anesthetics ) 之敘述,何者有誤? 1. Flumazenil(Anexate)為benzodiazepam antagonist 1422~1431 1087 7 2. Flumezenil 之缺點為半衰期較長,所以要小心有resedation 之可能 3. Ketamine 可通過Blood-Brain Barrier,所以其可於30 秒內就onset,其duration 為 10-15 分鐘 4. Etomidate 可能會引起adrenal insufficiency.",
+   "options": {
+    "A": "1,2",
+    "B": "3,4",
+    "C": "僅2 錯誤",
+    "D": "2,4"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q28",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 29,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對於吸入性麻醉劑造成心肌抑制(myocardial depression),下列各項敘述何者最正 確?",
+   "options": {
+    "A": "可致心肌sacoplasmic reticulum內之Ca++之儲存量增加",
+    "B": "可致心肌troponin C與Ca++之親合力降低",
+    "C": "可致心肌之ATPase 活性增加",
+    "D": "吸入性麻醉劑對於正常及衰竭之心肌細胞內Ca++調節之機制完全不同",
+    "E": "對新生兒之心肌抑制與成人相同"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q29",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 30,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關於Isoflurane 及Halothane 所造成之心肌抑制,下列敘述何者最正確?",
+   "options": {
+    "A": "可被Ca++離子阻斷劑改善",
+    "B": "可被β1-adrenoceptor antagonists改善",
+    "C": "可被cadiac phosphodiesterase functionIIIinhibitors改善",
+    "D": "可被β1-adrenoceptor增加",
+    "E": "可被myofilament Ca++ sensitizer增加"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q30",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 31,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "吸入性麻醉劑對於心臟冠狀動脈之敘述,下列何者錯誤?",
+   "options": {
+    "A": "在離體實驗可改vasodilation",
+    "B": "在活體動物,sevoflurane會引起明顯之冠狀動脈擴張",
+    "C": "在離體實驗,對大於2000μm 之冠狀動脈,Halothane 比Isoflurane 在相同MAC 時, 可致較強之vasodilation",
+    "D": "在離體心臟實驗,心肌氧供給量(O2 delivery)超過心臟耗氧量,故冠狀竇(coronary sinus)氧濃度增加",
+    "E": "所有吸入性麻醉劑均會影響冠狀動脈血流,但影響程度不同"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q31",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 32,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對於吸入性麻醉劑所造成之心律及血壓變化,下列敘述何者最正確?",
+   "options": {
+    "A": "Halothane 及enflurane 所致之血壓下降,其主要原因為左心室afterload 降低所致",
+    "B": "Isoflurane, desflurane 及sevoflurane 所致之血壓下降,主要原因為心肌抑制及心輸出量 降 低所致",
+    "C": "吸入性麻醉劑所引起之心律及血壓變化不因麻醉時間而改變",
+    "D": "感壓反射(Baroreceptor reflex)在Isoflurane麻醉時比halothane及enflurane麻醉時被抑制 程度較少",
+    "E": "Desflurane 及Isoflurane 所引起之心律過速在使用嗎啡類藥物後可能會增加"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q32",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 33,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對於吸入性麻醉劑對心肌缺氧之作用,下列敘述何者正確?",
+   "options": {
+    "A": "在為嚴重阻塞之冠狀動脈遠端之心肌收縮力降低,在使用Halothane 比Isoflurane 麻醉 時更嚴重",
+    "B": "改善動脈灌流壓(coronary perfusion pressure)亦無法避免吸入性麻醉對心肌缺氧的影 響",
+    "C": "吸入性麻醉劑會增加阻塞之冠狀動脈再恢復血流後血管壁的血小板堆積",
+    "D": "Isoflurane對心肌缺氧之保護作用,可能與抑制KATP離子通道有關",
+    "E": "Isoflurane所引起之心肌缺氧保護作用可被預先注射的glyburide所增強"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q33",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 34,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關笑氣對心臟之作用,下列敘述何者最正確? 237 處:p98-99 處:p99 處:p104 P109-110 8",
+   "options": {
+    "A": "在冠狀動脈繞道手術之病人使用笑氣,可導致左心室舒張期功能不良(LV diastolic dysfunction)",
+    "B": "笑氣可致心肌細胞對Ca++敏感度降低",
+    "C": "70 %笑氣抑制心臟收縮力之程度遠大於1 MAC isoflurane",
+    "D": "笑氣所引起之心臟收縮力抑制現象可被其所產生之交感神經興奮完全抵消",
+    "E": "笑氣會降低Halothane 麻醉時心律不整之發生率"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q34",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 35,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關肺部份塌陷(Atelectasis)時,FRC 與CC 之關係,下列敘述何者最正確? [功能肺餘量(Functional Residural Capacity, FRC); 肺閉鎖容量(closing capacity, CC)]",
+   "options": {
+    "A": "FRC > CC",
+    "B": "FRC = CC",
+    "C": "FRC < CC",
+    "D": "FRC << CC",
+    "E": "與FRC 及CC 無關"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q35",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 36,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關呼吸生理,下列敘述何者正確?",
+   "options": {
+    "A": "解剖性死腔(anatomical dead space)大約為5 ml/kg",
+    "B": "在使用PEEP 之病人,肺部擴張力(lung compliance)= volume deliver / peak or plateau pressure + PEEP",
+    "C": "Dead space / Tidal volume = 33 + Age",
+    "D": "輕度血氧過低(Mild Hypoxemia)即動脈血中氧飽和度80 %以下,使交感神經興奮性 增加",
+    "E": "慢性缺氧可致2,3- DPG 減少"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q36",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 37,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列何者不會增加呼吸道阻力?",
+   "options": {
+    "A": "呼吸道內之水分",
+    "B": "麻醉機之瓣膜",
+    "C": "功能肺餘量(FRC)增加",
+    "D": "二氧化碳吸收器",
+    "E": "氣管內插管"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q37",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 38,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關缺氧性肺動脈收縮(Hypoxic pulmonary vasoconstriction, HPV),下列敘述何者 最正確?",
+   "options": {
+    "A": "常發生於肺部大血管",
+    "B": "阻斷cyclooxygenase,可降低HPV",
+    "C": "阻斷lipoxygenase 可增加HPV",
+    "D": "Leukotrienes 可降低HPV",
+    "E": "Prostaglandin可降低HPV"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q38",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 39,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關Poiseuille’s,下列何者正確? P = pressure(CmH2O); V = volume flowrate(ml/s) L = length of tube(cm); r = radius of tube(cm) ; μ = viscosity(poises)",
+   "options": {
+    "A": "P = V × 8L × μ/πr4 × 980",
+    "B": "P = V × 8L × μ/πr4 × 98",
+    "C": "P = V × 8L × πr4/μ × 980",
+    "D": "P = V × 8L × πr4/μ × 98",
+    "E": "P = V × L × πr4/μ × 980"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q39",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 40,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "功能肺餘量(Functional Residual Capacity, FRC)在何時減少之程度最多?",
+   "options": {
+    "A": "站立時",
+    "B": "平躺時 P113-115 P611-612 P606 P583 P587 9",
+    "C": "麻醉誘導後",
+    "D": "使用肌肉鬆弛劑後",
+    "E": "與病人姿勢無關"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q40",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 41,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "因過度換氣造成低二氧化碱中毒(Hypocapnic alkalosis)可因下列何種情況而發生?",
+   "options": {
+    "A": "心輸出量增加",
+    "B": "耗氧量降低",
+    "C": "氧一血色素解離曲線(Oxy-Hb dissociation curve)向右偏離",
+    "D": "HPV 增加",
+    "E": "呼吸道阻力增加"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q41",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 42,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "因過度換氣所造成之二氧化碳過低(Hypocapnia)可導致:",
+   "options": {
+    "A": "增加心輸出量",
+    "B": "降低心輸出量",
+    "C": "增加交感神經興奮性",
+    "D": "增加ionized Ca++",
+    "E": "增強HPV"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q42",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 43,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "疼痛患者如有侵犯到神經,首選之附加藥物為何?",
+   "options": {
+    "A": "Phenytoin",
+    "B": "Amitriptyline",
+    "C": "Lidocaine",
+    "D": "Doxamethasone",
+    "E": "Calcitoain"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q43",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 44,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關術後疼痛之敘述,何者正確?",
+   "options": {
+    "A": "術後疼痛會增進腸蠕動",
+    "B": "術後疼痛會導致膀胱及尿道活力降低",
+    "C": "術後疼痛會使傷口恢復較佳",
+    "D": "術後疼痛會增加胰島素分泌",
+    "E": "術後疼痛會減少抗利尿激素分泌"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q44",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 45,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列何者為脊椎麻醉(spinal anesthesia)之強contraindication?",
+   "options": {
+    "A": "使用抗凝血劑",
+    "B": "腦壓高",
+    "C": "皮膚感染",
+    "D": "重度體液不足",
+    "E": "麻醉醫師沒有經驗"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q45",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 46,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關硬脊膜外及脊髓內術後止痛,下列何者為真?",
+   "options": {
+    "A": "呼吸次數足以反應病患呼吸狀況",
+    "B": "脊髓內注射嗎啡類藥物常發生於術後24-48 小時",
+    "C": "二氧化碳堆積至80 mmHg可造成意識喪失",
+    "D": "脊髓內注射嗎啡導致之癢常見於前胸及後背",
+    "E": "吸呼抑制發生時,為緊急搶救患者,Naloxone 之劑量以0.4 mg 之大劑量為宜"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q46",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 47,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "在正常人正常心輸出量之下,半身麻醉造成的高皮節阻斷對週邊阻力降低為何?",
+   "options": {
+    "A": "15-18 %",
+    "B": "25-28 %",
+    "C": "35-38 %",
+    "D": "45-48 %",
+    "E": "55-58 %"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q47",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 48,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "半身麻醉造成的呼吸停止,其原因為何?",
+   "options": {
+    "A": "膈神經阻斷 P605 P604 P2843 P2324 P1492 P2333 P1496 10",
+    "B": "迷走神經阻斷",
+    "C": "喉返回神經阻斷",
+    "D": "呼吸肌有關之神經路徑阻斷",
+    "E": "呼吸中樞血流不足"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q48",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 49,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "等比重的bupivacaine 之濃度為何?",
+   "options": {
+    "A": "0-0.25 %",
+    "B": "0.25-0.5 %",
+    "C": "0.5-0.75 %",
+    "D": "0.75-1.0 %",
+    "E": "1.0-1.25%"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q49",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 50,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "某患者在頭椎照影顯示第六頸椎神經壓迫,其對應之手臂區域為何?",
+   "options": {
+    "A": "手臂外側至大姆指",
+    "B": "手臂外側至中指",
+    "C": "手臂內側至小指",
+    "D": "手臂內側至無名指",
+    "E": "手臂內側至手掌 F. p 1522"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q50",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 51,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於硬脊外麻醉,下列何者起始作用時間(onset time)最長?",
+   "options": {
+    "A": "Bupivacaine(0.5-0.75 %)",
+    "B": "Lidocaine(2 %)",
+    "C": "Mepivacaine(2 %)",
+    "D": "2-chloroprocaine(3 %)",
+    "E": "Etidocaine(1 %)"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q51",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 52,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "初生之嬰孩(<1歲)其脊柱(spinal cord)止於何處?",
+   "options": {
+    "A": "第一尾椎",
+    "B": "第四腰椎",
+    "C": "第二腰椎",
+    "D": "第一腰椎",
+    "E": "第十二胸椎"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q52",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 53,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關局部麻醉藥使用於周邊阻斷,下列敘述何者正確?",
+   "options": {
+    "A": "作用不會超過24 小時",
+    "B": "2 % Lidocaine不建議用於周邊神經阻斷",
+    "C": "0.75 % Bupivacaine 是安全的",
+    "D": "進行接指手術因為手術時間長,應加Epinephrine 於局部麻醉藥以增加阻斷時間",
+    "E": "Ketamine 無助於延長局部麻醉藥之作用"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q53",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 54,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關C-fiber 特質之敘述,下列何者正確?",
+   "options": {
+    "A": "C-fiber 有關之疼痛為局限性的",
+    "B": "C-fiber不隨剌激增強",
+    "C": "C-fiber 較A-delta-fiber 傳遞速度快",
+    "D": "C-fiber 與尖銳疼痛有關",
+    "E": "有myelin 包覆"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q54",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 55,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "所謂Wind-up 其主要作用組識為何?",
+   "options": {
+    "A": "脊髓背角神經元",
+    "B": "脊髓前角神經元",
+    "C": "A-delta-fiber",
+    "D": "C-fiber",
+    "E": "神經末梢 P1479 P1505 P1522 P1512 P1549 P1546-7 P2352 P2353 11"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q55",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 56,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "一位75 歲男性病人,因診斷為胃癌,需接受全胃切除術 (Total gastrectomy )。有 長期抽煙習慣 (1 天1 包 ),患有重度慢性阻塞性肺疾病 (chronic obstructive pulmonary disease,COPD ),術後沒有拔管,帶endotracheal tube 入ICU 照顧。下 列哪一種ventilatory mode 最適合給此病患使用:",
+   "options": {
+    "A": "Intermittent Mandatory Ventilation (IMV )",
+    "B": "Mandatory Minute Volume",
+    "C": "Pressure Support Ventilation (PSV )",
+    "D": "PSV + Pressure Augmentation",
+    "E": "Positive End-Expiratory Pressure (PEEP ) 【57、58 題】一位40 歲男性,某天在家裡吃完晚飯後約半小時,感覺想吐,有頭痛現象, 而且愈來愈痛。10 分鐘後,失去知覺,被家人送到急診室。Glasgow Coma Score (GCS ) 為Eye opening to pain, Best verbal response = inappropriate words, Best motor response = flexion to pain。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q56",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 57,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "GCS 為幾分 ?",
+   "options": {
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "7",
+    "E": "8"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q57",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 58,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列哪一種Complications (包括early 及late )最不可能發生 ?",
+   "options": {
+    "A": "Rebreeding",
+    "B": "Hydrocephalus",
+    "C": "Subdural hematoma",
+    "D": "Seizures",
+    "E": "Cerebral Vasospasm 【59、60 題】一位80 歲男性,有腹主動脈瘤 (abdominal aneurysm ),及COPO病史。 因患嚴重肺炎需入ICU治療。在ICU中插Endo,利用呼吸器 (50%O2 )給予正壓補助呼 吸。動脈氣體分析 (ABG )為PaO2 = 50 mmHg, PaCO2 = 55 mmHg, pH = 7.23。加PEEP = 15 mmHg,peak airway press ure= 60 cmH2O。1 小時後,病人血壓突然下降 (140/80 → 90/40 mmHg ),心跳從100 掉至50 bpm。"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q58",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 59,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "上述病例最可能的診斷為:",
+   "options": {
+    "A": "腹腔出血 (abdominal bleeding )",
+    "B": "心肌梗塞 (myocardiac infarction )",
+    "C": "Septic shock",
+    "D": "氣胸 (pneumothorax )",
+    "E": "胸腔出血 (intrathoracic hemorrhage )"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q59",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 60,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "上述病情最適當的治療為:",
+   "options": {
+    "A": "High frequency ventilation",
+    "B": "Thoracotomy",
+    "C": "Dopamine infusion",
+    "D": "輸血 (Blood transfusion )",
+    "E": "Tube thoracostomy"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q60",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 61,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "以下為四種volume preset 模式的airway pressure 波型。Thick solid lines 代表 參考處:Anesthesia, 5th edition, p2386-87 難易度: 參考處:Anesthesia, 5th edition, p2160 表 難易度: 參考處:Anesthesia, 5th edition, p2394-95 難易度: 參考處:Anesthesia, 5th edition, p2425-26 難易度: 參考處:Anesthesia, 5th edition, p2426 難易度: ventilator breaths. Thick dotted lines 代表spontaneous breaths. Thin dotted lines 代表 沒有ventilator 時病人的spontaneous breath patterns。下列配對何者最適合: 1. (a) 2. (b) (c) 3. 4. (d)",
+   "options": {
+    "A": "1 + a,2 + b,3 + d,4 + c",
+    "B": "1 + d,2 + a,3 + c,4 + b 12",
+    "C": "1 + c,2 + a,3 + b,4 + d",
+    "D": "1 + b,2 + c,3 + a,4 + d",
+    "E": "1 + d,2 + b,3 + c,4 + a"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q61",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 62,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "利用apnea test 作腦死 (brain death )判定標準的敘述,下列何者為錯誤:",
+   "options": {
+    "A": "Apnea test 是最後一道測試",
+    "B": "體溫需達36.5°C 以上",
+    "C": "收縮壓需超過90 mmHg",
+    "D": "PaCO2 ≧ 50 mmHg",
+    "E": "PaO2 ≦ 200 mmHg"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q62",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 63,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "A 圖是患有atrial fibrillation 與preexcitation 病人的心電圖。B 圖是經過治療後的心 電圖。最可能產生心電圖B 的藥物為:",
+   "options": {
+    "A": "Atropine",
+    "B": "Adenosine",
+    "C": "Methylxanthines",
+    "D": "Dipyridamole",
+    "E": "Dopamine"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q63",
+   "textbook_era": "Anesthesia 第 5 版",
+   "images": [
+    "94_Q63_fig3.png"
+   ]
+  },
+  {
+   "id": 64,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "有關Total Parenteral Nutrition(TP)併發症的敘述,下列何者最不可能發生?",
+   "options": {
+    "A": "Postinfusion hypoglycemia",
+    "B": "Hypochloremic metabolic acidosis 13",
+    "C": "Serum folate 濃度減少",
+    "D": "Thromboembolisn",
+    "E": "Endocarditis"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q64",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 65,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列何者最不可能影響in-hospital resuscitation 後的outcome?",
+   "options": {
+    "A": "Sepsis",
+    "B": "Ventricular tachycardia",
+    "C": "Resuscitation 超過30 分鐘",
+    "D": "年齡超過80 歲",
+    "E": "Cancer patient"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q65",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 66,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "上圖是關於gluconeogenesis 的pathway。請問phosphoenolpyruvate carboxykinase 作用在哪一段反應 ?",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "E": "5"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q66",
+   "textbook_era": "Anesthesia 第 5 版",
+   "images": [
+    "94_Q66_fig1.png"
+   ]
+  },
+  {
+   "id": 67,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "一位10 歲女孩,在公廁內被人發現昏迷倒地,頸部有繩子纒住,皮膚發紺,送往急 診室時仍有輕微呼吸,PaO2祗有40 mmHg,下列何者最不可能發生:",
+   "options": {
+    "A": "病人呈hypoxia 合併有mixed metabolic & respiratory acidosis",
+    "B": "Bradycardia 合併low cardiac output",
+    "C": "Pulmonary edema",
+    "D": "Hyperthermia",
+    "E": "Intraventricular hemorrhage edition, p2523 表、2524 表 14"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q67",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 68,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "腹腔鏡手術中,腹腔以CO2充氣後,引起血中PaCO2上升的最不可能原因?",
+   "options": {
+    "A": "從腹空吸收CO2",
+    "B": "麻醉期間,新陳代謝減緩",
+    "C": "生理性死腔增加",
+    "D": "發生CO2栓塞 (CO2 embolism )",
+    "E": "發生氣胸 (pneumothorax )"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q68",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 69,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "腹腔鏡手術,腹腔以CO2充氣後,導致心血管系統的變化,可者最不可能?",
+   "options": {
+    "A": "心博出量增加",
+    "B": "血壓上升",
+    "C": "胸內壓增加",
+    "D": "腹內器官血管阻力增加",
+    "E": "靜脈阻力增加"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q69",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 70,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對老人麻醉,何者敘述最不適當?",
+   "options": {
+    "A": "老人常有器官功能不良或衰竭",
+    "B": "因disseminated neurogenic atropy 及肝腎功能下降,老人需非去極性肌肉鬆弛劑藥量減 少",
+    "C": "味覺、視覺、痛覺等向心神經閥 (afferentation threshold )隨著年齡增加而下降",
+    "D": "因中樞神經變化,所需吸入性麻醉藥藥量較少",
+    "E": "肝血流量減少,為鴉片類(opiates)藥效延長的原因之一"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q70",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 71,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "何者為可經皮膚吸收的鴉片類止痛藥(Opioid analgesics )?",
+   "options": {
+    "A": "codeine",
+    "B": "morphine, MS contin",
+    "C": "fentanyl(Duragesic)",
+    "D": "methadone(Dolophine)",
+    "E": "levorphanol(Levodromoran)"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q71",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 72,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對鴉片類止痛藥(Opioids)之敘述,何者最不適當 ?",
+   "options": {
+    "A": "可減少因疼痛、不安而導致之呼吸性鹼中毒",
+    "B": "可止咳",
+    "C": "抑制上呼吸道、氣管及下呼吸道之反射",
+    "D": "可治療急性氣喘",
+    "E": "病人清醒時對opioid之呼吸-抑制劑效果(respiratory-depressant effect)較敏感"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q72",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 73,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列哪種肌肉鬆弛劑之排泄與腎功能最沒關係 ?",
+   "options": {
+    "A": "Vecuronium",
+    "B": "Pancuronium",
+    "C": "Gallamine",
+    "D": "Atracurium",
+    "E": "d-tubocurarine"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q73",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 74,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對經尿導切除攝護腺(transurethral resection of the prostate)之敘述,何者最不可能?",
+   "options": {
+    "A": "Cytal 和glycine 為目前最常用之沖洗液",
+    "B": "TURP syndrome 時,病人會意識不清,搐筋及昏迷",
+    "C": "手術時間愈長,發生水中毒的機會愈高",
+    "D": "急性體液過多(hypervolemia )時,會出現血壓下降及心博過慢",
+    "E": "區域麻醉(T10以下)優於全身麻醉"
+   },
+   "answer": "A",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q74",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 75,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對糖尿病人的敘述,何者最不適當?",
+   "options": {
+    "A": "糖尿病人常併發心臟、神經系統、腎臟和血管等病變",
+    "B": "據英、美學者統計,糖尿病人手術死亡率比正常人高3 倍",
+    "C": "施行區域麻醉時,局部麻醉藥量應減少 edition, p905 (應5 倍) 難易 度: 15",
+    "D": "施行區域麻醉時,傷及神經的危險度增高",
+    "E": "投與之局部麻醉藥不加epinephrine 較好"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q75",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 76,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對嗜鉻細胞瘤(Pheochromocytoma)之敘述,何者不實?",
+   "options": {
+    "A": "為腎上腺皮質瘤(adrenocortical tumor )",
+    "B": "症狀:大量出汗、頭痛、高血壓、體位性低血壓(orthostatic hypotension)",
+    "C": "手術前投與phenoxybenzamine 可使plasma volume 回復",
+    "D": "Phenoxybenzamine 投藥時間約為10~14 天",
+    "E": "Propranolol 用以治療心博過速"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q76",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 77,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "對尿毒症病人的敘述,何者不當?",
+   "options": {
+    "A": "洗腎引起hypovolemia 會導致術中血壓下降",
+    "B": "Acetate bathing solution會導致洗腎後過度換氣 (hyperventilation )",
+    "C": "侵入性監視器 (invasive monitoring)多不需要",
+    "D": "術前洗腎有利於改善hyperkalamia, hypercalcemia 和fluid overload",
+    "E": "麻醉前應注意電解質平衡"
+   },
+   "answer": "E",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q77",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 78,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "大量輸血後:",
+   "options": {
+    "A": "易發生dilution thrombocytopenia",
+    "B": "凝血時間延長",
+    "C": "暫時性鈣離子濃度減少",
+    "D": "低體溫有助於血液凝血功能",
+    "E": "Ca2+ 為calcium的active form"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q78",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 79,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "何者使眼壓下降?",
+   "options": {
+    "A": "Succinylcholine",
+    "B": "沒給予premedication 而投ketamine",
+    "C": "Laryngoscopy",
+    "D": "Endotracheal intubation",
+    "E": "睡眠劑量的barbiturates"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q79",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 80,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "由肝elimination 大於70%的肌肉鬆弛劑:",
+   "options": {
+    "A": "Succinylcholine",
+    "B": "Atracurium",
+    "C": "Rocuronium",
+    "D": "Vecuronium",
+    "E": "Pancuronium"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q80",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 81,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "腦壓控制在外傷性腦部損傷之手術麻醉是十分重要的課題,下列有關於腦壓控制之敘 述,何者不正確?",
+   "options": {
+    "A": "顱內腦組織的組成有下列四大部份:細胞,體液,腦脊髓液和血液而流出血管外之血 液(extravasated blood)是數屬於血液的部份",
+    "B": "將病人採頭高腳低之姿態,可以增加靜脈之迴流而降低腦壓",
+    "C": "增加呼吸速率可以降低血中二氧化碳濃度,而造成血管收縮,降低腦血流而達降低腦 壓之目的,但不建議長期使用,若超過10 時,則失去其效果",
+    "D": "類固醇也可以用來降低細胞內外液而達降低腦壓之目的,但主要適用於腦部腫瘤 (brain tumors)",
+    "E": "經腰椎腦脊髓液引流也可用來降低腦壓,但不適用於uncal herniation 和trans-foramen magnum herniation"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q81",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 82,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "腦血流是影響腦壓之重要因素之一,下列有關於此一機制之敘述,何者為正確?",
+   "options": {
+    "A": "除ketamine 外,所有靜脈麻醉劑均會降低腦血流及腦之代謝率,故ketamine 對腦部損 傷之病人並無保護作用,在手術中及術後之照顧是絕對禁止使用的。",
+    "B": "一般而言,靜脈麻醉劑對於腦血管之自主性調控(autoregulation)和二氧化碳之反應 題 題 edition, p1896-1990 難 易度: 16 性是沒有影響的",
+    "C": "所有的吸入性麻醉劑均會造成腦血管之擴張,其擴張之效力如下:halothan>enflurane >isoflurane ≈ desflurane>sevoflurane",
+    "D": "笑氣也會引起腦血管擴張,但當與靜脈麻醉劑同時使用時,會抑制靜脈麻醉劑降腦壓 之效果,故所謂的balance anesthesia 並不適用於神經外科之急症手術",
+    "E": "Sucinylcholine 會增加ICP 為急症神經麻醉之禁忌"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q82",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 83,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於腦血流之調節敘述,何者為非?",
+   "options": {
+    "A": "腦血流約佔心輸出量之15%,其耗氧量約佔全身耗氧量之20%",
+    "B": "笑氣會增加腦組織之代謝率,而造成血管擴張,增加腦血流",
+    "C": "所有之麻醉劑均可一致性地抑制整個腦區域之代謝及腦血流",
+    "D": "體溫之降低可以降低腦之代謝率而保護腦血流降低之腦細胞缺血(ischemia),每降低 攝氏1°C,約降低6~7%之腦代謝率",
+    "E": "體溫上昇愈高,愈增加氧消耗量,但若超過42°C,反而會降低氧氣之消耗量"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q83",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 84,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於二氧化碳對於腦血流調節之敘述,何者為非?",
+   "options": {
+    "A": "血中二氧化碳分壓若低於25mmHg 時,其對於腦血流調節會明顯降低",
+    "B": "腦細胞外液之pH 值對於二氧化碳調節腦血流能力有明顯之影響",
+    "C": "二氧化碳對於腦血液之調節有部份是經由一氧化氮(NO)之機制",
+    "D": "不論是呼吸性酸中毒或是代謝性酸中毒對於腦血流之影響是一致的",
+    "E": "過快的調節血中二氧化碳分壓正常化(nomalization)會造成腦脊髓液之酸化(增加腦 壓)及鹼化(腦缺血)之可能"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q84",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 85,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於腦血流調節之敘述,何者為非?",
+   "options": {
+    "A": "血液之黏滯度(viscosity)是受血比容(hematocrit)之影響,若血比容太低會造成黏 滯度之降低而增加腦血流",
+    "B": "血比容(hematocrit)之降低所造成之血液攜氧能力下降也是造成血管擴張增加腦血流 的因素之一",
+    "C": "對於病人有局部腦組織缺血症狀況時,血比容維持在30~34%左右,有最佳之氧氣輸 送效果",
+    "D": "血氧分壓低於60mmHg 時,血氧分壓對腦血流有明顯之影響",
+    "E": "參與腦血管張力調節之神經包括交感及副交感神經"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q85",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 86,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於藥物治療控制腦壓之敘述,何者為是?",
+   "options": {
+    "A": "類固醇對於ICP 之下降可立即發生於初次給藥後之6-8 小時",
+    "B": "類固醇用於腦壓之控制可用於腦部外傷之腦出血病人",
+    "C": "Mannitol 為目前用來降低腦壓之最主要藥物主要是因為不會透過血腦障壁對於嚴重腦 外傷者為第一優先選擇之降壓藥物",
+    "D": "神經元(neuron)和神經膠質細胞(glia)可做為所謂的idiogenic osmoles,可快速地調 節滲透性利尿劑造成細胞內、外環境體積之失衡",
+    "E": "鈣離子也是所謂的idiogenic osmole。"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q86",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 87,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於sitting position 手術麻醉相關之敘述,何者為非?",
+   "options": {
+    "A": "靜脈空氣栓塞造成嚴重病發症並不常見",
+    "B": "最常用於頸部椎板切除術(cervical laminectomy)和後顱窩手術(posterior fossa)",
+    "C": "除靜脈空氣栓塞外,呼吸道阻塞和顱神經之剌激及低血壓等也是sitting position 手術常 見之併發症",
+    "D": "當病人有一開放性腦室心房引流導管時,並不適用sitting position 手術",
+    "E": "手術前診斷有開放性卵圓孔時,sitting position為絕對禁忌症"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q87",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 88,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "在坐姿手術時,監測靜脈空氣栓塞最敏感之儀器為何?",
+   "options": {
+    "A": "EtCO2",
+    "B": "PA pressure",
+    "C": "TEE 題 題 edition, p697-698 ; p1899 題 edition, p698-699 ; p1899-1900 題 題 edition, p1901-1902 難易 度: 題 edition, p1024-1025 難易 度: edition, p1027 ; p1906 難 易度:",
+    "D": "TcPO2",
+    "E": "Doppler"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q88",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 89,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "放置右心房多孔導管,可有效地抽取移除右心房中經由破裂靜脈而來之空氣,而降低 空氣栓塞之病發症,其導管尖端之位置最好在右心房之中間位置,而此可以附有心電 圖電極之導管來定位,下 圖中何者為適當之導管位 置?",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4 17",
+    "E": "5"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q89",
+   "textbook_era": "Anesthesia 第 5 版",
+   "images": [
+    "94_Q89_fig1.png"
+   ]
+  },
+  {
+   "id": 90,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下面有關於神經外科手術麻醉液體治療(Fluid management)之敘述,何者錯誤?",
+   "options": {
+    "A": "維持正常之身體容積(normovdemia)及血清滲透度",
+    "B": "為維持血清之滲透度以防止腦組織水腫,在大量輸液時,lactate ringer優於normal saline",
+    "C": "對於嚴重頭部外傷之病人使用colloid 製劑時,albumin 和plasma protein 是合理的選擇",
+    "D": "Dextran 和starch 等製劑會影響血小板功能及降低凝血因子,應盡量少用",
+    "E": "目前研究發現高張之鹽水(hypertonic saline)用於輸液治療,有最優之效果"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q90",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 91,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "在蜘蛛網膜下腔出血(SAH, Subarachnoid hemrrhage)的病人常伴隨低血鈉 (hyponatremia),下列有關之敘述何者為非?",
+   "options": {
+    "A": "可能是SIADH,限水是一適當之治療",
+    "B": "Cerebral salt-washing syndrome 才是SAH 造成低血鈉之主因",
+    "C": "造成cerebral salt-washing syndrome 之主要原因是natriuretic peptide 之不正常釋放",
+    "D": "Cerebral salt-washing syndrome之triad是低血鈉,低體積,低尿鈉,不適合限水治療",
+    "E": "SIADH 之體液體積是正常或稍高於正常"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q91",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 92,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "腦細胞內過多之鈣離子會造成腦細胞之傷害,而造成腦細胞中鈣離子增加之來源,下 列何者為非? 題參考處:Anesthesia, 5th edition, p1028 ; p1906 難 易度: 題參考處:Anesthesia, 5th edition, p1910; p1911 難易 度: 題參考處:Anesthesia, 5th edition, p1914 難易度:",
+   "options": {
+    "A": "Valtage-gated Ca2+ channel",
+    "B": "Endoplasmic reticulum",
+    "C": "Mitochondria",
+    "D": "Glutamate NMDA receptor 18",
+    "E": "Glutamate AMPA receptor"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q92",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 93,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於brain protection 之敘述,何者為非?",
+   "options": {
+    "A": "避免使用含葡萄糖之輸液,並積極地使用胰島素防止血糖過高,以降低細胞之酸中毒",
+    "B": "低體溫治療可降低過多的神經傳遞物質釋放,降低細胞中鈉離子之濃度,而防止細胞 水腫",
+    "C": "Hemodilution 和Mannitol 之使用可增加腦血流,而改善能量之供給(energy supply)",
+    "D": "NSAID 可以抑制脂肪酸代謝,及prostaglandins 和leukotrienes 之合成,而達brain protection 之目的",
+    "E": "Allopurinol 可以抑制自由基之產生,維護細胞膜之完整性而達brain protection 之作用"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q93",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 94,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列有關於小兒神經外科手術,何者為是?",
+   "options": {
+    "A": "Meningcele 會造成呼吸道處理之問題,手術修補後,對腦壓並無影響",
+    "B": "Myelomeningocele 修補手術後,並不會有呼吸限制之可能",
+    "C": "Craniosynostosis 手術時空氣栓塞並不是一問題",
+    "D": "在Vascular malformations的嬰兒(infants)常合併有心臟衰竭之狀況存在",
+    "E": "患有Craniofacial dystosis 之嬰兒(infants)多合併有腦水腫及腦壓上昇之情形"
+   },
+   "answer": "D",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q94",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 95,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "開刀中,下列何者最不可能是因坐姿引起的併發症?",
+   "options": {
+    "A": "Pneumocephalus",
+    "B": "Venous air embolism",
+    "C": "Hypertension",
+    "D": "Facial edema",
+    "E": "Stroke volume and cardiac index decraese"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q95",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 96,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "關於Baribiturates, 下列敘述何者是錯的?",
+   "options": {
+    "A": "對於心臟血管系統方面的影響, 在Hypovolemic 之病人, 血壓下降的程度較為嚴重",
+    "B": "使用Barbiturates 做為麻醉誘導時, 病人呼吸的表現為較慢的呼吸速率及Tidal Volume 的下降",
+    "C": "Barbiturates 會使腦血流下降, 腦壓下降及降低腦中氧氣的代謝需要量",
+    "D": "使用Barbiturates時, 病人甦醒的時間, 決定於Barbiturates在肝臟中的代謝速率",
+    "E": "使用Barbiturates 時,可能有anaphylaxis 之發生"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q96",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 97,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "Oculocardiac Reflex 傳入之afferent signals 源自:",
+   "options": {
+    "A": "Oculomotor(III)nerve",
+    "B": "Ophthalmic division of the trigeminal(V)nerve",
+    "C": "Mandibular division of the trigeminal(V)nerve",
+    "D": "Optic(II)Nerve",
+    "E": "Vagus(X)nerve"
+   },
+   "answer": "C",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q97",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 98,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "下列各種肌肉鬆弛劑, 何者最不適用於氣喘病人?",
+   "options": {
+    "A": "Pipercuronium",
+    "B": "Tubocurarine",
+    "C": "Vecuronium",
+    "D": "Doxacurium",
+    "E": "Cisatrauvium"
+   },
+   "answer": "B",
+   "scoring": "exact",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q98",
+   "textbook_era": "Anesthesia 第 5 版"
+  },
+  {
+   "id": 99,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "在壓傷造成兩側股骨骨折(femoral fracture)12 小時後,病人呈現呼吸急促即和意 識不清的現象。下列何種情形最不可能出現?",
+   "options": {
+    "A": "PaO2 值降低",
+    "B": "血小板減少",
+    "C": "第五、八凝血因子(factor V、VIII )降低",
+    "D": "體溫上升",
+    "E": "血壓下降 題 edition, p1914 Fig 19-12 題 edition, p718 Table 19-6 難 易度: 題 edition, p1927 Table 52-14 題 題 度: 題 度: 題 易度: 題 度: 19"
+   },
+   "answer": "",
+   "scoring": "unscored",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q99",
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原檔沒有這一題的答案"
+   ]
+  },
+  {
+   "id": 100,
+   "year": 94,
+   "western_year": 2005,
+   "era": "old",
+   "question": "局部麻醉劑對sodium channel 的作用為?",
+   "options": {
+    "A": "改變resting membrane potential",
+    "B": "減慢去極化的速度",
+    "C": "提高action potential 的閥值",
+    "D": "增加鈉離子在細胞膜的通透度",
+    "E": "Open gate 時結合低 題 度:"
+   },
+   "answer": "",
+   "scoring": "unscored",
+   "answer_source": "考卷檔案內附，無學會公開公告可核對",
+   "answer_tier": "exam_file",
+   "source": "94_written_Q100",
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原檔沒有這一題的答案"
+   ]
+  }
+ ]
+}

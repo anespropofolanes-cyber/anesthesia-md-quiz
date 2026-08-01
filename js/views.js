@@ -16,7 +16,8 @@ function qTags(q, { showCategory = true } = {}) {
       ? '<span class="tag unofficial">答案來自命題端檔案</span>'
       : '<span class="tag disputed">答案未經官方核對</span>');
   }
-  if (isFree(q)) t.push('<span class="tag free">送分</span>');
+  if (isUnscored(q)) t.push('<span class="tag disputed">原檔缺答案，不計分</span>');
+  else if (isFree(q)) t.push('<span class="tag free">送分</span>');
   else if (isMulti(q)) t.push(`<span class="tag multi">兩案皆可 ${esc(q.answer.split('').join('／'))}</span>`);
   if (showCategory && q.category && DB.catName[q.category]) {
     t.push(`<span class="tag topic">${esc(DB.catName[q.category])}</span>`);
@@ -53,7 +54,9 @@ function renderQuiz() {
   let after = '';
   if (reveal) {
     const ok = isCorrect(q, pick0);
-    const v = isFree(q)
+    const v = isUnscored(q)
+      ? `<div class="verdict free">${esc((q.incomplete || []).join('；'))}——這一題不列入計分</div>`
+      : isFree(q)
       ? '<div class="verdict free">本題送分，全體給分</div>'
       : `<div class="verdict ${ok ? 'ok' : 'no'}">${ok ? '答對了' : `答錯了　正解 ${esc(answerText(q))}`}</div>`;
     after = v + sourceHTML(q);
@@ -103,6 +106,10 @@ function sourceHTML(q) {
   const rows = [];
   if (q.answer_note) rows.push(`<div class="revnote">${esc(q.answer_note)}</div>`);
   if (q.reference) rows.push(`<div>教科書出處：${esc(q.reference)}</div>`);
+  if (q.textbook_era) {
+    rows.push(`<div>這一年的命題依據是 <strong>${esc(q.textbook_era)}</strong>，
+      現行考試以 Miller 第十版為準，臨床準則可能已經不同。</div>`);
+  }
   if (q.category && DB.catName[q.category]) {
     rows.push(`<div>學會分類：${esc(q.category)} ${esc(DB.catName[q.category])}</div>`);
   }
@@ -151,6 +158,7 @@ function renderResult() {
           <div class="stat ok"><b>${s.ok}</b><s>答對</s></div>
           <div class="stat no"><b>${s.no}</b><s>答錯</s></div>
           <div class="stat"><b>${s.blank}</b><s>未作答</s></div>
+          ${s.skipped ? `<div class="stat"><b>${s.skipped}</b><s>不計分</s></div>` : ''}
         </div>
       </div>
       <div class="btnrow">
@@ -311,6 +319,9 @@ function doSearch() {
    這兩種是情境演練，不計分也不記錯題。用法是先自己把答案講一遍，
    再展開官方參考答案補漏掉的地方——所以參考答案預設收合。 */
 
+/** 目前選的是哪一年（或 'us' 代表超音波）。一次只顯示一年，避免整頁十幾張卡。 */
+let ORAL_PICK = null;
+
 function renderOral() {
   const el = document.getElementById('oral-list');
   const oral = DB.oral || [], us = DB.ultrasound || [];
@@ -321,15 +332,33 @@ function renderOral() {
 
   const byYear = {};
   for (const q of oral) (byYear[q.year] ||= []).push(q);
+  const years = Object.keys(byYear).sort((a, b) => b - a);
+  if (ORAL_PICK === null) ORAL_PICK = years[0];
+
+  const chips = years.map(y => {
+    const hasRef = byYear[y].some(q => q.has_reference);
+    return `<button class="chip ${String(ORAL_PICK) === String(y) ? 'on' : ''} ${hasRef ? '' : 'legacy'}"
+      onclick="pickOral('${y}')">${y}${hasRef ? '' : ' ※'}</button>`;
+  }).join('') + (us.length
+    ? `<button class="chip ${ORAL_PICK === 'us' ? 'on' : ''}" onclick="pickOral('us')">108 超音波</button>`
+    : '');
+
+  const body = ORAL_PICK === 'us'
+    ? us.map(usCard).join('')
+    : (byYear[ORAL_PICK] || []).sort((a, b) => a.id - b.id).map(oralCard).join('');
 
   el.innerHTML = `
-    <div class="sect-label">口試</div>
-    ${Object.keys(byYear).sort((a, b) => b - a).map(y => `
-      <div class="sect-year">${y} 年</div>
-      ${byYear[y].sort((a, b) => a.id - b.id).map(oralCard).join('')}`).join('')}
-    ${us.length ? `<div class="sect-label">108 年超音波實作</div>
-      ${us.map(usCard).join('')}` : ''}`;
+    <div class="card" style="margin-bottom:16px">
+      <div class="field" style="margin-bottom:0">
+        <label>選一年</label>
+        <div class="chips">${chips}</div>
+        <p class="legend">標 ※ 的年份，學會只公布題目沒公布參考答案。</p>
+      </div>
+    </div>
+    ${body}`;
 }
+
+function pickOral(y) { ORAL_PICK = y; renderOral(); window.scrollTo({ top: 0, behavior: 'instant' }); }
 
 function oralCard(q) {
   const total = q.subquestions.reduce((n, s) => n + s.weight, 0);
