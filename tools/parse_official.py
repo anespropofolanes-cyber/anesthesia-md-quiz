@@ -30,9 +30,18 @@ EDGE_LINES = 2
 
 
 def pdf_text(path):
-    """逐頁取文字，順便把該頁的頁首頁尾雜訊去掉。"""
+    """逐頁取文字，順便把該頁的頁首頁尾雜訊去掉。
+
+    整頁重複的頁面直接跳過：110 年官方 PDF 的第 2、3 頁內容一模一樣，
+    Q5 的區塊會一路吃到重複頁的頁首與第 1 題題幹，選項 D 尾巴多出一整串雜訊。
+    """
     pages = []
+    seen = set()
     for page in fitz.open(path):
+        digest = re.sub(r"\s+", "", page.get_text())
+        if digest and digest in seen:
+            continue
+        seen.add(digest)
         lines = [ln.replace("\u00a0", " ").rstrip() for ln in page.get_text().splitlines()]
         keep = []
         idx = [i for i, ln in enumerate(lines) if ln.strip()]

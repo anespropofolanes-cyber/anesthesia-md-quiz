@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-"""用官方 PDF 補回被截斷的選項文字。
+"""用官方 PDF 修正選項文字被截斷或多出雜訊的題目。
 
-`split_options` 原本只要文字裡出現 (A)–(E) 就當成新選項的起點，選項內文引用
-其他選項時就會被就地切斷（113 Q13 的四個選項全成了「Panel」）。parser 已修，
-但整份重抽會蓋掉後製欄位（分類、圖檔、answer_note），所以這支只補選項文字，
-其餘欄位一律不動。
+parser 修過兩個坑，但整份重抽會蓋掉後製欄位（分類、圖檔、answer_note），
+所以這支只動選項文字，其餘欄位一律不動：
 
-只在「新抽出的文字以現有文字開頭且更長」時才覆蓋——確定是截斷才補，
-避免把 parser 的其他行為差異一併寫進題庫。
+1. **被截斷**：`split_options` 原本只要文字裡出現 (A)–(E) 就當成新選項的起點，
+   選項內文引用其他選項時就會被就地切斷（113 Q13 的四個選項全成了「Panel」）。
+2. **多出雜訊**：110 年官方 PDF 第 2、3 頁完全重複，Q5 的選項 D 尾巴吃進了
+   重複頁的頁首與第 1 題題幹。
+
+只在新舊文字是單純的前綴關係時才覆蓋（一方是另一方的開頭），確定是這兩種
+情形才動手，避免把 parser 的其他行為差異一併寫進題庫。
 
 用法：python3 tools/fix_truncated_options.py [--dry-run]
 """
@@ -44,12 +47,19 @@ def main() -> int:
                     continue
                 new = fresh.get(letter, '').strip()
                 old = old.strip()
-                if old and new and new != old and new.startswith(old):
-                    print(f'{year} Q{qid} ({letter})')
-                    print(f'   舊: {old}')
-                    print(f'   新: {new}')
-                    q['options'][letter] = new
-                    changed += 1
+                if not (old and new) or new == old:
+                    continue
+                if new.startswith(old):
+                    kind = '截斷'
+                elif old.startswith(new):
+                    kind = '多出雜訊'
+                else:
+                    continue        # 不是單純的前綴關係，不碰
+                print(f'{year} Q{qid} ({letter}) — {kind}')
+                print(f'   舊: {old}')
+                print(f'   新: {new}')
+                q['options'][letter] = new
+                changed += 1
 
         total += changed
         if changed and not dry:
