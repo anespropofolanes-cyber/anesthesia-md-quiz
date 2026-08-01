@@ -11,8 +11,10 @@ source/answer_keys/*.pdf
 source/answer_keys/*.jpg
 source/answer_keys/*.docx
 
-# 分類與稽核的中間產物
-audit/
+# 分類與稽核的中間產物。
+# 寫成 audit/* 而不是 audit/：目錄式忽略會讓 git 根本不進入該目錄，
+# 底下的 ! 例外永遠不會生效。
+audit/*
 # 例外：解析疑慮的彙整報告要留下來。舊考題沒有官方答案卡可核對，
 # 這份是唯一的把關記錄（由 tools/collect_doubts.py 產生）
 !audit/DOUBTS.md
