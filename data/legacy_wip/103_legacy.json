@@ -182,7 +182,10 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "103_written_Q10"
+   "source": "103_written_Q10",
+   "images": [
+    "103_Q10_stem.png"
+   ]
   },
   {
    "id": 11,
@@ -252,7 +255,10 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "103_written_Q14"
+   "source": "103_written_Q14",
+   "images": [
+    "103_Q14_stem.png"
+   ]
   },
   {
    "id": 15,
@@ -304,7 +310,10 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "103_written_Q17"
+   "source": "103_written_Q17",
+   "images": [
+    "103_Q17_stem.png"
+   ]
   },
   {
    "id": 18,

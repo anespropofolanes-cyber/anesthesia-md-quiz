@@ -24,14 +24,26 @@ SRC = ROOT / "source" / "official"
 QDIR = ROOT / "data" / "questions"
 IMGDIR = ROOT / "images"
 
-# 舊考題是另一套版面（`QUESTION 22` 而不是 `22.`），檔案位置與命名也不同
+# 舊考題是另一套版面（`QUESTION 22` 而不是 `22.`），檔案位置與命名也不同。
+# 102–104、106 是同一套出題系統的版面，切法完全一樣，只是檔案位置不同。
+_QNUM = re.compile(r"^QUESTION\s+(\d{1,3})\b")
+_OPT = re.compile(r"^([A-E])[.、]")
+
+
+def _legacy(year, pdf):
+    return {
+        "pdf": ROOT / "source" / "legacy_src" / pdf,
+        "json": ROOT / "data" / "legacy_wip" / f"{year}_legacy.json",
+        "qnum": _QNUM,
+        "opt": _OPT,
+    }
+
+
 LEGACY = {
-    106: {
-        "pdf": ROOT / "source" / "legacy_src" / "2017" / "2017_written_ans.pdf",
-        "json": ROOT / "data" / "legacy_wip" / "106_legacy.json",
-        "qnum": re.compile(r"^QUESTION\s+(\d{1,3})\b"),
-        "opt": re.compile(r"^([A-E])[.、]"),
-    },
+    106: _legacy(106, "2017/2017_written_ans.pdf"),
+    104: _legacy(104, "2015/104年專甄考古題(筆試題目).pdf"),
+    103: _legacy(103, "2014/2014_board_exam_answer.pdf"),
+    102: _legacy(102, "2013/2013_筆試.pdf"),
 }
 OFFICIAL_QNUM = re.compile(r"^(\d{1,3})\.(?:\s|$)")
 OFFICIAL_OPT = re.compile(r"^\(([A-E])\)")

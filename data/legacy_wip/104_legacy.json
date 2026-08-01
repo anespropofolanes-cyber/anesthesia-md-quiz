@@ -117,7 +117,10 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, 20:481",
-   "difficulty": "B"
+   "difficulty": "B",
+   "images": [
+    "104_Q5_stem.png"
+   ]
   },
   {
    "id": 6,
@@ -291,7 +294,10 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 27:673",
-   "difficulty": "A"
+   "difficulty": "A",
+   "images": [
+    "104_Q13_stem.png"
+   ]
   },
   {
    "id": 14,
@@ -312,7 +318,10 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 29:781",
-   "difficulty": "A"
+   "difficulty": "A",
+   "images": [
+    "104_Q14_stem.png"
+   ]
   },
   {
    "id": 15,
@@ -400,7 +409,10 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 35:1017",
-   "difficulty": "B"
+   "difficulty": "B",
+   "images": [
+    "104_Q18_stem.png"
+   ]
   },
   {
    "id": 19,
@@ -552,7 +564,10 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter 51 Page 1555",
-   "difficulty": "B"
+   "difficulty": "B",
+   "images": [
+    "104_Q25_stem.png"
+   ]
   },
   {
    "id": 26,
@@ -1838,7 +1853,10 @@
    "category_raw": "C2區域麻醉",
    "category": "C2",
    "reference": "Miller’s 8ed P1739",
-   "difficulty": "C"
+   "difficulty": "C",
+   "images": [
+    "104_Q84_stem.png"
+   ]
   },
   {
    "id": 85,

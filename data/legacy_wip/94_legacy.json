@@ -394,7 +394,10 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q19",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "images": [
+    "94_Q19_stem.png"
+   ]
   },
   {
    "id": 20,
