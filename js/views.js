@@ -59,7 +59,7 @@ function renderQuiz() {
       : isFree(q)
       ? '<div class="verdict free">本題送分，全體給分</div>'
       : `<div class="verdict ${ok ? 'ok' : 'no'}">${ok ? '答對了' : `答錯了　正解 ${esc(answerText(q))}`}</div>`;
-    after = v + sourceHTML(q);
+    after = v + explHTML(q) + sourceHTML(q);
   }
 
   document.getElementById('quiz-body').innerHTML = `
@@ -105,7 +105,16 @@ function figHTML(q) {
   </div>`).join('');
 }
 
-/** 這個題庫沒有解析，取而代之顯示答案的來源與出處，讓讀者自己查得下去。 */
+/** AI 解析（非官方），108–114 年才有。預設收合，展開才看得到內文。 */
+function explHTML(q) {
+  if (!q.explanation) return '';
+  return `<details class="explain ai">
+    <summary><span class="h" style="display:inline">解析</span><span class="aitag">AI 整理，非官方</span></summary>
+    <div class="expltext">${esc(q.explanation)}</div>
+  </details>`;
+}
+
+/** 答案的來源與出處，讓讀者自己查得下去。 */
 function sourceHTML(q) {
   const rows = [];
   if (q.answer_note) rows.push(`<div class="revnote">${esc(q.answer_note)}</div>`);
@@ -184,6 +193,7 @@ function reviewItem(q, my) {
     <div class="ans">你的答案：<strong>${my ? `${my}　${esc(q.options[my] || '')}` : '未作答'}</strong><br>
       正解：<strong>${esc(answerText(q))}</strong>${
         isFree(q) ? '' : `　${esc(q.options[q.answer[0]] || '')}`}</div>
+    ${explHTML(q)}
     ${sourceHTML(q)}
   </div>`;
 }

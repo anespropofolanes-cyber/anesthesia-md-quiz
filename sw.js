@@ -25,9 +25,10 @@ const CORE = [
   './data/oral/108_ultrasound.json'
 ];
 
-// 舊考題尚未定案要不要上線，抓不到也不該讓安裝失敗
+// 舊考題與 AI 解析：抓不到也不該讓安裝失敗（解析檔是分年陸續補上的）
 const OPTIONAL = [
-  ...LEGACY_YEARS.map(y => `./data/legacy_wip/${y}_legacy.json`)
+  ...LEGACY_YEARS.map(y => `./data/legacy_wip/${y}_legacy.json`),
+  ...YEARS.map(y => `./data/explanations/${y}_expl.json`)
 ];
 
 /** 抓取並存入快取。cache:'reload' 繞過瀏覽器 HTTP 快取，確保拿到的是本次改版的檔案。 */

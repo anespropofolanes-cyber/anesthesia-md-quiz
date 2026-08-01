@@ -330,6 +330,26 @@ p.lede { color: var(--ink-2); margin: 0 0 20px; font-size: .93rem; }
 .explain .h { display: block; font-size: .74rem; font-weight: 700; letter-spacing: .1em; color: var(--paper-ink); margin-bottom: 5px; }
 .revnote { font-size: .78rem; color: var(--ink-3); border-top: 1px dotted var(--line); margin-top: 9px; padding-top: 7px; }
 
+/* AI 解析：可收合，標示非官方 */
+details.explain.ai summary { cursor: pointer; list-style: none; }
+details.explain.ai summary::-webkit-details-marker { display: none; }
+details.explain.ai summary::before { content: '▸ '; color: var(--paper-ink); }
+details.explain.ai[open] summary::before { content: '▾ '; }
+.aitag {
+  font-size: .68rem; font-weight: 700; color: var(--ink-3);
+  border: 1px solid var(--line); border-radius: 99px;
+  padding: 1px 8px; margin-left: 8px; vertical-align: 1px;
+}
+.expltext { margin-top: 7px; white-space: pre-line; }
+
+/* 首頁「答案來源說明」：預設收合，排版才乾淨 */
+details.more { margin: -4px 0 16px; font-size: .85rem; color: var(--ink-3); line-height: 1.8; }
+details.more summary { cursor: pointer; list-style: none; color: var(--paper-ink); font-weight: 700; font-size: .8rem; }
+details.more summary::-webkit-details-marker { display: none; }
+details.more summary::before { content: '▸ '; }
+details.more[open] summary::before { content: '▾ '; }
+details.more p { margin: 6px 0 0; }
+
 /* 個人筆記 */
 .noteblk { margin-bottom: 12px; }
 .noteblk textarea {
