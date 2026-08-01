@@ -67,8 +67,12 @@ function renderQuiz() {
       <div class="qhead">
         <span class="qno">${yearLabel(q)} Q${q.id}</span>
         ${qTags(q)}
-        <button class="iconbtn ${store.isMarked(q.source) ? 'on' : ''}" onclick="toggleMark('${q.source}')"
-          title="書籤" aria-label="加入書籤">★</button>
+        <button class="markbtn ${store.isMarked(q.source) ? 'on' : ''}" onclick="toggleMark('${q.source}')"
+          title="加入書籤，之後可從首頁的「書籤」複習"
+          aria-pressed="${store.isMarked(q.source)}" aria-label="加入書籤">
+          <span class="star">${store.isMarked(q.source) ? '★' : '☆'}</span>
+          <span class="txt">${store.isMarked(q.source) ? '已收藏' : '收藏'}</span>
+        </button>
       </div>
       <div class="stem">${esc(q.question)}</div>
       ${figHTML(q)}
@@ -251,7 +255,7 @@ function renderList(kind) {
   const items = keys.filter(k => !isOralNoteKey(k)).map(s => DB.index[s]).filter(Boolean);
   if (!items.length && !oralKeys.length) {
     const msg = { wrong: '還沒有錯題。開始練習後答錯的題目會自動收進來。',
-                  mark: '還沒有書籤。在答題畫面點右上角的星號即可標記。',
+                  mark: '還沒有書籤。作答時點題號右邊的「☆ 收藏」就會收進來。',
                   note: '還沒有筆記。在任何一題下方的筆記欄寫下想法即可。' }[kind];
     el.innerHTML = `<div class="empty"><div class="big">·</div>${msg}</div>`;
     return;

@@ -520,3 +520,16 @@ details.sub > summary .w {
 /* 口試的作答欄在 details 內部，與參考答案區隔開 */
 .noteblk.oral { padding: 0 14px 13px; margin-top: 4px; border-top: 1px dashed var(--line); padding-top: 12px; }
 .noteblk.oral .lbl { font-size: .82rem; }
+
+/* 書籤鈕：原本只有一顆星，跟工具列的圖示鈕長得一樣，看不出可以按。
+   改成「☆ 收藏」帶文字，收藏後變成實心星＋主色底。 */
+.markbtn {
+  margin-left: auto; flex: none; display: inline-flex; align-items: center; gap: 5px;
+  padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--ink-2); font-size: .82rem; font-weight: 600;
+  transition: .14s; cursor: pointer;
+}
+.markbtn:hover { border-color: var(--brand-deep); background: var(--surface-2); }
+.markbtn .star { font-size: 1rem; line-height: 1; }
+.markbtn.on { background: var(--brand); border-color: var(--brand-deep); color: var(--brand-ink); }
+@media (max-width: 480px) { .markbtn .txt { display: none; } .markbtn { padding: 5px 9px; } }
