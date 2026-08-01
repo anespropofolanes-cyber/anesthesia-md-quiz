@@ -330,7 +330,10 @@ p.lede { color: var(--ink-2); margin: 0 0 20px; font-size: .93rem; }
 .explain .h { display: block; font-size: .74rem; font-weight: 700; letter-spacing: .1em; color: var(--paper-ink); margin-bottom: 5px; }
 .revnote { font-size: .78rem; color: var(--ink-3); border-top: 1px dotted var(--line); margin-top: 9px; padding-top: 7px; }
 
-/* AI 解析：可收合，標示非官方 */
+/* AI 解析：可收合，標示非官方。
+   .explain 帶 pre-wrap 是為了讓答案出處的換行照排，但那會把 details 標籤之間
+   HTML 縮排的換行也算進去，標題與內文之間會空一大塊，所以這裡關掉。 */
+details.explain.ai { white-space: normal; }
 details.explain.ai summary { cursor: pointer; list-style: none; }
 details.explain.ai summary::-webkit-details-marker { display: none; }
 details.explain.ai summary::before { content: '▸ '; color: var(--paper-ink); }
