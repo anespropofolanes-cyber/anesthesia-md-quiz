@@ -1,0 +1,65 @@
+#!/usr/bin/env python3
+"""用官方 PDF 補回被截斷的選項文字。
+
+`split_options` 原本只要文字裡出現 (A)–(E) 就當成新選項的起點，選項內文引用
+其他選項時就會被就地切斷（113 Q13 的四個選項全成了「Panel」）。parser 已修，
+但整份重抽會蓋掉後製欄位（分類、圖檔、answer_note），所以這支只補選項文字，
+其餘欄位一律不動。
+
+只在「新抽出的文字以現有文字開頭且更長」時才覆蓋——確定是截斷才補，
+避免把 parser 的其他行為差異一併寫進題庫。
+
+用法：python3 tools/fix_truncated_options.py [--dry-run]
+"""
+import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import parse_official as P   # noqa: E402
+
+ROOT = Path(__file__).resolve().parent.parent
+QDIR = ROOT / 'data' / 'questions'
+PDF_YEARS = [108, 109, 110, 111, 112, 113]   # 114 是 docx，走另一條抽取路徑
+
+
+def main() -> int:
+    dry = '--dry-run' in sys.argv
+    total = 0
+    for year in PDF_YEARS:
+        path = QDIR / f'{year}_written.json'
+        paper = json.loads(path.read_text(encoding='utf-8'))
+        qmap = {q['id']: q for q in paper['questions']}
+        blocks = P.parse_pdf_year(year)
+        changed = 0
+
+        for qid, block in blocks.items():
+            q = qmap.get(qid)
+            if q is None:
+                continue
+            _, fresh = P.split_options(block)
+            opt_imgs = q.get('option_images', {})
+            for letter, old in q['options'].items():
+                if letter in opt_imgs:      # 選項是圖，文字本來就空
+                    continue
+                new = fresh.get(letter, '').strip()
+                old = old.strip()
+                if old and new and new != old and new.startswith(old):
+                    print(f'{year} Q{qid} ({letter})')
+                    print(f'   舊: {old}')
+                    print(f'   新: {new}')
+                    q['options'][letter] = new
+                    changed += 1
+
+        total += changed
+        if changed and not dry:
+            path.write_text(json.dumps(paper, ensure_ascii=False, indent=1) + '\n',
+                            encoding='utf-8')
+            print(f'→ 已更新 {path.name}（{changed} 個選項）\n')
+
+    print(f'共補回 {total} 個被截斷的選項' + ('（--dry-run，未寫檔）' if dry else ''))
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

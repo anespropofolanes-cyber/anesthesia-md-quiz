@@ -48,6 +48,14 @@ def check_year(path):
             # 選項本身是圖的題目（波形圖辨識）文字會是空的，此時必須有對應圖檔
             if not text.strip() and letter not in option_images:
                 errors.append(f"{tag}: 選項 {letter} 沒有文字也沒有圖")
+            # 同一題內選項文字完全重複，多半是被切斷後只剩共同的開頭
+            # （113 Q13 的四個選項一度全是「Panel」）
+            if text.strip() and letter not in option_images:
+                same = [k for k, v in options.items()
+                        if k != letter and k not in option_images and v.strip() == text.strip()]
+                if same:
+                    errors.append(
+                        f"{tag}: 選項 {letter} 與 {'、'.join(same)} 文字完全相同（{text.strip()!r}）")
 
         for name in list(q.get("images", [])) + list(option_images.values()):
             if not (ROOT / "images" / name).exists():

@@ -112,8 +112,14 @@ def split_questions(text):
 
 
 def split_options(block):
-    """把題目區塊拆成題幹與選項 dict。"""
-    marks = list(re.finditer(r"\(([A-E])\)", block))
+    """把題目區塊拆成題幹與選項 dict。
+
+    選項標號**必須在行首**。原本沒有這個限制，只要文字裡出現 (A)–(E) 就當成
+    新選項的起點，於是選項內文引用其他選項時會被就地切斷：
+    113 Q13 的四個選項「Panel (A) 代表 Synergic」全被截成「Panel」，
+    113 Q65 的「承(A)，若病童…」只剩一個「承」字，108 Q93 的 (D) 同理。
+    """
+    marks = list(re.finditer(r"(?m)^[ \t　]*\(([A-E])\)", block))
     if not marks:
         return tidy(block), {}
     stem = tidy(block[: marks[0].start()])

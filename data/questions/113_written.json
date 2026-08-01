@@ -207,10 +207,10 @@
    "year": 113,
    "question": "如下圖，關於藥物X 和藥物Y 的關係 (Ce: Effect site concentration)，下列何者正確？",
    "options": {
-    "A": "Panel",
-    "B": "Panel",
-    "C": "Panel",
-    "D": "Panel"
+    "A": "Panel (A) 代表Synergic",
+    "B": "Panel (B) 代表Additive",
+    "C": "Panel (C) 代表Antagonistic",
+    "D": "Panel (A) 代表Partial antagonistic"
    },
    "answer": "C",
    "scoring": "exact",
@@ -1057,7 +1057,7 @@
    "question": "關於Advanced Pediatric Life Support，下列敘述何者錯誤？",
    "options": {
     "A": "Cardiac arrest 時，除CPR 外，每3-5 分鐘給予epinephrine，劑量應為0.01mg/kg",
-    "B": "承",
+    "B": "承(A)，若病童無可用之IV/IO access，可從ETT 給予epinephrine，劑量為 0.1mg/kg",
     "C": "For defibrillation，起始電擊劑量為每公斤0.5 焦耳",
     "D": "若有兩位以上施救者, 但尚未建立進階呼吸道 (advanced airway)，胸部按壓:呼吸 比應為15:2",
     "E": "CPR 壓胸次數為100-120/min，深度大於1/3 胸壁前後距，按壓後胸壁應充分回 彈"
