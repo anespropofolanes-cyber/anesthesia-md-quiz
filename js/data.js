@@ -51,11 +51,9 @@ async function loadPaper(year) {
   const p = await getJSON(paperPath(year));
   const verified = p.meta.verified !== false;
   p.questions.forEach(q => { q.year = year; q.verified = verified; });
-  // AI 解析（非官方）只有 108–114 年有，檔案不存在就當作沒有，不擋題目載入
-  if (!isLegacyYear(year)) {
-    const ex = await getJSON(`data/explanations/${year}_expl.json`).catch(() => null);
-    if (ex) p.questions.forEach(q => { q.explanation = ex.explanations[String(q.id)] || null; });
-  }
+  // AI 解析（非官方）是分年陸續補上的，檔案不存在就當作沒有，不擋題目載入
+  const ex = await getJSON(`data/explanations/${year}_expl.json`).catch(() => null);
+  if (ex) p.questions.forEach(q => { q.explanation = ex.explanations[String(q.id)] || null; });
   DB.papers[year] = p;
   return p;
 }

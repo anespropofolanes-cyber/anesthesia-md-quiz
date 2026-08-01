@@ -12,8 +12,20 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# 有官方答案卡可核對的年份走 data/questions/，其餘走 data/legacy_wip/
+OFFICIAL_YEARS = {108, 109, 110, 111, 112, 113, 114}
+
 META_NOTE = ('AI 整理，非官方內容。題目與答案以台灣麻醉醫學會公告為準，'
              '解析僅供理解參考，與學會無關。')
+LEGACY_NOTE = ('AI 整理，非官方內容。這一年沒有學會公開公告的答案卡可交叉核對，'
+               '答案取自考卷檔案本身；命題依據為當年的教科書版本，'
+               '現行準則可能已經不同。解析僅供理解參考，與學會無關。')
+
+
+def paper_path(year: int) -> Path:
+    if year in OFFICIAL_YEARS:
+        return ROOT / 'data' / 'questions' / f'{year}_written.json'
+    return ROOT / 'data' / 'legacy_wip' / f'{year}_legacy.json'
 
 
 def merge(year: int) -> int:
@@ -32,8 +44,7 @@ def merge(year: int) -> int:
         merged.update(chunk)
         print(f'  {p.name}：{len(chunk)} 題')
 
-    paper = json.loads(
-        (ROOT / 'data' / 'questions' / f'{year}_written.json').read_text(encoding='utf-8'))
+    paper = json.loads(paper_path(year).read_text(encoding='utf-8'))
     ids = [str(q['id']) for q in paper['questions']]
     missing = [i for i in ids if i not in merged]
     if missing:
@@ -44,7 +55,7 @@ def merge(year: int) -> int:
         'meta': {
             'year': year,
             'kind': 'explanation',
-            'note': META_NOTE,
+            'note': META_NOTE if year in OFFICIAL_YEARS else LEGACY_NOTE,
             'official': False,
             'generated_by': 'Claude（分批撰寫）＋ tools/merge_explanations.py',
         },

@@ -18,7 +18,15 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-YEARS = [108, 109, 110, 111, 112, 113, 114]
+OFFICIAL_YEARS = [108, 109, 110, 111, 112, 113, 114]
+LEGACY_YEARS = [93, 94, 99, 100, 101, 102, 103, 104, 106, 107]
+YEARS = OFFICIAL_YEARS + LEGACY_YEARS
+
+
+def paper_path(year):
+    if year in OFFICIAL_YEARS:
+        return ROOT / 'data' / 'questions' / f'{year}_written.json'
+    return ROOT / 'data' / 'legacy_wip' / f'{year}_legacy.json'
 
 # 「正解是 B」「正確答案為 (C)」「答案應為D」等寫法
 ANS_RE = re.compile(r'(?:正解|正確答案|答案)(?:是|為|應為|應是|選)?\s*[（(]?([A-E])[）)]?')
@@ -29,8 +37,7 @@ def check_year(year: int, errors: list[str]) -> int | None:
     if not path.exists():
         return None
     ex = json.loads(path.read_text(encoding='utf-8'))
-    paper = json.loads(
-        (ROOT / 'data' / 'questions' / f'{year}_written.json').read_text(encoding='utf-8'))
+    paper = json.loads(paper_path(year).read_text(encoding='utf-8'))
     qmap = {str(q['id']): q for q in paper['questions']}
 
     meta = ex.get('meta', {})
@@ -57,7 +64,8 @@ def check_year(year: int, errors: list[str]) -> int | None:
             continue
         if 'TODO' in text or '待補' in text:
             errors.append(f'{year} Q{qid}: 解析含未完成標記')
-        if q['scoring'] == 'free':
+        # 送分題沒有標準答案；unscored 是原檔缺答案或選項的舊考題，都不比對字母
+        if q['scoring'] in ('free', 'unscored') or not q.get('answer'):
             continue
         for m in ANS_RE.finditer(text):
             if m.group(1) not in q['answer']:

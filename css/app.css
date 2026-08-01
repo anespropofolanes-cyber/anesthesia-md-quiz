@@ -344,6 +344,10 @@ details.explain.ai[open] summary::before { content: '▾ '; }
   padding: 1px 8px; margin-left: 8px; vertical-align: 1px;
 }
 .expltext { margin-top: 7px; white-space: pre-line; }
+.explcaveat {
+  margin-top: 7px; font-size: .78rem; color: var(--ink-3);
+  border-left: 2px solid var(--line); padding-left: 8px;
+}
 
 /* 首頁「答案來源說明」：預設收合，排版才乾淨 */
 details.more { margin: -4px 0 16px; font-size: .85rem; color: var(--ink-3); line-height: 1.8; }

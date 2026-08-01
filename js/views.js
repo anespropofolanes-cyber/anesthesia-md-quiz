@@ -105,12 +105,15 @@ function figHTML(q) {
   </div>`).join('');
 }
 
-/** AI 解析（非官方），108–114 年才有。預設收合，展開才看得到內文。 */
+/** AI 解析（非官方）。預設收合，展開才看得到內文。 */
 function explHTML(q) {
   if (!q.explanation) return '';
+  // 沒有官方答案卡的年份，解析是照著考卷檔案的答案寫的，這件事要講在前面
+  const caveat = q.verified ? '' :
+    `<div class="explcaveat">這一年沒有學會公開公告的答案卡，以下解析是依考卷檔案所附的答案撰寫。</div>`;
   return `<details class="explain ai">
     <summary><span class="h" style="display:inline">解析</span><span class="aitag">AI 整理，非官方</span></summary>
-    <div class="expltext">${esc(q.explanation)}</div>
+    ${caveat}<div class="expltext">${esc(q.explanation)}</div>
   </details>`;
 }
 
