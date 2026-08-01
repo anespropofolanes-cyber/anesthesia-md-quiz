@@ -8,12 +8,10 @@
   2005  題目 `1、` ＋ 選項 `A.`，答案在 Word 註解「ans:C 出處：Anesthesia 5th…」
   2010  同上版面，註解寫「答案：E」
   2011  同上版面，答案在另一個檔案，形式是「1. E  2. E …」
-**2012 年不收**：題目是 .doc，Word 自動編號在任何轉檔方式下都救不回來
-（txt／html／docx 都試過）。HTML 的縮排只涵蓋前 11 題，第 12 題起的
-「複合題」（題幹＋5 個敘述＋5 個組合選項）縮排與題幹相同，切不開。
-而該年的答案是**靠位置對應題號**的，切分只要錯一題、後面全部的答案就都錯，
-這種失敗模式比缺一年嚴重得多。要收的話，請先用 Word 把
-`2012_筆試題目.doc` 另存成 .docx，編號就會保留在 XML 裡。
+  2012  題目原本是 .doc，**`textutil` 轉任何格式都會把 Word 的自動編號吃掉**
+        （txt／html／rtf／docx 都試過）。後來用 Word 本身另存成 .docx 才救回來——
+        `numbering.xml` 完整保留，ilvl=0 是題幹、ilvl=1 是選項。
+        答案檔仍用 .doc（純文字就讀得到，每題附 Miller 7th 頁碼）。
 
 **這些年份的命題依據是 Anesthesia 第 5 版到 Miller 第 7 版**，
 現行考試已經是第十版，臨床準則差很多。資料裡標 `era: "old"`，
@@ -241,17 +239,46 @@ def doc_html_paragraphs(path):
     return paras
 
 
+def docx_numbered(path):
+    """讀 .docx 的段落與清單層級。
+
+    Word 的自動編號在文字層看不到，但 .docx 的 XML 有 `ilvl`：
+    ilvl=0 是題幹、ilvl=1 是選項。這是 2012 年唯一可靠的切分依據——
+    `textutil` 轉出來的任何格式都會把編號吃掉，必須用 Word 本身另存。
+    """
+    import html as _html
+    import zipfile
+
+    with zipfile.ZipFile(path) as z:
+        xml = z.read("word/document.xml").decode("utf-8")
+    out = []
+    for para in re.split(r"</w:p>", xml):
+        text = "".join(re.findall(r"<w:t[^>]*>([^<]*)</w:t>", para))
+        text = unicodedata.normalize("NFKC", _html.unescape(text)).strip()
+        if not text:
+            continue
+        m = re.search(r'<w:ilvl w:val="(\d+)"', para)
+        out.append((int(m.group(1)) if m else 0, text))
+    return out
+
+
 def parse_2012():
-    """題目 .doc（靠縮排切分）＋ 答案 .doc（依序排列，每題附 Miller 7th 頁碼）。"""
+    """題目 .docx（靠 ilvl 切分）＋ 答案 .doc（依序排列，每題附 Miller 7th 頁碼）。"""
     atext = doc_text(SRC / "2012" / "2012_筆試答案.doc")
     answers = re.findall(r"(?m)^\s*答案\s*[:：]\s*([A-E])", atext)
     refs = [tidy(r) for r in re.findall(
         r"(?m)^\s*答案\s*[:：]\s*[A-E]\s*(?:出處\s*[:：]\s*)?([^\n]*)", atext)]
 
-    paras = doc_html_paragraphs(SRC / "2012" / "2012_筆試題目.doc")
-    groups, current = [], None
-    for indent, text in paras:
-        if indent < 10:                      # 沒縮排＝題幹（或題幹的續行）
+    paras = docx_numbered(SRC / "2012" / "2012_筆試題目.docx")
+    # 原檔第一題的選項與題幹同層（lvl=0），會把第 1、2 題併成一組。
+    # 第一題結構固定：卷首標題、題幹、5 個選項，直接照這個切開。
+    head, rest = paras[:7], paras[7:]
+    first = ({"stem": [head[1][1]], "options": [t for _, t in head[2:7]]}
+             if len(head) == 7 else None)
+
+    groups, current = ([first] if first else []), None
+    for lvl, text in rest:
+        if lvl == 0:
             if current and current["options"]:
                 groups.append(current)
                 current = None
@@ -264,10 +291,12 @@ def parse_2012():
     if current and current["options"]:
         groups.append(current)
 
-    # 第一組是卷首標題，沒有選項，前面已經被濾掉
     out = {}
     for i, g in enumerate(groups[:len(answers)]):
-        opts = g["options"][:5]
+        opts = g["options"]
+        # 複合題的前 5 段是敘述、後 5 段才是選項
+        if len(opts) > 5:
+            opts = opts[-5:]
         out[i + 1] = (tidy(" ".join(g["stem"])),
                       {L: tidy(o) for L, o in zip("ABCDE", opts)},
                       answers[i],
@@ -280,11 +309,12 @@ PARSERS = {
     2005: lambda: parse_annotated("2005_筆試.pdf", "2005"),
     2010: lambda: parse_annotated("2010_筆試.pdf", "2010"),
     2011: parse_2011,
-    # 2012 見檔頭說明，暫不收
+    2012: parse_2012,
 }
 
-ROC = {2004: 93, 2005: 94, 2010: 99, 2011: 100}
-EDITION = {2004: "", 2005: "Anesthesia 第 5 版", 2010: "Miller 第 7 版", 2011: ""}
+ROC = {2004: 93, 2005: 94, 2010: 99, 2011: 100, 2012: 101}
+EDITION = {2004: "", 2005: "Anesthesia 第 5 版", 2010: "Miller 第 7 版",
+           2011: "", 2012: "Miller 第 7 版"}
 
 
 IMAGE_YEARS = {2005: ("2005/2005_筆試.pdf", 94)}

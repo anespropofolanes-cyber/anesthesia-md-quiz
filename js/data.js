@@ -5,7 +5,7 @@
 const YEARS = [108, 109, 110, 111, 112, 113, 114];
 
 /** 只有考卷檔案內附答案、無官方答案卡可核對的年份。 */
-const LEGACY_YEARS = [93, 94, 99, 100, 102, 103, 104, 106, 107];
+const LEGACY_YEARS = [93, 94, 99, 100, 101, 102, 103, 104, 106, 107];
 
 const ALL_YEARS = [...YEARS].reverse().concat([...LEGACY_YEARS].reverse());
 
