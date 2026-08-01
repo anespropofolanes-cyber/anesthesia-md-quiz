@@ -110,10 +110,10 @@
    "year": 109,
    "question": "有關於麻醉深度監測方面敘述，下列何者為非？",
    "options": {
-    "A": "以EEG 為理論基礎的監測器有 論基礎的監測器有bispectral index（BIS）、Patient Safety Index（PSI）、 Narcotrend、Entropy。",
+    "A": "以EEG 為理論基礎的監測器有bispectral index（BIS）、Patient Safety Index（PSI）、 Narcotrend、Entropy。",
     "B": "麻醉下確保病人無意識之Patient Safety Index（PSI） 值是40-60。",
     "C": "Entropy 數值有值有response entropy（RE）及state entropy（SE），當病人變得更沒意識時， RE 會下降的比 的比SE 快。",
-    "D": "BIS 值下降通常與意識喪失有相關性，但是有三個麻醉藥例外，分別是 通常與意識喪失有相關性，但是有三個麻醉藥例外，分別是ketamine、 nitrousoxide、dexmedetomidine。"
+    "D": "BIS 值下降通常與意識喪失有相關性，但是有三個麻醉藥例外，分別是ketamine、 nitrousoxide、dexmedetomidine。"
    },
    "answer": "B",
    "scoring": "exact",
@@ -127,8 +127,8 @@
    "question": "懷孕過程會造成許多生理狀況改變，下列敘述何者錯誤？",
    "options": {
     "A": "懷孕會影響凝血功能會產生hypercoagulable state，factor I 與factor VII 凝血因子會增 加，血小板數目大多正常也有部分人會因血漿容積增加而略微下降 。",
-    "B": "懷孕期間心輸出量會增加，這個現象會在剛生產完達到最大值，相較於懷孕前最多可增 會增加，這個現象會在剛生產完達到最大值，相較於懷孕前最多可增 加80%-100%，主要是最後子宮收縮產生的自體輸血效應。",
-    "C": "為促進在胎盤運送氧氣給胎兒，生理機轉上會促使胎兒的氧合血紅素曲線 機轉上會促使胎兒的氧合血紅素曲線(oxyhemoglobin dissociation curve)右移與母體的氧合血紅素曲線左移。",
+    "B": "懷孕期間心輸出量會增加，這個現象會在剛生產完達到最大值，相較於懷孕前最多可增 加80%-100%，主要是最後子宮收縮產生的自體輸血效應。",
+    "C": "為促進在胎盤運送氧氣給胎兒，生理機轉上會促使胎兒的氧合血紅素曲線(oxyhemoglobin dissociation curve)右移與母體的氧合血紅素曲線左移。",
     "D": "即使給予母體100%氧氣，胎兒的氧氣分壓(fetal PaO2)也不會超過 會超過60 mmHg。"
    },
    "answer": "C",
@@ -480,7 +480,7 @@
    "options": {
     "A": "原則上可以的話，盡量選妊娠第二期（second trimester）手術。",
     "B": "胎兒心跳變慢原因可能是母體體溫低、酸血症（acidosis）及藥物給予，如 β-blockers。",
-    "C": "開顱手術中，為了降低腦水腫情形，可給予 降低腦水腫情形，可給予mannitol。",
+    "C": "開顱手術中，為了降低腦水腫情形，可給予mannitol。",
     "D": "若需要Cardiopulmonary bypass，不降溫的bypass 對子宮胎盤循環較好。"
    },
    "answer": "送分",
@@ -732,7 +732,7 @@
   {
    "id": 46,
    "year": 109,
-   "question": "三個獨立影響酸鹼平衡的因子，何者為非 影響酸鹼平衡的因子，何者為非 ?",
+   "question": "三個獨立影響酸鹼平衡的因子，何者為非 ?",
    "options": {
     "A": "動脈血二氧化碳分壓 (PaCO2)。",
     "B": "Strong ion difference (SID)。",
@@ -753,7 +753,7 @@
     "A": "機械性因素阻塞周邊血流是可能的機轉。",
     "B": "引發全身性發炎反應是可能的機轉。",
     "C": "臨床上骨盆或股骨骨折患者幾乎都發生 fat embolization，因此造成 FES 的機率常高達 10 %。",
-    "D": "儘管有 10 % 的病患需要呼吸器治療，但大多數都可在 ，但大多數都可在3至7天後痊癒。"
+    "D": "儘管有 10 % 的病患需要呼吸器治療，但大多數都可在3至7天後痊癒。"
    },
    "answer": "C",
    "scoring": "exact",
@@ -1068,12 +1068,12 @@
   {
    "id": 67,
    "year": 109,
-   "question": "根據WHO 保守醫療照顧宗旨為，促進病患生活品質及減緩家屬心理、精神壓力；安寧 照顧宗旨為，促進病患生活品質及減緩家屬心理、精神壓力；安寧 照顧為病人生命末期之照護，下列敘述何者為誤？",
+   "question": "根據WHO 保守醫療照顧宗旨為，促進病患生活品質及減緩家屬心理、精神壓力；安寧 照顧為病人生命末期之照護，下列敘述何者為誤？",
    "options": {
-    "A": "兩者皆需醫療團隊介入，包括：社工師、心理師、營養師等。 團隊介入，包括：社工師、心理師、營養師等。",
+    "A": "兩者皆需醫療團隊介入，包括：社工師、心理師、營養師等。",
     "B": "安寧末期為預期生命終了 < 3 個月(可以每3 個月評估一次)。",
-    "C": "保守醫療多以門診醫療照顧，安寧醫療則以居家照護為主。 則以居家照護為主。",
-    "D": "保守醫療可以施以積極醫療介入處理，安寧醫療則以病患舒適及臨終尊嚴為主。 則以病患舒適及臨終尊嚴為主。"
+    "C": "保守醫療多以門診醫療照顧，安寧醫療則以居家照護為主。",
+    "D": "保守醫療可以施以積極醫療介入處理，安寧醫療則以病患舒適及臨終尊嚴為主。"
    },
    "answer": "B",
    "scoring": "exact",
@@ -1119,9 +1119,9 @@
    "question": "關於手術室外麻醉(Non–operating room anesthesia ; NORA)的檢查或治療執行 執行，下列敘述 何者正確？",
    "options": {
     "A": "流程步驟通常會跟手術室內的麻醉相似。",
-    "B": "檢查或治療大多數是由外科醫師執行。 大多數是由外科醫師執行。",
+    "B": "檢查或治療大多數是由外科醫師執行。",
     "C": "由於病情複雜度，麻醉結束後也有需要送至加護單位照護。",
-    "D": "許多治療多數無法用外科手術處理。 多數無法用外科手術處理。"
+    "D": "許多治療多數無法用外科手術處理。"
    },
    "answer": "C",
    "scoring": "exact",
@@ -1343,7 +1343,7 @@
    "question": "關於手術後疼痛 (postoperative pain)，下列敘述何者錯誤？",
    "options": {
     "A": "胸外手術後的硬脊膜外止痛 (epidural analgesia)，使用fentanyl 相較於morphine 比較不會 引起噁心嘔吐。",
-    "B": "COX-2 抑制劑可能會增加冠狀動脈繞道手術病患手術後心血管相關併發症的風險。 動脈繞道手術病患手術後心血管相關併發症的風險。",
+    "B": "COX-2 抑制劑可能會增加冠狀動脈繞道手術病患手術後心血管相關併發症的風險。",
     "C": "病患自控式靜脈藥物止痛 (IV patient controlled analgesia) 使用連續輸注 (background infusion)，可減少藥物使用量及減少呼吸抑制發生機率。",
     "D": "慢性術後疼痛 (chronic postsurgical pain, CPSP) 的發生率10 to 65%，好發於截肢、開 胸、乳房或膽囊切除手術。"
    },
@@ -1361,7 +1361,7 @@
     "A": "強調的是手術全期(Perioperative period)的多學科(multidisciplinary)參與。",
     "B": "主要的手法包括術前衛教、疼痛控制、以及早期復健(Early rehabilitation)。",
     "C": "實證醫學文獻顯示可以成功縮短住院天數30%，以及降低術後併發症50%。",
-    "D": "除了對常規的腸胃道微創手術有明顯幫助外，對其他類型手術的幫助不大。 對常規的腸胃道微創手術有明顯幫助外，對其他類型手術的幫助不大。"
+    "D": "除了對常規的腸胃道微創手術有明顯幫助外，對其他類型手術的幫助不大。"
    },
    "answer": "D",
    "scoring": "exact",
@@ -1372,7 +1372,7 @@
   {
    "id": 86,
    "year": 109,
-   "question": "過去半個多世紀以來麻醉醫學知識的增長，與實驗性數據和經驗式觀察的數理評估有著 的增長，與實驗性數據和經驗式觀察的數理評估有著 緊密的關聯性。下列關於統計方法學的敘述，何者為非？",
+   "question": "過去半個多世紀以來麻醉醫學知識的增長，與實驗性數據和經驗式觀察的數理評估有著 緊密的關聯性。下列關於統計方法學的敘述，何者為非？",
    "options": {
     "A": "標準差(Standard deviation, SD)是用以比較數據組間差異性的工具，而平均值的標準誤 (Standard error of the mean, SEM)則是用以描述數據的分布離散狀況(Spread)的常用工具。",
     "B": "與單變項迴歸(Univariate regression)相比較，多變項迴歸(Multivariate)檢測一個以上的因子 和研究結果的相關性，需要更多的數據筆數，但是比較可以發掘出單變項迴歸所忽略的 的 相關性。",
@@ -1408,7 +1408,7 @@
    "options": {
     "A": "左側開胸手術（Left-side thoracotomy）。",
     "B": "側臥時雙肺通氣有出現低血氧值。",
-    "C": "術前ventilation/perfusion 的掃描顯示手術側肺部是佔病人高比例的肺部換氣或是灌注量 的肺部換氣或是灌注量 (High percentage of ventilation or perfusion)。",
+    "C": "術前ventilation/perfusion 的掃描顯示手術側肺部是佔病人高比例的肺部換氣或是灌注量 (High percentage of ventilation or perfusion)。",
     "D": "平躺姿勢進行單肺通氣（Supine position during one-lung ventilation）。"
    },
    "answer": "A",
@@ -1436,7 +1436,7 @@
   {
    "id": 90,
    "year": 109,
-   "question": "進行主動脈（瘤）血管重建或修復時所採取的主動脈夾阻斷術（Aortic cross-clamping） 或顯影劑，常導致術後腎功能惡化，手術中有哪些臨床治療或處置可以避免腎功能受損 或處置可以避免腎功能受損 （Renal protection）？(1) Converting enzyme inhibitors (2) Mannitol (3) Fluid administration (4) Epidural anesthesia to a T6 level of sympathetic blockade",
+   "question": "進行主動脈（瘤）血管重建或修復時所採取的主動脈夾阻斷術（Aortic cross-clamping） 或顯影劑，常導致術後腎功能惡化，手術中有哪些臨床治療或處置可以避免腎功能受損 （Renal protection）？(1) Converting enzyme inhibitors (2) Mannitol (3) Fluid administration (4) Epidural anesthesia to a T6 level of sympathetic blockade",
    "options": {
     "A": "1+2+3",
     "B": "2+3+4",
@@ -1454,9 +1454,9 @@
    "year": 109,
    "question": "關於麻醉科醫師可能遭遇的醫學倫理情境，下列何者為非？",
    "options": {
-    "A": "由於手術室中情境不同，麻醉科醫師有義務針對拒絕嘗試急救(Do-Not-Attempt- Resuscitation)與病患或法定代理人再討論，以了解其對手術目的與說明手術室中急救的優 解其對手術目的與說明手術室中急救的優 缺點。",
+    "A": "由於手術室中情境不同，麻醉科醫師有義務針對拒絕嘗試急救(Do-Not-Attempt- Resuscitation)與病患或法定代理人再討論，以了解其對手術目的與說明手術室中急救的優 缺點。",
     "B": "通常可由病人能否接受(receive)或理解(understanding)相關資訊、理解決策的可能益處與 風險、充分表達其決定或溝通其評價，作為麻醉科醫師判斷病人是否具意識能力。 能力。",
-    "C": "醫師為避免增加壓力而導致病患心理或生理傷害，在知情同意過程中，引用治療特權 特權 (therapeutic privilege)單方面決定省略或避免討論相關風險是合乎倫理的。 相關風險是合乎倫理的。",
+    "C": "醫師為避免增加壓力而導致病患心理或生理傷害，在知情同意過程中，引用治療特權 特權 (therapeutic privilege)單方面決定省略或避免討論相關風險是合乎倫理的。",
     "D": "麻醉科醫師有權拒絕病患所提出之不適當或是超出合理範圍的要求。"
    },
    "answer": "C",
@@ -1470,8 +1470,8 @@
    "year": 109,
    "question": "在美國，關於耶和華見證人的輸血議題，下列何者為非？",
    "options": {
-    "A": "除了身為耶和華見證人信徒的病患外，若其他病人以輸血可能增加感染或併發症為由拒 身為耶和華見證人信徒的病患外，若其他病人以輸血可能增加感染或併發症為由拒 絕輸血治療時，醫師應予以拒絕。 時，醫師應予以拒絕。",
-    "B": "耶和華見證人的信徒，對於不輸血的細節與規範可能隨時間與教會規範有所差異，麻醉 科醫師應在術前與所屬教徒的病患有充分溝通，並討論替代方案與註記於病歷。 替代方案與註記於病歷。",
+    "A": "除了身為耶和華見證人信徒的病患外，若其他病人以輸血可能增加感染或併發症為由拒 絕輸血治療時，醫師應予以拒絕。",
+    "B": "耶和華見證人的信徒，對於不輸血的細節與規範可能隨時間與教會規範有所差異，麻醉 科醫師應在術前與所屬教徒的病患有充分溝通，並討論替代方案與註記於病歷。",
     "C": "醫師若無法遵從耶和華見證人病患提出的不輸血要求時，在道德上應有協助病患尋求另 一位醫師的義務。",
     "D": "當身為耶和華見證人信徒的父母，要求醫師不得為其未成年的年幼子女輸血治療時，醫 時，醫 師亦可尋求法律支援，以保護未成年病患安全。"
    },
@@ -1488,7 +1488,7 @@
    "options": {
     "A": "懷孕婦女與其胎兒可能發生倫理上的利益衝突，通常孕婦仍有作為醫療決策者的權利。 決策者的權利。",
     "B": "分娩中的孕婦若欲執行硬脊膜外減痛分娩(epidural analgesia)時發生尤里西斯指令(Ulysses directives)的倫理衝突，因分娩孕婦因疼痛不具有行為能力(capacity)而無法取得知情同意 (informed consent)，應以預設醫療指令 指令(advance directive)為優先。",
-    "C": "在心死後器捐(donation after cardiac death, DCD)的情況下，可能發生於何時決定移除維生 裝置介入與器官捐贈，並且忽略捐贈者而有利於受贈者的利益。 捐贈者而有利於受贈者的利益。",
+    "C": "在心死後器捐(donation after cardiac death, DCD)的情況下，可能發生於何時決定移除維生 裝置介入與器官捐贈，並且忽略捐贈者而有利於受贈者的利益。",
     "D": "關於器官捐贈可能存在蓄意殺人的指控部分，心死後器捐由於臨床指引不一，更容易發 容易發 生類似錯誤。"
    },
    "answer": "B",
@@ -1519,12 +1519,12 @@
   {
    "id": 95,
    "year": 109,
-   "question": "有關病人站立時肺部血流的垂直分布區域 時肺部血流的垂直分布區域I-IV，其中Zone III 的壓力大小下列何者敘述為 真？( PALV: Positive intraalveolar pressure; PPA: Pulmonary artery pressure PLA : Positive artery pressure)",
+   "question": "有關病人站立時肺部血流的垂直分布區域I-IV，其中Zone III 的壓力大小下列何者敘述為 真？( PALV: Positive intraalveolar pressure; PPA: Pulmonary artery pressure PLA : Positive artery pressure)",
    "options": {
     "A": "PALV>PPA>PLA",
     "B": "PPA>PALV>PLA",
     "C": "PLA>PPA>PALV",
-    "D": "PPA>PLA>PALV Pulmonary Pulmonary"
+    "D": "PPA>PLA>PALV"
    },
    "answer": "D",
    "scoring": "exact",

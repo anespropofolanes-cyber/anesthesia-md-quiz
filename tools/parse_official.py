@@ -27,6 +27,8 @@ NOISE = re.compile(
 # 純數字行只有出現在頁首／頁尾才是頁碼——108 年 Q77 的選項就是 58/55/43/48/70
 PAGE_NO = re.compile(r"^\s*\d{1,3}\s*$")
 EDGE_LINES = 2
+# 卷末的答案對照表（108 年印在同一份 PDF 裡），題目抽到這裡就該停
+ANSWER_TABLE = re.compile(r"答案列印|答案\s*表|標準答案")
 
 
 def pdf_text(path):
@@ -151,6 +153,11 @@ def tidy(s):
 
 def parse_pdf_year(year):
     text = clean(pdf_text(SRC / "official" / f"{year}_筆試_官方.pdf"))
+    # 108 年的答案表就印在同一份 PDF 的末頁。最後一題的區塊沒有下一個題號可停，
+    # 會一路吃到文件結尾——Q100 的選項 E 因此串進整份答案表，等於把答案印在題目裡。
+    cut = ANSWER_TABLE.search(text)
+    if cut:
+        text = text[: cut.start()]
     return split_questions(text)
 
 
