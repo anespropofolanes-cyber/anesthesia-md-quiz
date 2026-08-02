@@ -31,6 +31,13 @@ JOBS = [
     (94, '2005/2005_筆試.pdf', 19, 'above'),
     (93, '2004/2004_筆試.pdf', 12, 'below'),
 ]
+
+# 題幹跨頁的特例：題號在前一頁底部、圖在下一頁上半部，
+# 「找圖前面的題號」永遠找不到。94 Q61 的四組 airway pressure 波型就是這樣，
+# 題號在 p11 最後一行，圖全在 p12 的 y<300 區域（p12 第一個題號 62 在 y=334）。
+CROSS_PAGE = [
+    (94, '2005/2005_筆試.pdf', 61, 11, 300),   # (年, 檔, 題號, 0-based 頁, y 上限)
+]
 QNUM = re.compile(r'^\s*(\d{1,3})\s*[、.]')
 
 
@@ -102,8 +109,44 @@ def run(year, rel, qid, side, dry):
     return None
 
 
+def run_cross_page(year, rel, qid, pno, ylimit, dry):
+    """題幹跨頁：直接圈下一頁指定範圍內的所有圖形。"""
+    page = fitz.open(SRC / rel)[pno]
+    # 這裡不套 figure_rects 的最小尺寸過濾：94 Q61 左側的 (a)(b)(c)(d) 標號
+    # 只有 30–40 px 寬，會被濾掉，圈出來的圖就少了對照用的編號。
+    rects = [fitz.Rect(i['bbox']) for i in page.get_image_info()]
+    rects = [r for r in rects if r.y1 <= ylimit]
+    if not rects:
+        print(f'{year} Q{qid}: p{pno + 1} 的 y<{ylimit} 範圍內沒有圖')
+        return None
+    whole = rects[0]
+    for r in rects[1:]:
+        whole |= r
+    name = f'{year}_Q{qid}_stem.png'
+    print(f'{year} Q{qid}: p{pno + 1}，{len(rects)} 塊併成 {whole} → {name}')
+    if not dry:
+        IMGDIR.mkdir(exist_ok=True)
+        clip = (whole + (-PAD, -PAD, PAD, PAD)) & page.rect
+        page.get_pixmap(clip=clip, dpi=DPI).save(IMGDIR / name)
+    return name
+
+
+def write_back(year, qid, name):
+    path = ROOT / 'data' / 'legacy_wip' / f'{year}_legacy.json'
+    paper = json.loads(path.read_text(encoding='utf-8'))
+    for q in paper['questions']:
+        if q['id'] == qid:
+            q['images'] = sorted(set(q.get('images', []) + [name]))
+    path.write_text(json.dumps(paper, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    print(f'   已寫回 {path.name}')
+
+
 def main() -> int:
     dry = '--dry-run' in sys.argv
+    for year, rel, qid, pno, ylimit in CROSS_PAGE:
+        name = run_cross_page(year, rel, qid, pno, ylimit, dry)
+        if name and not dry:
+            write_back(year, qid, name)
     for year, rel, qid, side in JOBS:
         name = run(year, rel, qid, side, dry)
         if name is None or dry:

@@ -54,9 +54,6 @@
    "answer_tier": "exam_file",
    "source": "94_written_Q2",
    "textbook_era": "Anesthesia 第 5 版",
-   "images": [
-    "94_Q2_fig2.png"
-   ],
    "category": "C6",
    "category_source": "依 104／106 年學會標記慣例推定"
   },
@@ -1379,7 +1376,10 @@
     "原卷沒有標示這一題的答案"
    ],
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "images": [
+    "94_Q61_stem.png"
+   ]
   },
   {
    "id": 62,
