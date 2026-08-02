@@ -138,13 +138,19 @@ function sourceHTML(q) {
   if (q.category && DB.catName[q.category]) {
     rows.push(`<div>學會分類：${esc(q.category)} ${esc(DB.catName[q.category])}</div>`);
   }
+  // 來源一行、本站做過什麼一行，兩件事分開講。
+  // 資料裡的 answer_source 本身就寫了完整一整句（含但書），直接印會與下一行重複，
+  // 所以呈現用的短句由 answer_tier 決定；answer_source 仍留在資料裡當出處紀錄。
+  // 另外「已逐題核對」要寫明主詞——那是本站做的，不是學會做的。
   if (q.verified) {
-    rows.push('<div>答案來源：台灣麻醉醫學會公告之答案卡，已逐題核對。</div>');
+    rows.push('<div>答案來源：台灣麻醉醫學會公開公告的答案卡。</div>');
+    rows.push('<div>本站已逐題比對，答案與公告一致。</div>');
   } else {
-    rows.push(`<div>答案來源：${esc(q.answer_source || '考卷檔案內附')}。</div>`);
     rows.push(q.answer_tier === 'examiner'
-      ? '<div>檔案帶有命題端才會有的出處與難易度標記，但學會網站沒有對應的公開公告可交叉核對。</div>'
-      : '<div>學會網站沒有對應的公開公告可交叉核對，<strong>這個答案沒有經過第二個來源驗證</strong>。</div>');
+      // 教科書出處已由上一行印出來了，這裡只點它沒顯示的部分，不要講第二次
+      ? '<div>答案來源：命題端檔案（另附難易度與分類代碼），不是學會對外的公開公告。</div>'
+      : '<div>答案來源：學會發給考生的考卷檔案內附。</div>');
+    rows.push('<div>學會網站沒有對應的公開公告，<strong>本站無法再拿第二份獨立來源交叉比對</strong>。</div>');
   }
   return `<div class="explain"><span class="h">答案出處</span>${rows.join('')}</div>`;
 }
