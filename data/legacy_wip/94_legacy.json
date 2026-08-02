@@ -249,7 +249,7 @@
     "D": "Postoperative apnea 在執行區域麻醉的infant,仍會發生",
     "E": "發生postoperative apnea 的機率與Gesation age 和postconceptual age 成正比"
    },
-   "answer": "D",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -269,7 +269,7 @@
     "D": "Succinylcholine在此病童是禁止使用的",
     "E": "可以用rapid-sequence induction 來執行麻醉 2059~2060 2093~2094 2095 2100 2102~2103 3"
    },
-   "answer": "C",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -289,7 +289,7 @@
     "D": "可以使用N2O",
     "E": "術後不需要到加護病房作積極地術後照顧"
    },
-   "answer": "A",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -309,7 +309,7 @@
     "D": "Dependent lung 因受到壓迫,所以其通氣相對較佳",
     "E": "單肺或雙肺通氣之基本差異為在單肺通氣時,在ventilated lung 仍有一些血流,因此存 在有一些shunt,而此情形在雙肺通氣時不存在"
    },
-   "answer": "E",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -369,7 +369,7 @@
     "D": "使用Glycine 為irrigation solution 時,可能會因其被氧化轉變為ammonia 而造成病患 delayed awakening after TURP",
     "E": "補充3%NaCl治療TURP syndrome時,可能產生Cerebral myelinolysis及Pontine edema 1705~1706 1979 1033~1050 1949"
    },
-   "answer": "A",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -389,7 +389,7 @@
     "D": "A-c; B-a; C-b; D-d",
     "E": "A-d; B-b; C-c; D-a"
    },
-   "answer": "C",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -412,7 +412,7 @@
     "D": "使用TEE 時,若採Superior vena cava(SVC) long-axis view 監測時,常可檢示病患 是否有SVC 之thrombus 存在",
     "E": "使用TEE 時,若採Midpapillary Short-axis view 監測時,常可有效監測左心室收縮之 功能 895 1207~1229"
    },
-   "answer": "D",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -432,12 +432,15 @@
     "D": "當病患有安非他命成癮之病史,接受麻醉手術時已有明確文獻指出,應延後常規手術 至少六個月",
     "E": "安非他命成癮病患麻醉手術中,發生Sudden death 之病例報告有增加之趨勢,但確切 之原因,尚不很清楚"
    },
-   "answer": "C",
-   "scoring": "exact",
+   "answer": "",
+   "scoring": "unscored",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q21",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原卷沒有標示這一題的答案"
+   ]
   },
   {
    "id": 22,
@@ -452,7 +455,7 @@
     "D": "肺栓塞時,肺動脈壓可能會增高,肺exudate fluid 會增加,functional residual capacity (FRC)減少",
     "E": "肺栓塞發生時,使用TEE(經食道心臟超音波)診斷率極高,可達100%"
    },
-   "answer": "B",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -472,7 +475,7 @@
     "D": "3,4",
     "E": "1,4"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -492,7 +495,7 @@
     "D": "祇有3 錯誤",
     "E": "全部都正確 996; 916 609 2818~2819 6"
    },
-   "answer": "D",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -552,7 +555,7 @@
     "D": "1,3,4",
     "E": "1,2,3,4"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -571,12 +574,15 @@
     "C": "僅2 錯誤",
     "D": "2,4"
    },
-   "answer": "C",
-   "scoring": "exact",
+   "answer": "",
+   "scoring": "unscored",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q28",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原卷沒有標示這一題的答案"
+   ]
   },
   {
    "id": 29,
@@ -591,7 +597,7 @@
     "D": "吸入性麻醉劑對於正常及衰竭之心肌細胞內Ca++調節之機制完全不同",
     "E": "對新生兒之心肌抑制與成人相同"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -611,7 +617,7 @@
     "D": "可被β1-adrenoceptor增加",
     "E": "可被myofilament Ca++ sensitizer增加"
    },
-   "answer": "B",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -631,7 +637,7 @@
     "D": "在離體心臟實驗,心肌氧供給量(O2 delivery)超過心臟耗氧量,故冠狀竇(coronary sinus)氧濃度增加",
     "E": "所有吸入性麻醉劑均會影響冠狀動脈血流,但影響程度不同"
    },
-   "answer": "D",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -651,7 +657,7 @@
     "D": "感壓反射(Baroreceptor reflex)在Isoflurane麻醉時比halothane及enflurane麻醉時被抑制 程度較少",
     "E": "Desflurane 及Isoflurane 所引起之心律過速在使用嗎啡類藥物後可能會增加"
    },
-   "answer": "E",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -671,7 +677,7 @@
     "D": "Isoflurane對心肌缺氧之保護作用,可能與抑制KATP離子通道有關",
     "E": "Isoflurane所引起之心肌缺氧保護作用可被預先注射的glyburide所增強"
    },
-   "answer": "A",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -691,12 +697,15 @@
     "D": "笑氣所引起之心臟收縮力抑制現象可被其所產生之交感神經興奮完全抵消",
     "E": "笑氣會降低Halothane 麻醉時心律不整之發生率"
    },
-   "answer": "D",
-   "scoring": "exact",
+   "answer": "",
+   "scoring": "unscored",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q34",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原卷沒有標示這一題的答案"
+   ]
   },
   {
    "id": 35,
@@ -711,12 +720,15 @@
     "D": "FRC << CC",
     "E": "與FRC 及CC 無關"
    },
-   "answer": "C",
-   "scoring": "exact",
+   "answer": "",
+   "scoring": "unscored",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q35",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原卷沒有標示這一題的答案"
+   ]
   },
   {
    "id": 36,
@@ -731,7 +743,7 @@
     "D": "輕度血氧過低(Mild Hypoxemia)即動脈血中氧飽和度80 %以下,使交感神經興奮性 增加",
     "E": "慢性缺氧可致2,3- DPG 減少"
    },
-   "answer": "E",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -751,7 +763,7 @@
     "D": "二氧化碳吸收器",
     "E": "氣管內插管"
    },
-   "answer": "A",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -771,7 +783,7 @@
     "D": "Leukotrienes 可降低HPV",
     "E": "Prostaglandin可降低HPV"
    },
-   "answer": "D",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -791,7 +803,7 @@
     "D": "P = V × 8L × πr4/μ × 98",
     "E": "P = V × L × πr4/μ × 980"
    },
-   "answer": "E",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -811,12 +823,15 @@
     "D": "使用肌肉鬆弛劑後",
     "E": "與病人姿勢無關"
    },
-   "answer": "B",
-   "scoring": "exact",
+   "answer": "",
+   "scoring": "unscored",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q40",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原卷沒有標示這一題的答案"
+   ]
   },
   {
    "id": 41,
@@ -831,7 +846,7 @@
     "D": "HPV 增加",
     "E": "呼吸道阻力增加"
    },
-   "answer": "D",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -851,7 +866,7 @@
     "D": "增加ionized Ca++",
     "E": "增強HPV"
    },
-   "answer": "B",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -871,7 +886,7 @@
     "D": "Doxamethasone",
     "E": "Calcitoain"
    },
-   "answer": "B",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -891,7 +906,7 @@
     "D": "術後疼痛會增加胰島素分泌",
     "E": "術後疼痛會減少抗利尿激素分泌"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -911,7 +926,7 @@
     "D": "重度體液不足",
     "E": "麻醉醫師沒有經驗"
    },
-   "answer": "A",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -931,7 +946,7 @@
     "D": "脊髓內注射嗎啡導致之癢常見於前胸及後背",
     "E": "吸呼抑制發生時,為緊急搶救患者,Naloxone 之劑量以0.4 mg 之大劑量為宜"
    },
-   "answer": "E",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -951,7 +966,7 @@
     "D": "45-48 %",
     "E": "55-58 %"
    },
-   "answer": "C",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -971,12 +986,15 @@
     "D": "呼吸肌有關之神經路徑阻斷",
     "E": "呼吸中樞血流不足"
    },
-   "answer": "A",
-   "scoring": "exact",
+   "answer": "",
+   "scoring": "unscored",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q48",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原卷沒有標示這一題的答案"
+   ]
   },
   {
    "id": 49,
@@ -991,7 +1009,7 @@
     "D": "0.75-1.0 %",
     "E": "1.0-1.25%"
    },
-   "answer": "A",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1011,7 +1029,7 @@
     "D": "手臂內側至無名指",
     "E": "手臂內側至手掌 F."
    },
-   "answer": "B",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1031,7 +1049,7 @@
     "D": "2-chloroprocaine(3 %)",
     "E": "Etidocaine(1 %)"
    },
-   "answer": "B",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1071,7 +1089,7 @@
     "D": "進行接指手術因為手術時間長,應加Epinephrine 於局部麻醉藥以增加阻斷時間",
     "E": "Ketamine 無助於延長局部麻醉藥之作用"
    },
-   "answer": "A",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1091,7 +1109,7 @@
     "D": "C-fiber 與尖銳疼痛有關",
     "E": "有myelin 包覆"
    },
-   "answer": "D",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1111,7 +1129,7 @@
     "D": "C-fiber",
     "E": "神經末梢"
    },
-   "answer": "E",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1131,7 +1149,7 @@
     "D": "PSV + Pressure Augmentation",
     "E": "Positive End-Expiratory Pressure (PEEP ) 【57、58 題】一位40 歲男性,某天在家裡吃完晚飯後約半小時,感覺想吐,有頭痛現象, 而且愈來愈痛。10 分鐘後,失去知覺,被家人送到急診室。Glasgow Coma Score (GCS ) 為Eye opening to pain, Best verbal response = inappropriate words, Best motor response = flexion to pain。"
    },
-   "answer": "C",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1151,7 +1169,7 @@
     "D": "7",
     "E": "8"
    },
-   "answer": "D",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1171,7 +1189,7 @@
     "D": "Seizures",
     "E": "Cerebral Vasospasm 【59、60 題】一位80 歲男性,有腹主動脈瘤 (abdominal aneurysm ),及COPO病史。 因患嚴重肺炎需入ICU治療。在ICU中插Endo,利用呼吸器 (50%O2 )給予正壓補助呼 吸。動脈氣體分析 (ABG )為PaO2 = 50 mmHg, PaCO2 = 55 mmHg, pH = 7.23。加PEEP = 15 mmHg,peak airway press ure= 60 cmH2O。1 小時後,病人血壓突然下降 (140/80 → 90/40 mmHg ),心跳從100 掉至50 bpm。"
    },
-   "answer": "E",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1191,7 +1209,7 @@
     "D": "氣胸 (pneumothorax )",
     "E": "胸腔出血 (intrathoracic hemorrhage )"
    },
-   "answer": "B",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1211,7 +1229,7 @@
     "D": "輸血 (Blood transfusion )",
     "E": "Tube thoracostomy"
    },
-   "answer": "D",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1231,12 +1249,15 @@
     "D": "1 + b,2 + c,3 + a,4 + d",
     "E": "1 + d,2 + b,3 + c,4 + a"
    },
-   "answer": "B",
-   "scoring": "exact",
+   "answer": "",
+   "scoring": "unscored",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q61",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原卷沒有標示這一題的答案"
+   ]
   },
   {
    "id": 62,
@@ -1251,7 +1272,7 @@
     "D": "PaCO2 ≧ 50 mmHg",
     "E": "PaO2 ≦ 200 mmHg"
    },
-   "answer": "B",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1314,7 +1335,7 @@
     "D": "年齡超過80 歲",
     "E": "Cancer patient"
    },
-   "answer": "D",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1357,7 +1378,7 @@
     "D": "Hyperthermia",
     "E": "Intraventricular hemorrhage edition, 表、2524 表 14"
    },
-   "answer": "A",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1377,7 +1398,7 @@
     "D": "發生CO2栓塞 (CO2 embolism )",
     "E": "發生氣胸 (pneumothorax )"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1397,7 +1418,7 @@
     "D": "腹內器官血管阻力增加",
     "E": "靜脈阻力增加"
    },
-   "answer": "C",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1417,7 +1438,7 @@
     "D": "因中樞神經變化,所需吸入性麻醉藥藥量較少",
     "E": "肝血流量減少,為鴉片類(opiates)藥效延長的原因之一"
    },
-   "answer": "E",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1437,7 +1458,7 @@
     "D": "methadone(Dolophine)",
     "E": "levorphanol(Levodromoran)"
    },
-   "answer": "D",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1457,7 +1478,7 @@
     "D": "可治療急性氣喘",
     "E": "病人清醒時對opioid之呼吸-抑制劑效果(respiratory-depressant effect)較敏感"
    },
-   "answer": "D",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1477,7 +1498,7 @@
     "D": "Atracurium",
     "E": "d-tubocurarine"
    },
-   "answer": "B",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1497,7 +1518,7 @@
     "D": "急性體液過多(hypervolemia )時,會出現血壓下降及心博過慢",
     "E": "區域麻醉(T10以下)優於全身麻醉"
    },
-   "answer": "A",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1537,7 +1558,7 @@
     "D": "Phenoxybenzamine 投藥時間約為10~14 天",
     "E": "Propranolol 用以治療心博過速"
    },
-   "answer": "D",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1557,7 +1578,7 @@
     "D": "術前洗腎有利於改善hyperkalamia, hypercalcemia 和fluid overload",
     "E": "麻醉前應注意電解質平衡"
    },
-   "answer": "E",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1577,7 +1598,7 @@
     "D": "低體溫有助於血液凝血功能",
     "E": "Ca2+ 為calcium的active form"
    },
-   "answer": "C",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1597,7 +1618,7 @@
     "D": "Endotracheal intubation",
     "E": "睡眠劑量的barbiturates"
    },
-   "answer": "C",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1637,7 +1658,7 @@
     "D": "類固醇也可以用來降低細胞內外液而達降低腦壓之目的,但主要適用於腦部腫瘤 (brain tumors)",
     "E": "經腰椎腦脊髓液引流也可用來降低腦壓,但不適用於uncal herniation 和trans-foramen magnum herniation"
    },
-   "answer": "C",
+   "answer": "A",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1657,7 +1678,7 @@
     "D": "笑氣也會引起腦血管擴張,但當與靜脈麻醉劑同時使用時,會抑制靜脈麻醉劑降腦壓 之效果,故所謂的balance anesthesia 並不適用於神經外科之急症手術",
     "E": "Sucinylcholine 會增加ICP 為急症神經麻醉之禁忌"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1697,7 +1718,7 @@
     "D": "不論是呼吸性酸中毒或是代謝性酸中毒對於腦血流之影響是一致的",
     "E": "過快的調節血中二氧化碳分壓正常化(nomalization)會造成腦脊髓液之酸化(增加腦 壓)及鹼化(腦缺血)之可能"
    },
-   "answer": "C",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1717,7 +1738,7 @@
     "D": "血氧分壓低於60mmHg 時,血氧分壓對腦血流有明顯之影響",
     "E": "參與腦血管張力調節之神經包括交感及副交感神經"
    },
-   "answer": "C",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1737,7 +1758,7 @@
     "D": "神經元(neuron)和神經膠質細胞(glia)可做為所謂的idiogenic osmoles,可快速地調 節滲透性利尿劑造成細胞內、外環境體積之失衡",
     "E": "鈣離子也是所謂的idiogenic osmole。"
    },
-   "answer": "C",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1757,7 +1778,7 @@
     "D": "當病人有一開放性腦室心房引流導管時,並不適用sitting position 手術",
     "E": "手術前診斷有開放性卵圓孔時,sitting position為絕對禁忌症"
    },
-   "answer": "C",
+   "answer": "E",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1797,7 +1818,7 @@
     "D": "4 17",
     "E": "5"
    },
-   "answer": "C",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1820,7 +1841,7 @@
     "D": "Dextran 和starch 等製劑會影響血小板功能及降低凝血因子,應盡量少用",
     "E": "目前研究發現高張之鹽水(hypertonic saline)用於輸液治療,有最優之效果"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1840,7 +1861,7 @@
     "D": "Cerebral salt-washing syndrome之triad是低血鈉,低體積,低尿鈉,不適合限水治療",
     "E": "SIADH 之體液體積是正常或稍高於正常"
    },
-   "answer": "C",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1860,12 +1881,15 @@
     "D": "Glutamate NMDA receptor 18",
     "E": "Glutamate AMPA receptor"
    },
-   "answer": "C",
-   "scoring": "exact",
+   "answer": "",
+   "scoring": "unscored",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q92",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "incomplete": [
+    "原卷沒有標示這一題的答案"
+   ]
   },
   {
    "id": 93,
@@ -1880,7 +1904,7 @@
     "D": "NSAID 可以抑制脂肪酸代謝,及prostaglandins 和leukotrienes 之合成,而達brain protection 之目的",
     "E": "Allopurinol 可以抑制自由基之產生,維護細胞膜之完整性而達brain protection 之作用"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1920,7 +1944,7 @@
     "D": "Facial edema",
     "E": "Stroke volume and cardiac index decraese"
    },
-   "answer": "B",
+   "answer": "C",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1940,7 +1964,7 @@
     "D": "使用Barbiturates時, 病人甦醒的時間, 決定於Barbiturates在肝臟中的代謝速率",
     "E": "使用Barbiturates 時,可能有anaphylaxis 之發生"
    },
-   "answer": "B",
+   "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
@@ -1960,7 +1984,7 @@
     "D": "Optic(II)Nerve",
     "E": "Vagus(X)nerve"
    },
-   "answer": "C",
+   "answer": "B",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
