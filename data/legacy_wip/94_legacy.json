@@ -31,7 +31,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q1",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 2,
@@ -54,27 +56,31 @@
    "textbook_era": "Anesthesia 第 5 版",
    "images": [
     "94_Q2_fig2.png"
-   ]
+   ],
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 3,
    "year": 94,
    "western_year": 2005,
    "era": "old",
-   "question": "甄審進行時間,請勿擅自離開考區。 1、 關於產婦於懷孕末期的生理變化,下列描述何者是錯的?",
+   "question": "關於第一產程時，所引起的疼痛途徑，主要是經由visceral afferent fiber 與交感神經纖 維進入那些脊髓神經節 ？",
    "options": {
-    "A": "呼吸系統最明顯的改變是母親的Functional residual capacity (FRC)於懷孕末期降低 15~20%",
-    "B": "懷孕期間,心輸出量的增加主要是心收縮量 (stroke volume)與心跳速率的增加所造成",
-    "C": "懷孕末期,雖然漲大的子宮會使幽門移位,但孕婦對食物胃排空的時間與一般人比較, 並沒有改變 1",
-    "D": "產婦執行脊椎或硬脊膜外麻醉時,要達到麻醉程度 (Level )所需的局部麻醉劑藥量 較少",
-    "E": "腎臟血漿流量與腎絲球過濾速率於懷孕末期,會逐漸回到正常。 2、 執行區域麻醉於生產時所產生的併發症,下列何者最不可能發生 ?"
+    "A": "C3~C6",
+    "B": "T1~T5",
+    "C": "T6~T9",
+    "D": "T10~L1",
+    "E": "L2~S1"
    },
    "answer": "D",
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q3",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 4,
@@ -94,7 +100,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q4",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 5,
@@ -114,7 +122,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q5",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 6,
@@ -134,7 +144,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q6",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 7,
@@ -154,7 +166,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q7",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 8,
@@ -174,7 +188,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q8",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 9,
@@ -194,7 +210,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q9",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 10,
@@ -214,7 +232,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q10",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 11,
@@ -234,7 +254,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q11",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 12,
@@ -254,7 +276,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q12",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 13,
@@ -274,7 +298,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q13",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 14,
@@ -294,7 +320,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q14",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 15,
@@ -314,7 +342,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q15",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 16,
@@ -334,7 +364,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q16",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 17,
@@ -354,7 +386,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q17",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 18,
@@ -374,7 +408,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q18",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 19,
@@ -397,7 +433,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "images": [
     "94_Q19_stem.png"
-   ]
+   ],
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 20,
@@ -417,7 +455,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q20",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 21,
@@ -440,7 +480,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原卷沒有標示這一題的答案"
-   ]
+   ],
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 22,
@@ -460,7 +502,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q22",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 23,
@@ -480,7 +524,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q23",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 24,
@@ -500,7 +546,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q24",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 25,
@@ -520,7 +568,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q25",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 26,
@@ -540,7 +590,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q26",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 27,
@@ -560,7 +612,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q27",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 28,
@@ -582,7 +636,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原卷沒有標示這一題的答案"
-   ]
+   ],
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 29,
@@ -602,7 +658,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q29",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 30,
@@ -622,7 +680,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q30",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 31,
@@ -642,7 +702,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q31",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 32,
@@ -662,7 +724,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q32",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 33,
@@ -682,7 +746,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q33",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 34,
@@ -705,7 +771,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原卷沒有標示這一題的答案"
-   ]
+   ],
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 35,
@@ -728,7 +796,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原卷沒有標示這一題的答案"
-   ]
+   ],
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 36,
@@ -748,7 +818,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q36",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 37,
@@ -768,7 +840,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q37",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 38,
@@ -788,7 +862,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q38",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 39,
@@ -808,7 +884,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q39",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 40,
@@ -831,7 +909,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原卷沒有標示這一題的答案"
-   ]
+   ],
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 41,
@@ -851,7 +931,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q41",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 42,
@@ -871,7 +953,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q42",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 43,
@@ -891,7 +975,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q43",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 44,
@@ -911,7 +997,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q44",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 45,
@@ -931,7 +1019,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q45",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 46,
@@ -951,7 +1041,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q46",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 47,
@@ -971,7 +1063,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q47",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 48,
@@ -994,7 +1088,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原卷沒有標示這一題的答案"
-   ]
+   ],
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 49,
@@ -1014,7 +1110,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q49",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 50,
@@ -1034,7 +1132,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q50",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 51,
@@ -1054,7 +1154,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q51",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 52,
@@ -1074,7 +1176,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q52",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 53,
@@ -1094,7 +1198,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q53",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 54,
@@ -1114,7 +1220,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q54",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 55,
@@ -1134,7 +1242,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q55",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 56,
@@ -1154,7 +1264,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q56",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 57,
@@ -1174,7 +1286,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q57",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 58,
@@ -1194,7 +1308,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q58",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 59,
@@ -1214,7 +1330,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q59",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 60,
@@ -1234,7 +1352,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q60",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 61,
@@ -1257,7 +1377,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原卷沒有標示這一題的答案"
-   ]
+   ],
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 62,
@@ -1277,7 +1399,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q62",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 63,
@@ -1300,7 +1424,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "images": [
     "94_Q63_fig3.png"
-   ]
+   ],
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 64,
@@ -1320,7 +1446,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q64",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 65,
@@ -1340,7 +1468,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q65",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 66,
@@ -1363,7 +1493,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "images": [
     "94_Q66_fig1.png"
-   ]
+   ],
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 67,
@@ -1383,7 +1515,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q67",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 68,
@@ -1403,7 +1537,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q68",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 69,
@@ -1423,7 +1559,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q69",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 70,
@@ -1443,7 +1581,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q70",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C5",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 71,
@@ -1463,7 +1603,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q71",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 72,
@@ -1483,7 +1625,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q72",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 73,
@@ -1503,7 +1647,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q73",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 74,
@@ -1523,7 +1669,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q74",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 75,
@@ -1543,7 +1691,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q75",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 76,
@@ -1563,7 +1713,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q76",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 77,
@@ -1583,7 +1735,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q77",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 78,
@@ -1603,7 +1757,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q78",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 79,
@@ -1623,7 +1779,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q79",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 80,
@@ -1643,7 +1801,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q80",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 81,
@@ -1663,7 +1823,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q81",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 82,
@@ -1683,7 +1845,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q82",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 83,
@@ -1703,7 +1867,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q83",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 84,
@@ -1723,7 +1889,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q84",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 85,
@@ -1743,7 +1911,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q85",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 86,
@@ -1763,7 +1933,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q86",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 87,
@@ -1783,7 +1955,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q87",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 88,
@@ -1803,7 +1977,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q88",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 89,
@@ -1826,7 +2002,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "images": [
     "94_Q89_fig1.png"
-   ]
+   ],
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 90,
@@ -1846,7 +2024,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q90",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 91,
@@ -1866,7 +2046,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q91",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 92,
@@ -1889,7 +2071,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原卷沒有標示這一題的答案"
-   ]
+   ],
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 93,
@@ -1909,7 +2093,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q93",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 94,
@@ -1929,7 +2115,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q94",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 95,
@@ -1949,7 +2137,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q95",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 96,
@@ -1969,7 +2159,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q96",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 97,
@@ -1989,7 +2181,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q97",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 98,
@@ -2009,7 +2203,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "94_written_Q98",
-   "textbook_era": "Anesthesia 第 5 版"
+   "textbook_era": "Anesthesia 第 5 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 99,
@@ -2032,7 +2228,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原檔沒有這一題的答案"
-   ]
+   ],
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 100,
@@ -2055,7 +2253,9 @@
    "textbook_era": "Anesthesia 第 5 版",
    "incomplete": [
     "原檔沒有這一題的答案"
-   ]
+   ],
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   }
  ]
 }

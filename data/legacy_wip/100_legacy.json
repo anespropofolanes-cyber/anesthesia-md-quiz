@@ -30,7 +30,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q1"
+   "source": "100_written_Q1",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 2,
@@ -49,7 +51,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q2"
+   "source": "100_written_Q2",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 3,
@@ -68,7 +72,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q3"
+   "source": "100_written_Q3",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 4,
@@ -87,7 +93,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q4"
+   "source": "100_written_Q4",
+   "category": "C12",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 5,
@@ -106,7 +114,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q5"
+   "source": "100_written_Q5",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 6,
@@ -125,7 +135,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q6"
+   "source": "100_written_Q6",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 7,
@@ -144,7 +156,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q7"
+   "source": "100_written_Q7",
+   "category": "C12",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 8,
@@ -163,7 +177,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q8"
+   "source": "100_written_Q8",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 9,
@@ -182,7 +198,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q9"
+   "source": "100_written_Q9",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 10,
@@ -201,7 +219,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q10"
+   "source": "100_written_Q10",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 11,
@@ -220,7 +240,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q11"
+   "source": "100_written_Q11",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 12,
@@ -239,7 +261,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q12"
+   "source": "100_written_Q12",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 13,
@@ -258,7 +282,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q13"
+   "source": "100_written_Q13",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 14,
@@ -277,7 +303,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q14"
+   "source": "100_written_Q14",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 15,
@@ -296,7 +324,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q15"
+   "source": "100_written_Q15",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 16,
@@ -315,7 +345,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q16"
+   "source": "100_written_Q16",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 17,
@@ -334,7 +366,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q17"
+   "source": "100_written_Q17",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 18,
@@ -353,7 +387,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q18"
+   "source": "100_written_Q18",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 19,
@@ -372,7 +408,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q19"
+   "source": "100_written_Q19",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 20,
@@ -391,7 +429,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q20"
+   "source": "100_written_Q20",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 21,
@@ -410,7 +450,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q21"
+   "source": "100_written_Q21",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 22,
@@ -429,7 +471,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q22"
+   "source": "100_written_Q22",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 23,
@@ -448,7 +492,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q23"
+   "source": "100_written_Q23",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 24,
@@ -467,7 +513,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q24"
+   "source": "100_written_Q24",
+   "category": "C5",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 25,
@@ -486,7 +534,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q25"
+   "source": "100_written_Q25",
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 26,
@@ -505,7 +555,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q26"
+   "source": "100_written_Q26",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 27,
@@ -524,7 +576,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q27"
+   "source": "100_written_Q27",
+   "category": "C5",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 28,
@@ -543,7 +597,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q28"
+   "source": "100_written_Q28",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 29,
@@ -562,7 +618,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q29"
+   "source": "100_written_Q29",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 30,
@@ -581,7 +639,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q30"
+   "source": "100_written_Q30",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 31,
@@ -600,7 +660,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q31"
+   "source": "100_written_Q31",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 32,
@@ -619,7 +681,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q32"
+   "source": "100_written_Q32",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 33,
@@ -638,7 +702,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q33"
+   "source": "100_written_Q33",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 34,
@@ -657,7 +723,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q34"
+   "source": "100_written_Q34",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 35,
@@ -676,7 +744,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q35"
+   "source": "100_written_Q35",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 36,
@@ -695,7 +765,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q36"
+   "source": "100_written_Q36",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 37,
@@ -714,7 +786,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q37"
+   "source": "100_written_Q37",
+   "category": "C5",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 38,
@@ -733,7 +807,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q38"
+   "source": "100_written_Q38",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 39,
@@ -752,7 +828,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q39"
+   "source": "100_written_Q39",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 40,
@@ -771,7 +849,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q40"
+   "source": "100_written_Q40",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 41,
@@ -790,7 +870,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q41"
+   "source": "100_written_Q41",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 42,
@@ -809,7 +891,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q42"
+   "source": "100_written_Q42",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 43,
@@ -828,7 +912,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q43"
+   "source": "100_written_Q43",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 44,
@@ -847,7 +933,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q44"
+   "source": "100_written_Q44",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 45,
@@ -866,7 +954,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q45"
+   "source": "100_written_Q45",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 46,
@@ -885,7 +975,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q46"
+   "source": "100_written_Q46",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 47,
@@ -904,7 +996,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q47"
+   "source": "100_written_Q47",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 48,
@@ -923,7 +1017,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q48"
+   "source": "100_written_Q48",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 49,
@@ -942,7 +1038,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q49"
+   "source": "100_written_Q49",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 50,
@@ -961,7 +1059,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q50"
+   "source": "100_written_Q50",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 51,
@@ -980,7 +1080,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q51"
+   "source": "100_written_Q51",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 52,
@@ -999,7 +1101,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q52"
+   "source": "100_written_Q52",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 53,
@@ -1018,7 +1122,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q53"
+   "source": "100_written_Q53",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 54,
@@ -1037,7 +1143,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q54"
+   "source": "100_written_Q54",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 55,
@@ -1055,7 +1163,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q55"
+   "source": "100_written_Q55",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 56,
@@ -1074,7 +1184,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q56"
+   "source": "100_written_Q56",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 57,
@@ -1093,7 +1205,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q57"
+   "source": "100_written_Q57",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 58,
@@ -1112,7 +1226,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q58"
+   "source": "100_written_Q58",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 59,
@@ -1132,7 +1248,9 @@
    "source": "100_written_Q59",
    "incomplete": [
     "原檔只抽到 3 個選項"
-   ]
+   ],
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 60,
@@ -1151,7 +1269,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q60"
+   "source": "100_written_Q60",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 61,
@@ -1170,7 +1290,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q61"
+   "source": "100_written_Q61",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 62,
@@ -1189,7 +1311,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q62"
+   "source": "100_written_Q62",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 63,
@@ -1208,7 +1332,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q63"
+   "source": "100_written_Q63",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 64,
@@ -1227,7 +1353,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q64"
+   "source": "100_written_Q64",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 65,
@@ -1246,7 +1374,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q65"
+   "source": "100_written_Q65",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 66,
@@ -1265,7 +1395,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q66"
+   "source": "100_written_Q66",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 67,
@@ -1284,7 +1416,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q67"
+   "source": "100_written_Q67",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 68,
@@ -1303,7 +1437,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q68"
+   "source": "100_written_Q68",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 69,
@@ -1322,7 +1458,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q69"
+   "source": "100_written_Q69",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 70,
@@ -1341,7 +1479,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q70"
+   "source": "100_written_Q70",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 71,
@@ -1360,7 +1500,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q71"
+   "source": "100_written_Q71",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 72,
@@ -1379,7 +1521,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q72"
+   "source": "100_written_Q72",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 73,
@@ -1397,7 +1541,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q73"
+   "source": "100_written_Q73",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 74,
@@ -1416,7 +1562,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q74"
+   "source": "100_written_Q74",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 75,
@@ -1435,7 +1583,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q75"
+   "source": "100_written_Q75",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 76,
@@ -1454,7 +1604,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q76"
+   "source": "100_written_Q76",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 77,
@@ -1473,7 +1625,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q77"
+   "source": "100_written_Q77",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 78,
@@ -1492,7 +1646,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q78"
+   "source": "100_written_Q78",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 79,
@@ -1511,7 +1667,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q79"
+   "source": "100_written_Q79",
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 80,
@@ -1530,7 +1688,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q80"
+   "source": "100_written_Q80",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 81,
@@ -1549,7 +1709,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q81"
+   "source": "100_written_Q81",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 82,
@@ -1568,7 +1730,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q82"
+   "source": "100_written_Q82",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 83,
@@ -1587,7 +1751,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q83"
+   "source": "100_written_Q83",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 84,
@@ -1606,7 +1772,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q84"
+   "source": "100_written_Q84",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 85,
@@ -1625,7 +1793,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q85"
+   "source": "100_written_Q85",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 86,
@@ -1644,7 +1814,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q86"
+   "source": "100_written_Q86",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 87,
@@ -1662,7 +1834,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q87"
+   "source": "100_written_Q87",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 88,
@@ -1681,7 +1855,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q88"
+   "source": "100_written_Q88",
+   "category": "B4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 89,
@@ -1700,7 +1876,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q89"
+   "source": "100_written_Q89",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 90,
@@ -1719,7 +1897,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q90"
+   "source": "100_written_Q90",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 91,
@@ -1738,7 +1918,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q91"
+   "source": "100_written_Q91",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 92,
@@ -1759,7 +1941,9 @@
    "incomplete": [
     "原檔只抽到 3 個選項",
     "答案 E 在選項裡找不到"
-   ]
+   ],
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 93,
@@ -1778,7 +1962,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q93"
+   "source": "100_written_Q93",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 94,
@@ -1796,7 +1982,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q94"
+   "source": "100_written_Q94",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 95,
@@ -1815,7 +2003,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q95"
+   "source": "100_written_Q95",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 96,
@@ -1834,7 +2024,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q96"
+   "source": "100_written_Q96",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 97,
@@ -1853,7 +2045,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q97"
+   "source": "100_written_Q97",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 98,
@@ -1872,7 +2066,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q98"
+   "source": "100_written_Q98",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 99,
@@ -1891,7 +2087,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q99"
+   "source": "100_written_Q99",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 100,
@@ -1910,7 +2108,9 @@
    "scoring": "exact",
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
-   "source": "100_written_Q100"
+   "source": "100_written_Q100",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   }
  ]
 }

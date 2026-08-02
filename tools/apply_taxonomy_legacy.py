@@ -13,6 +13,7 @@
 用法：python3 tools/apply_taxonomy_legacy.py [--dry-run]
 """
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -29,15 +30,21 @@ def load_codes():
 
 
 def load_assignments(codes):
-    """讀進所有指派檔，順便擋掉不存在的代碼與重複指派。"""
+    """讀進舊考題的指派檔，順便擋掉不存在的代碼與重複指派。
+
+    官方年份（108–114）的指派檔用純題號當鍵（`"1": "C1"`），跨年會互相撞鍵，
+    而且那些年份的分類早就套用過了。這裡只認 `<年>_written_Q<題號>` 這種鍵。
+    """
     out, errors = {}, []
     for path in sorted(ADIR.glob('*.json')):
         data = json.loads(path.read_text(encoding='utf-8'))
         if not isinstance(data, dict):
             continue
         for src, code in data.items():
+            if not re.fullmatch(r'\d{2,3}_written_Q\d{1,3}', src):
+                continue                      # 官方年份的舊格式，跳過
             if not isinstance(code, str):
-                continue                      # 官方年份的指派檔是另一種格式，跳過
+                continue
             if code not in codes:
                 errors.append(f'{path.name}: {src} 的代碼 {code!r} 不在 taxonomy 裡')
                 continue

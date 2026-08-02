@@ -31,7 +31,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q1",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 2,
@@ -51,7 +53,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q2",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 3,
@@ -71,7 +75,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q3",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 4,
@@ -91,7 +97,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q4",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 5,
@@ -111,7 +119,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q5",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 6,
@@ -131,7 +141,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q6",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 7,
@@ -151,7 +163,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q7",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 8,
@@ -171,7 +185,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q8",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 9,
@@ -191,7 +207,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q9",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 10,
@@ -211,7 +229,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q10",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 11,
@@ -231,7 +251,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q11",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 12,
@@ -251,7 +273,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q12",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 13,
@@ -271,7 +295,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q13",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 14,
@@ -291,7 +317,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q14",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 15,
@@ -311,7 +339,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q15",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 16,
@@ -331,7 +361,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q16",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 17,
@@ -351,7 +383,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q17",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 18,
@@ -371,7 +405,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q18",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 19,
@@ -391,7 +427,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q19",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 20,
@@ -411,7 +449,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q20",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 21,
@@ -431,7 +471,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q21",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 22,
@@ -451,7 +493,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q22",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 23,
@@ -471,7 +515,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q23",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 24,
@@ -491,7 +537,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q24",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 25,
@@ -511,7 +559,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q25",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 26,
@@ -531,7 +581,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q26",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 27,
@@ -551,7 +603,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q27",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 28,
@@ -571,7 +625,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q28",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 29,
@@ -591,7 +647,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q29",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 30,
@@ -611,7 +669,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q30",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C12",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 31,
@@ -631,7 +691,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q31",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 32,
@@ -651,7 +713,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q32",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C12",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 33,
@@ -671,7 +735,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q33",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 34,
@@ -691,7 +757,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q34",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 35,
@@ -711,7 +779,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q35",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 36,
@@ -731,7 +801,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q36",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 37,
@@ -751,7 +823,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q37",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C4",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 38,
@@ -771,7 +845,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q38",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 39,
@@ -791,7 +867,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q39",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 40,
@@ -811,7 +889,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q40",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 41,
@@ -831,7 +911,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q41",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 42,
@@ -851,7 +933,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q42",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C11",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 43,
@@ -871,7 +955,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q43",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 44,
@@ -891,7 +977,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q44",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 45,
@@ -911,7 +999,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q45",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 46,
@@ -931,7 +1021,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q46",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 47,
@@ -951,7 +1043,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q47",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 48,
@@ -971,7 +1065,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q48",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 49,
@@ -991,7 +1087,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q49",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 50,
@@ -1011,7 +1109,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q50",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 51,
@@ -1031,7 +1131,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q51",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 52,
@@ -1051,7 +1153,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q52",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 53,
@@ -1071,7 +1175,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q53",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 54,
@@ -1091,7 +1197,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q54",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 55,
@@ -1111,7 +1219,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q55",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 56,
@@ -1131,7 +1241,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q56",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 57,
@@ -1151,7 +1263,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q57",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 58,
@@ -1171,7 +1285,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q58",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 59,
@@ -1191,7 +1307,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q59",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 60,
@@ -1211,7 +1329,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q60",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 61,
@@ -1231,7 +1351,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q61",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 62,
@@ -1251,7 +1373,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q62",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 63,
@@ -1271,7 +1395,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q63",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 64,
@@ -1291,7 +1417,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q64",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 65,
@@ -1311,7 +1439,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q65",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 66,
@@ -1331,7 +1461,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q66",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C7",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 67,
@@ -1351,7 +1483,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q67",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 68,
@@ -1371,7 +1505,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q68",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 69,
@@ -1391,7 +1527,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q69",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 70,
@@ -1411,7 +1549,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q70",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 71,
@@ -1431,7 +1571,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q71",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 72,
@@ -1451,7 +1593,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q72",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 73,
@@ -1471,7 +1615,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q73",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 74,
@@ -1491,7 +1637,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q74",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 75,
@@ -1511,7 +1659,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q75",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 76,
@@ -1531,7 +1681,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q76",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 77,
@@ -1551,7 +1703,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q77",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 78,
@@ -1571,7 +1725,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q78",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C5",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 79,
@@ -1591,7 +1747,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q79",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 80,
@@ -1611,7 +1769,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q80",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 81,
@@ -1631,7 +1791,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q81",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 82,
@@ -1651,7 +1813,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q82",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C2",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 83,
@@ -1671,7 +1835,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q83",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C9",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 84,
@@ -1691,7 +1857,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q84",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 85,
@@ -1711,7 +1879,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q85",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 86,
@@ -1731,7 +1901,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q86",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 87,
@@ -1751,7 +1923,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q87",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 88,
@@ -1771,7 +1945,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q88",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C10",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 89,
@@ -1791,7 +1967,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q89",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C13",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 90,
@@ -1811,7 +1989,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q90",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 91,
@@ -1831,7 +2011,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q91",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 92,
@@ -1851,7 +2033,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q92",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C8",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 93,
@@ -1871,7 +2055,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q93",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 94,
@@ -1891,7 +2077,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q94",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 95,
@@ -1911,7 +2099,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q95",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C6",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 96,
@@ -1931,7 +2121,9 @@
    "answer_source": "答案隨學會發出的考卷檔案一併附上，但學會網站沒有對應的公開公告可交叉核對",
    "answer_tier": "exam_file",
    "source": "99_written_Q96",
-   "textbook_era": "Miller 第 7 版"
+   "textbook_era": "Miller 第 7 版",
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 97,
@@ -1954,7 +2146,9 @@
    "textbook_era": "Miller 第 7 版",
    "incomplete": [
     "原檔沒有這一題的答案"
-   ]
+   ],
+   "category": "B3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 98,
@@ -1977,7 +2171,9 @@
    "textbook_era": "Miller 第 7 版",
    "incomplete": [
     "原檔沒有這一題的答案"
-   ]
+   ],
+   "category": "C1",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 99,
@@ -2000,7 +2196,9 @@
    "textbook_era": "Miller 第 7 版",
    "incomplete": [
     "原檔沒有這一題的答案"
-   ]
+   ],
+   "category": "C3",
+   "category_source": "依 104／106 年學會標記慣例推定"
   },
   {
    "id": 100,
@@ -2023,7 +2221,9 @@
    "textbook_era": "Miller 第 7 版",
    "incomplete": [
     "原檔沒有這一題的答案"
-   ]
+   ],
+   "category": "C12",
+   "category_source": "依 104／106 年學會標記慣例推定"
   }
  ]
 }
