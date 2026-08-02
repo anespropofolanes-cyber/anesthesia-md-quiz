@@ -5,8 +5,8 @@
    VERSION 一改，activate 時舊快取整個清掉，不會留下上一版的殘骸。
    app.js 的 CACHE_NAME 也必須與這裡的 CACHE 一致。 */
 
-const VERSION = 'v15';
-const ASSET_V = '20260802a';   // 與 index.html 的 ?v= 一致
+const VERSION = 'v16';
+const ASSET_V = '20260802b';   // 與 index.html 的 ?v= 一致
 const CACHE = `anes-md-${VERSION}`;
 
 const YEARS = [108, 109, 110, 111, 112, 113, 114];
@@ -28,8 +28,19 @@ const CORE = [
 // 舊考題與 AI 解析：抓不到也不該讓安裝失敗（解析檔是分年陸續補上的）
 const OPTIONAL = [
   ...LEGACY_YEARS.map(y => `./data/legacy_wip/${y}_legacy.json`),
-  ...[...YEARS, ...LEGACY_YEARS].map(y => `./data/explanations/${y}_expl.json`)
+  ...[...YEARS, ...LEGACY_YEARS].map(y => `./data/explanations/${y}_expl.json`),
+  './data/image_manifest.json'
 ];
+
+/** 題庫引用的圖檔清單。寫死在這裡遲早會漏，所以改讀 manifest
+    （由 tools/build_image_manifest.py 產生）。離線時圖載不到，
+    有圖的那 40 題就等於無法作答。 */
+async function imageList(c) {
+  const res = (await c.match('./data/image_manifest.json')) ||
+              (await fetch('./data/image_manifest.json'));
+  if (!res || !res.ok) return [];
+  return (await res.json()).map(n => `./images/${n}`);
+}
 
 /** 抓取並存入快取。cache:'reload' 繞過瀏覽器 HTTP 快取，確保拿到的是本次改版的檔案。 */
 async function put(c, url) {
@@ -48,6 +59,11 @@ async function fillCore() {
   await Promise.all(missing.map(u => put(c, u)));
   await Promise.allSettled(
     OPTIONAL.map(async u => (await c.match(u)) || put(c, u))
+  );
+  // 圖片放最後：量最大（約 12 MB），但少了它有圖的題目離線就看不了
+  const imgs = await imageList(c);
+  await Promise.allSettled(
+    imgs.map(async u => (await c.match(u)) || put(c, u))
   );
 }
 
