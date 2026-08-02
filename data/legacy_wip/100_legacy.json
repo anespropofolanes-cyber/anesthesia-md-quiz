@@ -1898,13 +1898,13 @@
    "year": 100,
    "western_year": 2011,
    "era": "old",
-   "question": "10.09 1、 有關嚴重腦部外傷(Severe traumatic brain injury)之初期介入 性治療(initial interventions),下列何者為是? (1) 維持腦部血流灌注壓(cerebral perfusion pressure)>60 mm Hg。 (2) 供應氧氣,維持 PaO2>70 mm Hg 或SaO2>94%。 (3) 維持較高血糖。 (4) 盡量勿給鎮靜劑,以免抑制病患呼吸,造成CO2 升高。",
+   "question": "病人以prone position 實施全身麻醉接受脊椎手術後，產生 visual loss 併發症，下列敘述何者為錯？",
    "options": {
-    "A": "1, 2, 3, 4",
-    "B": "2, 3, 4",
-    "C": "3, 4,",
-    "D": "2, 3",
-    "E": "1, 2, 2、 下列有關氣道著火(Airway fire)的處理方法,何者正確?"
+    "A": "可因central retinal artery occlusion 引起",
+    "B": "可因central retinal vein occlusion 引起",
+    "C": "在大腦的occipital lobe 產生ischemia 引起",
+    "D": "術中產生hypotension, anemia, surgery of long duration 或large intra-operative blood loss 可引起anterior ischemic optic neuropathy",
+    "E": "通常anterior ischemic optic neuropathy 引起的visual loss，其預後比較好"
    },
    "answer": "E",
    "scoring": "exact",

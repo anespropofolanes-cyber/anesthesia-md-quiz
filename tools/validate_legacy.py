@@ -31,6 +31,7 @@ def check(path, codes):
         errors.append(f"{year}: 題數 {len(questions)}，應為 100")
 
     seen = set()
+    seen_whole = {}
     for q in questions:
         n = q["id"]
         tag = f"{year} Q{n}"
@@ -54,6 +55,13 @@ def check(path, codes):
         for letter, text in options.items():
             if not text.strip() and letter not in images:
                 warnings.append(f"{tag}: 選項 {letter} 沒有文字也沒有圖（可能是圖片題）")
+
+        # 整題（題幹＋選項）與另一題完全相同，多半是切分器把某一題重複抓了兩次
+        # ——100 年的 Q100 一度是第 1 題的複本，真正的第 100 題整題遺失。
+        whole = q["question"].strip() + "||" + "|".join(options.values())
+        if whole in seen_whole:
+            errors.append(f"{tag}: 與 Q{seen_whole[whole]} 整題完全相同")
+        seen_whole[whole] = n
 
         answer = q["answer"]
         # 題幹自己寫「本題送分」的，判分必須是 free，否則作答的人會被判錯
