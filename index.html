@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&family=Noto+Serif+TC:wght@500;700&display=swap">
-<link rel="stylesheet" href="css/app.css?v=20260802i">
+<link rel="stylesheet" href="css/app.css?v=20260802k">
 </head>
 <body>
 
@@ -39,6 +39,7 @@
 
   <!-- ══ 首頁 ══ -->
   <section id="s-home" class="screen on">
+    <div id="install-slot"></div>
     <div id="resume-slot"></div>
 
     <h1 class="page">要練哪一種？</h1>
@@ -166,8 +167,11 @@
 
   <section id="s-notes" class="screen">
     <h1 class="page">我的筆記</h1>
-    <p class="lede">你在各題、以及分類頁與子題頁下方寫下的筆記。只存在這台裝置的瀏覽器裡，記得定期匯出備份——
-      「備份與匯出」頁可以下載成 Markdown，直接印出來或貼進其他筆記軟體。</p>
+    <p class="lede">你在各題、以及分類頁與子題頁下方寫下的筆記。只存在這台裝置的瀏覽器裡——
+      用 Safari 開的話，連續七天沒開這個網站，系統會把它清掉。請務必定期備份。</p>
+    <div class="btnrow" style="margin-bottom:16px">
+      <button class="btn sm" onclick="go('data')">備份與匯出</button>
+    </div>
     <div id="note-list"></div>
   </section>
 
@@ -184,6 +188,41 @@
   <section id="s-data" class="screen">
     <h1 class="page">備份與匯出</h1>
     <p class="lede">你的作答紀錄、錯題、書籤與筆記都只存在這台裝置的瀏覽器中，不會上傳到任何地方。換裝置或清除瀏覽器資料前請先匯出。</p>
+    <div class="warn">
+      <span class="h">用 Safari 的話，紀錄可能會被系統自己清掉</span>
+      Safari（iPhone、iPad、Mac 都一樣）對「用瀏覽器開啟的網站」有保護機制：<strong>連續七天沒有再打開這個網站，
+      就會把它存在本機的資料清空</strong>——筆記、書籤、錯題會一起消失。這不是網站當掉，也救不回來。
+      <p>兩個做法，建議都做：<strong>加到主畫面</strong>（安裝成 App 就不受這條七天規則限制，步驟見下），
+        以及<strong>定期下載備份</strong>（換手機或真的被清掉時可以匯入還原）。</p>
+    </div>
+
+    <div class="card" id="install-guide">
+      <h2>加到主畫面</h2>
+      <p class="hint" style="margin-top:0">裝起來之後就像一般 App，從桌面直接開，沒有網址列，離線也能作答，
+        而且<strong>本機紀錄不會再被瀏覽器自動清掉</strong>。</p>
+      <div class="howto">
+        <div class="way">
+          <div class="w-h">iPhone／iPad</div>
+          <div class="w-s">必須用 <strong>Safari</strong>。從 LINE、Facebook 等 App 內建的瀏覽器開是做不到的，
+            請先點「用 Safari 開啟」。</div>
+          <ol>
+            <li>用 Safari 開啟本站</li>
+            <li>點畫面<strong>下方中間</strong>的「分享」鈕（方框往上的箭頭）</li>
+            <li>往下捲，選<strong>「加入主畫面」</strong>，再按「新增」</li>
+          </ol>
+        </div>
+        <div class="way">
+          <div class="w-h">Android</div>
+          <div class="w-s">用 <strong>Chrome</strong>。有些機型會直接跳出安裝提示，點它最快。</div>
+          <ol>
+            <li>用 Chrome 開啟本站</li>
+            <li>點右上角的 <strong>⋮</strong> 選單</li>
+            <li>選<strong>「安裝應用程式」</strong>或「加到主畫面」</li>
+          </ol>
+        </div>
+      </div>
+      <p class="hint">電腦上也可以：Chrome／Edge 網址列右側會出現安裝圖示。</p>
+    </div>
     <div class="card">
       <h2>匯出</h2>
       <p class="hint" style="margin-top:0">下載一個 JSON 檔。可以只挑要帶走的部分——例如只想把書籤搬到另一台裝置，就只勾書籤。</p>
@@ -236,10 +275,10 @@
 </div>
 <div class="toast" id="toast"></div>
 
-<script src="js/store.js?v=20260802i"></script>
-<script src="js/data.js?v=20260802i"></script>
-<script src="js/quiz.js?v=20260802i"></script>
-<script src="js/views.js?v=20260802i"></script>
-<script src="js/app.js?v=20260802i"></script>
+<script src="js/store.js?v=20260802k"></script>
+<script src="js/data.js?v=20260802k"></script>
+<script src="js/quiz.js?v=20260802k"></script>
+<script src="js/views.js?v=20260802k"></script>
+<script src="js/app.js?v=20260802k"></script>
 </body>
 </html>

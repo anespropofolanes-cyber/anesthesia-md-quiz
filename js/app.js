@@ -16,9 +16,34 @@ function go(name) {
   if (name === 'marks') renderList('mark');
   if (name === 'notes') renderList('note');
   if (name === 'data') refreshExportCounts();
-  if (name === 'home') renderResume();
+  if (name === 'home') { renderResume(); renderInstallTip(); }
   if (name === 'search') setTimeout(() => document.getElementById('q').focus(), 60);
 }
+
+/* ── 首頁：安裝提示 ──
+   Safari 對「用瀏覽器開的網站」有七天不用就清空本機資料的規則，
+   筆記、書籤、錯題會一起消失；加到主畫面之後才不受這條限制。
+   所以已經從主畫面開的人就不必再看到這條，關掉的人也不再顯示。 */
+function isStandalone() {
+  return matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+}
+
+function renderInstallTip() {
+  const slot = document.getElementById('install-slot');
+  if (!slot) return;
+  if (isStandalone() || store.pref('installTipOff')) { slot.innerHTML = ''; return; }
+  slot.innerHTML = `<div class="installtip">
+    <div class="h">建議把這個網站加到主畫面</div>
+    你的筆記、書籤與錯題只存在這台裝置上。用瀏覽器開的話，
+    <strong>Safari 連續七天沒開就會把它清掉</strong>；加到主畫面就不會。
+    <div class="row">
+      <button class="btn primary sm" onclick="go('data');document.getElementById('install-guide').scrollIntoView({block:'start'})">怎麼加？</button>
+      <button class="btn sm" onclick="dismissInstallTip()">不用了</button>
+    </div>
+  </div>`;
+}
+
+function dismissInstallTip() { store.pref('installTipOff', true); renderInstallTip(); }
 
 /* ── 首頁：續作 ── */
 function renderResume() {
@@ -330,7 +355,7 @@ function importData(input) {
   r.readAsText(f);
 }
 
-const CACHE_NAME = 'anes-md-v23';   // 必須與 sw.js 的 CACHE 一致
+const CACHE_NAME = 'anes-md-v25';   // 必須與 sw.js 的 CACHE 一致
 
 /** 核心資源（不含圖片）。由頁面確保入快取，不倚賴 service worker 的安裝時機——
     使用者清過瀏覽器資料、或 sw.js 未改版時 install 不會重跑，靠這裡補齊。 */
@@ -421,6 +446,7 @@ function wipeAll() {
   updateCount();
   refreshCounts();
   renderResume();
+  renderInstallTip();
   if (store.pref('shuffle')) document.getElementById('chip-order').textContent = '隨機出題';
 
   const h = location.hash.slice(1);

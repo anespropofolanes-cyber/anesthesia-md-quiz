@@ -326,6 +326,32 @@ table.ct tr:last-child td { border-bottom: none; }
   color: var(--ink-3); margin-bottom: 7px;
 }
 .hint { font-size: .8rem; color: var(--ink-3); margin-top: 6px; }
+/* 會掉資料的提醒。跟「答錯」共用同一組紅，站上只有這一種警示色。 */
+.warn {
+  background: var(--no-bg); border-left: 3px solid var(--no-line);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 12px 15px; margin: 0 0 14px; font-size: .9rem; line-height: 1.8;
+}
+.warn .h { display: block; font-weight: 700; color: var(--no-ink); margin-bottom: 4px; }
+.warn p { margin: 8px 0 0; }
+
+/* 首頁的安裝提示。只有「不是從主畫面開啟」時才出現，關掉就不再出現。 */
+.installtip {
+  background: var(--sky-bg); border-left: 3px solid var(--sky-deep);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 13px 15px; margin-bottom: 16px; font-size: .9rem; line-height: 1.75;
+}
+.installtip .h { font-weight: 700; color: var(--sky-ink); margin-bottom: 3px; }
+.installtip .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+
+/* 加到主畫面：兩種系統並排，窄螢幕上下排 */
+.howto { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+@media (max-width: 560px) { .howto { grid-template-columns: 1fr; } }
+.way { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 13px 15px; background: var(--surface-2); }
+.way .w-h { font-family: var(--serif); font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+.way .w-s { font-size: .82rem; color: var(--ink-2); line-height: 1.65; margin-bottom: 8px; }
+.way ol { margin: 0; padding-left: 1.3em; font-size: .89rem; line-height: 1.8; }
+.way li { margin-bottom: 3px; }
 
 /* ── 按鈕 ── */
 .btn {
