@@ -31,7 +31,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q1",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "labor_cesarean",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 2,
@@ -51,7 +53,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q2",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 3,
@@ -71,7 +75,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q3",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 4,
@@ -91,7 +97,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q4",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "fluid_transfusion",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 5,
@@ -111,7 +119,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q5",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 6,
@@ -131,7 +141,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q6",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "trauma_burn_env",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 7,
@@ -151,7 +163,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q7",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "trauma_burn_env",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 8,
@@ -171,7 +185,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q8",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 9,
@@ -191,7 +207,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q9",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 10,
@@ -211,7 +229,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q10",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 11,
@@ -231,7 +251,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q11",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 12,
@@ -254,7 +276,9 @@
     "93_Q12_stem.png"
    ],
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 13,
@@ -274,7 +298,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q13",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 14,
@@ -294,7 +320,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q14",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 15,
@@ -314,7 +342,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q15",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 16,
@@ -335,7 +365,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q16",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 17,
@@ -355,7 +387,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q17",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "opioids_analgesics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 18,
@@ -375,7 +409,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q18",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 19,
@@ -395,7 +431,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q19",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "maternal_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 20,
@@ -415,7 +453,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q20",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 21,
@@ -435,7 +475,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q21",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "acute_postop_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 22,
@@ -455,7 +497,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q22",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "labor_cesarean",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 23,
@@ -475,7 +519,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q23",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "laparoscopic_robotic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 24,
@@ -495,7 +541,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q24",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "obstetric_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 25,
@@ -515,7 +563,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q25",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 26,
@@ -535,7 +585,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q26",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 27,
@@ -555,7 +607,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q27",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 28,
@@ -575,7 +629,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q28",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "analgesic_pharmacology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 29,
@@ -595,7 +651,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q29",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "chronic_cancer_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 30,
@@ -615,7 +673,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q30",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 31,
@@ -635,7 +695,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q31",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pain_mechanism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 32,
@@ -655,7 +717,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q32",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 33,
@@ -675,7 +739,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q33",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 34,
@@ -695,7 +761,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q34",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 35,
@@ -716,7 +784,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q35",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory_failure_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 36,
@@ -736,7 +806,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q36",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 37,
@@ -756,7 +828,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q37",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sepsis_shock",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 38,
@@ -776,7 +850,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q38",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 39,
@@ -796,7 +872,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q39",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 40,
@@ -816,7 +894,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q40",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 41,
@@ -836,7 +916,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q41",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_regional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 42,
@@ -856,7 +938,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q42",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 43,
@@ -876,7 +960,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q43",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "airway_devices_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 44,
@@ -896,7 +982,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q44",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "obstetric_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 45,
@@ -916,7 +1004,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q45",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 46,
@@ -936,7 +1026,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q46",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 47,
@@ -956,7 +1048,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q47",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sitting_vae",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 48,
@@ -976,7 +1070,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q48",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuro_depth_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 49,
@@ -996,7 +1092,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q49",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neurosurgery_procedures",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 50,
@@ -1016,7 +1114,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q50",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 51,
@@ -1036,7 +1136,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q51",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 52,
@@ -1056,7 +1158,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q52",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 53,
@@ -1076,7 +1180,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q53",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 54,
@@ -1096,7 +1202,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q54",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "airway_devices_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 55,
@@ -1117,7 +1225,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q55",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "airway_assessment_difficult",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 56,
@@ -1137,7 +1247,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q56",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "airway_devices_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 57,
@@ -1157,7 +1269,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q57",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pain_mechanism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 58,
@@ -1177,7 +1291,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q58",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory_failure_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 59,
@@ -1197,7 +1313,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q59",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory_failure_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 60,
@@ -1217,7 +1335,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q60",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 61,
@@ -1238,7 +1358,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q61",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 62,
@@ -1258,7 +1380,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q62",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sepsis_shock",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 63,
@@ -1279,7 +1403,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q63",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 64,
@@ -1299,7 +1425,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q64",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "block_safety",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 65,
@@ -1319,7 +1447,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q65",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 66,
@@ -1339,7 +1469,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q66",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 67,
@@ -1359,7 +1491,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q67",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "opioids_analgesics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 68,
@@ -1379,7 +1513,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q68",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pain_mechanism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 69,
@@ -1399,7 +1535,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q69",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sitting_vae",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 70,
@@ -1419,7 +1557,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q70",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "airway_devices_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 71,
@@ -1439,7 +1579,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q71",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "airway_assessment_difficult",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 72,
@@ -1459,7 +1601,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q72",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "airway_devices_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 73,
@@ -1480,7 +1624,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q73",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hemodynamic_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 74,
@@ -1501,7 +1647,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q74",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hemodynamic_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 75,
@@ -1521,7 +1669,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q75",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hemodynamic_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 76,
@@ -1541,7 +1691,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q76",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 77,
@@ -1561,7 +1713,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q77",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "adjuncts_cardiovascular",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 78,
@@ -1582,7 +1736,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q78",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 79,
@@ -1603,7 +1759,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q79",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuro_depth_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 80,
@@ -1623,7 +1781,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q80",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 81,
@@ -1644,7 +1804,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q81",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 82,
@@ -1665,7 +1827,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q82",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 83,
@@ -1685,7 +1849,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q83",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "fluid_transfusion",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 84,
@@ -1705,7 +1871,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q84",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "chronic_cancer_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 85,
@@ -1725,7 +1893,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q85",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "brain_death",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 86,
@@ -1745,7 +1915,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q86",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiovascular_autonomic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 87,
@@ -1765,7 +1937,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q87",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 88,
@@ -1785,7 +1959,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q88",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 89,
@@ -1805,7 +1981,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q89",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 90,
@@ -1825,7 +2003,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q90",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 91,
@@ -1845,7 +2025,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q91",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "analgesic_pharmacology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 92,
@@ -1865,7 +2047,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q92",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "adjuncts_cardiovascular",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 93,
@@ -1885,7 +2069,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q93",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 94,
@@ -1905,7 +2091,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q94",
    "category": "C3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ortho_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 95,
@@ -1926,7 +2114,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q95",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pk_tci",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 96,
@@ -1946,7 +2136,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q96",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sepsis_shock",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 97,
@@ -1966,7 +2158,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q97",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 98,
@@ -1988,7 +2182,9 @@
     "原檔只抽到 3 個選項"
    ],
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "mechanism_systemic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 99,
@@ -2008,7 +2204,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q99",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 100,
@@ -2028,7 +2226,9 @@
    "answer_tier": "exam_file",
    "source": "93_written_Q100",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   }
  ]
 }

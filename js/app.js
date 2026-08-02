@@ -15,6 +15,7 @@ function go(name) {
   if (name === 'wrong') renderList('wrong');
   if (name === 'marks') renderList('mark');
   if (name === 'notes') renderList('note');
+  if (name === 'data') refreshExportCounts();
   if (name === 'home') renderResume();
   if (name === 'search') setTimeout(() => document.getElementById('q').focus(), 60);
 }
@@ -217,14 +218,36 @@ function toast(msg) {
 }
 
 /* ── 匯出／匯入 ── */
+function exportPicks() {
+  return [...document.querySelectorAll('#export-picks input:checked')].map(i => i.value);
+}
+
 function exportData() {
-  const url = URL.createObjectURL(store.exportBlob());
+  const picks = exportPicks();
+  if (!picks.length) { toast('至少要勾選一項'); return; }
+  const all = picks.length === 5;
+  const url = URL.createObjectURL(store.exportBlob(picks));
   const a = document.createElement('a');
   a.href = url;
-  a.download = `麻醉醫師題庫備份_${new Date().toISOString().slice(0, 10)}.json`;
+  // 檔名帶上內容，之後看到檔案才知道裡面是什麼
+  const label = all ? '完整備份' : picks.map(k => PICK_LABEL[k]).join('＋');
+  a.download = `麻醉醫師題庫_${label}_${new Date().toISOString().slice(0, 10)}.json`;
   a.click();
   URL.revokeObjectURL(url);
   toast('備份檔已下載');
+}
+
+const PICK_LABEL = { marks: '書籤', notes: '筆記', wrong: '錯題', right: '答對紀錄', prefs: '設定' };
+
+/** 勾選項旁邊顯示筆數，才知道自己到底匯出了什麼。 */
+function refreshExportCounts() {
+  const c = store.counts();
+  const map = { 'pk-marks': c.mark, 'pk-notes': c.note, 'pk-wrong': c.wrong,
+                'pk-right': Object.keys(store.s.right).length };
+  for (const [id, n] of Object.entries(map)) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = `${n} 筆`;
+  }
 }
 
 function importData(input) {
@@ -244,7 +267,7 @@ function importData(input) {
   r.readAsText(f);
 }
 
-const CACHE_NAME = 'anes-md-v16';   // 必須與 sw.js 的 CACHE 一致
+const CACHE_NAME = 'anes-md-v17';   // 必須與 sw.js 的 CACHE 一致
 
 /** 核心資源（不含圖片）。由頁面確保入快取，不倚賴 service worker 的安裝時機——
     使用者清過瀏覽器資料、或 sw.js 未改版時 install 不會重跑，靠這裡補齊。 */

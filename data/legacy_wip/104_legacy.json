@@ -31,7 +31,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, 17:387",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "neuro_consciousness",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 2,
@@ -52,7 +54,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, 14:323-324",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 3,
@@ -74,7 +78,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed,",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "cardiovascular_autonomic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 4,
@@ -95,7 +101,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, 19:454",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 5,
@@ -120,7 +128,9 @@
    "difficulty": "B",
    "images": [
     "104_Q5_stem.png"
-   ]
+   ],
+   "subtopic": "cardiovascular_autonomic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 6,
@@ -142,7 +152,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, P520-21",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 7,
@@ -164,7 +176,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, 549-550",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 8,
@@ -186,7 +200,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, P1544",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 9,
@@ -208,7 +224,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, P2538",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "homeostasis_metabolism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 10,
@@ -230,7 +248,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller 8ed, P1119",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 11,
@@ -251,7 +271,9 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 24:600",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "pk_tci",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 12,
@@ -273,7 +295,9 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 26:647",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 13,
@@ -297,7 +321,9 @@
    "difficulty": "A",
    "images": [
     "104_Q13_stem.png"
-   ]
+   ],
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 14,
@@ -321,7 +347,9 @@
    "difficulty": "A",
    "images": [
     "104_Q14_stem.png"
-   ]
+   ],
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 15,
@@ -343,7 +371,9 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 31:867",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "opioids_analgesics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 16,
@@ -365,7 +395,9 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 30:855",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "adjuncts_cardiovascular",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 17,
@@ -387,7 +419,9 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 33:949-950",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "pk_tci",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 18,
@@ -412,7 +446,9 @@
    "difficulty": "B",
    "images": [
     "104_Q18_stem.png"
-   ]
+   ],
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 19,
@@ -434,7 +470,9 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 30:848",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 20,
@@ -456,7 +494,9 @@
    "category_raw": "B2 麻醉藥理",
    "category": "B2",
    "reference": "Miller’s 8ed., 36:1047",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 21,
@@ -477,7 +517,9 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "ASA Refresher Courses Chapter.19",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 22,
@@ -499,7 +541,9 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter 6 Page 87-88",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 23,
@@ -521,7 +565,9 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter 49 Page 1490",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "neuro_depth_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 24,
@@ -542,7 +588,9 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter 45 Page 1364",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "hemodynamic_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 25,
@@ -567,7 +615,9 @@
    "difficulty": "B",
    "images": [
     "104_Q25_stem.png"
-   ]
+   ],
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 26,
@@ -588,7 +638,9 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter 46 Page 1396, 1412",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "echo_cardiac_devices",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 27,
@@ -611,7 +663,9 @@
    "category": "B3",
    "reference": "Miller 8 Chapter 48 Page 1468",
    "difficulty": "B",
-   "answer_note": "原卷題幹註明「本題送分」，全體給分。檔案原本標的答案是 E。"
+   "answer_note": "原卷題幹註明「本題送分」，全體給分。檔案原本標的答案是 E。",
+   "subtopic": "echo_cardiac_devices",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 28,
@@ -633,7 +687,9 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter 53 Page 1615",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 29,
@@ -654,7 +710,9 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter 55 Page 1671-1673",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 30,
@@ -676,7 +734,9 @@
    "category_raw": "B3 麻醉設備 / 醫品病安/airway",
    "category": "B3",
    "reference": "Miller 8 Chapter Page",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 31,
@@ -698,7 +758,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "難易度：A",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "metabolic_endocrine",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 32,
@@ -720,7 +782,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8 Chapter 61 Page 1830(key points 6)",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "fluid_transfusion",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 33,
@@ -741,7 +805,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8 Chapter 62 Page 1874",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "coagulation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 34,
@@ -763,7 +829,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8 Chapter 40 Page 1231",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "preop_assessment",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 35,
@@ -785,7 +853,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8 Chapter 38 Page 1098",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "preop_assessment",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 36,
@@ -807,7 +877,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8 Chapter _62_ Page _1876-77__",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "coagulation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 37,
@@ -829,7 +901,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8 Chapter _38_ Page _1147__",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "preop_assessment",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 38,
@@ -851,7 +925,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8ed P1246-1248",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "ga_conduct_positioning",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 39,
@@ -873,7 +949,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8ed P1124",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "neuromuscular_mh",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 40,
@@ -895,7 +973,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8ed P1124",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "neuromuscular_mh",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 41,
@@ -917,7 +997,9 @@
    "category_raw": "C7神經麻醉",
    "category": "C7",
    "reference": "Miller 8ed P.2163-4",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "icp_neurotrauma",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 42,
@@ -942,7 +1024,9 @@
     "C10"
    ],
    "reference": "Miller 8 Chapter 70 Page 2158,2164, 2176",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "icp_neurotrauma",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 43,
@@ -963,7 +1047,9 @@
    "category_raw": "C7神經麻醉",
    "category": "C7",
    "reference": "Miller 8 Chapter 76 Page 2308",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "brain_death",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 44,
@@ -985,7 +1071,9 @@
    "category_raw": "C11眼科耳鼻喉科麻醉",
    "category": "C11",
    "reference": "Miller 8 Chapter 85 Page 2540",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "ent_airway",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 45,
@@ -1007,7 +1095,9 @@
    "category_raw": "C8心臟血管胸腔麻醉 / robotic",
    "category": "C8",
    "reference": "Miller 8 Chapter 87 Page 2587",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "one_lung_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 46,
@@ -1029,7 +1119,9 @@
    "category_raw": "C7神經麻醉",
    "category": "C7",
    "reference": "Miller 8 P 2170",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "sitting_vae",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 47,
@@ -1051,7 +1143,9 @@
    "category_raw": "C7神經麻醉",
    "category": "C7",
    "reference": "Miller 8 P2160",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "icp_neurotrauma",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 48,
@@ -1073,7 +1167,9 @@
    "category_raw": "C7神經麻醉",
    "category": "C7",
    "reference": "Miller 8 P 2169",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "neurosurgery_procedures",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 49,
@@ -1095,7 +1191,9 @@
    "category_raw": "C7神經麻醉/ robatic",
    "category": "C7",
    "reference": "Miller 8 P2589",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "neurosurgery_procedures",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 50,
@@ -1117,7 +1215,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller 8 P 1159",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "metabolic_endocrine",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 51,
@@ -1139,7 +1239,9 @@
    "category_raw": "C1全身麻醉",
    "category": "C1",
    "reference": "Miller’s 8ed P2253-4",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "preop_assessment",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 52,
@@ -1164,7 +1266,9 @@
     "C13"
    ],
    "reference": "Miller’s 8ed P 2445",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "icp_neurotrauma",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 53,
@@ -1186,7 +1290,9 @@
    "category_raw": "C3骨科麻醉",
    "category": "C3",
    "reference": "Miller’s 8ed P 2399-40",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "ortho_patient_procedure",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 54,
@@ -1207,7 +1313,9 @@
    "category_raw": "C3骨科麻醉",
    "category": "C3",
    "reference": "Miller’s 8ed P2400-2",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "ortho_patient_procedure",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 55,
@@ -1228,7 +1336,9 @@
    "category_raw": "C13其他_____GS__",
    "category": "C13",
    "reference": "Miller’s 8ed P2212",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "obesity_osa_pulm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 56,
@@ -1250,7 +1360,9 @@
    "category_raw": "C5 老人麻醉",
    "category": "C5",
    "reference": "Miller’s 8ed P2418-9",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "geriatric_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 57,
@@ -1272,7 +1384,9 @@
    "category_raw": "C5 老人麻醉",
    "category": "C5",
    "reference": "Miller’s 8ed P2414",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "postop_delirium",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 58,
@@ -1293,7 +1407,9 @@
    "category_raw": "C13其他____移植麻醉___",
    "category": "C13",
    "reference": "Miller’s 8ed P2275-83",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "transplant_donation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 59,
@@ -1315,7 +1431,9 @@
    "category_raw": "C13其他_____Uro___",
    "category": "C13",
    "reference": "Miller’s 8ed P2230",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "urology_turp",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 60,
@@ -1337,7 +1455,9 @@
    "category_raw": "C13其他_____Uro___",
    "category": "C13",
    "reference": "Miller’s 8ed P2238-9",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "laparoscopic_robotic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 61,
@@ -1359,7 +1479,9 @@
    "category_raw": "C6產科麻醉",
    "category": "C6",
    "reference": "Miller’s 8ed P 2329, 2332",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "maternal_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 62,
@@ -1381,7 +1503,9 @@
    "category_raw": "C6產科麻醉",
    "category": "C6",
    "reference": "Miller’s 8ed P 2341-43",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "labor_cesarean",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 63,
@@ -1402,7 +1526,9 @@
    "category_raw": "C4小兒麻醉",
    "category": "C4",
    "reference": "Miller’s 8ed P 2793",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "neonatal_congenital",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 64,
@@ -1424,7 +1550,9 @@
    "category_raw": "C8心臟血管胸腔麻醉/小兒",
    "category": "C8",
    "reference": "Miller’s 8ed P 2804",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "pediatric_congenital_cardiac",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 65,
@@ -1446,7 +1574,9 @@
    "category_raw": "C4小兒麻醉",
    "category": "C4",
    "reference": "Miller’s 8ed P 2784-5",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "peds_periop",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 66,
@@ -1468,7 +1598,9 @@
    "category_raw": "C4小兒麻醉",
    "category": "C4",
    "reference": "Miller’s 8ed P 2723-4",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "peds_regional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 67,
@@ -1489,7 +1621,9 @@
    "category_raw": "C4小兒麻醉",
    "category": "C4",
    "reference": "Miller’s 8ed P 2760-1",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 68,
@@ -1510,7 +1644,9 @@
    "category_raw": "C12 手術室外麻醉",
    "category": "C12",
    "reference": "Miller’s 8ed P 2615, 2623-4",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "nora_ambulatory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 69,
@@ -1532,7 +1668,9 @@
    "category_raw": "C6產科麻醉",
    "category": "C6",
    "reference": "Miller’s 8ed P 2355",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "fetal_nonobstetric",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 70,
@@ -1553,7 +1691,9 @@
    "category_raw": "C12 手術室外麻醉",
    "category": "C12",
    "reference": "Miller’s 8ed P 2661-2",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "nora_ambulatory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 71,
@@ -1575,7 +1715,9 @@
    "category_raw": "C13其他 POR",
    "category": "C13",
    "reference": "Miller’s 8ed P 2947",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 72,
@@ -1597,7 +1739,9 @@
    "category_raw": "B1麻醉生理",
    "category": "B1",
    "reference": "Miller’s 8ed P 2930",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 73,
@@ -1618,7 +1762,9 @@
    "category_raw": "C10重症及呼吸治療",
    "category": "C10",
    "reference": "Miller’s 8ed P 3046-48",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "sepsis_shock",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 74,
@@ -1639,7 +1785,9 @@
    "category_raw": "C10重症及呼吸治療",
    "category": "C10",
    "reference": "Miller’s 8ed P 3104",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 75,
@@ -1660,7 +1808,9 @@
    "category_raw": "C10重症及呼吸治療",
    "category": "C10",
    "reference": "Miller’s 8ed P 3196",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "resuscitation_arrhythmia",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 76,
@@ -1682,7 +1832,9 @@
    "category_raw": "C10重症及呼吸治療",
    "category": "C10",
    "reference": "Miller’s 8ed P 3104, 3111, 3112, 3116",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 77,
@@ -1703,7 +1855,9 @@
    "category_raw": "C10重症及呼吸治療",
    "category": "C10",
    "reference": "Miller’s 8ed P 3088",
-   "difficulty": "D"
+   "difficulty": "D",
+   "subtopic": "respiratory_failure_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 78,
@@ -1724,7 +1878,9 @@
    "category_raw": "C10重症及呼吸治療",
    "category": "C10",
    "reference": "Miller’s 8ed P 3204-6",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "resuscitation_arrhythmia",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 79,
@@ -1745,7 +1901,9 @@
    "category_raw": "C10重症及呼吸治療",
    "category": "C10",
    "reference": "Miller’s 8ed P (Board review 462)",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "resuscitation_arrhythmia",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 80,
@@ -1766,7 +1924,9 @@
    "category_raw": "C10重症及呼吸治療",
    "category": "C10",
    "reference": "Miller’s 8ed P 3196",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "resuscitation_arrhythmia",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 81,
@@ -1788,7 +1948,9 @@
    "category_raw": "C2區域麻醉",
    "category": "C2",
    "reference": "Miller’s 8ed P 1709",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 82,
@@ -1810,7 +1972,9 @@
    "category_raw": "C9 疼痛治療",
    "category": "C9",
    "reference": "Miller’s 8ed P1910-11",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "chronic_cancer_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 83,
@@ -1832,7 +1996,9 @@
    "category_raw": "C2區域麻醉",
    "category": "C2",
    "reference": "Miller’s 8ed P1739",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 84,
@@ -1857,7 +2023,9 @@
    "difficulty": "C",
    "images": [
     "104_Q84_stem.png"
-   ]
+   ],
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 85,
@@ -1879,7 +2047,9 @@
    "category_raw": "C2區域麻醉",
    "category": "C2",
    "reference": "Miller’s 8ed P 1693",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "block_safety",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 86,
@@ -1901,7 +2071,9 @@
    "category_raw": "C9 疼痛治療",
    "category": "C9",
    "reference": "Miller’s 8ed P2982",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "analgesic_pharmacology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 87,
@@ -1923,7 +2095,9 @@
    "category_raw": "C13其他___Palliative medicine_",
    "category": "C13",
    "reference": "Miller’s 8ed P1923",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "palliative_misc",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 88,
@@ -1945,7 +2119,9 @@
    "category_raw": "C2區域麻醉",
    "category": "C2",
    "reference": "Miller’s 8ed P 1728",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 89,
@@ -1967,7 +2143,9 @@
    "category_raw": "C2區域麻醉",
    "category": "C2",
    "reference": "Miller’s 8ed P 1910",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 90,
@@ -1989,7 +2167,9 @@
    "category_raw": "C2區域麻醉",
    "category": "C2",
    "reference": "Miller’s 8ed P1737",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 91,
@@ -2011,7 +2191,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P2016",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 92,
@@ -2032,7 +2214,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P2106, 2119",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "vascular_aortic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 93,
@@ -2053,7 +2237,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P 2053",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 94,
@@ -2074,7 +2260,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P1979",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 95,
@@ -2096,7 +2284,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Board: Ch13, 141",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 96,
@@ -2118,7 +2308,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P2040-1",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 97,
@@ -2140,7 +2332,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P 2010",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 98,
@@ -2162,7 +2356,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P 1953",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "one_lung_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 99,
@@ -2183,7 +2379,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P1985",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 100,
@@ -2204,7 +2402,9 @@
    "category_raw": "C8心臟血管胸腔麻醉",
    "category": "C8",
    "reference": "Miller’s P2008, 2083-4",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   }
  ]
 }

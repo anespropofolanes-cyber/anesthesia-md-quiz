@@ -237,6 +237,20 @@ function openCategory(code) {
   const byYear = {};
   for (const q of qs) (byYear[q.year] ||= []).push(q);
 
+  // 子題卡片。學會只分到第一層的 17 碼，這一層是依實際考點細分的。
+  const subs = subtopicsOf(code).map(s => {
+    const list = bySubtopic(code, s.id);
+    if (!list.length) return '';
+    const done = list.filter(q => store.s.right[q.source]).length;
+    const pct = Math.round(done / list.length * 100);
+    return `<button class="topic" onclick="openSubtopic('${code}','${s.id}')">
+      <span class="t">${esc(s.name)}</span>
+      <span class="s">${esc(s.desc || '')}</span>
+      <span class="meta"><span>${list.length} 題</span>
+        <span class="bar"><i style="width:${pct}%"></i></span><span>${pct}%</span></span>
+    </button>`;
+  }).join('');
+
   document.getElementById('cat-detail').innerHTML = `
     <h1 class="page">${esc(c.code)}　${esc(c.name)}</h1>
     <p class="lede">共 ${qs.length} 題${c.note ? `。${esc(c.note)}` : ''}</p>
@@ -244,11 +258,48 @@ function openCategory(code) {
       <button class="btn primary" onclick="practiceSources(${jsonAttr(qs.map(q => q.source))}, '${esc(c.name)}', 'cat', true)">
         練習全部 ${qs.length} 題（隨機順序）</button>
     </div>
+    ${subs ? `<div class="sect-label">依主題　學會只分到上一層，這一層是依實際考點細分的</div>
+      <div class="topics">${subs}</div>` : ''}
     <div class="sect-label">依年份</div>
     <div class="list">${Object.keys(byYear).sort((a, b) => b - a).map(y => {
       const list = byYear[y];
       const done = list.filter(q => store.s.right[q.source]).length;
       return `<button class="item" onclick="practiceSources(${jsonAttr(list.map(q => q.source))}, '${esc(c.name)}／${y} 年', 'cat', true)">
+        <div class="top"><strong>${y} 年</strong>
+          <span class="tag">${list.length} 題</span>
+          ${isLegacyYear(y) ? legacyTag(y) : ''}
+          ${done ? `<span class="tag topic">已答對 ${done}</span>` : ''}</div>
+      </button>`;
+    }).join('')}</div>`;
+}
+
+/** 子題頁：重點整理（若有）＋ 該子題的題目。 */
+function openSubtopic(code, subId) {
+  go('cat');
+  const c = DB.taxonomy.categories.find(x => x.code === code);
+  const s = subtopicsOf(code).find(x => x.id === subId);
+  const qs = bySubtopic(code, subId);
+  const brief = (DB.briefs || {})[`${code}/${subId}`];
+  const byYear = {};
+  for (const q of qs) (byYear[q.year] ||= []).push(q);
+
+  document.getElementById('cat-detail').innerHTML = `
+    <button class="btn sm" onclick="openCategory('${code}')" style="margin-bottom:14px">← ${esc(c.name)}</button>
+    <h1 class="page">${esc(s.name)}</h1>
+    <p class="lede">${esc(c.code)}　${esc(c.name)}　共 ${qs.length} 題${s.desc ? `。${esc(s.desc)}` : ''}</p>
+    ${brief ? `<details class="explain ai" open>
+      <summary><span class="h" style="display:inline">重點整理</span><span class="aitag">AI 整理，非官方</span></summary>
+      <div class="expltext">${esc(brief)}</div>
+    </details>` : ''}
+    <div class="btnrow" style="margin:14px 0 18px">
+      <button class="btn primary" onclick="practiceSources(${jsonAttr(qs.map(q => q.source))}, '${esc(s.name)}', 'cat', true)">
+        練習全部 ${qs.length} 題（隨機順序）</button>
+    </div>
+    <div class="sect-label">依年份</div>
+    <div class="list">${Object.keys(byYear).sort((a, b) => b - a).map(y => {
+      const list = byYear[y];
+      const done = list.filter(q => store.s.right[q.source]).length;
+      return `<button class="item" onclick="practiceSources(${jsonAttr(list.map(q => q.source))}, '${esc(s.name)}／${y} 年', 'cat', true)">
         <div class="top"><strong>${y} 年</strong>
           <span class="tag">${list.length} 題</span>
           ${isLegacyYear(y) ? legacyTag(y) : ''}

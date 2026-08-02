@@ -204,6 +204,15 @@ p.lede { color: var(--ink-2); margin: 0 0 20px; font-size: .93rem; }
 .mode.accentish .n { color: var(--accent-ink); opacity: .75; }
 
 .quicklinks { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* 匯出項目的勾選清單 */
+.picks { display: flex; flex-direction: column; gap: 2px; margin: 0 0 14px; }
+.picks label {
+  display: flex; align-items: center; gap: 9px;
+  padding: 7px 2px; font-size: .93rem; cursor: pointer;
+}
+.picks input { width: 17px; height: 17px; accent-color: var(--accent-deep); flex: none; }
+.picks .n { color: var(--ink-3); font-size: .82rem; margin-left: auto; }
 .quick {
   border: 1px solid var(--line); background: var(--surface);
   border-radius: 999px; padding: 7px 14px; font-size: .87rem;

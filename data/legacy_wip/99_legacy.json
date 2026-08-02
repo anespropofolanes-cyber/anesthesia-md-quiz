@@ -33,7 +33,9 @@
    "source": "99_written_Q1",
    "textbook_era": "Miller 第 7 版",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 2,
@@ -55,7 +57,9 @@
    "source": "99_written_Q2",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 3,
@@ -77,7 +81,9 @@
    "source": "99_written_Q3",
    "textbook_era": "Miller 第 7 版",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 4,
@@ -99,7 +105,9 @@
    "source": "99_written_Q4",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 5,
@@ -121,7 +129,9 @@
    "source": "99_written_Q5",
    "textbook_era": "Miller 第 7 版",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 6,
@@ -143,7 +153,9 @@
    "source": "99_written_Q6",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 7,
@@ -165,7 +177,9 @@
    "source": "99_written_Q7",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "one_lung_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 8,
@@ -187,7 +201,9 @@
    "source": "99_written_Q8",
    "textbook_era": "Miller 第 7 版",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 9,
@@ -209,7 +225,9 @@
    "source": "99_written_Q9",
    "textbook_era": "Miller 第 7 版",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "homeostasis_metabolism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 10,
@@ -231,7 +249,9 @@
    "source": "99_written_Q10",
    "textbook_era": "Miller 第 7 版",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "adjuncts_cardiovascular",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 11,
@@ -253,7 +273,9 @@
    "source": "99_written_Q11",
    "textbook_era": "Miller 第 7 版",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 12,
@@ -275,7 +297,9 @@
    "source": "99_written_Q12",
    "textbook_era": "Miller 第 7 版",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 13,
@@ -297,7 +321,9 @@
    "source": "99_written_Q13",
    "textbook_era": "Miller 第 7 版",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 14,
@@ -319,7 +345,9 @@
    "source": "99_written_Q14",
    "textbook_era": "Miller 第 7 版",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 15,
@@ -341,7 +369,9 @@
    "source": "99_written_Q15",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 16,
@@ -363,7 +393,9 @@
    "source": "99_written_Q16",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "vascular_aortic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 17,
@@ -385,7 +417,9 @@
    "source": "99_written_Q17",
    "textbook_era": "Miller 第 7 版",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 18,
@@ -407,7 +441,9 @@
    "source": "99_written_Q18",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 19,
@@ -429,7 +465,9 @@
    "source": "99_written_Q19",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "vascular_aortic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 20,
@@ -451,7 +489,9 @@
    "source": "99_written_Q20",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "coagulation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 21,
@@ -473,7 +513,9 @@
    "source": "99_written_Q21",
    "textbook_era": "Miller 第 7 版",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "mechanism_systemic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 22,
@@ -495,7 +537,9 @@
    "source": "99_written_Q22",
    "textbook_era": "Miller 第 7 版",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sitting_vae",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 23,
@@ -517,7 +561,9 @@
    "source": "99_written_Q23",
    "textbook_era": "Miller 第 7 版",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "labor_cesarean",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 24,
@@ -539,7 +585,9 @@
    "source": "99_written_Q24",
    "textbook_era": "Miller 第 7 版",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 25,
@@ -561,7 +609,9 @@
    "source": "99_written_Q25",
    "textbook_era": "Miller 第 7 版",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 26,
@@ -583,7 +633,9 @@
    "source": "99_written_Q26",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pediatric_congenital_cardiac",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 27,
@@ -605,7 +657,9 @@
    "source": "99_written_Q27",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pediatric_congenital_cardiac",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 28,
@@ -627,7 +681,9 @@
    "source": "99_written_Q28",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pediatric_congenital_cardiac",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 29,
@@ -649,7 +705,9 @@
    "source": "99_written_Q29",
    "textbook_era": "Miller 第 7 版",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 30,
@@ -671,7 +729,9 @@
    "source": "99_written_Q30",
    "textbook_era": "Miller 第 7 版",
    "category": "C12",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nora_ambulatory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 31,
@@ -693,7 +753,9 @@
    "source": "99_written_Q31",
    "textbook_era": "Miller 第 7 版",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "fetal_nonobstetric",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 32,
@@ -715,7 +777,9 @@
    "source": "99_written_Q32",
    "textbook_era": "Miller 第 7 版",
    "category": "C12",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nora_ambulatory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 33,
@@ -737,7 +801,9 @@
    "source": "99_written_Q33",
    "textbook_era": "Miller 第 7 版",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "labor_cesarean",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 34,
@@ -759,7 +825,9 @@
    "source": "99_written_Q34",
    "textbook_era": "Miller 第 7 版",
    "category": "C11",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ent_airway",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 35,
@@ -781,7 +849,9 @@
    "source": "99_written_Q35",
    "textbook_era": "Miller 第 7 版",
    "category": "C11",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ophthalmic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 36,
@@ -803,7 +873,9 @@
    "source": "99_written_Q36",
    "textbook_era": "Miller 第 7 版",
    "category": "C11",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ent_airway",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 37,
@@ -825,7 +897,9 @@
    "source": "99_written_Q37",
    "textbook_era": "Miller 第 7 版",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_periop",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 38,
@@ -847,7 +921,9 @@
    "source": "99_written_Q38",
    "textbook_era": "Miller 第 7 版",
    "category": "C11",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ent_airway",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 39,
@@ -869,7 +945,9 @@
    "source": "99_written_Q39",
    "textbook_era": "Miller 第 7 版",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neurosurgery_procedures",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 40,
@@ -891,7 +969,9 @@
    "source": "99_written_Q40",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ga_conduct_positioning",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 41,
@@ -913,7 +993,9 @@
    "source": "99_written_Q41",
    "textbook_era": "Miller 第 7 版",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "icp_neurotrauma",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 42,
@@ -935,7 +1017,9 @@
    "source": "99_written_Q42",
    "textbook_era": "Miller 第 7 版",
    "category": "C11",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ent_airway",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 43,
@@ -957,7 +1041,9 @@
    "source": "99_written_Q43",
    "textbook_era": "Miller 第 7 版",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "brain_death",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 44,
@@ -979,7 +1065,9 @@
    "source": "99_written_Q44",
    "textbook_era": "Miller 第 7 版",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "brain_death",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 45,
@@ -1001,7 +1089,9 @@
    "source": "99_written_Q45",
    "textbook_era": "Miller 第 7 版",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 46,
@@ -1023,7 +1113,9 @@
    "source": "99_written_Q46",
    "textbook_era": "Miller 第 7 版",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sepsis_shock",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 47,
@@ -1045,7 +1137,9 @@
    "source": "99_written_Q47",
    "textbook_era": "Miller 第 7 版",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 48,
@@ -1067,7 +1161,9 @@
    "source": "99_written_Q48",
    "textbook_era": "Miller 第 7 版",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 49,
@@ -1089,7 +1185,9 @@
    "source": "99_written_Q49",
    "textbook_era": "Miller 第 7 版",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 50,
@@ -1111,7 +1209,9 @@
    "source": "99_written_Q50",
    "textbook_era": "Miller 第 7 版",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 51,
@@ -1133,7 +1233,9 @@
    "source": "99_written_Q51",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "liver_disease",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 52,
@@ -1155,7 +1257,9 @@
    "source": "99_written_Q52",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pain_mechanism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 53,
@@ -1177,7 +1281,9 @@
    "source": "99_written_Q53",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 54,
@@ -1199,7 +1305,9 @@
    "source": "99_written_Q54",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "urology_turp",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 55,
@@ -1221,7 +1329,9 @@
    "source": "99_written_Q55",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "urology_turp",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 56,
@@ -1243,7 +1353,9 @@
    "source": "99_written_Q56",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pain_mechanism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 57,
@@ -1265,7 +1377,9 @@
    "source": "99_written_Q57",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "acute_postop_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 58,
@@ -1287,7 +1401,9 @@
    "source": "99_written_Q58",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "analgesic_pharmacology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 59,
@@ -1309,7 +1425,9 @@
    "source": "99_written_Q59",
    "textbook_era": "Miller 第 7 版",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 60,
@@ -1331,7 +1449,9 @@
    "source": "99_written_Q60",
    "textbook_era": "Miller 第 7 版",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 61,
@@ -1353,7 +1473,9 @@
    "source": "99_written_Q61",
    "textbook_era": "Miller 第 7 版",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "homeostasis_metabolism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 62,
@@ -1375,7 +1497,9 @@
    "source": "99_written_Q62",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "preop_assessment",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 63,
@@ -1397,7 +1521,9 @@
    "source": "99_written_Q63",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuromuscular_mh",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 64,
@@ -1419,7 +1545,9 @@
    "source": "99_written_Q64",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "liver_disease",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 65,
@@ -1441,7 +1569,9 @@
    "source": "99_written_Q65",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 66,
@@ -1463,7 +1593,9 @@
    "source": "99_written_Q66",
    "textbook_era": "Miller 第 7 版",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "icp_neurotrauma",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 67,
@@ -1485,7 +1617,9 @@
    "source": "99_written_Q67",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "coagulation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 68,
@@ -1507,7 +1641,9 @@
    "source": "99_written_Q68",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "trauma_burn_env",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 69,
@@ -1529,7 +1665,9 @@
    "source": "99_written_Q69",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "analgesic_pharmacology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 70,
@@ -1551,7 +1689,9 @@
    "source": "99_written_Q70",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "analgesic_pharmacology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 71,
@@ -1573,7 +1713,9 @@
    "source": "99_written_Q71",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "analgesic_pharmacology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 72,
@@ -1595,7 +1737,9 @@
    "source": "99_written_Q72",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "metabolic_endocrine",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 73,
@@ -1617,7 +1761,9 @@
    "source": "99_written_Q73",
    "textbook_era": "Miller 第 7 版",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory_failure_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 74,
@@ -1639,7 +1785,9 @@
    "source": "99_written_Q74",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "postop_neuro_injury",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 75,
@@ -1661,7 +1809,9 @@
    "source": "99_written_Q75",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "chronic_cancer_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 76,
@@ -1683,7 +1833,9 @@
    "source": "99_written_Q76",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 77,
@@ -1705,7 +1857,9 @@
    "source": "99_written_Q77",
    "textbook_era": "Miller 第 7 版",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 78,
@@ -1727,7 +1881,9 @@
    "source": "99_written_Q78",
    "textbook_era": "Miller 第 7 版",
    "category": "C5",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "geriatric_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 79,
@@ -1749,7 +1905,9 @@
    "source": "99_written_Q79",
    "textbook_era": "Miller 第 7 版",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "homeostasis_metabolism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 80,
@@ -1771,7 +1929,9 @@
    "source": "99_written_Q80",
    "textbook_era": "Miller 第 7 版",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sepsis_shock",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 81,
@@ -1793,7 +1953,9 @@
    "source": "99_written_Q81",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuromuscular_mh",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 82,
@@ -1815,7 +1977,9 @@
    "source": "99_written_Q82",
    "textbook_era": "Miller 第 7 版",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 83,
@@ -1837,7 +2001,9 @@
    "source": "99_written_Q83",
    "textbook_era": "Miller 第 7 版",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "analgesic_pharmacology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 84,
@@ -1859,7 +2025,9 @@
    "source": "99_written_Q84",
    "textbook_era": "Miller 第 7 版",
    "category": "C3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ortho_patient_procedure",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 85,
@@ -1881,7 +2049,9 @@
    "source": "99_written_Q85",
    "textbook_era": "Miller 第 7 版",
    "category": "C3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ortho_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 86,
@@ -1903,7 +2073,9 @@
    "source": "99_written_Q86",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "preop_assessment",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 87,
@@ -1925,7 +2097,9 @@
    "source": "99_written_Q87",
    "textbook_era": "Miller 第 7 版",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "echo_cardiac_devices",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 88,
@@ -1947,7 +2121,9 @@
    "source": "99_written_Q88",
    "textbook_era": "Miller 第 7 版",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "resuscitation_arrhythmia",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 89,
@@ -1969,7 +2145,9 @@
    "source": "99_written_Q89",
    "textbook_era": "Miller 第 7 版",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 90,
@@ -1991,7 +2169,9 @@
    "source": "99_written_Q90",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 91,
@@ -2013,7 +2193,9 @@
    "source": "99_written_Q91",
    "textbook_era": "Miller 第 7 版",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "maternal_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 92,
@@ -2035,7 +2217,9 @@
    "source": "99_written_Q92",
    "textbook_era": "Miller 第 7 版",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "vascular_aortic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 93,
@@ -2057,7 +2241,9 @@
    "source": "99_written_Q93",
    "textbook_era": "Miller 第 7 版",
    "category": "C3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ortho_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 94,
@@ -2079,7 +2265,9 @@
    "source": "99_written_Q94",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ga_conduct_positioning",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 95,
@@ -2101,7 +2289,9 @@
    "source": "99_written_Q95",
    "textbook_era": "Miller 第 7 版",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "obstetric_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 96,
@@ -2123,7 +2313,9 @@
    "source": "99_written_Q96",
    "textbook_era": "Miller 第 7 版",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "preop_assessment",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 97,
@@ -2148,7 +2340,9 @@
     "原檔沒有這一題的答案"
    ],
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "echo_cardiac_devices",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 98,
@@ -2173,7 +2367,9 @@
     "原檔沒有這一題的答案"
    ],
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "fluid_transfusion",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 99,
@@ -2198,7 +2394,9 @@
     "原檔沒有這一題的答案"
    ],
    "category": "C3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ortho_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 100,
@@ -2223,7 +2421,9 @@
     "原檔沒有這一題的答案"
    ],
    "category": "C12",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nora_ambulatory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   }
  ]
 }

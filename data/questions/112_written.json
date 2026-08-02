@@ -23,7 +23,9 @@
    "scoring": "exact",
    "source": "112_written_Q1",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "quality_safety_professional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 2,
@@ -39,7 +41,9 @@
    "scoring": "exact",
    "source": "112_written_Q2",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuro_consciousness",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 3,
@@ -55,7 +59,9 @@
    "scoring": "exact",
    "source": "112_written_Q3",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuro_consciousness",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 4,
@@ -71,7 +77,9 @@
    "scoring": "exact",
    "source": "112_written_Q4",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 5,
@@ -87,7 +95,9 @@
    "scoring": "exact",
    "source": "112_written_Q5",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiovascular_autonomic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 6,
@@ -103,7 +113,9 @@
    "scoring": "exact",
    "source": "112_written_Q6",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiovascular_autonomic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 7,
@@ -121,7 +133,9 @@
    "answer_note": "112 年 10/25 經專甄暨筆試委員會決議更新答案（答案卡紅字）",
    "multi_answer_origin": "appeal",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 8,
@@ -137,7 +151,9 @@
    "scoring": "exact",
    "source": "112_written_Q8",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 9,
@@ -153,7 +169,9 @@
    "scoring": "exact",
    "source": "112_written_Q9",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 10,
@@ -169,7 +187,9 @@
    "scoring": "exact",
    "source": "112_written_Q10",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 11,
@@ -185,7 +205,9 @@
    "scoring": "exact",
    "source": "112_written_Q11",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pk_tci",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 12,
@@ -201,7 +223,9 @@
    "scoring": "exact",
    "source": "112_written_Q12",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pk_tci",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 13,
@@ -217,7 +241,9 @@
    "scoring": "exact",
    "source": "112_written_Q13",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "mechanism_systemic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 14,
@@ -233,7 +259,9 @@
    "scoring": "exact",
    "source": "112_written_Q14",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 15,
@@ -249,7 +277,9 @@
    "scoring": "exact",
    "source": "112_written_Q15",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 16,
@@ -265,7 +295,9 @@
    "scoring": "exact",
    "source": "112_written_Q16",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 17,
@@ -281,7 +313,9 @@
    "scoring": "exact",
    "source": "112_written_Q17",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 18,
@@ -299,7 +333,9 @@
    "answer_note": "112 年 10/25 經專甄暨筆試委員會決議更新答案（答案卡紅字）",
    "multi_answer_origin": "appeal",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 19,
@@ -315,7 +351,9 @@
    "scoring": "exact",
    "source": "112_written_Q19",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 20,
@@ -331,7 +369,9 @@
    "scoring": "exact",
    "source": "112_written_Q20",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 21,
@@ -347,7 +387,9 @@
    "scoring": "exact",
    "source": "112_written_Q21",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "opioids_analgesics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 22,
@@ -363,7 +405,9 @@
    "scoring": "exact",
    "source": "112_written_Q22",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 23,
@@ -379,7 +423,9 @@
    "scoring": "exact",
    "source": "112_written_Q23",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "adjuncts_cardiovascular",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 24,
@@ -395,7 +441,9 @@
    "scoring": "exact",
    "source": "112_written_Q24",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 25,
@@ -411,7 +459,9 @@
    "scoring": "exact",
    "source": "112_written_Q25",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neonatal_congenital",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 26,
@@ -427,7 +477,9 @@
    "scoring": "exact",
    "source": "112_written_Q26",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "obstetric_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 27,
@@ -443,7 +495,9 @@
    "scoring": "exact",
    "source": "112_written_Q27",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "adjuncts_cardiovascular",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 28,
@@ -459,7 +513,9 @@
    "scoring": "exact",
    "source": "112_written_Q28",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "metabolic_endocrine",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 29,
@@ -475,7 +531,9 @@
    "scoring": "exact",
    "source": "112_written_Q29",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuromuscular_mh",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 30,
@@ -491,7 +549,9 @@
    "scoring": "exact",
    "source": "112_written_Q30",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuromuscular_mh",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 31,
@@ -507,7 +567,9 @@
    "scoring": "exact",
    "source": "112_written_Q31",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuromuscular_mh",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 32,
@@ -523,7 +585,9 @@
    "scoring": "exact",
    "source": "112_written_Q32",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuromuscular_mh",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 33,
@@ -539,7 +603,9 @@
    "scoring": "exact",
    "source": "112_written_Q33",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "preop_assessment",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 34,
@@ -555,7 +621,9 @@
    "scoring": "exact",
    "source": "112_written_Q34",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "metabolic_endocrine",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 35,
@@ -571,7 +639,9 @@
    "scoring": "exact",
    "source": "112_written_Q35",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 36,
@@ -587,7 +657,9 @@
    "scoring": "exact",
    "source": "112_written_Q36",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 37,
@@ -606,7 +678,9 @@
     "112_Q37_stem.png"
    ],
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 38,
@@ -622,7 +696,9 @@
    "scoring": "exact",
    "source": "112_written_Q38",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 39,
@@ -644,7 +720,9 @@
     "D": "112_Q39_opt_D.png"
    },
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 40,
@@ -662,7 +740,9 @@
    "answer_note": "112 年 10/25 經專甄暨筆試委員會決議更新答案（答案卡紅字）",
    "multi_answer_origin": "appeal",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neuro_depth_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 41,
@@ -678,7 +758,9 @@
    "scoring": "exact",
    "source": "112_written_Q41",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "echo_cardiac_devices",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 42,
@@ -694,7 +776,9 @@
    "scoring": "exact",
    "source": "112_written_Q42",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "echo_cardiac_devices",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 43,
@@ -710,7 +794,9 @@
    "scoring": "exact",
    "source": "112_written_Q43",
    "category": "B3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 44,
@@ -726,7 +812,9 @@
    "scoring": "exact",
    "source": "112_written_Q44",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 45,
@@ -742,7 +830,9 @@
    "scoring": "exact",
    "source": "112_written_Q45",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "airway_devices_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 46,
@@ -758,7 +848,9 @@
    "scoring": "exact",
    "source": "112_written_Q46",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "block_safety",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 47,
@@ -774,7 +866,9 @@
    "scoring": "exact",
    "source": "112_written_Q47",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sepsis_shock",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 48,
@@ -790,7 +884,9 @@
    "scoring": "exact",
    "source": "112_written_Q48",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "block_safety",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 49,
@@ -806,7 +902,9 @@
    "scoring": "exact",
    "source": "112_written_Q49",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "urology_turp",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 50,
@@ -822,7 +920,9 @@
    "scoring": "exact",
    "source": "112_written_Q50",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "homeostasis_metabolism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 51,
@@ -838,7 +938,9 @@
    "scoring": "exact",
    "source": "112_written_Q51",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "fluid_transfusion",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 52,
@@ -854,7 +956,9 @@
    "scoring": "exact",
    "source": "112_written_Q52",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "fluid_transfusion",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 53,
@@ -870,7 +974,9 @@
    "scoring": "exact",
    "source": "112_written_Q53",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "coagulation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 54,
@@ -886,7 +992,9 @@
    "scoring": "exact",
    "source": "112_written_Q54",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "chronic_cancer_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 55,
@@ -902,7 +1010,9 @@
    "scoring": "exact",
    "source": "112_written_Q55",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "palliative_misc",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 56,
@@ -918,7 +1028,9 @@
    "scoring": "exact",
    "source": "112_written_Q56",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 57,
@@ -934,7 +1046,9 @@
    "scoring": "exact",
    "source": "112_written_Q57",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 58,
@@ -950,7 +1064,9 @@
    "scoring": "exact",
    "source": "112_written_Q58",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 59,
@@ -966,7 +1082,9 @@
    "scoring": "exact",
    "source": "112_written_Q59",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 60,
@@ -982,7 +1100,9 @@
    "scoring": "exact",
    "source": "112_written_Q60",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "vascular_aortic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 61,
@@ -998,7 +1118,9 @@
    "scoring": "exact",
    "source": "112_written_Q61",
    "category": "C7",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sitting_vae",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 62,
@@ -1014,7 +1136,9 @@
    "scoring": "exact",
    "source": "112_written_Q62",
    "category": "C1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "metabolic_endocrine",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 63,
@@ -1030,7 +1154,9 @@
    "scoring": "exact",
    "source": "112_written_Q63",
    "category": "B2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pk_tci",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 64,
@@ -1046,7 +1172,9 @@
    "scoring": "exact",
    "source": "112_written_Q64",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "liver_disease",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 65,
@@ -1062,7 +1190,9 @@
    "scoring": "exact",
    "source": "112_written_Q65",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "transplant_donation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 66,
@@ -1078,7 +1208,9 @@
    "scoring": "exact",
    "source": "112_written_Q66",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "maternal_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 67,
@@ -1096,7 +1228,9 @@
    "answer_note": "112 年 10/25 經專甄暨筆試委員會決議更新答案（答案卡紅字）",
    "multi_answer_origin": "appeal",
    "category": "C6",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "fetal_nonobstetric",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 68,
@@ -1112,7 +1246,9 @@
    "scoring": "exact",
    "source": "112_written_Q68",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 69,
@@ -1128,7 +1264,9 @@
    "scoring": "exact",
    "source": "112_written_Q69",
    "category": "C5",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "geriatric_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 70,
@@ -1144,7 +1282,9 @@
    "scoring": "exact",
    "source": "112_written_Q70",
    "category": "C2",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "block_safety",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 71,
@@ -1160,7 +1300,9 @@
    "scoring": "exact",
    "source": "112_written_Q71",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "trauma_burn_env",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 72,
@@ -1176,7 +1318,9 @@
    "scoring": "exact",
    "source": "112_written_Q72",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "quality_safety_professional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 73,
@@ -1192,7 +1336,9 @@
    "scoring": "exact",
    "source": "112_written_Q73",
    "category": "C11",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ophthalmic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 74,
@@ -1208,7 +1354,9 @@
    "scoring": "exact",
    "source": "112_written_Q74",
    "category": "C11",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ophthalmic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 75,
@@ -1224,7 +1372,9 @@
    "scoring": "exact",
    "source": "112_written_Q75",
    "category": "C3",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ortho_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 76,
@@ -1240,7 +1390,9 @@
    "scoring": "exact",
    "source": "112_written_Q76",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "quality_safety_professional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 77,
@@ -1256,7 +1408,9 @@
    "scoring": "exact",
    "source": "112_written_Q77",
    "category": "C11",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "ent_airway",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 78,
@@ -1272,7 +1426,9 @@
    "scoring": "exact",
    "source": "112_written_Q78",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "laparoscopic_robotic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 79,
@@ -1288,7 +1444,9 @@
    "scoring": "exact",
    "source": "112_written_Q79",
    "category": "C12",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nora_ambulatory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 80,
@@ -1304,7 +1462,9 @@
    "scoring": "exact",
    "source": "112_written_Q80",
    "category": "C12",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "nora_ambulatory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 81,
@@ -1320,7 +1480,9 @@
    "scoring": "exact",
    "source": "112_written_Q81",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "quality_safety_professional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 82,
@@ -1336,7 +1498,9 @@
    "scoring": "exact",
    "source": "112_written_Q82",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "trauma_burn_env",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 83,
@@ -1352,7 +1516,9 @@
    "scoring": "exact",
    "source": "112_written_Q83",
    "category": "B1",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "homeostasis_metabolism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 84,
@@ -1368,7 +1534,9 @@
    "scoring": "exact",
    "source": "112_written_Q84",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 85,
@@ -1384,7 +1552,9 @@
    "scoring": "exact",
    "source": "112_written_Q85",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 86,
@@ -1400,7 +1570,9 @@
    "scoring": "exact",
    "source": "112_written_Q86",
    "category": "C8",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pediatric_congenital_cardiac",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 87,
@@ -1416,7 +1588,9 @@
    "scoring": "exact",
    "source": "112_written_Q87",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 88,
@@ -1432,7 +1606,9 @@
    "scoring": "exact",
    "source": "112_written_Q88",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 89,
@@ -1448,7 +1624,9 @@
    "scoring": "exact",
    "source": "112_written_Q89",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 90,
@@ -1464,7 +1642,9 @@
    "scoring": "exact",
    "source": "112_written_Q90",
    "category": "C9",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "acute_postop_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 91,
@@ -1480,7 +1660,9 @@
    "scoring": "exact",
    "source": "112_written_Q91",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "peds_regional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 92,
@@ -1498,7 +1680,9 @@
    "answer_note": "112 年 10/25 經專甄暨筆試委員會決議更新答案（答案卡紅字）",
    "multi_answer_origin": "appeal",
    "category": "C4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "neonatal_congenital",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 93,
@@ -1514,7 +1698,9 @@
    "scoring": "exact",
    "source": "112_written_Q93",
    "category": "B4",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "quality_safety_professional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 94,
@@ -1530,7 +1716,9 @@
    "scoring": "exact",
    "source": "112_written_Q94",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "trauma_burn_env",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 95,
@@ -1546,7 +1734,9 @@
    "scoring": "exact",
    "source": "112_written_Q95",
    "category": "C13",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "trauma_burn_env",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 96,
@@ -1562,7 +1752,9 @@
    "scoring": "exact",
    "source": "112_written_Q96",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "resuscitation_arrhythmia",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 97,
@@ -1578,7 +1770,9 @@
    "scoring": "exact",
    "source": "112_written_Q97",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 98,
@@ -1594,7 +1788,9 @@
    "scoring": "exact",
    "source": "112_written_Q98",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "sepsis_shock",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 99,
@@ -1610,7 +1806,9 @@
    "scoring": "exact",
    "source": "112_written_Q99",
    "category": "C10",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "respiratory_failure_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 100,
@@ -1628,7 +1826,9 @@
    "answer_note": "112 年 10/25 經專甄暨筆試委員會決議更新答案（答案卡紅字）",
    "multi_answer_origin": "appeal",
    "category": "C5",
-   "category_source": "依 104／106 年學會標記慣例推定"
+   "category_source": "依 104／106 年學會標記慣例推定",
+   "subtopic": "postop_delirium",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   }
  ]
 }

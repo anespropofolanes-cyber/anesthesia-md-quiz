@@ -17,6 +17,7 @@ const DB = {
   ultrasound: null,
   oralIndex: null,   // 筆記鍵 -> {題目, 子題}，筆記頁要靠它把口試筆記找回來
   taxonomy: null,
+  briefs: null,    // "B2/inhalational" -> 該子題的重點整理
   papers: {},      // 108 -> {meta, questions}
   index: null,     // source -> question（全部載入後才有）
   catName: {},     // "B1" -> "麻醉生理"
@@ -38,6 +39,8 @@ async function loadTaxonomy() {
   if (DB.taxonomy) return DB.taxonomy;
   const t = await getJSON('data/taxonomy.json');
   DB.taxonomy = t;
+  // 子題的重點整理。抓不到就當作沒有，子題頁照樣能用
+  DB.briefs = await getJSON('data/subtopic_briefs.json').catch(() => ({}));
   for (const c of t.categories) {
     DB.catName[c.code] = c.name;
     DB.catOrder.push(c.code);
@@ -99,6 +102,17 @@ function byCategory(code, { verifiedOnly = false } = {}) {
   return allQuestions()
     .filter(q => q.category === code && (!verifiedOnly || q.verified))
     .sort((a, b) => b.year - a.year || a.id - b.id);
+}
+
+/** 子題底下的題目。子題只在該分類內唯一，所以要連分類一起比對。 */
+function bySubtopic(code, subId) {
+  return byCategory(code).filter(q => q.subtopic === subId);
+}
+
+/** 分類的子題定義（沒有子題就回空陣列，介面自己退回舊版呈現）。 */
+function subtopicsOf(code) {
+  const c = (DB.taxonomy?.categories || []).find(x => x.code === code);
+  return c?.subtopics || [];
 }
 
 /* ── 判分 ──

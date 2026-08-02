@@ -31,7 +31,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "M19:444-459",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "respiratory",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 2,
@@ -52,7 +54,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "M20:489",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "cardiovascular_autonomic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 3,
@@ -74,7 +78,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "Chapter 17 Page 387,393; 2015 筆試題庫",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "neuro_consciousness",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 4,
@@ -96,7 +102,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "Chapter 22 Page 520, 521, 540; 2015 筆試題庫",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 5,
@@ -118,7 +126,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "Chapter 23 Page 545-547, Chapter 72 TABLE 72-8",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 6,
@@ -140,7 +150,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "Chapter 23 Page 549-550",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 7,
@@ -165,7 +177,9 @@
    "difficulty": "A",
    "images": [
     "106_Q7_stem.png"
-   ]
+   ],
+   "subtopic": "cardiovascular_autonomic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 8,
@@ -187,7 +201,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "Chapter 22 Page 531 box 22-1",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 9,
@@ -207,7 +223,9 @@
    "answer_tier": "examiner",
    "source": "106_written_Q9",
    "category": "B1",
-   "category_raw": "B1"
+   "category_raw": "B1",
+   "subtopic": "hepatorenal_gi",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 10,
@@ -228,7 +246,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "Chapter 16 Page 378",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "cardiovascular_autonomic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 11,
@@ -250,7 +270,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "chapter 36, page 1028-1030, table 36-1",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "local_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 12,
@@ -272,7 +294,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "Chapter 26, page 640, Table 26-1",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 13,
@@ -294,7 +318,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "Chapter 26, page 657-661, Table 26-3",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "inhalational",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 14,
@@ -316,7 +342,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "Chapter 31, page 886-890, Table 31-5, 2013年第98題(參考)",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "opioids_analgesics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 15,
@@ -338,7 +366,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "Chapter 31 Page 867, table 31-2",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "opioids_analgesics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 16,
@@ -360,7 +390,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "Chapter 34, Page 964-965",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 17,
@@ -382,7 +414,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "Chapter30, Page831",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 18,
@@ -404,7 +438,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "Chapter30, Page821",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 19,
@@ -426,7 +462,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "Chapter30, Page850-854",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "iv_anesthetics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 20,
@@ -451,7 +489,9 @@
    "difficulty": "A",
    "images": [
     "106_Q20_stem.png"
-   ]
+   ],
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 21,
@@ -472,7 +512,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 55 Page 1649, 1662-1664",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "obesity_osa_pulm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 22,
@@ -499,7 +541,9 @@
     "B": "106_Q22_opt_B.png",
     "C": "106_Q22_opt_C.png",
     "D": "106_Q22_opt_D.png"
-   }
+   },
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 23,
@@ -521,7 +565,9 @@
    "category_raw": "B3",
    "category": "B3",
    "reference": "Chapter 51 Page 1547",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "machine_respiratory_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 24,
@@ -543,7 +589,9 @@
    "category_raw": "B4",
    "category": "B4",
    "reference": "Chapter 6 Page 87-88, Table 51-1題庫 2015-22 改",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "quality_safety_professional",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 25,
@@ -565,7 +613,9 @@
    "category_raw": "B3",
    "category": "B3",
    "reference": "Chapter 53 Page 1615-1616; Table 53-1題庫 2015-28 改",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "nmb_temperature_other",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 26,
@@ -586,7 +636,9 @@
    "category_raw": "B3",
    "category": "B3",
    "reference": "Chapter 45 Page 1391-1392",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "hemodynamic_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 27,
@@ -608,7 +660,9 @@
    "category_raw": "B3",
    "category": "B3",
    "reference": "Chapter 49 Page 1514 Table 49-3",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "neuro_depth_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 28,
@@ -630,7 +684,9 @@
    "category_raw": "B3",
    "category": "B3",
    "reference": "Chapter 46 Page 1396, 1412-1413, Figure 46-21",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "echo_cardiac_devices",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 29,
@@ -652,7 +708,9 @@
    "category_raw": "B3",
    "category": "B3",
    "reference": "Chapter 49 Page 1490",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "neuro_depth_monitoring",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 30,
@@ -673,7 +731,9 @@
    "category_raw": "B4",
    "category": "B4",
    "reference": "Chapter 55 Page 1671-1673; 題庫 2015-29 改",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "airway_assessment_difficult",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 31,
@@ -713,7 +773,9 @@
    "category_raw": "C13其他：OSA",
    "category": "C13",
    "reference": "Chapter 38, page 1111-1112, Fig 38-8",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "obesity_osa_pulm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 33,
@@ -735,7 +797,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 38, page 1114, BOX: 38-12",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "obesity_osa_pulm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 34,
@@ -756,7 +820,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 41, page 1240, 1256-1261, table 41-1B",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "postop_neuro_injury",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 35,
@@ -777,7 +843,9 @@
    "category_raw": "B1",
    "category": "B1",
    "reference": "Chapter59, Page1767, 1774-1776",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "homeostasis_metabolism",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 36,
@@ -836,7 +904,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter40, Page1230-1231",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "palliative_misc",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 39,
@@ -857,7 +927,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "M39, 1156, 1181-1182",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "adjuncts_cardiovascular",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 40,
@@ -878,7 +950,9 @@
    "category_raw": "B2",
    "category": "B2",
    "reference": "M42, 1269-1273",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "nmba",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 41,
@@ -900,7 +974,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 67 Page 2040~2042, table 67-8",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 42,
@@ -922,7 +998,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 66 Page 1973~1976",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "one_lung_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 43,
@@ -944,7 +1022,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 66 Page 1971~1972",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "one_lung_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 44,
@@ -965,7 +1045,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 66 Page 1965",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 45,
@@ -987,7 +1069,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 67 Page 2081",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 46,
@@ -1009,7 +1093,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 67 Page 2011~2012",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "cpb",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 47,
@@ -1031,7 +1117,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 68 Page 2102~2103",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 48,
@@ -1053,7 +1141,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 69 Page 2132~2135",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "vascular_aortic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 49,
@@ -1075,7 +1165,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 66 Page 2001~2002",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "thoracic_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 50,
@@ -1097,7 +1189,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 67 Page 2063~2064",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 51,
@@ -1119,7 +1213,9 @@
    "category_raw": "C7",
    "category": "C7",
    "reference": "M70:2169-2170",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "sitting_vae",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 52,
@@ -1141,7 +1237,9 @@
    "category_raw": "C7",
    "category": "C7",
    "reference": "Chapter 70 Page2162 BOX 70-4, Page 2164",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "icp_neurotrauma",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 53,
@@ -1163,7 +1261,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 76 Page 2324~2326; 2016考題54",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "transplant_donation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 54,
@@ -1185,7 +1285,9 @@
    "category_raw": "C11",
    "category": "C11",
    "reference": "Chapter 84 Page 2512~2514",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "ophthalmic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 55,
@@ -1226,7 +1328,9 @@
    "source": "106_written_Q56",
    "category_raw": "C11",
    "category": "C11",
-   "reference": "Chapter 85 Page 2525, 2537; Chapter16, Q40"
+   "reference": "Chapter 85 Page 2525, 2537; Chapter16, Q40",
+   "subtopic": "ent_airway",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 57,
@@ -1247,7 +1351,9 @@
    "source": "106_written_Q57",
    "category_raw": "C13",
    "category": "C13",
-   "reference": "Chapter 87 Page 2590"
+   "reference": "Chapter 87 Page 2590",
+   "subtopic": "laparoscopic_robotic",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 58,
@@ -1269,7 +1375,9 @@
    "category_raw": "C7",
    "category": "C7",
    "reference": "Chapter 70 Page 2160",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "icp_neurotrauma",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 59,
@@ -1311,7 +1419,9 @@
    "category_raw": "C11",
    "category": "C11",
    "reference": "Chapter 85 Page 2536,2540; 2016-Q59",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "ent_airway",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 61,
@@ -1333,7 +1443,9 @@
    "category_raw": "C1",
    "category": "C1",
    "reference": "box 71-1, Chapter 71 Page 2200",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "metabolic_endocrine",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 62,
@@ -1355,7 +1467,9 @@
    "category_raw": "C1",
    "category": "C1",
    "reference": "Chapter 71 Page 2212",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "metabolic_endocrine",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 63,
@@ -1377,7 +1491,9 @@
    "category_raw": "C3",
    "category": "C3",
    "reference": "Chapter 79 Page 2399; 2016筆試 25",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "ortho_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 64,
@@ -1399,7 +1515,9 @@
    "category_raw": "C3",
    "category": "C3",
    "reference": "chapter 41 page 1254 2016筆試 39",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "ortho_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 65,
@@ -1421,7 +1539,9 @@
    "category_raw": "C5",
    "category": "C5",
    "reference": "chapter 80 page 2418",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "geriatric_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 66,
@@ -1443,7 +1563,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 72 Page 2217",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "urology_turp",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 67,
@@ -1486,7 +1608,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 73 pate 2253",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "liver_disease",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 69,
@@ -1508,7 +1632,9 @@
    "category_raw": "C5",
    "category": "C5",
    "reference": "Chapter 80 Page 2414 & Box 80-2",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "postop_delirium",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 70,
@@ -1530,7 +1656,9 @@
    "category_raw": "C3",
    "category": "C3",
    "reference": "Chapter 79 page 2389 and Box 79-2",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "ortho_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 71,
@@ -1555,7 +1683,9 @@
     "C6"
    ],
    "reference": "Chapter 77 Page2340",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "opioids_analgesics",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 72,
@@ -1577,7 +1707,9 @@
    "category_raw": "C6",
    "category": "C6",
    "reference": "Chapter 77, page 2350-2352",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "obstetric_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 73,
@@ -1599,7 +1731,9 @@
    "category_raw": "C4",
    "category": "C4",
    "reference": "Chapter 93, page 2771-2773",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 74,
@@ -1621,7 +1755,9 @@
    "category_raw": "C4",
    "category": "C4",
    "reference": "Chapter 93, page 2782-2783",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "peds_periop",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 75,
@@ -1643,7 +1779,9 @@
    "category_raw": "C6",
    "category": "C6",
    "reference": "Chapter 77 page 2338",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "fetal_nonobstetric",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 76,
@@ -1665,7 +1803,9 @@
    "category_raw": "C6",
    "category": "C6",
    "reference": "Chapter 77, page 2334",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "maternal_physiology",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 77,
@@ -1687,7 +1827,9 @@
    "category_raw": "C4",
    "category": "C4",
    "reference": "Chapter 95 page 2887",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "neonatal_congenital",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 78,
@@ -1708,7 +1850,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 89 page 2632 table 89-4",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 79,
@@ -1730,7 +1874,9 @@
    "category_raw": "C6",
    "category": "C6",
    "reference": "Lippincott's Anesthesia Review chapter 17 第43題",
-   "difficulty": "C"
+   "difficulty": "C",
+   "subtopic": "obstetric_complications",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 80,
@@ -1752,7 +1898,9 @@
    "category_raw": "C4",
    "category": "C4",
    "reference": "Lippincott's Anesthesia Review Chapter 18 Q25",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "peds_physiology_pharm",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 81,
@@ -1774,7 +1922,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 96 Page2925",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 82,
@@ -1796,7 +1946,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 97 Page 2969-70",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "pacu_recovery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 83,
@@ -1818,7 +1970,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 99 Page 3005; Table 99-2",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "postop_neuro_injury",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 84,
@@ -1839,7 +1993,9 @@
    "category_raw": "C10",
    "category": "C10",
    "reference": "Chapter 108 Page 3203 ;Box 108-4",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "resuscitation_arrhythmia",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 85,
@@ -1861,7 +2017,9 @@
    "category_raw": "C10",
    "category": "C10",
    "reference": "Chapter 108 Page 3195 Figure 108-11",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "resuscitation_arrhythmia",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 86,
@@ -1882,7 +2040,9 @@
    "category_raw": "C10",
    "category": "C10",
    "reference": "Chapter 101 Page 3046-3048 ; Table 101-4, 2015年考題",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 87,
@@ -1903,7 +2063,9 @@
    "category_raw": "C10",
    "category": "C10",
    "reference": "Chapter 105 Page 3115 ;2014年考題",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 88,
@@ -1924,7 +2086,9 @@
    "category_raw": "C10",
    "category": "C10",
    "reference": "Chapter 96 Page 2938; 2014年考題",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 89,
@@ -1945,7 +2109,9 @@
    "category_raw": "C10",
    "category": "C10",
    "reference": "Chapter 105 Page 3104 ; Table 105-2",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "organ_support_icu_care",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 90,
@@ -1966,7 +2132,9 @@
    "category_raw": "C10",
    "category": "C10",
    "reference": "Chapter 107; 2013年題庫",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "respiratory_failure_ventilation",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 91,
@@ -1988,7 +2156,9 @@
    "category_raw": "C2",
    "category": "C2",
    "reference": "Chapter 56 Page 1686",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 92,
@@ -2010,7 +2180,9 @@
    "category_raw": "C9",
    "category": "C9",
    "reference": "Chapter 98 Page 2993-2994",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "acute_postop_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 93,
@@ -2032,7 +2204,9 @@
    "category_raw": "C2",
    "category": "C2",
    "reference": "Chapter 56 Page 1693 Table 56-1",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "block_safety",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 94,
@@ -2054,7 +2228,9 @@
    "category_raw": "C9",
    "category": "C9",
    "reference": "Chapter 98 Page 2983 table 98-3 2991,2994,2995",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "acute_postop_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 95,
@@ -2076,7 +2252,9 @@
    "category_raw": "C9",
    "category": "C9",
    "reference": "Chapter 64 Page 1913-1915 Box 64-2",
-   "difficulty": "B"
+   "difficulty": "B",
+   "subtopic": "chronic_cancer_pain",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 96,
@@ -2098,7 +2276,9 @@
    "category_raw": "C13",
    "category": "C13",
    "reference": "Chapter 65 Page 1919 1923 Fig 65-3",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "palliative_misc",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 97,
@@ -2119,7 +2299,9 @@
    "category_raw": "C2",
    "category": "C2",
    "reference": "Chapter Page 1919 1923; Fig 65-3",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "neuraxial",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 98,
@@ -2141,7 +2323,9 @@
    "category_raw": "C8",
    "category": "C8",
    "reference": "Chapter 64 Page 1904",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "cardiac_surgery",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 99,
@@ -2163,7 +2347,9 @@
    "category_raw": "C2",
    "category": "C2",
    "reference": "Chapter 57 Page 1725-1726",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   },
   {
    "id": 100,
@@ -2185,7 +2371,9 @@
    "category_raw": "C2",
    "category": "C2",
    "reference": "Chapter 57 Page 1747-48",
-   "difficulty": "A"
+   "difficulty": "A",
+   "subtopic": "peripheral_block",
+   "subtopic_source": "依題目實際考點指派（非學會官方分類，學會只到第一層代碼）"
   }
  ]
 }

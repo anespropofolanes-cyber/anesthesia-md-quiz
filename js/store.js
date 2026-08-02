@@ -91,8 +91,22 @@ const store = {
     };
   },
 
-  exportBlob() {
-    const payload = { _app: '麻醉專科醫師題庫', _version: 1, _exportedAt: new Date().toISOString(), data: this.s };
+  /** 匯出。picks 指定要帶哪幾類；不給就是全部。
+      分開匯出的用途：只想把書籤搬到另一台裝置，不想把作答紀錄也帶過去。 */
+  exportBlob(picks) {
+    const all = ['wrong', 'right', 'marks', 'notes', 'prefs'];
+    const keep = (picks && picks.length) ? all.filter(k => picks.includes(k)) : all;
+    const data = {};
+    for (const k of keep) data[k] = this.s[k];
+    // progress 是「進行到一半的那份練習」，只有整份備份才帶——
+    // 單獨匯出書籤卻夾帶它，匯入端會冒出一份莫名其妙的未完成練習
+    if (keep.length === all.length) data.progress = this.s.progress;
+    const payload = {
+      _app: '麻醉專科醫師題庫', _version: 1,
+      _exportedAt: new Date().toISOString(),
+      _includes: keep,
+      data
+    };
     return new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
   },
 
