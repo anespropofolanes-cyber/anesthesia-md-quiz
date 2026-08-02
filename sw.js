@@ -5,8 +5,8 @@
    VERSION 一改，activate 時舊快取整個清掉，不會留下上一版的殘骸。
    app.js 的 CACHE_NAME 也必須與這裡的 CACHE 一致。 */
 
-const VERSION = 'v17';
-const ASSET_V = '20260802c';   // 與 index.html 的 ?v= 一致
+const VERSION = 'v18';
+const ASSET_V = '20260802d';   // 與 index.html 的 ?v= 一致
 const CACHE = `anes-md-${VERSION}`;
 
 const YEARS = [108, 109, 110, 111, 112, 113, 114];
@@ -29,7 +29,8 @@ const CORE = [
 const OPTIONAL = [
   ...LEGACY_YEARS.map(y => `./data/legacy_wip/${y}_legacy.json`),
   ...[...YEARS, ...LEGACY_YEARS].map(y => `./data/explanations/${y}_expl.json`),
-  './data/image_manifest.json'
+  './data/image_manifest.json',
+  './data/subtopic_briefs.json'
 ];
 
 /** 題庫引用的圖檔清單。寫死在這裡遲早會漏，所以改讀 manifest

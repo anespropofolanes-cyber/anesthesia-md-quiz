@@ -38,6 +38,11 @@ jobs:
           python3 tools/crosscheck_legacy.py
           python3 tools/validate_oral.py
 
+      - name: 檢查子題重點整理
+        # 子題不存在、內容過短、或混進 markdown 標記都會擋下——
+        # 重點整理是純文字渲染的，星號井號會在網頁上原樣顯示
+        run: python3 tools/merge_briefs.py --dry-run
+
       - name: 檢查離線圖檔清單是最新的
         # manifest 沒跟上就代表新抽的圖不會被離線快取，有圖的題目離線讀不到
         run: |
