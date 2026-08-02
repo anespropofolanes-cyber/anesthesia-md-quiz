@@ -18,3 +18,4 @@ audit/*
 # 例外：解析疑慮的彙整報告要留下來。舊考題沒有官方答案卡可核對，
 # 這份是唯一的把關記錄（由 tools/collect_doubts.py 產生）
 !audit/DOUBTS.md
+!audit/94_answer_investigation.md
