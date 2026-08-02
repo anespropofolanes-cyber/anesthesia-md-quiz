@@ -14,7 +14,30 @@
    "少數題目標了兩碼（例如『C7神經麻醉, C10重症及呼吸治療』），資料裡保留原字串於 category_raw。",
    "108–114 年的官方檔案沒有分類欄位，要另外歸類；本表可作為歸類的依據。"
   ],
-  "related": "學會每年另外公告命題範圍（見 source/命題範圍_115年.md），115 年是 Miller 第十版＋18 篇 Review Article，分 Cardiothoracic／CCM_Airway_Neuro／OB_Ped／Regional and Pain 四主題。那是讀書範圍的分法，與本表的出題分類是兩套不同的東西。"
+  "related": "學會每年另外公告命題範圍（見 source/命題範圍_115年.md），115 年是 Miller 第十版＋18 篇 Review Article，分 Cardiothoracic／CCM_Airway_Neuro／OB_Ped／Regional and Pain 四主題。那是讀書範圍的分法，與本表的出題分類是兩套不同的東西。",
+  "subtopic_note": "子題是依實際考題內容細分的，不是學會的官方分類——學會只到第一層的 17 碼。每題的子題指派標在 subtopic 欄位。",
+  "boundary_rules": [
+   "B2：問『某藥本身的特性、副作用、代謝』→ 該藥類子題；問『濃度時間曲線、模型、輸注設定、特殊體型／器官衰竭的劑量調整』→ pk_tci。",
+   "B2：局部麻醉藥毒性（LAST、lidocaine 中毒症狀順序）一律歸 local_anesthetics，不拆到危機處理。",
+   "B2：肌肉鬆弛劑的拮抗（sugammadex／neostigmine）與 TOF 監測圖題歸 nmba，與肌鬆藥同一子題。",
+   "B2：單一藥類自己的器官系統作用（如吸入麻醉藥對心血管、對腦血流）歸該藥類；跨藥類比較（『下列藥物對 CMR 的影響何者為非』）歸 mechanism_systemic。",
+   "B2：opioid 以外的止痛藥（NSAIDs、acetaminophen、gabapentin）與 IV-PCA 歸 opioids_analgesics（止痛藥物一併複習）。",
+   "C13：機器手臂／腹腔鏡手術題只要重點在氣腹、Trendelenburg 擺位或其生理影響 → laparoscopic_robotic；重點在攝護腺手術本身（TURP syndrome、灌洗液、麻醉方式選擇）→ urology_turp。",
+   "C13：肝硬化評分、肝功能異常病人用藥、肝切除 → liver_disease；肝／腎移植手術本身與腦死捐贈者照護 → transplant_donation。",
+   "C13：低體溫／高體溫、高海拔與極端環境併入 trauma_burn_env（環境傷害），不散落於恢復室或危機處理。",
+   "C13：術後認知功能障礙（POCD／PND）、術後視力喪失（POVL）、體位相關神經與眼傷害集中於 postop_neuro_injury；PONV、顫抖、Aldrete 評分與離室標準集中於 pacu_recovery。",
+   "C8：題目主軸在體外循環技術本身（抗凝／ACT、血液氣體管理、脫離 CPB、protamine、CPB 相關發炎與器官／中樞神經併發症）→ cpb；主軸在心臟疾病、術式選擇、心律或監測 → cardiac_surgery。",
+   "C8：單肺通氣的管子選擇、呼吸器設定、低血氧處置與 HPV → one_lung_ventilation；同一台胸腔手術的術前肺功能評估、擺位、輸液、術後止痛與併發症 → thoracic_surgery。",
+   "C8：胸腹主動脈手術造成的脊髓缺血／paraplegia → vascular_aortic（不歸 C7 神經）。",
+   "C8：小兒體外循環與成人 CPB 的比較題 → pediatric_congenital_cardiac（以病人族群優先於技術）。",
+   "C10：ARDS／呼吸器／氧氣治療 → respiratory_failure_ventilation；同一位敗血症病人若問的是升壓、輸液復甦或休克鑑別 → sepsis_shock。",
+   "C10：心律問題若在 CPR／急救情境（無脈、血行動力不穩、ACLS 演算法）→ resuscitation_arrhythmia；若問的是慢性器官功能或 ICU 常規照護 → organ_support_icu_care。",
+   "C10 vs C7：腦保護與腦血流閾值題若出現在 C10 清單中，仍留在 C10 的 organ_support_icu_care，避免跨學會代碼搬動。",
+   "C9：問傳導路徑、受體、敏感化等『為什麼會痛』→ pain_mechanism；問某藥的作用機轉、劑量與副作用 → analgesic_pharmacology；問臨床怎麼止痛 → acute_postop_pain 或 chronic_cancer_pain。",
+   "C9：慢性疼痛／長期 opioid 病人來開刀的圍術期止痛策略 → chronic_cancer_pain（以病人族群為準），不歸 acute_postop_pain。",
+   "C7：問降腦壓手法、CBF／CPP 生理或腦保護 → icp_neurotrauma；問特定術式（開顱、清醒開顱、動脈瘤、脊椎手術）的麻醉安排 → neurosurgery_procedures。",
+   "C7：坐姿相關的併發症與 VAE 一律 → sitting_vae，不放在 neurosurgery_procedures。"
+  ]
  },
  "sections": [
   {
@@ -35,105 +58,499 @@
    "code": "B1",
    "section": "basic",
    "name": "麻醉生理",
-   "full_name_104": "B1麻醉生理"
+   "full_name_104": "B1麻醉生理",
+   "subtopics": [
+    {
+     "id": "respiratory",
+     "name": "呼吸生理",
+     "desc": "通氣與氧合、FRC／closing capacity、肺塌陷、死腔、氧合血紅素解離曲線、肺血流分布與缺氧性肺血管收縮（HPV）、單肺通氣與低血氧機轉。"
+    },
+    {
+     "id": "cardiovascular_autonomic",
+     "name": "心血管與自主神經生理",
+     "desc": "心肌動作電位與收縮力、心輸出量與射出分率、壓力／心臟反射、正壓通氣的循環影響，以及自主神經與腎上腺素性、蕈毒鹼性受體的生理藥理。"
+    },
+    {
+     "id": "neuro_consciousness",
+     "name": "神經生理、腦血流與意識",
+     "desc": "腦血流與腦代謝率的調節與麻醉藥物影響、神經系統解剖生理、神經肌肉傳導與運動終板，以及意識、記憶與睡眠。"
+    },
+    {
+     "id": "hepatorenal_gi",
+     "name": "肝、腎與腸胃生理",
+     "desc": "肝血流與肝硬化、腎絲球過濾率與腎自動調節、麻醉與手術對肝腎功能的影響、腎功能異常時的藥物處置，以及腸胃道生理與腸道神經支配。"
+    },
+    {
+     "id": "homeostasis_metabolism",
+     "name": "體液電解質、酸鹼、體溫與代謝",
+     "desc": "水分與電解質異常（鉀、鈣、鎂、鈉）、酸鹼平衡判讀與治療、圍術期低體溫的生理變化，以及壓力反應與內分泌代謝調節。"
+    }
+   ]
   },
   {
    "code": "B2",
    "section": "basic",
    "name": "麻醉藥理",
-   "full_name_104": "B2 麻醉藥理"
+   "full_name_104": "B2 麻醉藥理",
+   "subtopics": [
+    {
+     "id": "inhalational",
+     "name": "吸入性麻醉藥",
+     "desc": "MAC、blood-gas partition coefficient、攝取與分佈、各藥比較，以及對心血管、呼吸道（支氣管擴張）、中樞神經的作用與毒性、環境影響"
+    },
+    {
+     "id": "iv_anesthetics",
+     "name": "靜脈麻醉藥",
+     "desc": "propofol（含 propofol infusion syndrome）、etomidate、ketamine、barbiturates、benzodiazepines 的藥理特性、副作用與相互比較"
+    },
+    {
+     "id": "nmba",
+     "name": "肌肉鬆弛劑與拮抗",
+     "desc": "去極化／非去極化肌鬆劑特性與代謝、AChR up/downregulation、phase II block、藥物交互作用，以及 neostigmine／sugammadex 拮抗與 TOF 監測"
+    },
+    {
+     "id": "opioids_analgesics",
+     "name": "鴉片類與止痛藥物",
+     "desc": "μ receptor、鴉片類藥動學與峰值效應、remifentanil、副作用（搔癢、僵直）、naloxone、成癮病人處置，以及非鴉片止痛藥與 IV-PCA"
+    },
+    {
+     "id": "local_anesthetics",
+     "name": "局部麻醉藥",
+     "desc": "化學結構與鈉離子通道作用、酯類／醯胺類代謝、加 epinephrine、神經纖維阻斷差異，以及全身毒性（LAST）症狀順序與處置"
+    },
+    {
+     "id": "adjuncts_cardiovascular",
+     "name": "輔助用藥與心血管藥物",
+     "desc": "dexmedetomidine、強心與升壓藥物、抗心律不整藥、抗凝血劑，以及慢性降血壓用藥（ACEI／ARB 等）的圍術期停用原則"
+    },
+    {
+     "id": "pk_tci",
+     "name": "藥物動力學與標靶控制輸注",
+     "desc": "多室模型、ke0 與 effect-site 濃度、context-sensitive half-time、TIVA／TCI 模型選擇，以及肥胖與肝腎功能異常的劑量調整"
+    },
+    {
+     "id": "mechanism_systemic",
+     "name": "麻醉藥作用機轉與全身效應",
+     "desc": "分子標的與作用機轉、跨藥類的腦血流與腦代謝率比較、失憶與記憶影響、癲癇風險，以及麻醉藥對免疫與宿主防禦的作用"
+    }
+   ]
   },
   {
    "code": "B3",
    "section": "basic",
    "name": "麻醉設備與監測",
    "full_name_104": "B3 麻醉設備 / 醫品病安/airway",
-   "note": "104 年與 B4 併為同一碼；106 年起 B3 專指監測與設備（capnogram、pulse oximetry、TOF、心輸出量監測等）"
+   "note": "104 年與 B4 併為同一碼；106 年起 B3 專指監測與設備（capnogram、pulse oximetry、TOF、心輸出量監測等）",
+   "subtopics": [
+    {
+     "id": "machine_respiratory_monitoring",
+     "name": "麻醉機與呼吸氣體監測",
+     "desc": "麻醉工作站、蒸發器與氣體輸送系統、二氧化碳吸附劑、流量表與呼吸迴路，以及脈搏血氧飽和度、二氧化碳波形圖與 ASA 呼吸監測標準。"
+    },
+    {
+     "id": "hemodynamic_monitoring",
+     "name": "血流動力學監測",
+     "desc": "心電圖導程與判讀、動脈壓與非侵入性血壓、中心靜脈壓波形與置放、肺動脈導管、心輸出量與混合靜脈血氧飽和度、輸液反應性參數。"
+    },
+    {
+     "id": "echo_cardiac_devices",
+     "name": "心臟超音波與心臟植入式裝置",
+     "desc": "經食道心臟超音波的切面、適應症與術中判讀，以及節律器與植入式去顫器（CIED）的分類碼、術前評估與電燒時的處置。"
+    },
+    {
+     "id": "neuro_depth_monitoring",
+     "name": "神經監測與麻醉深度",
+     "desc": "腦電圖與 BIS 等麻醉深度指標、麻醉藥物造成的 EEG 變化、誘發電位（SSEP／MEP／BAEP／VEP）監測，以及腦血氧與經顱都卜勒監測。"
+    },
+    {
+     "id": "nmb_temperature_other",
+     "name": "神經肌肉、體溫與其他監測",
+     "desc": "四連刺激與神經肌肉阻斷監測、刺激部位與拔管前恢復判定，核心體溫監測與低體溫合併症，以及少數併入本碼的品質、倫理與氣道處理題。"
+    }
+   ]
   },
   {
    "code": "B4",
    "section": "basic",
    "name": "醫品病安與氣道處理",
-   "note": "106 年才從 B3 拆出來（醫療品質與病人安全、awake airway management）"
+   "note": "106 年才從 B3 拆出來（醫療品質與病人安全、awake airway management）",
+   "subtopics": [
+    {
+     "id": "airway_assessment_difficult",
+     "name": "氣道評估與困難氣道處置",
+     "desc": "術前氣道檢查與困難插管／困難面罩通氣的預測、困難與緊急氣道處置流程、清醒插管、快速插管，以及創傷與感染性氣道的決策。"
+    },
+    {
+     "id": "airway_devices_complications",
+     "name": "氣道器材、插拔管與併發症",
+     "desc": "喉頭罩、影像喉鏡與氣管內管等器材的使用與比較、經口與經鼻插管、拔管準備與時機，以及喉頭痙攣與氣道相關傷害。"
+    },
+    {
+     "id": "quality_safety_professional",
+     "name": "醫療品質、病人安全與專業執業",
+     "desc": "麻醉風險與術前風險評估、病人安全與 CRM／ERAS／PSH 等照護模式、術中甦醒，以及職業安全與感染防護、醫學倫理與實證文獻判讀。"
+    }
+   ]
   },
   {
    "code": "C1",
    "section": "clinical",
    "name": "全身麻醉",
-   "full_name_104": "C1全身麻醉"
+   "full_name_104": "C1全身麻醉",
+   "subtopics": [
+    {
+     "id": "preop_assessment",
+     "name": "術前評估與共病風險",
+     "desc": "術前評估門診項目與檢查、心臟風險指數與冠狀動脈支架後手術時機、術後併發症與死亡風險因子、慢性病與草藥保健品的術前停藥，以及禁食原則與肝腎、藥物濫用等共病的圍術期考量。"
+    },
+    {
+     "id": "fluid_transfusion",
+     "name": "輸液、輸血與血液製品",
+     "desc": "圍術期輸液種類與目標導向輸液治療、輸血適應症與大量輸血、血液製品與自體輸血／等容血液稀釋，以及 TRALI、檸檬酸鹽中毒等輸血反應與併發症。"
+    },
+    {
+     "id": "coagulation",
+     "name": "凝血與抗凝血處置",
+     "desc": "凝血機轉與凝血功能檢驗判讀、血小板低下與 DIC、圍術期抗凝與抗血小板藥物的停用、橋接與緊急逆轉。"
+    },
+    {
+     "id": "metabolic_endocrine",
+     "name": "肥胖與內分泌代謝疾病",
+     "desc": "病態肥胖與減重手術的麻醉照護、代謝症候群與體重相關的劑量計算，以及糖尿病、甲狀腺疾病、腎上腺與嗜鉻細胞瘤等內分泌病人的圍術期處置。"
+    },
+    {
+     "id": "neuromuscular_mh",
+     "name": "神經肌肉疾病與惡性高熱",
+     "desc": "肌肉萎縮症、重症肌無力、多發性硬化症、帕金森氏症等神經肌肉與神經退化疾病的麻醉考量，以及惡性高熱的臨床表現、危險族群與急救處置。"
+    },
+    {
+     "id": "ga_conduct_positioning",
+     "name": "全身麻醉實施與手術體位",
+     "desc": "全身麻醉誘導、維持與甦醒的處置、喉頭鏡插管的血流動力學反應、腹腔鏡手術的麻醉考量，以及截石位、俯臥位等體位的生理影響與神經、視力傷害。"
+    }
+   ]
   },
   {
    "code": "C2",
    "section": "clinical",
    "name": "區域麻醉",
-   "full_name_104": "C2區域麻醉"
+   "full_name_104": "C2區域麻醉",
+   "subtopics": [
+    {
+     "id": "neuraxial",
+     "name": "神經軸麻醉",
+     "desc": "脊髓與硬膜外（含薦椎、Taylor approach）麻醉的解剖標記、阻斷高度影響因子、生理效應、神經軸鴉片類用藥與硬膜穿刺後頭痛等自身併發症。"
+    },
+    {
+     "id": "peripheral_block",
+     "name": "周邊神經阻斷術",
+     "desc": "上肢（斜角肌間溝、鎖骨上、腋下）、下肢（股神經、內收肌管、坐骨、膝窩、踝部）與軀幹（paravertebral）各阻斷術的解剖、超音波影像判讀與適應症。"
+    },
+    {
+     "id": "block_safety",
+     "name": "阻斷通則、併發症與抗凝血",
+     "desc": "跨部位共通議題：超音波導引原則、神經定位與神經傷害、區域麻醉禁忌症與創傷病人適用性，以及 ASRA 抗血栓藥停藥時機。"
+    }
+   ]
   },
   {
    "code": "C3",
    "section": "clinical",
    "name": "骨科麻醉",
-   "full_name_104": "C3骨科麻醉"
+   "full_name_104": "C3骨科麻醉",
+   "subtopics": [
+    {
+     "id": "ortho_complications",
+     "name": "骨科手術特有併發症",
+     "desc": "脂肪栓塞症候群、骨水泥植入症候群、腔室症候群，以及止血帶與坐姿／沙灘椅體位造成的生理變化與傷害。"
+    },
+    {
+     "id": "ortho_patient_procedure",
+     "name": "骨科病人與術式麻醉考量",
+     "desc": "類風濕性關節炎、僵直性脊椎炎、骨發育不全症等病人的氣道與麻醉處置，以及髖骨骨折、關節置換、肩部手術的麻醉方式選擇（區域 vs 全身）。"
+    }
+   ]
   },
   {
    "code": "C4",
    "section": "clinical",
    "name": "小兒麻醉",
-   "full_name_104": "C4小兒麻醉"
+   "full_name_104": "C4小兒麻醉",
+   "subtopics": [
+    {
+     "id": "peds_physiology_pharm",
+     "name": "小兒生理、氣道與藥理特性",
+     "desc": "嬰幼兒與成人的心肺、體溫、代謝差異與氣道解剖特徵，以及吸入藥、靜脈藥、肌肉鬆弛劑在小兒的劑量與反應差異。"
+    },
+    {
+     "id": "neonatal_congenital",
+     "name": "新生兒急救與先天異常手術",
+     "desc": "新生兒復甦術、小兒高級救命術與心跳停止處置，以及橫膈疝氣、氣管食道瘻管、幽門狹窄等先天／新生兒急症手術麻醉與兒童重症照護。"
+    },
+    {
+     "id": "peds_periop",
+     "name": "小兒圍術期處置",
+     "desc": "術前禁食與感冒、睡眠呼吸中止等術前評估、輸液與輸血量計算（MABL）、full stomach 誘導，以及早產兒術後窒息等術後照護。"
+    },
+    {
+     "id": "peds_regional",
+     "name": "小兒區域麻醉",
+     "desc": "薦椎阻斷與其他小兒神經阻斷的解剖生理基礎、局部麻醉藥劑量與毒性差異、適應症與禁忌症。"
+    }
+   ]
   },
   {
    "code": "C5",
    "section": "clinical",
    "name": "老人麻醉",
-   "full_name_104": "C5 老人麻醉"
+   "full_name_104": "C5 老人麻醉",
+   "subtopics": [
+    {
+     "id": "geriatric_physiology",
+     "name": "老年生理藥理與圍術期照護",
+     "desc": "老化造成的器官功能與藥物動力學／藥效學改變、麻醉藥減量原則，以及影響老年病人手術風險與預後的因素。"
+    },
+    {
+     "id": "postop_delirium",
+     "name": "術後譫妄與神經認知障礙",
+     "desc": "術後譫妄與圍術期神經認知障礙（PND）的定義、危險因子、預防步驟與處置。"
+    }
+   ]
   },
   {
    "code": "C6",
    "section": "clinical",
    "name": "產科麻醉",
-   "full_name_104": "C6產科麻醉"
+   "full_name_104": "C6產科麻醉",
+   "subtopics": [
+    {
+     "id": "maternal_physiology",
+     "name": "懷孕生理變化與胎盤藥物傳遞",
+     "desc": "孕期心血管、呼吸、血液與腸胃道生理改變，仰臥低血壓症候群，以及母胎間藥物通過胎盤的原則。"
+    },
+    {
+     "id": "labor_cesarean",
+     "name": "分娩止痛與剖腹產麻醉",
+     "desc": "產程疼痛路徑與減痛分娩（硬膜外、全身性止痛）技術，以及剖腹產的半身與全身麻醉處置、插管失敗、吸入性肺炎與低血壓對策。"
+    },
+    {
+     "id": "obstetric_complications",
+     "name": "產科急症與妊娠併發症",
+     "desc": "子癲前症與硫酸鎂、產前產後出血與子宮收縮乏力、安胎藥副作用、羊水栓塞與產婦麻醉死亡風險及重大共病。"
+    },
+    {
+     "id": "fetal_nonobstetric",
+     "name": "胎兒手術與孕婦非產科手術",
+     "desc": "胎兒生理、胎心監測、胎兒疼痛與開放性胎兒手術麻醉，以及懷孕期接受非產科手術（含腹腔鏡）的處置原則。"
+    }
+   ]
   },
   {
    "code": "C7",
    "section": "clinical",
    "name": "神經麻醉",
-   "full_name_104": "C7神經麻醉"
+   "full_name_104": "C7神經麻醉",
+   "subtopics": [
+    {
+     "id": "icp_neurotrauma",
+     "name": "顱內壓、腦血流生理與腦外傷",
+     "desc": "CBF／CPP 計算與自我調節、PaCO2 與過度換氣對腦血流的影響、顱內壓上升機轉與快速降腦壓手法（mannitol、dexamethasone、體位、換氣）、腦保護策略與低體溫，以及頭部外傷與脊髓損傷病人的麻醉處置與全身性反應。"
+    },
+    {
+     "id": "neurosurgery_procedures",
+     "name": "神經外科手術麻醉處置",
+     "desc": "開顱手術的麻醉藥物選擇與輸液管理、清醒開顱與癲癇手術、腦動脈瘤與蜘蛛膜下腔出血（含低血鈉與血管痙攣）、脊椎手術的神經監測、wake-up test 與俯臥位缺血性視神經病變，以及小兒神經外科考量。"
+    },
+    {
+     "id": "sitting_vae",
+     "name": "坐姿手術與靜脈空氣栓塞",
+     "desc": "坐姿開顱的生理影響與併發症、靜脈空氣栓塞的好發情境、各項監測工具的敏感度排序（TEE、precordial Doppler、ETCO2 等）、右心房導管定位，以及 VAE 發生時的緊急處置。"
+    },
+    {
+     "id": "brain_death",
+     "name": "腦死判定與器官捐贈",
+     "desc": "腦死判定的先決條件與腦幹反射檢查、apnea test 的執行條件與併發症、腦死與植物人狀態的區別、Lazarus sign，以及腦死器捐病人在器捐手術中的生理變化與麻醉照護。"
+    }
+   ]
   },
   {
    "code": "C8",
    "section": "clinical",
    "name": "心臟血管胸腔麻醉",
-   "full_name_104": "C8心臟血管胸腔麻醉"
+   "full_name_104": "C8心臟血管胸腔麻醉",
+   "subtopics": [
+    {
+     "id": "cpb",
+     "name": "體外循環與其併發症",
+     "desc": "CPB 期間的抗凝與 ACT 監測、protamine 反應、α-stat／pH-stat 血液氣體管理、脫離體外循環與低心輸出症候群、CPB 引發的全身發炎反應、術後中樞神經損傷／POCD 與腎功能保護。"
+    },
+    {
+     "id": "cardiac_surgery",
+     "name": "心臟疾病與心臟手術麻醉",
+     "desc": "瓣膜性心臟病與缺血性心臟病的血行動力學目標、TAVI 與導管介入、心臟移植與微創／機械手臂心臟手術、心包填塞、肺高壓與 PVR、心律不整處置與 ICD／CRT／電燒，以及 PCWP／LVEDP、TEE 等心血管監測。"
+    },
+    {
+     "id": "one_lung_ventilation",
+     "name": "單肺通氣與雙腔支氣管內管",
+     "desc": "雙腔管選擇、定位與纖維支氣管鏡確認、單肺通氣的呼吸器設定與生理變化、HPV 機轉，以及單肺通氣低血氧的危險因子與處置。"
+    },
+    {
+     "id": "thoracic_surgery",
+     "name": "胸腔手術麻醉",
+     "desc": "開胸／肺切除術前肺功能評估（three-legged stool、預測術後 FEV1）、側臥擺位與神經損傷、輸液策略、胸椎硬脊膜外止痛與術後呼吸併發症，以及縱膈腔鏡、食道切除、縱膈腫瘤等特殊術式。"
+    },
+    {
+     "id": "vascular_aortic",
+     "name": "主動脈與血管手術麻醉",
+     "desc": "主動脈阻斷與放開的病生理、EVAR／胸腹主動脈手術、脊髓缺血與 paraplegia 的預防（脊髓引流）、腎功能保護，以及周邊血管手術的麻醉選擇與術後照護。"
+    },
+    {
+     "id": "pediatric_congenital_cardiac",
+     "name": "小兒與先天性心臟病麻醉",
+     "desc": "先天性心臟病的分流生理與病灶分類（VSD、TOF、TAPVR、PDA 依賴型病灶）、小兒心臟麻醉考量，以及小兒與成人體外循環的差異。"
+    }
+   ]
   },
   {
    "code": "C9",
    "section": "clinical",
    "name": "疼痛治療",
-   "full_name_104": "C9 疼痛治療"
+   "full_name_104": "C9 疼痛治療",
+   "subtopics": [
+    {
+     "id": "pain_mechanism",
+     "name": "疼痛機轉與傳導",
+     "desc": "傷害感受器與 C-fiber 特性、發炎媒介物、脊髓背角傳導物質與止痛作用標的、wind-up 與中樞敏感化、preemptive analgesia 概念、皮節與轉移痛，以及術後疼痛的神經內分泌反應。"
+    },
+    {
+     "id": "analgesic_pharmacology",
+     "name": "止痛藥物藥理",
+     "desc": "NSAIDs 與 acetaminophen／COX-2 抑制劑、opioid 受體與副作用及等效劑量換算、tramadol，以及抗癲癇藥、三環抗憂鬱劑、鈣／鈉離子通道阻斷劑等輔助止痛藥的作用機轉與副作用。"
+    },
+    {
+     "id": "acute_postop_pain",
+     "name": "術後急性疼痛與神經軸止痛",
+     "desc": "術後止痛策略與多模式止痛、IV PCA／PCEA 設定與呼吸抑制風險、硬膜外與脊髓內鴉片類止痛的置管節段、副作用（搔癢、噁心嘔吐）與處置、TENS 等非藥物方法，以及小兒與老年病人的術後止痛考量。"
+    },
+    {
+     "id": "chronic_cancer_pain",
+     "name": "慢性疼痛、癌痛與介入性治療",
+     "desc": "慢性疼痛與神經病變性疼痛（含幻肢痛）的治療原則、長期使用 opioid 或 opioid use disorder 病人的圍術期止痛策略（含 fentanyl patch）、癌痛與緩和醫療階梯用藥，以及腹腔神經叢阻斷／neurolysis 等介入性神經阻斷治療。"
+    }
+   ]
   },
   {
    "code": "C10",
    "section": "clinical",
    "name": "重症及呼吸治療",
-   "full_name_104": "C10重症及呼吸治療"
+   "full_name_104": "C10重症及呼吸治療",
+   "subtopics": [
+    {
+     "id": "sepsis_shock",
+     "name": "敗血症、休克與重症評估",
+     "desc": "SIRS／敗血症與敗血性休克的定義與治療、乳酸與酸鹼判讀、各型休克的鑑別與血行動力學數據、重症超音波（肺部與心臟）判讀，以及 SOFA／MODS 等器官衰竭評分。"
+    },
+    {
+     "id": "respiratory_failure_ventilation",
+     "name": "呼吸衰竭、機械通氣與體外維生",
+     "desc": "ARDS 診斷與肺保護通氣、呼吸器模式與波形判讀、正壓通氣的心肺交互作用、脫離呼吸器與拔管標準、氧氣治療與 NIPPV、VAP 預防、肺水腫／TRALI／肺栓塞，以及 ECMO 適應症與管理。"
+    },
+    {
+     "id": "resuscitation_arrhythmia",
+     "name": "心肺復甦與急救心律處置",
+     "desc": "BLS／ACLS 流程與 CPR 品質、去顫與電擊時機、復甦後照護，以及窄／寬 QRS 心搏過速、心搏過緩、高血鉀 ECG 變化的急救藥物與處置（adenosine、amiodarone 等）。"
+    },
+    {
+     "id": "organ_support_icu_care",
+     "name": "器官功能障礙與加護照護",
+     "desc": "急性腎損傷分級（RIFLE）、少尿處置與腎臟替代療法；神經重症（頭部外傷與脊髓損傷的加護處置、腦保護與腦血流閾值）；以及 ICU 常規照護：譫妄、鎮靜與 FAST HUG、營養支持、導管相關感染、血糖與代謝控制、腹腔室症候群與恢復室併發症。"
+    }
+   ]
   },
   {
    "code": "C11",
    "section": "clinical",
    "name": "眼科耳鼻喉科麻醉",
-   "full_name_104": "C11眼科耳鼻喉科麻醉"
+   "full_name_104": "C11眼科耳鼻喉科麻醉",
+   "subtopics": [
+    {
+     "id": "ophthalmic",
+     "name": "眼科手術麻醉",
+     "desc": "眼內壓的藥物與麻醉技術影響、眼心反射、球後阻斷併發症、斜視與開放性眼球外傷等眼科手術的麻醉考量。"
+    },
+    {
+     "id": "ent_airway",
+     "name": "耳鼻喉與頭頸手術麻醉",
+     "desc": "共用氣道的耳鼻喉手術處置：雷射手術與氣道火災防範及急救、扁桃腺與鼻竇手術、喉頭痙攣、甲狀腺與頭頸皮瓣重建、Ludwig angina。"
+    }
+   ]
   },
   {
    "code": "C12",
    "section": "clinical",
    "name": "手術室外麻醉",
-   "full_name_104": "C12 手術室外麻醉"
+   "full_name_104": "C12 手術室外麻醉",
+   "subtopics": [
+    {
+     "id": "nora_ambulatory",
+     "name": "手術室外與門診麻醉",
+     "desc": "不細分：涵蓋門診／日間手術的病人篩選與離院標準，以及 MRI、心導管室、介入性神經放射、內視鏡、體外震波碎石與高壓氧等手術室外麻醉場所的安全與監測要求。"
+    }
+   ]
   },
   {
    "code": "C13",
    "section": "clinical",
    "name": "其他",
    "full_name_104": "C13其他",
-   "note": "104 年在這碼後面手寫補了細目：POR、Palliative medicine、GS、Uro、移植麻醉、trauma 等"
+   "note": "104 年在這碼後面手寫補了細目：POR、Palliative medicine、GS、Uro、移植麻醉、trauma 等",
+   "subtopics": [
+    {
+     "id": "urology_turp",
+     "name": "泌尿科手術麻醉與 TURP",
+     "desc": "TURP 手術與 TURP syndrome、灌洗液吸收、傳統攝護腺切除的麻醉方式選擇與止痛、體外震波碎石與其他腎泌尿手術"
+    },
+    {
+     "id": "laparoscopic_robotic",
+     "name": "腹腔鏡與機器手臂手術",
+     "desc": "CO2 氣腹的呼吸與循環影響、Trendelenburg 擺位與相關併發症、機器手臂手術的麻醉考量與適應／排除條件"
+    },
+    {
+     "id": "liver_disease",
+     "name": "肝病與肝臟手術麻醉",
+     "desc": "Child-Turcotte-Pugh 與 MELD 評分、肝硬化與肝腦病變病人的麻醉維持、肝功能異常時的用藥考量、肝切除手術處置"
+    },
+    {
+     "id": "transplant_donation",
+     "name": "器官移植與器官捐贈",
+     "desc": "肝移植各期（含再灌流）與腎移植的麻醉照護、移植禁忌症，以及腦死病理生理變化與腦死捐贈者的照護目標"
+    },
+    {
+     "id": "trauma_burn_env",
+     "name": "創傷、燒傷與環境傷害",
+     "desc": "創傷病人的到院前處置與早期復甦目標、失血性休克與死亡三角、燒傷輸液與麻醉處置，以及高海拔、極端環境、高低體溫與中毒"
+    },
+    {
+     "id": "pacu_recovery",
+     "name": "恢復室與術後即刻照護",
+     "desc": "Aldrete 評分與離室標準、恢復室呼吸與血流動力併發症、術後噁心嘔吐（Apfel 危險因子與止吐藥）、術後顫抖、門診手術麻醉與 ERAS"
+    },
+    {
+     "id": "postop_neuro_injury",
+     "name": "圍術期神經與體位傷害",
+     "desc": "術後認知功能障礙／圍術期神經認知障礙（POCD／PND）、術後視力喪失（POVL）與 ASA 建議、周邊神經與眼部傷害、病人擺位"
+    },
+    {
+     "id": "obesity_osa_pulm",
+     "name": "肥胖、睡眠呼吸中止與術後肺部併發症",
+     "desc": "阻塞性睡眠呼吸中止的評估與麻醉考量、病態性肥胖與減重手術的用藥與處置、術後肺部併發症的危險因子"
+    },
+    {
+     "id": "palliative_misc",
+     "name": "緩和醫療與其他周術期議題",
+     "desc": "緩和／安寧照護原則與末期病人（DNR）的麻醉計畫、臨床研究設計與統計方法學、保健食品對麻醉的影響等零星題目"
+    }
+   ]
   }
  ]
 }
