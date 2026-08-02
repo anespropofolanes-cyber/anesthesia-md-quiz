@@ -267,7 +267,7 @@ function importData(input) {
   r.readAsText(f);
 }
 
-const CACHE_NAME = 'anes-md-v19';   // 必須與 sw.js 的 CACHE 一致
+const CACHE_NAME = 'anes-md-v20';   // 必須與 sw.js 的 CACHE 一致
 
 /** 核心資源（不含圖片）。由頁面確保入快取，不倚賴 service worker 的安裝時機——
     使用者清過瀏覽器資料、或 sw.js 未改版時 install 不會重跑，靠這裡補齊。 */

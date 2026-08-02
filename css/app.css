@@ -30,6 +30,10 @@
   --ink-3: #838a8e;
   --line: #dfe2e3;
 
+  /* 「歷屆考點」框的底。淺色版是主色的淡化版，深色版不能用同一招
+     （深色再淡化就等於消失），故拉成獨立變數，兩套各自指定。 */
+  --sky-bg: color-mix(in srgb, var(--sky) 46%, transparent);
+
   --ok-bg: #e8f3ec;
   --ok-line: #7fb894;
   --ok-ink: #1f6b41;
@@ -46,18 +50,27 @@
 }
 
 /* 主題類別掛在 <html>（字級類別掛在 <body>，兩者不會互相覆蓋）。
-   深色版用同一組色相：把粉／藍綠／奶油壓深當底色，原色提亮當文字，
-   讓兩個版本看起來是同一套配色的兩種明度。 */
+
+   深色版原本的做法是「把四個主色各自壓深當底色」，結果不成立：
+   黃壓深就是橄欖、灰綠白壓深就是墨綠，兩個色系撞在一起，
+   而且都落在中間明度，看起來就是一片濁。灰藍也一樣不乾淨。
+   （--sky 更是整組漏掉沒定義，深色下直接露出淺色值。）
+
+   改成深色配色該有的做法：**底一律壓到接近背景、只留一點色相，
+   顏色由邊框（deep）與文字（ink）帶**。這樣四個色相在暗底上仍分得開，
+   也不會有中間明度的濁塊。 */
 html.dark { color-scheme: dark; }
 html.dark body {
-  --brand: #4a4622; --brand-deep: #a89c4a; --brand-ink: #fff9b3;
-  --accent: #3a3c48; --accent-deep: #9092a2; --accent-ink: #afb1be;
-  --paper: #313429; --paper-deep: #5c6153; --paper-ink: #ebede7;
+  --brand: #2c2817; --brand-deep: #cdbe66; --brand-ink: #fff9b3;
+  --accent: #262932; --accent-deep: #9ba0b5; --accent-ink: #c9ccd8;
+  --paper: #1f2622; --paper-deep: #83917f; --paper-ink: #dfe5dc;
+  --sky: #1b2b30; --sky-deep: #79b0bc; --sky-ink: #bde0e8;
+  --sky-bg: #1b2b30;
   --bg: #151718; --surface: #1e2122; --surface-2: #272b2c;
   --ink: #e6e9ea; --ink-2: #aab1b4; --ink-3: #7c8386;
   --line: #323738;
-  --ok-bg: #1e3327; --ok-line: #4d8464; --ok-ink: #9fd9b6;
-  --no-bg: #3a221f; --no-line: #9a5a50; --no-ink: #f0aca2;
+  --ok-bg: #1a2e22; --ok-line: #4d8464; --ok-ink: #9fd9b6;
+  --no-bg: #301c1a; --no-line: #9a5a50; --no-ink: #f0aca2;
   --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
 }
 
@@ -65,14 +78,16 @@ html.dark body {
 @media (prefers-color-scheme: dark) {
   html.auto { color-scheme: dark; }
   html.auto body {
-    --brand: #4a4622; --brand-deep: #a89c4a; --brand-ink: #fff9b3;
-    --accent: #3a3c48; --accent-deep: #9092a2; --accent-ink: #afb1be;
-    --paper: #313429; --paper-deep: #5c6153; --paper-ink: #ebede7;
+    --brand: #2c2817; --brand-deep: #cdbe66; --brand-ink: #fff9b3;
+    --accent: #262932; --accent-deep: #9ba0b5; --accent-ink: #c9ccd8;
+    --paper: #1f2622; --paper-deep: #83917f; --paper-ink: #dfe5dc;
+    --sky: #1b2b30; --sky-deep: #79b0bc; --sky-ink: #bde0e8;
+    --sky-bg: #1b2b30;
     --bg: #151718; --surface: #1e2122; --surface-2: #272b2c;
     --ink: #e6e9ea; --ink-2: #aab1b4; --ink-3: #7c8386;
     --line: #323738;
-    --ok-bg: #1e3327; --ok-line: #4d8464; --ok-ink: #9fd9b6;
-    --no-bg: #3a221f; --no-line: #9a5a50; --no-ink: #f0aca2;
+    --ok-bg: #1a2e22; --ok-line: #4d8464; --ok-ink: #9fd9b6;
+    --no-bg: #301c1a; --no-line: #9a5a50; --no-ink: #f0aca2;
     --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
   }
 }
@@ -238,7 +253,7 @@ p.lede { color: var(--ink-2); margin: 0 0 20px; font-size: .93rem; }
 
 .focus {
   font-size: .87rem; color: var(--sky-ink);
-  background: color-mix(in srgb, var(--sky) 46%, transparent);
+  background: var(--sky-bg);
   border-left: 3px solid var(--sky-deep);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   padding: 9px 13px; margin: 10px 0 14px;
