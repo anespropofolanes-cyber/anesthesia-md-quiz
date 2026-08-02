@@ -3,6 +3,15 @@
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+/** 教材裡的 **粗體** 是唯一允許的標記，其餘一律當純文字轉義。 */
+const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
+/** 收合狀態下顯示的一句摘要。 */
+function teaser(s, n = 42) {
+  const plain = String(s ?? '').replace(/\*\*/g, '').trim();
+  return esc(plain.length > n ? plain.slice(0, n) + '…' : plain);
+}
+
 const jsonAttr = v => JSON.stringify(v).replace(/"/g, '&quot;');
 
 function yearLabel(q) {
@@ -258,6 +267,7 @@ function openCategory(code) {
       <button class="btn primary" onclick="practiceSources(${jsonAttr(qs.map(q => q.source))}, '${esc(c.name)}', 'cat', true)">
         練習全部 ${qs.length} 題（隨機順序）</button>
     </div>
+    <div id="concept-slot"></div>
     ${subs ? `<div class="sect-label">依主題　學會只分到上一層，這一層是依實際考點細分的</div>
       <div class="topics">${subs}</div>` : ''}
     <div class="sect-label">依年份</div>
@@ -271,6 +281,66 @@ function openCategory(code) {
           ${done ? `<span class="tag topic">已答對 ${done}</span>` : ''}</div>
       </button>`;
     }).join('')}</div>`;
+
+  // 教材另外抓，抓不到就當作沒有——分類頁其餘部分照樣能用
+  loadConcept(code).then(cc => {
+    const slot = document.getElementById('concept-slot');
+    if (slot && cc) slot.innerHTML = conceptHTML(cc, code);
+  });
+}
+
+/* ── 教材（重點整理） ──
+   一份教材對應一個學會代碼，底下每個小節就是一個子題。
+   全部展開會有近萬像素的捲動長度，所以各節預設收合，只有第一節開著。 */
+function conceptHTML(c, code) {
+  const secs = c.sections || [];
+  if (!secs.length) return '';
+  return `<div class="card concept">
+    <div class="chead">
+      <h2>重點整理</h2>
+      <span class="aitag">AI 整理，非官方</span>
+      <button class="btn sm" id="btn-expand" onclick="toggleAllSections()">全部展開</button>
+    </div>
+    ${c.intro ? `<p class="cintro">${rich(c.intro)}</p>` : ''}
+    ${secs.map((s, i) => `
+      <details class="csec" ${i === 0 ? 'open' : ''}>
+        <summary>
+          <span class="ct">${esc(s.title)}</span>
+          <span class="cf">${teaser(s.exam_focus)}</span>
+        </summary>
+        <div class="cbody">
+          ${s.exam_focus ? `<div class="focus">歷屆考點：${rich(s.exam_focus)}</div>` : ''}
+          ${(s.blocks || []).map(blockHTML).join('')}
+          ${(s.question_refs || []).length ? `
+            <button class="btn sm" onclick="practiceSources(${jsonAttr(s.question_refs)}, '${esc(s.title)}', 'cat')">
+              練這一段的代表題（${s.question_refs.length}）</button>` : ''}
+        </div>
+      </details>`).join('')}
+  </div>`;
+}
+
+function toggleAllSections() {
+  const all = [...document.querySelectorAll('.csec')];
+  const anyClosed = all.some(d => !d.open);
+  all.forEach(d => { d.open = anyClosed; });
+  const b = document.getElementById('btn-expand');
+  if (b) b.textContent = anyClosed ? '全部收合' : '全部展開';
+}
+
+function blockHTML(b) {
+  const head = b.heading ? `<div class="bh">${esc(b.heading)}</div>` : '';
+  if (b.type === 'table') {
+    return `<div class="blk">${head}<div class="tblwrap"><table class="ct">
+      <thead><tr>${(b.columns || []).map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead>
+      <tbody>${(b.rows || []).map(r => `<tr>${r.map(c => `<td>${rich(c)}</td>`).join('')}</tr>`).join('')}</tbody>
+    </table></div></div>`;
+  }
+  if (b.type === 'compare') {
+    return `<div class="blk">${head}<div class="cmp">${(b.items || []).map(i =>
+      `<div class="row"><div class="pair">${esc(i.a)}<em>vs</em>${esc(i.b)}</div><div>${rich(i.note)}</div></div>`).join('')}</div></div>`;
+  }
+  const cls = b.type === 'pitfall' ? 'blk pitfall' : 'blk';
+  return `<div class="${cls}">${head}<p>${rich(b.content)}</p></div>`;
 }
 
 /** 子題頁：重點整理（若有）＋ 該子題的題目。 */

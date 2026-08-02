@@ -579,3 +579,54 @@ Q78–Q93 連續 16 題答案都是 C（隨機發生的機率約十億分之一�
 1. **2003／2006／2008／2009**：原檔沒有答案，若使用者日後取得答案卡可再收
 2. **94 年的 8 題**（Q21/28/34/35/40/48/61/92）原卷沒有灰底標示，目前不計分。
    若日後取得 2005 年的原始 `.doc`（Word 註解錨點完整）可補回
+
+## 🚧 進行中：教材改成結構化呈現（2026-08-02，未完成）
+
+使用者看到姊妹專案（護理師站）的教材呈現後裁決：**麻醫站也要做成那樣**。
+目前 72 則重點整理是一整段 1300 字純文字，不好讀；護理師站的做法明顯更好。
+
+### 目標結構（與護理師站完全相同，前端已可直接渲染）
+
+`data/concepts/<分類代碼>.json`，一份對應一個學會代碼，底下每節就是一個子題：
+
+```json
+{ "code": "B2", "title": "麻醉藥理", "intro": "…",
+  "sections": [{
+    "subtopic": "inhalational", "title": "吸入性麻醉藥",
+    "exam_focus": "歷屆考點一句話",
+    "blocks": [
+      {"type": "text",    "heading": "…", "content": "可用 **粗體**"},
+      {"type": "table",   "heading": "…", "columns": [...], "rows": [[...]]},
+      {"type": "compare", "heading": "…", "items": [{"a": "…", "b": "…", "note": "…"}]},
+      {"type": "pitfall", "heading": "考古題陷阱", "content": "紅框強調"}
+    ],
+    "question_refs": ["114_written_Q1", "…"]
+  }]}
+```
+
+### 已完成
+
+- **前端全部做好並實測過**：`conceptHTML`／`blockHTML`／`toggleAllSections`／
+  `loadConcept`，四種區塊型別都渲染正確，分類頁的 `#concept-slot` 會自動載入。
+  教材抓不到就當作沒有，不影響分類頁其餘部分。
+- **CSS 移植完成**，配色換成本站的。使用者另指定第四色 `#c6e1e7`（`--sky`），
+  用在「歷屆考點」框與表頭。
+- **素材已備妥**：`audit/concept_src/<代碼>.md` 共 17 份，每份含各子題的
+  現有純文字重點整理＋該子題全部題號（`question_refs` 從中挑）。
+
+### 還沒做
+
+1. **把 72 則純文字改寫成 blocks**（交給子代理，依 `audit/concept_src/` 的素材），
+   輸出到 `data/concepts/<代碼>.json`。內容不必重寫，那些是從考題歸納的、品質夠，
+   只是要拆成結構化區塊，並把「考古題陷阱」與「新舊觀念落差」獨立成 pitfall。
+2. `table.ct th` 的表頭色要用 `--sky`——先前 CSS 有一組重複定義已刪除，
+   但表頭仍是 `--brand` 黃色，改掉即可。
+3. 寫 `tools/validate_concepts.py`：檢查 subtopic 存在、`question_refs` 的
+   source 真的存在、block type 合法，並加進部署關卡。
+4. 改版部署（ASSET_V／VERSION／CACHE_NAME 三處同步）。
+
+### 注意
+
+- 教材是 AI 整理，`chead` 已標「AI 整理，非官方」。
+- `data/subtopic_briefs.json`（純文字版）先留著——還沒改寫的分類會用到它，
+  兩者可以並存，等 17 份教材都好了再決定是否移除。
