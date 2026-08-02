@@ -1,0 +1,446 @@
+{
+  "code": "B3",
+  "title": "麻醉設備與監測",
+  "intro": "這一類共 135 題，分成麻醉機與呼吸氣體監測（33 題）、血流動力學監測（22 題）、心臟超音波與心臟植入式裝置（22 題）、神經監測與麻醉深度（29 題）、神經肌肉／體溫與其他監測（29 題）五個子題。命題以「下列何者錯誤／何者為非」的敘述題為主，近年圖題比例明顯上升：capnogram、動脈與 CVP 波形、EEG 原始波形都直接給圖要你判讀。最該優先讀的是 pulse oximetry 的誤差方向與 TOF 相關的門檻與劑量，這兩組幾乎年年重複；其次是心輸出量測量方式、cerebral oximetry 測什麼、CIED 的圍術期處置。",
+  "sections": [
+    {
+      "subtopic": "machine_respiratory_monitoring",
+      "title": "麻醉機與呼吸氣體監測",
+      "exam_focus": "多數是「下列何者錯誤／何者為非」的敘述題，其餘是 capnogram、flow-volume loop 與流量表看圖題。pulse oximetry 是本子題出現次數最多的主題，93 到 114 年反覆換句話問同一組誤差來源；二氧化碳吸附劑在 104、107、108 年連考三次，答案都是同一個選項。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "題型與看圖題分布",
+          "content": "這一區的題型很固定：多數是**敘述題**，其餘是看圖題。看圖題集中在三處：\n- **capnogram**：106 年考食道插管波形、112 年考支氣管痙攣、104 年考 ETCO2 逐步上升的鑑別診斷\n- **flow-volume loop 與氣道阻塞型態配對**（94 年）\n- **氧氣流量表該擺在哪一格**（93 年）\n\n圖不必死背，記住四個形狀就夠。"
+        },
+        {
+          "type": "table",
+          "heading": "capnogram 四個形狀速記",
+          "columns": ["波形", "代表什麼"],
+          "rows": [
+            ["斜升而沒有 plateau 的鯊魚鰭", "**吐氣氣流受阻**"],
+            ["plateau 中央凹陷", "**curare cleft**"],
+            ["圓鈍小波，幾口內衰減到零", "**食道插管**"],
+            ["吸氣基線抬離零點", "**rebreathing**"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "pulse oximetry 誤差來源與方向",
+          "columns": ["干擾因素", "讀值方向", "說明"],
+          "rows": [
+            ["Carboxyhemoglobin", "**高估**", "660 nm 的吸光近似 oxyhemoglobin"],
+            ["Methemoglobin", "**鎖在約 85%**", "兩波長吸收相近、比值趨近 1"],
+            ["深色指甲油", "**低估**", "—"],
+            ["Methylene blue", "**低估**", "—"],
+            ["黃疸", "影響不明顯", "—"],
+            ["環境光", "影響不明顯", "—"],
+            ["低灌流", "**約 85% 的假值**", "雜訊被放大"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "capnography：P(a-ET)CO2 反映 alveolar dead space",
+          "content": "這一組的核心觀念只有一個：**P(a-ET)CO2 反映 alveolar dead space**。110、111、113 年都以此命題。\n\n會使差值**變大**的：肺栓塞、肺低灌流、PEEP、高頻率低潮氣量。\n\n心跳停止時肺血流中斷，差值**急遽增大**——這正是 CPR 時以 EtCO2 判斷 ROSC 的原理。"
+        },
+        {
+          "type": "table",
+          "heading": "麻醉機與二氧化碳吸附劑的固定考點",
+          "columns": ["項目", "要記的內容"],
+          "rows": [
+            ["soda lime 效能", "每 100 克約 **26 L**"],
+            ["顆粒大小", "**4 至 8 mesh** 的折衷"],
+            ["sevoflurane 與乾燥 Baralyme", "放熱起火"],
+            ["desflurane 汽化器", "需**加熱加壓**的專用汽化器"],
+            ["oxygen flush", "可造成 **barotrauma 與 awareness**"],
+            ["DISS", "防呆設計"],
+            ["ascending bellows", "較易察覺脫落"],
+            ["低壓區（LPS）", "範圍是考點，113 與 114 年連兩年出現"]
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "**最常失分的三處**：\n- EtCO2 比 PaCO2 **低約 2 至 5 mmHg**，方向寫反就是錯\n- EtCO2 **不能**警示 endobronchial intubation，只能排除食道插管\n- sidestream capnometer **一定有 delay time**\n\n**方向寫反的固定誘答**：二氧化碳吸附劑「顆粒愈大阻力愈大」是寫反的（104、107、108 年連考三次同一答案）。\n\n**同一觀念的兩種問法**：111 年的陷阱是「心跳停止會減少 P(a-ET)CO2 差值」，恰恰相反；113 年反過來把「PEEP 會減少差值」當錯誤選項。\n\n**IABP 是最容易被弄錯的一項**：107 與 109 年判「IABP 會低估」為錯誤敘述，111 年卻要你選它當高估者，只能就該題的相對比較判斷。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "93、94 年那幾題講的是**機械式 Thorpe tube 浮子讀法、流量表排列與舊式迴路**，Baralyme 也早已退場。解析註明「當年觀念」者就依當年答案作答，臨床上別照搬。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q12",
+        "94_written_Q19",
+        "104_written_Q25",
+        "106_written_Q22",
+        "106_written_Q23",
+        "108_written_Q16",
+        "111_written_Q99",
+        "111_written_Q100",
+        "112_written_Q39",
+        "113_written_Q44",
+        "114_written_Q8",
+        "114_written_Q37"
+      ]
+    },
+    {
+      "subtopic": "hemodynamic_monitoring",
+      "title": "血流動力學監測",
+      "exam_focus": "一半敘述題、一半波形判讀圖題，圖題比例近年明顯上升。高頻考點第一名是心輸出量測量方式（107、108 年出過一模一樣的題目），第二名是 SvO2，第三組是輸液反應性參數；導管相關的固定答案（Allen test、置放部位、PAC 禁忌）則年年重複。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "圖題近年的出題方向",
+          "content": "圖題比例近年明顯上升：\n- **114 年**：ECG 肢導程 LL 電極貼錯位置後，lead II、III 波形失真\n- **113 年**：心房顫動的 CVP 波形（**a wave 消失**）\n- **111 年**：aortic regurgitation 的寬脈壓 bisferiens 波\n- **102 年**：intra-aortic balloon counterpulsation 的舒張期增壓雙峰波"
+        },
+        {
+          "type": "table",
+          "heading": "動脈波形辨識（能分辨這四種就穩了）",
+          "columns": ["波形", "對應狀況"],
+          "rows": [
+            ["Parvus et tardus", "**Aortic stenosis**"],
+            ["Spike-and-dome", "**HCM**"],
+            ["Bisferiens（寬脈壓）", "**Aortic regurgitation**"],
+            ["舒張期增壓雙峰波", "**IABP 反搏波**"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "心輸出量測量方式",
+          "columns": ["方法／項目", "要記的內容"],
+          "rows": [
+            ["肺動脈導管", "靠的是 **thermodilution**；受**呼吸週期**影響"],
+            ["分析肺動脈壓力波形", "**算不出 CO**"],
+            ["Pulse contour analysis", "分析的是**周邊動脈波形**"],
+            ["Lithium dilution", "**兒童也可用**"],
+            ["TEE", "以 **LVOT 面積乘 VTI** 求 stroke volume"],
+            ["成人靜息 CO", "約 **4.0 至 6.5 L/min**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "SvO2 與輸液反應性",
+          "content": "**SvO2**：Fick 原理下，**SaO2、Hb、CO 與氧耗**四個變數同時決定它。所以 SvO2 **不等於**心輸出量（110 年）；氧耗下降時 SvO2 是**上升**而非下降（107 年）。正常值 **70 至 75%**。\n\n**輸液反應性**：106 年考 pulse contour 的前提——**控制通氣、潮氣量至少 8 mL/kg、心律規則**；嚴重心搏過速或心律不整會使數值失真。"
+        },
+        {
+          "type": "table",
+          "heading": "導管相關的固定答案",
+          "columns": ["項目", "固定答案"],
+          "rows": [
+            ["Allen test", "敏感度與特異度**都差**（101、110 年兩度以「可靠」「特異性很好」當錯誤敘述）"],
+            ["Subclavian 中心靜脈導管", "**感染率最低但氣胸最多**"],
+            ["Femoral 中心靜脈導管", "**感染與血栓最高**"],
+            ["PAC 的相對禁忌", "**complete LBBB** 而非 RBBB（93 年）"],
+            ["Tricuspid 或 pulmonic stenosis", "**不建議置放** PAC（109 年）"],
+            ["PAC 與 LVEF", "PAC **測不到** LVEF（107 年）"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Direct ART",
+              "b": "NIBP",
+              "note": "113 年側躺姿勢那題：direct ART 以 **transducer 歸零高度**為參考點，兩側讀值不變；NIBP 則就地測量，**低位手臂偏高、高位手臂偏低**"
+            },
+            {
+              "a": "Resonance",
+              "b": "Overdamping",
+              "note": "101 年訊號處理題：resonance 造成**收縮壓高估**，overdamping 才使**尖峰值被低估**"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "**最容易答錯的兩處**：113 年側躺姿勢那題（ART 兩側不變、NIBP 低位偏高），很多人會反過來選；101 年的 resonance 與 overdamping 方向也常被互換。\n\nAllen test 在 101 與 110 年**兩度**以「可靠」「特異性很好」當錯誤敘述，看到這兩個字眼就要警覺。\n\n107 與 108 年心輸出量那題**一模一樣**，答案也一樣：肺動脈導管靠 thermodilution，分析肺動脈壓力波形算不出 CO。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "**輸液反應性**：100 與 101 年出了完全相同的題目，官方答案都把 **CVP 與 PCWP 一起採計**，這是當年的觀念；現行證據已明確認定**靜態充填壓無法預測 fluid responsiveness**。作答仍依當年答案，臨床上不要沿用。\n\n**93 年「長期置放首選 subclavian」**屬當年觀念，現行多改用 PICC、隧道式導管或 port。作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q75",
+        "100_written_Q89",
+        "101_written_Q93",
+        "102_written_Q86",
+        "106_written_Q26",
+        "107_written_Q23",
+        "108_written_Q26",
+        "109_written_Q23",
+        "111_written_Q93",
+        "113_written_Q37",
+        "113_written_Q38",
+        "114_written_Q32"
+      ]
+    },
+    {
+      "subtopic": "echo_cardiac_devices",
+      "title": "心臟超音波與心臟植入式裝置",
+      "exam_focus": "大致對半分：一半 TEE，一半心臟植入式電子裝置（CIED）。TEE 題有兩種面孔，一種考超音波物理與切面（答案年年一樣），一種給你影像要你判讀（近年愈來愈臨床）；CIED 題則幾乎全是圍術期處置的敘述題，反覆考 NBG code、電燒、磁鐵行為與術前檢測報告效期。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "TEE 物理與切面的固定答案",
+          "columns": ["考點", "要記的內容"],
+          "rows": [
+            ["頻率與影像", "頻率愈高**解析度愈好但穿透愈淺**（101、104、107 年都出現）"],
+            ["Modified Bernoulli", "壓力差 = **4 乘流速平方**；101 年寫成正比、104 年寫成 2V² 都是錯誤選項"],
+            ["完整 comprehensive 檢查", "**20 個切面**（104、106 年）"],
+            ["評估 16 節段", "需 ME four chamber、two chamber、LAX 加上 TG mid 與 basal short axis，共**五個切面**（103 年）"],
+            ["Mid-esophageal bicaval view", "**看不到 VSD**（107 年）"],
+            ["Midpapillary short axis", "涵蓋**三條冠狀動脈**供應區"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "判讀題近年愈來愈臨床",
+          "content": "- **114 年**考心包填塞：重點是 **RA collapse 出現早**、**RV diastolic collapse 出現晚但特異性高**\n- **111 與 110 年**兩度考 **McConnell's sign**：特異性高而敏感度不足，**沒出現不能排除肺栓塞**\n- **111 年**考全身麻醉下**低流量會低估 AS 嚴重度**"
+        },
+        {
+          "type": "table",
+          "heading": "severe AS 判準（112 年）",
+          "columns": ["參數", "判準"],
+          "rows": [
+            ["峰值流速", "**4 m/s**"],
+            ["Mean gradient", "**40 mmHg**"],
+            ["瓣口面積", "**1.0 cm²**"],
+            ["Indexed 瓣口面積", "**0.6 cm²/m²**"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "CIED 反覆考的那幾件事",
+          "columns": ["考點", "內容"],
+          "rows": [
+            ["NBG code 前兩碼", "第一碼是 **paced**、第二碼才是 **sensed**；114 與 108 年都把它寫反當誘答"],
+            ["NBG code 第四碼", "只有 **R 與 O** 兩種（110 年）"],
+            ["電燒", "**monopolar** 是術中電磁干擾的主要來源，一律建議改 **bipolar**（108、112、113 年三度出現）"],
+            ["磁鐵放在 pacemaker 上", "多轉為**非同步固定頻率**"],
+            ["磁鐵放在 ICD 上", "只關閉 **tachyarrhythmia 偵測與電擊**，**不會**讓 pacing 變非同步（114 年）"],
+            ["俯臥手術", "磁鐵放不準，應**術前 reprogram**（110 年）"],
+            ["術前檢測報告效期", "pacemaker **12 個月**內、ICD **6 個月**內"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Pulsed-wave Doppler",
+              "b": "Continuous-wave Doppler",
+              "note": "PW **可定位但有 aliasing**；CW **可測高速卻不能定位**"
+            },
+            {
+              "a": "RA collapse",
+              "b": "RV diastolic collapse",
+              "note": "心包填塞（114 年）：RA collapse **出現早**；RV diastolic collapse **出現晚但特異性高**"
+            },
+            {
+              "a": "ICD",
+              "b": "正性肌力藥",
+              "note": "現代 ICD 本身**內建節律器功能**，不能說它並非 pacemaker；而 **CRT** 改善心臟表現的同時**降低**心肌代謝需求，與正性肌力藥不同"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "**術前檢測報告效期**：113 與 114 年都拿 **3 個月、6 個月互換**來設陷阱（正解是 pacemaker 12 個月內、ICD 6 個月內）。\n\n**其他容易錯的地方**：\n- 現代 ICD 內建節律器功能，**不能說它並非 pacemaker**\n- **pacemaker-dependent** 者術前應改 **DOO**\n- 電燒期間 ECG 常被雜訊淹沒，要靠 **pulse oximeter 波形、動脈波形或觸診脈搏**判斷有效心搏\n- 記得**關掉 EKG 的 filter** 才看得到 pacing spike"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "104 年解析註明**完整 TEE 檢查後來已改為 28 個切面**，作答仍依當年的 **20 個**。\n\n另外，110 年 TEE 那題與 104 年 pacemaker 適應症那題都**公告送分**，99 年 pacemaker 準備那題**答案另有存疑記錄**。作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "101_written_Q61",
+        "103_written_Q14",
+        "104_written_Q26",
+        "107_written_Q26",
+        "108_written_Q79",
+        "110_written_Q72",
+        "111_written_Q94",
+        "112_written_Q41",
+        "112_written_Q42",
+        "113_written_Q39",
+        "114_written_Q33",
+        "114_written_Q34"
+      ]
+    },
+    {
+      "subtopic": "neuro_depth_monitoring",
+      "title": "神經監測與麻醉深度",
+      "exam_focus": "三大塊：麻醉深度指標（BIS、PSI、Entropy）的數字、麻醉藥造成的 EEG 變化、誘發電位與腦氧監測。題型以敘述題為主，近年多了直接判讀 EEG 原始波形的圖題；數字題幾乎年年重複，cerebral oximetry「測什麼」則是最常被拿來當錯誤敘述的一點。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "題型",
+          "content": "以**敘述題**為主，近年多了直接判讀 **EEG 原始波形**的圖題——114 年就給了**清醒、深麻醉、burst suppression、isoelectric** 四段波形要你挑錯。"
+        },
+        {
+          "type": "table",
+          "heading": "麻醉深度指標的數字（幾乎年年重複）",
+          "columns": ["指標", "數值", "備註"],
+          "rows": [
+            ["BIS 範圍", "**0 到 100**", "全身麻醉目標 **40 至 60**；109 年另出一題問 BIS 60 至 80 是否適當，答案是**不適當**"],
+            ["PSI 區間", "**25 至 50**", "108、109 兩年都把「PSI 值 40 至 60」放進去當**錯誤選項**"],
+            ["Entropy RE", "**0.8 至 47 Hz**", "含**額肌 EMG**，變化比 SE 快"],
+            ["Entropy SE", "**0.8 至 32 Hz**", "**RE 明顯高於 SE** 代表干擾或刺激反應"],
+            ["BIS 的例外組合", "ketamine、nitrous oxide、dexmedetomidine", "其中 **ketamine 會使 BIS 不降反升**（93、100、101 年三度命題）"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "藥物的 EEG signature",
+          "columns": ["藥物／因素", "EEG 變化"],
+          "rows": [
+            ["Propofol 與吸入劑", "**額葉 alpha 加 slow-delta**"],
+            ["Dexmedetomidine", "**spindle 與慢波**；即使高劑量也**不會** burst suppression（110、111 年連續兩年）"],
+            ["Opioid 與 benzodiazepine", "高劑量同樣**不會** burst suppression"],
+            ["Barbiturate 與高劑量 propofol", "**才會** burst suppression"],
+            ["Ketamine", "**20 至 30 Hz 高頻振盪**（113 年單獨考）"],
+            ["Nitrous oxide", "傾向**增加高頻活性**"],
+            ["年齡", "**愈年幼者 alpha 與 slow-delta 的分佈頻帶愈寬**（111、113 年各考一次）"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "誘發電位",
+          "columns": ["項目", "要記的內容"],
+          "rows": [
+            ["吸入性麻醉藥對 cortical SSEP", "**延長 latency、降低 amplitude**"],
+            ["對麻醉藥的耐受性", "**BAEP 最耐受**；**MEP 與 VEP 最敏感**"],
+            ["Etomidate 與 ketamine", "反而**增加** SSEP 振幅"],
+            ["Propofol", "選項中**壓抑 SSEP 最明顯**者，所以需要監測時改 **TIVA**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "腦氧與 TCD 監測",
+          "content": "**cerebral oximetry 測的是**感測器下方**腦組織的混合血氧合，約七成來自靜脈**，不是局部動脈血氧。\n\n判讀與貼片：\n- 貼片要在**麻醉誘導前、病人清醒時**貼上取 baseline\n- 判讀看的是**較 baseline 下降 20%**，而非固定絕對值\n\n**TCD** 連續監測的是 **middle cerebral artery**。**SjvO2** 正常值 **55 至 75%**，不是大於 80%。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "**被原封不動考了三次的一題**：102、107、109 年都出「吸入性麻醉氣體會**增加** cortical SSEP 的 latency 與 amplitude」，答案永遠是它錯——正確方向是**延長 latency、降低 amplitude**。\n\n**cerebral oximetry 測什麼**是最常混淆處，104、106、110、112、113 年都拿「測局部動脈血氧」這點當錯誤敘述。\n\n**其他固定陷阱**：\n- 110 年把 nitrous oxide 和 desflurane、sevoflurane 綁在一起說「都使額葉腦波由快變慢」——N2O 其實傾向**增加**高頻活性\n- 114 年把 TCD 連續監測寫成 **anterior cerebral artery** 即為錯（應為 middle cerebral artery）\n- 112 年那題公告 **C 與 D 併列給分**，可留意"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "93、94 年的**麻醉深度歷史敘述與舊監測配置**屬當年觀念，現行**已不建議常規以 BIS 導引**。作答仍依當年答案。"
+        }
+      ],
+      "question_refs": [
+        "100_written_Q65",
+        "104_written_Q23",
+        "106_written_Q27",
+        "107_written_Q30",
+        "109_written_Q7",
+        "110_written_Q73",
+        "111_written_Q96",
+        "112_written_Q40",
+        "113_written_Q40",
+        "113_written_Q42",
+        "114_written_Q35",
+        "114_written_Q36"
+      ]
+    },
+    {
+      "subtopic": "nmb_temperature_other",
+      "title": "神經肌肉、體溫與其他監測",
+      "exam_focus": "重心壓倒性地放在 TOF，反覆問三件事：TOF ratio 的門檻、阻斷深度的分級，以及 sugammadex 該給多少。阻斷深度與逆轉劑量是近年最穩定的得分點；體溫題量少但答案固定。另混了 3 題其實屬 B4 性質的題目。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "TOF ratio 的門檻",
+          "content": "門檻請直接記死：**TOF ratio 大於等於 0.9** 才代表**咽喉與上食道括約肌功能恢復**。\n\n100 年單獨考過這個數字，101、104、107、112、113 年則從不同角度包裝同一觀念。112 年還提醒：即使 ratio 落在 **0.85 至 0.9**，病人仍可能**複視、視力模糊**。"
+        },
+        {
+          "type": "table",
+          "heading": "阻斷深度分級與 sugammadex 劑量",
+          "columns": ["阻斷深度", "判定", "sugammadex 劑量"],
+          "rows": [
+            ["Intense block", "TOF count 0，**post-tetanic count 也是 0**（110 年）", "**4 mg/kg**"],
+            ["Deep block", "TOF count 0，**post-tetanic count 大於等於 1**", "**4 mg/kg**"],
+            ["Moderate block", "**TOF count 1 至 3**", "回到 **TOF count 2 以上**才適用 **2 mg/kg**；僅 1 者仍要 **4 mg/kg**"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "臨床徵象對應的 TOF ratio",
+          "columns": ["臨床徵象", "對應 TOF ratio"],
+          "rows": [
+            ["咽喉與上食道括約肌功能恢復", "**大於等於 0.9**"],
+            ["有效咳嗽", "**0.7 至 0.75**，不是 0.9（106、109 年）"],
+            ["抬頭 5 秒", "只相當於 **0.5 至 0.7**"],
+            ["仍可能複視、視力模糊", "**0.85 至 0.9**（112 年）"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "刺激部位對照（101 與 107 年一字不差考了兩次）",
+          "items": [
+            {
+              "a": "Ulnar nerve + adductor pollicis",
+              "b": "橫膈",
+              "note": "**ulnar nerve 加 adductor pollicis 是標準組合**，電極間隔 **3 至 6 cm**；橫膈**對肌鬆劑最具耐受性**，且起效與恢復都**比 adductor pollicis 快**"
+            },
+            {
+              "a": "Adductor pollicis",
+              "b": "Corrugator supercilii",
+              "note": "**corrugator supercilii 才較能代表喉部與腹部肌群**"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "體溫：題量少但答案固定",
+          "columns": ["考點", "內容"],
+          "rows": [
+            ["Core temperature 測量部位", "**肺動脈、鼓膜、鼻咽、遠端食道與膀胱**"],
+            ["惡性高溫急救", "**不能只靠 rectal temperature**（103 年）"],
+            ["耳溫", "耳道皮膚由**外頸動脈**供應，說耳溫代表腦溫是**錯的**（93 年）"],
+            ["Neuraxial anesthesia", "**同樣影響**中樞體溫調節（107 年）"],
+            ["低體溫的後果", "感染、**troponin 上升**、顫抖、交感活性增加與恢復室停留延長**全都算**（101 年）"],
+            ["輕度低體溫與凝血", "主要影響是**抑制血小板功能**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "混入本碼的 3 題 B4 性質題目",
+          "content": "本子題混了 3 題其實屬 B4 性質的題目，因學會一級分類不能跨類搬動而留在這裡：\n- 104 年的 **ASA 專業素養倫理題**（總醫師夾閉輸卵管）\n- 104 年的**醫療品質與病人安全題**\n- 104 年的**清醒氣道處理題**（表面麻醉下軟式光纖喉頭鏡為困難氣道標準）\n\n練到時不必懷疑自己走錯區。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "**同一敘述跨年份答案不一致**：「TOF 0.6 可用舌頭頂開壓舌板」——106 與 109 年判它**正確**，101 與 104 年卻判它**錯誤**（應為 0.85 以上）。\n\n**「哪個臨床測試最可靠」在不同年份答案也不同**：103 與 111 年答**抬頭 5 秒**、102 年答 **tongue depressor test**、100 年答**抬腿 5 秒**、99 年答**持續張開眼睛**。全看該題選項組合，別硬背單一答案。\n\n**劑量錯配**：sugammadex 2 mg/kg 用在 TOF count 0 或僅 1 的病人，108、110、114 年連三次拿這個錯配當答案。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "93 年那題用**還剩幾根 twitch 換算阻斷百分比**，以及舊年份以 **TOF 0.7 為門檻**，都是當年觀念；現行要求**定量監測**。作答依當年答案即可。"
+        }
+      ],
+      "question_refs": [
+        "100_written_Q83",
+        "101_written_Q20",
+        "102_written_Q85",
+        "103_written_Q78",
+        "106_written_Q25",
+        "107_written_Q60",
+        "108_written_Q46",
+        "110_written_Q85",
+        "111_written_Q60",
+        "112_written_Q43",
+        "113_written_Q47",
+        "114_written_Q44"
+      ]
+    }
+  ]
+}

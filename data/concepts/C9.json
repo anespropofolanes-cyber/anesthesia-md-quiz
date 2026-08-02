@@ -1,0 +1,426 @@
+{
+  "code": "C9",
+  "title": "疼痛治療",
+  "intro": "C9 疼痛治療四個子題合計 88 題，份量相近但投報率差很多。止痛藥物藥理（25 題）與術後急性疼痛與神經軸止痛（26 題）題數最多、觀念高度重複，gabapentinoid 機轉、opioid 受體歸屬、PCA 背景輸注與神經軸鴉片類的親脂／親水對比幾乎年年出現，應優先讀。慢性疼痛與癌痛有一條「長期純 μ agonist 不可給 mixed agonist/antagonist、術前不可停藥」的主線貫串全部年份。疼痛機轉題數最少但自成系統，題型幾乎都是名詞與方向的辨正。",
+  "sections": [
+    {
+      "subtopic": "pain_mechanism",
+      "title": "疼痛機轉與傳導",
+      "exam_focus": "考「纖維—傳導物質—中樞敏感化—壓力反應」這條線，題型幾乎都是名詞與方向的辨正。C 纖維特性、wind-up 的作用位置、脊髓層次的止痛標的與術後神經內分泌反應的方向是固定考點。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "纖維特性與 wind-up",
+          "content": "C 纖維**無髓鞘**、傳導速度僅 0.5–2 m/s、比 A-delta 慢，負責定位不清且延遲出現的灼熱鈍痛（second pain）。\nWind-up 指以固定強度反覆刺激 C 纖維時，脊髓**背角**第二階神經元放電逐次遞增，由 **NMDA 受體**與 **substance P** 媒介。作用組織在背角神經元，不是纖維本身、也不是神經末梢（94 Q55）。"
+        },
+        {
+          "type": "table",
+          "heading": "脊髓背角的傳導物質",
+          "columns": ["傳導物質", "受體／作用", "備註"],
+          "rows": [
+            ["Substance P", "NK-1 受體", "不是 NK-2（93 Q57 的答案）"],
+            ["Glutamate", "AMPA 與 NMDA", "NMDA 活化與 wind-up、中樞敏感化直接相關"],
+            ["Adenosine", "A1 受體", "經 A1 受體止痛"],
+            ["GABA、glycine", "抑制性傳導", "背角主要的抑制性傳導物"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "脊髓層次的止痛標的（108 Q4）",
+          "columns": ["類別", "內容"],
+          "rows": [
+            ["可用標的", "opioid、alpha-2、膽鹼系統（脊髓內 neostigmine）、adenosine A1、電位依賴型鈣通道與鉀通道"],
+            ["不是成熟標的", "**dopamine** 不是脊髓層次成熟的止痛標的"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "術後疼痛的神經內分泌反應",
+          "content": "方向記兩個：壓力反應使游離脂肪酸**上升**而非下降，且造成的是**高凝狀態**（hypercoagulability）而非低凝。\n94 Q44 從臨床表現切入同一件事：術後疼痛抑制腸蠕動、抑制膀胱與尿道收縮而尿滯留、抑制胰島素分泌並增加胰島素阻抗、增加 ADH 分泌、使傷口癒合變差。"
+        },
+        {
+          "type": "text",
+          "heading": "Preemptive analgesia 與慢性術後疼痛",
+          "content": "101 Q9 的關鍵在於 preemptive analgesia **動物實驗支持但臨床試驗結論不一致**，以及低劑量 ketamine 的精神副作用其實不高於嗎啡；103 Q98 則四項全對。\n慢性術後疼痛發生率 **10–65%**，好發於截肢、開胸、乳房與膽囊手術；肺葉切除後未妥善止痛約一半會發展成慢性疼痛（102 Q13）。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Allodynia",
+              "b": "Hyperalgesia",
+              "note": "對原本**不引發痛覺**的刺激感到疼痛叫 allodynia，不是 hyperalgesia（93 Q31）。另有 neuralgia、paresthesia、radiculopathy 各有定義。"
+            },
+            {
+              "a": "C 纖維",
+              "b": "A-delta 纖維",
+              "note": "C 纖維無髓鞘、0.5–2 m/s、傳導較慢、定位不清的灼熱鈍痛；「局限性」「傳導較快」「尖銳痛」「有髓鞘」四個描述套到 C 纖維全是反向誘答（94 Q54）。"
+            },
+            {
+              "a": "背角",
+              "b": "腹角",
+              "note": "Aδ 與 C 纖維進入的是**背角**而非腹角（99 Q52）。"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "皮節與轉移痛",
+          "columns": ["項目", "節段"],
+          "rows": [
+            ["皮節 C6", "拇指（94 Q50）"],
+            ["皮節 C7", "中指"],
+            ["皮節 C8", "小指"],
+            ["轉移痛：心臟", "T1–T4（93 Q68）"],
+            ["轉移痛：小腸", "T9–T11"],
+            ["轉移痛：輸尿管", "T10–L1"],
+            ["轉移痛：膀胱與攝護腺", "除交感路徑外還有 **S2–S4 副交感傳入**，只寫 T11–T12 並不完整"]
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "99 Q52 一次埋了三個方向錯誤：**bradykinin 是 peptide 而 prostaglandins 是 lipid**（題目對調）；初級傳入末梢逆向釋放 substance P 與 CGRP 造成的是血管**擴張**與神經性發炎，不是收縮；Aδ 與 C 纖維進入的是背角而非腹角。\n術後神經內分泌反應的**同一個四項組合在 99 Q56 與 101 Q98 重複出現，兩份官方答案卻不同**（99 Q56 給 B、101 Q98 給 C），而兩題解析點名的錯誤敘述其實一樣。遇到這題以當年答案為準，觀念本身記住「游離脂肪酸上升、高凝狀態」兩個方向就好。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "94 Q54 的官方答案「C-fiber 不隨刺激增強」與現行強調 C 纖維可被致敏並產生 wind-up 的說法其實有張力，解析已明白標註這是當年的敘述方式。作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q31",
+        "93_written_Q68",
+        "94_written_Q44",
+        "94_written_Q50",
+        "94_written_Q54",
+        "94_written_Q55",
+        "99_written_Q52",
+        "101_written_Q9",
+        "101_written_Q98",
+        "102_written_Q13",
+        "103_written_Q98",
+        "108_written_Q4"
+      ]
+    },
+    {
+      "subtopic": "analgesic_pharmacology",
+      "title": "止痛藥物藥理",
+      "exam_focus": "出題方式非常一致：把藥物歸到錯的機轉、把受體副作用對調、或把作用方向寫反，能反射式辨認正確配對就能得分。三個高頻點是 gabapentinoid 的機轉、opioid 受體歸屬，以及 NSAIDs 的 COX 選擇性。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Gabapentin 與 pregabalin 的正確機轉",
+          "content": "結合**電位依賴型鈣離子通道的 α2δ 次單元**、減少鈣內流，因而降低 glutamate 與 substance P 等興奮性傳導物質釋放。"
+        },
+        {
+          "type": "table",
+          "heading": "同一個誤植在四個年份反覆出現（看到就選）",
+          "columns": ["題號", "被寫成的錯誤機轉"],
+          "rows": [
+            ["104 Q86", "鈉離子通道阻斷劑"],
+            ["110 Q96", "作用於 GABA receptor 並與其他藥物協同"],
+            ["102 Q14", "增加鈣通道活性"],
+            ["93 Q28", "經 GABAA 及 GABAC 受體止痛"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "輔助止痛藥的機轉歸屬",
+          "columns": ["藥物", "機轉歸屬"],
+          "rows": [
+            ["Gabapentin、pregabalin", "鈣通道 **α2δ 次單元**"],
+            ["Carbamazepine、oxcarbazepine、lamotrigine、mexiletine", "**鈉離子通道**"],
+            ["Topiramate", "多重機轉，不以鈣通道為代表（113 Q23 的答案）"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Opioid 受體歸屬",
+          "columns": ["受體", "媒介的作用"],
+          "rows": [
+            ["μ", "欣快感（euphoria）、便祕、尿滯留、呼吸抑制"],
+            ["κ", "鎮靜、利尿、dysphoria"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Opioid 的機轉方向與耐受性",
+          "content": "受體活化經 **Gi/Go 抑制 adenylyl cyclase** 使 cAMP 下降、鈣內流**減少**、鉀外流增加（99 Q69 寫成鈣增加即錯）。\n耐受性方面：對**呼吸抑制與鎮靜**的耐受發生早，對**便祕與縮瞳**幾乎不產生耐受。另有 opioid-induced hyperalgesia 與 remifentanil 的 acute tolerance。"
+        },
+        {
+          "type": "table",
+          "heading": "等效劑量換算與換藥",
+          "columns": ["項目", "內容"],
+          "rows": [
+            ["IV morphine 10 mg", "約等於口服 30 mg（重複給藥約 1:3，單次可達 1:6）"],
+            ["換藥後劑量", "因不完全交叉耐受應再**減 25 至 50%**（100 Q99）"],
+            ["術後顫抖", "Meperidine 優於等效的 morphine 與 fentanyl"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "NSAIDs 與 COX",
+          "content": "- 腸胃道潰瘍出血主要來自抑制 **COX-1** 而非 COX-2（107 Q93 的答案）\n- 凝血影響來自抑制血小板 COX-1 與 **thromboxane A2**\n- 血容量不足、腎功能異常或電解質不平衡者易腎損傷\n- 選擇性 COX-2 抑制劑不增加手術出血與腸胃併發症，但因 prostacyclin 與 thromboxane 失衡而增加血栓、心肌梗塞與中風風險；rofecoxib 因此下市，**parecoxib 在 CABG 周術期屬禁忌**（108 Q66）"
+        },
+        {
+          "type": "text",
+          "heading": "Tramadol 與 triptan",
+          "content": "Tramadol 的固定考法是雙重機轉：弱 μ agonist 加上**抑制** serotonin 與 norepinephrine 再回收——99 Q58 把它寫成「促進再回收」即為答案。它的腸胃蠕動抑制少於等效 morphine，與 MAOI 併用有 serotonin syndrome 風險。\nTriptan 類 5-HT 促效劑會收縮血管，**禁用於冠心病與腦血管疾病**（101 Q54）。"
+        },
+        {
+          "type": "table",
+          "heading": "抗癲癇藥與抗憂鬱劑的副作用（最容易互相混淆）",
+          "columns": ["類別", "副作用"],
+          "rows": [
+            ["抗癲癇藥", "ataxia、複視、肝毒性、血小板低下"],
+            ["三環抗憂鬱劑", "抗膽鹼作用（口乾、便祕、尿滯留、視力模糊）、鎮靜、姿勢性低血壓、心臟傳導異常；心電圖 PR／QRS／QT **延長**而非縮短，長期使用會使 MAC **上升**而非下降（103 Q92）"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Carbamazepine",
+              "b": "Oxcarbazepine",
+              "note": "aplastic anemia、agranulocytosis 與強力 CYP 誘導屬 **carbamazepine**；oxcarbazepine 副作用較少（主要注意低血鈉），臨床是後者取代前者（114 Q17）。"
+            },
+            {
+              "a": "Tolerance",
+              "b": "Physical dependence",
+              "note": "tolerance 是需要更大劑量才有相同效果；physical dependence 是**停藥出現戒斷**，兩件事不同（109 Q48 的答案）。"
+            },
+            {
+              "a": "COX-1",
+              "b": "COX-2",
+              "note": "腸胃道潰瘍出血來自抑制 **COX-1**；選擇性 COX-2 抑制劑不增加腸胃併發症與手術出血，但增加血栓與心血管風險。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "把 **euphoria 掛到 κ**、或把**呼吸抑制掛到 κ**，是 113 Q74、103 Q93、99 Q69 三題共同的錯誤點。\ngabapentinoid 的四種誤植機轉（鈉通道／GABA receptor／增加鈣通道活性／GABAA 與 GABAC）在四個年份反覆出現，看到就選。\n**100 Q15 與 99 Q71 是完全相同的四項組合題，官方答案卻分別是 B 與 E**，這種不一致直接照當年答案處理。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "114 Q95 直接把「gabapentinoids 無法顯著減少鴉片用量且可能增加呼吸抑制」列為正確敘述，與早年鼓勵術前給藥的題目（104 Q86）方向相反。現行指引已不建議常規用於術後止痛，但作答舊題仍以當年官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q28",
+        "99_written_Q69",
+        "100_written_Q99",
+        "102_written_Q14",
+        "103_written_Q92",
+        "104_written_Q86",
+        "107_written_Q93",
+        "108_written_Q66",
+        "109_written_Q48",
+        "110_written_Q96",
+        "113_written_Q74",
+        "114_written_Q95"
+      ]
+    },
+    {
+      "subtopic": "acute_postop_pain",
+      "title": "術後急性疼痛與神經軸止痛",
+      "exam_focus": "主軸只有兩個：IV PCA 的設定，以及神經軸鴉片類藥物的親脂／親水物化性質。兩者都被反覆出題到可以直接背答案，其餘是硬膜外置管節段、老年與小兒的固定敘述。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "IV PCA：背景連續輸注幾乎每次都是錯誤選項",
+          "content": "成人加 background infusion **不會**減少總用量，反而增加嗎啡用量、失去「病人睡著就不會按」的內建安全機制，呼吸抑制與過度鎮靜風險上升，也不會改善夜間睡眠。109 Q49、109 Q84、103 Q95、101 Q8 四題都在這一句上打轉。"
+        },
+        {
+          "type": "table",
+          "heading": "PCA 其他固定細節",
+          "columns": ["項目", "內容"],
+          "rows": [
+            ["靜脈嗎啡 PCA lockout", "一般 **5 至 10 分鐘**，寫大於 15 分鐘是錯的"],
+            ["呼吸抑制發生率", "不論靜脈、肌肉、皮下或神經軸途徑，達到相同止痛時**並無顯著差異**，所以監測不能省"],
+            ["opioid-tolerant 門檻", "每日口服 morphine **60 mg** 或 hydromorphone **8 mg** 以上"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "神經軸鴉片類：親脂 vs 親水（本子題出現次數最多的觀念）",
+          "columns": ["項目", "脂溶性（fentanyl、sufentanil）", "水溶性（morphine）"],
+          "rows": [
+            ["起效與作用時間", "起效快（約 5–10 分鐘）、作用時間短（intrathecal 一般不超過 4 小時，適合門診手術）", "起效慢（epidural 約 30–60 分鐘）"],
+            ["擴散與作用範圍", "節段選擇性好", "滯留 CSF 並向頭側擴散，兼具 spinal 與 supraspinal 作用"],
+            ["呼吸抑制", "**早發**", "**延遲性**，6 至 12 小時"],
+            ["搔癢／噁心嘔吐／尿滯留", "搔癢與噁心嘔吐較少", "搔癢與尿滯留明顯較多"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "搔癢與噁心嘔吐的機轉",
+          "content": "搔癢的機轉單獨考過（111 Q79）：**不是**周邊 histamine 釋放，而是藥物隨腦脊髓液向頭端擴散、作用於背角與延髓三叉神經核區的 μ 受體並牽涉中樞 serotonin，所以抗組織胺效果有限。治療用 naloxone、nalbuphine，預防可用 5-HT3 拮抗劑，發生率可達**六成**。\n噁心嘔吐則與藥物擴散到 **area postrema** 有關（102 Q12）。\n單劑 epidural fentanyl 以較大容積稀釋會使 onset 變慢、duration 變久。"
+        },
+        {
+          "type": "text",
+          "heading": "硬膜外止痛的其餘考點",
+          "content": "- 局部麻醉藥合併 opioid 的效果優於單用 opioid，可各自減量並降低運動阻斷與低血壓（112 Q90、111 Q78、108 Q67 共同的正確敘述）\n- 能減弱手術壓力反應、改善腸蠕動、降低心肌缺血的是**胸段**硬膜外，腰椎段做不到（112 Q90 的誘答）\n- clonidine 作為輔助劑造成的是**血壓下降與心搏過緩**，寫成血壓上升就是答案（108 Q67）\n- 年長病人所需 epidural morphine 應**減少**而非增加（111 Q78）\n- 尿滯留發生率比靜脈嗎啡**高**，不能因此早拔尿管（102 Q99）\n- 新出現或加重的下肢無力要立刻想到硬膜外血腫、膿瘍或導管移位"
+        },
+        {
+          "type": "table",
+          "heading": "硬膜外導管節段（依切口皮節中段選擇）",
+          "columns": ["手術", "節段"],
+          "rows": [
+            ["胸腔手術", "T4–8"],
+            ["下腹部手術", "T8–11"],
+            ["腹主動脈瘤修補", "**T10-11** 最適合（102 Q10）"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "老年病人",
+          "content": "103 Q91 與 102 Q16 完全重複，答案永遠是「痛覺感受強度較強」錯——老年人痛覺閾值反而**略升**、表達較弱，臨床上常被低估。\n藥量需求較少、需緩慢 titration、譫妄風險高；慢性疼痛盛行率其實**偏高**（103 Q100 用「慢性疼痛發生率相當低」當錯誤選項）。"
+        },
+        {
+          "type": "text",
+          "heading": "小兒、TENS 與 naloxone",
+          "content": "- 小兒術後止痛固定考避免**肌肉注射**（107 Q94）\n- meperidine 不可規則給藥（normeperidine 蓄積致抽搐，106 Q92）\n- 避免肌注 diclofenac；**四至五歲以上**可用 PCA\n- TENS 的機轉是 **gate control 加內生性 enkephalin**，可減少 opioid 用量\n- Naloxone 要以 **0.04 mg** 等級小量滴定；呼吸次數不足以反映通氣（94 Q46）"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "成人加 background infusion",
+              "b": "兒童加低劑量背景輸注",
+              "note": "成人是錯誤選項（增加用量、風險上升、不改善睡眠）；但 106 Q94 明確指出**兒童**加低劑量背景輸注可改善夜間睡眠與止痛品質且未見呼吸抑制上升，該題把「兒童背景輸注呼吸抑制較成人高」列為錯誤敘述。成人與小兒相反，這是最容易失分的地方。"
+            },
+            {
+              "a": "Fentanyl 呼吸抑制",
+              "b": "Morphine 呼吸抑制",
+              "note": "脂溶性是**早發**，水溶性是 6 至 12 小時的**延遲性**；113 Q84 就是把兩者時序對調當答案。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "「加背景連續輸注」在成人幾乎每次都是錯誤選項，但在兒童（106 Q94）方向相反，別一律套用。\n113 Q84 把脂溶性與水溶性 opioid 的**呼吸抑制時序對調**當答案。\n「TENS 可作為 labor pain 的有效止痛」在 103 Q96 與 102 Q18 兩度被判為最不適當。\n老年人的固定錯誤選項是「痛覺感受強度較強」與「慢性疼痛發生率相當低」。"
+        }
+      ],
+      "question_refs": [
+        "101_written_Q8",
+        "102_written_Q10",
+        "102_written_Q12",
+        "103_written_Q95",
+        "106_written_Q92",
+        "106_written_Q94",
+        "107_written_Q94",
+        "108_written_Q67",
+        "109_written_Q49",
+        "111_written_Q79",
+        "112_written_Q90",
+        "113_written_Q84"
+      ]
+    },
+    {
+      "subtopic": "chronic_cancer_pain",
+      "title": "慢性疼痛、癌痛與介入性治療",
+      "exam_focus": "一條主線貫串全部年份：長期使用純 μ agonist 的病人不能給 mixed agonist/antagonist，且術前不可停藥。其餘固定考 fentanyl patch 的圍術期處置、癌痛輔助用藥配對、celiac plexus block 與幻肢痛的四個反向敘述。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "主線：不可給 mixed agonist/antagonist",
+          "content": "長期使用純 μ agonist 的病人，**絕對不能**給 mixed agonist/antagonist（nalbuphine、butorphanol、buprenorphine、pentazocine）：拮抗作用會把原有的完全促效劑從受體上置換下來，誘發**急性戒斷**並使疼痛惡化。\n這一句在 112 Q54、111 Q85、108 Q68、101 Q38、100 Q12 出現五次，是本子題最穩定的送分點。"
+        },
+        {
+          "type": "text",
+          "heading": "與它成對的「不可停藥」原則",
+          "content": "- 術前**不可**為了怕呼吸抑制而停掉原本的鴉片類（114 Q70 的答案），應維持基礎劑量再往上加\n- 無法口服時改給**等效劑量靜脈製劑**\n- 抗癲癇藥與 benzodiazepine 也要持續（107 Q98、106 Q95、112 Q54）\n- 相對地 **ketamine 並非**需要靠續用來預防戒斷的藥（110 Q79 的答案）\n- 耐受者的急性疼痛需求可達未用藥者的 **2 至 4 倍**（107 Q98、110 Q79、111 Q85、113 Q73 反覆出現）\n- 長期用藥造成的是 **opioid-induced adrenal insufficiency**（HPA 軸被抑制），不是腎上腺肥大或皮質醇過度分泌（113 Q21）\n- 病人自述的日常劑量傾向**低報**而非誇大，術前應核對處方紀錄（107 Q98）"
+        },
+        {
+          "type": "table",
+          "heading": "Fentanyl patch 圍術期處置（109 Q51、111 Q85、113 Q73 連考三年）",
+          "columns": ["情境", "處置"],
+          "rows": [
+            ["小手術", "可續貼"],
+            ["大手術", "建議移除，並以 fentanyl background infusion 銜接"],
+            ["術後", "儘快貼回"],
+            ["溫毯加溫或發燒", "加速皮膚吸收，增加呼吸抑制風險"],
+            ["PCA", "不但不該避免，反而是合適工具（113 Q73 把「術後應避免使用自控式止痛」列為最不適當）"],
+            ["吸收屏障", "角質層 **stratum corneum** 是穿皮吸收的主要屏障（93 Q29）"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "癌痛輔助用藥配對",
+          "columns": ["藥物", "適應"],
+          "rows": [
+            ["三環抗憂鬱劑", "opioid-refractory 神經病變痛，並可同時處理憂鬱"],
+            ["Carbamazepine／oxcarbazepine", "**三叉神經痛第一線**"],
+            ["類固醇", "骨轉移痛、神經壓迫與惡性腸阻塞；腫瘤侵犯神經時是首選 adjuvant（94 Q43）"],
+            ["Octreotide", "減少消化液分泌"],
+            ["Bisphosphonates", "注意顎骨壞死"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Celiac plexus block",
+          "columns": ["項目", "內容"],
+          "rows": [
+            ["傳入纖維", "來自 **T5–T12** 的內臟神經"],
+            ["神經節位置", "第一腰椎椎體前外側、主動脈前方"],
+            ["適應症", "不限於胰臟癌；胃癌、肝膽腫瘤與腹腔轉移的上腹部內臟痛都可以（104 Q82 的答案就是「僅可用於胰臟癌」錯）"],
+            ["最常見副作用", "腹瀉與姿位性低血壓"],
+            ["破壞劑濃度", "**50–100% alcohol** 與 **6–12% phenol**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "介入性治療的定位",
+          "content": "介入治療被定位為 **WHO 止痛階梯的第四階**，屬選擇性而非常規合併（103 Q97 的答案），且破壞性阻斷對神經病變性疼痛在隨機對照試驗中只有短期效果。\n晚期肺癌可考慮 thoracic epidural neurolysis；intrathecal phenol 配在 glycerin 中屬 **hyperbaric**，必須依患側仔細擺位。\n脊髓腔內連續給予 morphine 一樣會產生耐受性（93 Q29）；tunneled epidural catheter 需考量病人餘命。"
+        },
+        {
+          "type": "text",
+          "heading": "幻肢痛（103 Q94）四個方向要記反向",
+          "content": "- 多數截肢者**都會**經歷\n- 強度隨時間多半**遞減**\n- 越**近端**截肢發生率越高\n- 神經阻斷術是**可用**的治療\n截肢前既存疼痛是最重要的預測因子。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Alcohol",
+              "b": "Phenol",
+              "note": "alcohol 破壞較完全、緩解可維持 **3 至 6 個月**；phenol 注射較不痛但作用較淺（112 Q54）。濃度也不同：50–100% alcohol 對 6–12% phenol。"
+            },
+            {
+              "a": "Amitriptyline",
+              "b": "Carbamazepine／oxcarbazepine",
+              "note": "三環抗憂鬱劑用於 opioid-refractory 神經病變痛；但**三叉神經痛的第一線**是 carbamazepine 或 oxcarbazepine，把 amitriptyline 說成能治三叉神經痛就是 113 Q72 的答案。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "「**Palliative radiotherapy 通常可立即緩解骨轉移疼痛**」在 109 Q9 與 108 Q71 兩度作為錯誤敘述——療效好但需數天到數週，部分病人初期還會 pain flare。\n102 Q15 把 alcohol 與 phenol 的**濃度對調**當誘答。\n104 Q82 的錯誤選項是「celiac plexus block 僅可用於胰臟癌」。\n113 Q73 把「術後應避免使用自控式止痛」列為最不適當。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q29",
+        "94_written_Q43",
+        "100_written_Q12",
+        "102_written_Q15",
+        "103_written_Q94",
+        "104_written_Q82",
+        "107_written_Q98",
+        "108_written_Q71",
+        "110_written_Q79",
+        "112_written_Q54",
+        "113_written_Q73",
+        "114_written_Q70"
+      ]
+    }
+  ]
+}

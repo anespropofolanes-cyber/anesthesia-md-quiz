@@ -1,0 +1,548 @@
+{
+  "code": "C1",
+  "title": "全身麻醉",
+  "intro": "C1 共 146 題，是臨床麻醉裡題量最大的一類，六個子題分別是術前評估、輸液輸血、凝血處置、肥胖與內分泌、神經肌肉疾病與惡性高熱，以及全身麻醉實施與體位。命題型態高度一致：幾乎全是「何者錯誤／何者正確」的敘述題，靠方向寫反、改一個數字、換一個名詞來設陷阱，而且同一題常隔兩三年原封不動重印。優先讀輸液、輸血與血液製品（35 題）、神經肌肉疾病與惡性高熱（27 題，惡性高熱佔近一半且題型固定）以及肥胖與內分泌代謝疾病（26 題，超過半數在問體重依據的劑量計算），這三節的投報率最高。",
+  "sections": [
+    {
+      "subtopic": "preop_assessment",
+      "title": "術前評估與共病風險",
+      "exam_focus": "命題重心很集中：冠狀動脈支架置放後的手術時機、RCRI 的計分項目、術前哪些藥要停哪些要續服、草藥與保健食品的停用天數，以及小兒禁食時間。題型幾乎全是「何者錯誤／何者正確」的選擇題，考記憶細節多過臨床推理。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "四條主軸",
+          "content": "整個子題只繞著幾件事打轉，把這幾組記熟就能拿分：\n- **冠狀動脈支架置放後的手術時機**（骨幹題，重印率最高）\n- **RCRI 的計分項目**：113 Q28、111 Q40、99 Q86 連續出現\n- **草藥與保健食品的停用**：99 Q96、104 Q34 銀杏、110 Q68 的 ginseng、garlic、green tea、112 Q33 人蔘\n- **小兒禁食時間**"
+        },
+        {
+          "type": "table",
+          "heading": "支架後手術時機（歷屆考法）",
+          "columns": ["題號", "情境", "答案／考點"],
+          "rows": [
+            ["100 Q32、101 Q74", "五十五歲男性 BMS 置放兩個月後要做鼓膜成型術", "可立即安排全身麻醉；兩題連選項文字都一字不差"],
+            ["99 Q62", "氣球擴張 28 天、BMS 28 與 90 天、DES 180 天全列出來", "**全部都該延後**"],
+            ["111 Q39", "甲狀腺癌情境", "選 BMS 一個月後手術"],
+            ["113 Q35", "DES 才放四個月", "要求等滿六個月"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "小兒禁食時間（題目採用的標準）",
+          "columns": ["項目", "時間", "出處"],
+          "rows": [
+            ["奶類與固體", "6 小時", "100 Q69 與 102 Q88（兩題完全相同）"],
+            ["清澈液體", "3 小時", "100 Q69 與 102 Q88"],
+            ["母乳", "4 小時", "104 Q37，改考十個月大嬰兒，把母乳單獨拉出來"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "MELD",
+              "b": "CTP",
+              "note": "104 Q51 考兩者的交集**只有 bilirubin**；creatinine 是 MELD 獨有"
+            },
+            {
+              "a": "RCRI 定義的高風險手術",
+              "b": "下肢血管手術",
+              "note": "高風險只指 **intraperitoneal、intrathoracic、suprainguinal vascular**；113 Q28 把下肢血管手術當高風險就是錯的"
+            },
+            {
+              "a": "hypoventilation",
+              "b": "hyperventilation",
+              "note": "94 Q77 把 acetate 透析後的 hypoventilation 寫成 hyperventilation"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "陷阱有固定套路，三種手法輪流用：\n- **改數字**：114 Q26 把戒菸建議寫成至少 1 個月以上（應為 **8 週**）就成了錯誤敘述。\n- **寫反方向**：110 Q61 說病態肥胖病人一律依 actual body weight 給藥；94 Q77 把 acetate 透析後的 hypoventilation 寫成 hyperventilation；110 Q67 的「持續 aspirin 增加出血又減少併發症」本身就自相矛盾。\n- **張冠李戴**：111 Q40 把 atrial fibrillation 塞進 RCRI 項目；113 Q28 把下肢血管手術當高風險手術；104 Q51 混淆 MELD 與 CTP 的組成。\n另有幾題本身就有爭議：99 Q86 官方答案把 ischemic heart disease 列為不是主要心臟危險因子，與 RCRI 明顯衝突，素材已記錄存疑；99 Q96 官方答案為 A，但真正與現行認知相反的是選項 D 說人參造成高血糖，同樣註記存疑；111 Q40 經申覆 B、E 皆給分；94 Q21 安非他命題原卷無答案，不列入計分。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "多題是依當年觀念命題：\n- **BMS** 現行等待期為 30 天；**DES** 由 12 個月縮短為 6 個月（必要時 3 個月）。\n- **小兒清澈液體**現行一律 2 小時，部分學會放寬到 1 小時；題目裡的 3 小時只代表當年標準。\n作答舊題仍以官方答案為準，臨床上別照搬。"
+        }
+      ],
+      "question_refs": [
+        "94_written_Q77",
+        "99_written_Q62",
+        "100_written_Q32",
+        "102_written_Q88",
+        "104_written_Q37",
+        "104_written_Q51",
+        "110_written_Q68",
+        "111_written_Q40",
+        "112_written_Q33",
+        "113_written_Q28",
+        "113_written_Q35",
+        "114_written_Q26"
+      ]
+    },
+    {
+      "subtopic": "fluid_transfusion",
+      "title": "輸液、輸血與血液製品",
+      "exam_focus": "C1 裡題量最大的一節，命題偏好也最鮮明：TRALI、citrate intoxication、術前自體捐血的禁忌、輸血閾值、goal-directed fluid therapy，以及大量生理食鹽水造成的酸鹼問題。絕大多數是「何者為非」的敘述題，只有極少數計算題。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "命題重心",
+          "content": "六個主軸幾乎涵蓋全部題目：**TRALI**、**citrate intoxication**、**術前自體捐血的禁忌**、**輸血閾值**、**goal-directed fluid therapy（GDT）**，以及**大量生理食鹽水造成的酸鹼問題**。\n唯一的計算題是 102 Q21：60 公斤女性 Hct 由 21% 提升到 30% 約需 500 mL。"
+        },
+        {
+          "type": "text",
+          "heading": "TRALI 的固定考點",
+          "content": "TRALI 橫跨六年反覆出題，考的永遠是同一組敘述：**六小時內發作**、**抗白血球抗體機轉**、**96 小時內緩解**、**限制女性捐贈者血漿**。"
+        },
+        {
+          "type": "table",
+          "heading": "高重複題組",
+          "columns": ["題組", "出現年份題號", "固定答案／考點"],
+          "rows": [
+            ["術前自體捐血的禁忌", "100 Q91、101 Q94、102 Q93、107 Q40", "選項固定是不穩定心絞痛、發紺心臟病、高血壓控制不良、活動性癲癇與糖尿病，**答案永遠是糖尿病**，只換字母位置"],
+            ["輸血適應症", "101 Q34、102 Q95", "一字不差，答案都是 B：呼吸器依賴病人不是等 Hb 低於 8 g/dL 才評估"],
+            ["TRALI", "102 Q24、104 Q32、108 Q1、108 Q62、109 Q53、111 Q84", "六小時內發作、抗白血球抗體機轉、96 小時內緩解、限制女性捐贈者血漿"],
+            ["Citrate intoxication", "110 Q78、112 Q51", "兩題是鏡像題，敘述方向剛好相反"],
+            ["GDT", "108 Q98、109 Q18、114 Q61", "近年持續出題"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "TRALI",
+              "b": "TACO",
+              "note": "111 Q84 把 TRALI 說成與輸液過多、心衰竭有關，**那是 TACO**"
+            },
+            {
+              "a": "citrate",
+              "b": "phosphate",
+              "note": "107 Q38 把大量輸血的低血鈣歸因於 phosphate，實際是 **citrate**"
+            },
+            {
+              "a": "hyperventilation",
+              "b": "hypoventilation",
+              "note": "真正加重游離鈣下降的是 **hyperventilation 造成的鹼中毒**；110 Q78 卻寫成 hypoventilation 使 citrate 中毒機會增加"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "陷阱對照：題目怎麼寫錯",
+          "columns": ["題號", "題目的寫法", "正確方向"],
+          "rows": [
+            ["110 Q78", "小兒與 hypoventilation 使 citrate 中毒機會增加", "加重游離鈣下降的是 hyperventilation 造成的鹼中毒"],
+            ["112 Q51", "小兒、肝臟移植與過度換氣使機會「減少」", "方向寫反"],
+            ["113 Q51", "大量 0.9% NaCl 造成 alkalosis", "應為 **hyperchloremic acidosis**"],
+            ["109 Q18", "GDT 組輸液給得比較少", "方向寫反"],
+            ["112 Q52", "restrictive transfusion 的觸發點寫成 8 至 10 g/dL", "改數字"],
+            ["107 Q38", "大量輸血的低血鈣歸因於 phosphate", "應為 citrate"],
+            ["111 Q84", "TRALI 與輸液過多、心衰竭有關", "那是 TACO"],
+            ["102 Q24", "風險最高的血品是血小板", "應為 **FFP**"],
+            ["110 Q91", "crystalloid 對 colloid 為 4:1", "實際約 **1.5:1**"],
+            ["93 Q83", "2,3-DPG「3 至 6 小時恢復」", "改數字"]
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "最常見的手法是**把方向寫反**，其次是**換名詞**與**改數字**（見上表）。看到「增加／減少」「最高／最低」這類字眼就要多讀一次。\n重複題組的答案是固定的：自體捐血永遠選糖尿病，輸血適應症題答案都是 B。\n99 Q98 原卷缺答案，不列入計分。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "舊觀念要特別提醒：\n- 101 Q34 與 102 Q95 的「重大心肺疾病 Hb 低於 10 就評估、Hb 低於 6 幾乎都要輸」是 Miller 第 7 版年代的判準，現行已改為**限制性策略**、多以 7 至 8 g/dL 為門檻。\n- 104 Q32 答 TRALI 為輸血死亡首因，近年 FDA 通報已改由 **TACO** 居首。\n- 107 Q38 的選項 E「狀況不好的病人選新鮮血品」是當年說法，後續大型試驗並未支持。\n- 100 Q39 的 cryoprecipitate 用途、99 Q98 的 4-2-1 與失血 3:1 補充比例、93 Q83 把輸血後 ARDS 歸因於 microaggregates、101 Q94 與 100 Q91 的自體捐血角色，也都註記為當年觀念。\n作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q83",
+        "100_written_Q91",
+        "102_written_Q21",
+        "102_written_Q24",
+        "104_written_Q32",
+        "107_written_Q38",
+        "109_written_Q18",
+        "110_written_Q78",
+        "111_written_Q84",
+        "112_written_Q52",
+        "113_written_Q51",
+        "114_written_Q61"
+      ]
+    },
+    {
+      "subtopic": "coagulation",
+      "title": "凝血與抗凝血處置",
+      "exam_focus": "題數最少，但重複率是全分類最高的，幾乎圍著三組核心打轉：PT 與 aPTT 對應的路徑加上 factor XI 的歸屬、血小板數目門檻與 bleeding time、以及 DIC 與圍術期抗凝、抗血小板藥物的處置。陷阱集中在數字與方向。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "三組核心",
+          "content": "只有三塊內容，但每一塊都被反覆重印：\n1. **PT 與 aPTT 對應的路徑**，加上 factor XI 的歸屬\n2. **血小板數目門檻與 bleeding time**\n3. **DIC 與圍術期抗凝、抗血小板藥物的處置**"
+        },
+        {
+          "type": "table",
+          "heading": "凝血檢驗與門檻",
+          "columns": ["項目", "對應／門檻", "題目怎麼考"],
+          "rows": [
+            ["PT", "外在路徑加共通路徑", "99 Q20、101 Q99、103 Q7、108 Q64 的固定正確敘述"],
+            ["aPTT", "內在路徑加共通路徑；**factor XI 屬內路徑**", "同上"],
+            ["bleeding time", "評估血小板功能", "109 Q54 要從 PT、aPTT、血小板數皆正常而 bleeding time 延長，鎖定 aspirin 與 uremia"],
+            ["ACT 正常值", "107 秒", "104 Q36 與 102 Q22 寫 107 秒是正確敘述；108 Q64 改成 **307 秒**就成了錯誤選項"],
+            ["常規手術的血小板數", "高於 100,000/μL", "在 99、101、102、103、104、108 年反覆出現"],
+            ["血友病選擇性手術的因子目標", "應提升到接近 100%", "110 Q66 選項 A 寫成 40%"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "一字不差的重複題組",
+          "columns": ["題組", "題號", "固定答案"],
+          "rows": [
+            ["PT／aPTT／factor XI／bleeding time／血小板門檻", "99 Q20、101 Q99、103 Q7、108 Q64", "同一題的四個變形，考點完全固定"],
+            ["凝血功能監測", "102 Q22、104 Q36", "一字不差，答案都是「目前無儀器可監測 fibrinolysis」為錯——TEG 與 ROTEM 的 **LY30、maximum lysis** 正是在做這件事"],
+            ["DIC 處置", "104 Q33、108 Q23", "完全相同，答案都是 D：**antifibrinolytic therapy 不是 DIC 的常規處置**"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "aspirin",
+              "b": "indomethacin",
+              "note": "110 Q66 說 aspirin 只影響血小板功能 2 至 3 天、indomethacin 等反而長達一星期，方向剛好相反：aspirin **不可逆**抑制 COX，影響持續整個血小板壽命約 7 至 10 天"
+            },
+            {
+              "a": "HIT（heparin 抗體）",
+              "b": "出血不止",
+              "note": "99 Q67 說 heparin 抗體造成出血不止，實際以**血栓**為主"
+            },
+            {
+              "a": "trauma-induced coagulopathy 早期",
+              "b": "纖溶減少",
+              "note": "112 Q53 考早期是**纖溶亢進**而非減少"
+            },
+            {
+              "a": "factor III（tissue factor）",
+              "b": "維生素 K 依賴因子",
+              "note": "100 Q93 靠 factor III 不屬維生素 K 依賴因子取分"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "陷阱集中在**數字**與**方向**：ACT 正常值 107 秒改成 307 秒（108 Q64）只差一個數字；血友病因子目標 40%（實際應接近 100%）；aspirin 與 indomethacin 的作用時間對調。\n兩題要特別提防：110 Q83 經申覆決議 C、D 皆給分——ticlopidine 沒有真正的 reversal agent，輸血小板只是補救；DES 置放三個月內的緊急手術也不是「必須先停抗血小板」。108 Q63 把 SLE 列為非血栓風險因子，但合併抗磷脂抗體時風險其實顯著上升，依題目作答即可，別內化成臨床判斷。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "- **血小板 100,000/μL** 這個門檻在 99、101、102、103、104、108 年反覆出現，現行多數手術已下修至約 50,000/μL，只有神經外科、眼科要求較高。\n- 99 Q67 所稱**脊椎麻醉需高於 100,000/mm3** 也已下修至 70,000 至 80,000。\n- **bleeding time** 因重現性差幾乎不再使用。\n- 102 Q81 的 aspirin primary prevention 術前停七天屬當年建議，現行低中度出血風險手術傾向持續使用。\n- 114 Q71 的 warfarin 緊急逆轉選 **PCC** 則是新近考點，屬現行標準。\n作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "99_written_Q20",
+        "99_written_Q67",
+        "100_written_Q93",
+        "102_written_Q22",
+        "102_written_Q81",
+        "104_written_Q33",
+        "108_written_Q63",
+        "108_written_Q64",
+        "109_written_Q54",
+        "110_written_Q66",
+        "112_written_Q53",
+        "114_written_Q71"
+      ]
+    },
+    {
+      "subtopic": "metabolic_endocrine",
+      "title": "肥胖與內分泌代謝疾病",
+      "exam_focus": "這節其實是兩塊：肥胖與減重手術的麻醉，加上糖尿病、甲狀腺、腎上腺的圍術期處置，而肥胖是主場。26 題裡超過半數在問同一件事——藥物劑量該用 total body weight、ideal body weight 還是 lean body weight。代謝症候群的定義題則固定用「抽換一項」的手法。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "主場在肥胖",
+          "content": "26 題裡超過半數在問藥物劑量該用 **TBW、IBW 還是 LBW**。111 Q52、112 Q62、113 Q77 幾乎是同一題重印，錯誤選項都是那句「脂溶性藥物分布體積受脂肪影響，劑量須以 TBW 計算，如 propofol 及 remifentanil」——**這句永遠是錯的**。"
+        },
+        {
+          "type": "table",
+          "heading": "體重依據的劑量選擇（要背死）",
+          "columns": ["藥物／設定", "依據體重", "出處與備註"],
+          "rows": [
+            ["propofol", "誘導用 **LBW**，只有維持輸注才接近 TBW", "111 Q52、112 Q62、113 Q77 的錯誤選項就是把它寫成 TBW"],
+            ["remifentanil", "IBW 或 LBW", "同上"],
+            ["rocuronium", "IBW", "114 Q67、107 Q61、110 Q25"],
+            ["sugammadex", "IBW", "114 Q67、107 Q61、110 Q25"],
+            ["succinylcholine", "**TBW**", "108 Q94"],
+            ["cisatracurium", "跨年不一致", "114 Q67 與 109 Q60 視為可依 TBW，106 Q62 卻說應依 IBW；作答以該年答案為準"],
+            ["潮氣量", "依 IBW 設定", "106 Q61、111 Q52、112 Q62、113 Q77"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "通氣與擺位是送分區",
+          "content": "潮氣量依 IBW 設定、中等 PEEP 加 recruitment maneuver、**ramped position 使外耳道與胸骨切跡同高**，在 106 Q61、111 Q52、112 Q62、113 Q77 反覆出現。\n107 Q61 考過把潮氣量從 13 加到 22 mL/kg 只會升高氣道壓；110 Q25 把 desflurane 與 propofol 的甦醒速度寫反。長時間手術即使平躺也可能因臀部受壓而 rhabdomyolysis。109 Q60 提醒肥胖並不延遲清水的胃排空。"
+        },
+        {
+          "type": "table",
+          "heading": "代謝症候群的四個數字",
+          "columns": ["項目", "切點"],
+          "rows": [
+            ["TG", "≥150"],
+            ["男性 HDL", "<40"],
+            ["血壓", "≥130/85"],
+            ["空腹血糖", "≥110"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "糖尿病與其他內分泌",
+          "content": "- 113 Q34 與 112 Q34 是一字不差的同一題，答案都是「**type 1 DM 術前應停 insulin**」為錯；gastroparesis、metoclopramide、autonomic neuropathy 鈍化缺氧通氣反應三個正確選項年年重複。\n- Glucotoxicity 那組選項考了三次（101 Q45、104 Q50 問傷口癒合，103 Q80 問 stiff joint syndrome），答案一律是 **non-enzymatic glycosylation**，只換問法。\n- 104 Q31 記空腹血糖切點 **126 mg/dL**、術中目標 **140 至 180 mg/dL**。\n- 94 Q76 的 pheochromocytoma 屬**腎上腺髓質**、phenoxybenzamine 給 **10 至 14 天**、**beta 阻斷必須在 alpha 阻斷之後**，仍是穩定考點。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "prothrombotic",
+              "b": "prothrombolytic",
+              "note": "107 Q61 一字之差把方向寫得完全相反"
+            },
+            {
+              "a": "腰圍",
+              "b": "BMI>30",
+              "note": "108 Q31 用 BMI>30 取代腰圍，是代謝症候群定義題典型的「抽換一項」"
+            },
+            {
+              "a": "代謝症候群",
+              "b": "hyperandrogenism",
+              "note": "113 Q75 塞進 hyperandrogenism，那是屬於**多囊性卵巢**的項目"
+            },
+            {
+              "a": "空腹血糖 ≥110 mg/dL",
+              "b": "空腹血糖 126 mg/dL",
+              "note": "前者是代謝症候群的切點，後者是 104 Q31 的糖尿病空腹血糖切點"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 「脂溶性藥物須以 TBW 計算，如 propofol 及 remifentanil」這句在 111 Q52、112 Q62、113 Q77 永遠是錯的。\n- 106 Q61 把 apolipoprotein-B 寫成下降（**應上升**）；107 Q61 把 prothrombotic 寫成 prothrombolytic。\n- 102 Q65 的陷阱在合併姿勢性低血壓時血中 norepinephrine 是**偏低**而非偏高。\n- 108 Q94 選項 E 依公告答案認定單純肥胖不獨立增加吸入性肺炎風險，與直覺相反，記答案即可。\n- cisatracurium 的依據體重跨年不一致（114 Q67、109 Q60 對 106 Q62），只能依該年答案。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "- 101 Q23 依當年版本命題，現行已加入 **GLP-1 受體促效劑顯著延遲胃排空**的新建議。\n- 101 Q85 當年採計「beta-blocker 可縮小甲狀腺」，今日已不成立（縮小腺體與減少血流是**碘劑**的作用）。\n- 94 Q75 的手術死亡率五倍是當年教科書數字，現行不再引用這類倍數。\n- 99 Q72 中敘述 (1) 描述合理卻未被採計，且現行類固醇補充已改為**依手術壓力分級個別化**。\n作答舊題仍以原公告答案為準。"
+        }
+      ],
+      "question_refs": [
+        "94_written_Q76",
+        "101_written_Q85",
+        "102_written_Q65",
+        "103_written_Q80",
+        "104_written_Q31",
+        "106_written_Q62",
+        "107_written_Q61",
+        "108_written_Q94",
+        "110_written_Q25",
+        "112_written_Q62",
+        "113_written_Q75",
+        "114_written_Q67"
+      ]
+    },
+    {
+      "subtopic": "neuromuscular_mh",
+      "title": "神經肌肉疾病與惡性高熱",
+      "exam_focus": "27 題裡 malignant hyperthermia 佔了將近一半，題型高度重複，等於是白送的分數：dantrolene 劑量、降溫終點、early 與 late signs、RyR1 機轉。第二大宗是 myasthenia gravis，核心觀念只有一句——對非去極化肌鬆劑極度敏感、對 succinylcholine 反而抗藥。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "MH 是主場",
+          "content": "27 題裡 malignant hyperthermia 佔了將近一半，而且題型高度重複，等於是白送的分數。dantrolene 的劑量幾乎每兩三年就換個數字考一次，降溫終點則是最頑固的重複考點——104 Q40、103 Q76、99 Q63 三年拿同一組選項出題。"
+        },
+        {
+          "type": "table",
+          "heading": "MH 的固定數字",
+          "columns": ["項目", "正確版本", "題目怎麼考"],
+          "rows": [
+            ["dantrolene 起始劑量", "**2.5 mg/kg 靜脈注射**，每 5 至 10 分鐘視反應重複", "113 Q29 把總量寫成 40 mg/kg、111 Q37 寫成「每 5 至 10 分鐘 5 mg/kg 到總量 20 mg/kg」，兩題都是錯誤選項"],
+            ["dantrolene 溶劑", "不含防腐劑的 **sterile water**", "107 Q37 寫成 normal saline 就是錯"],
+            ["降溫終點", "降到約 **38°C** 就停手，避免 afterdrop", "104 Q40、103 Q76、99 Q63 的「核心體溫降至 37°C 才停止降溫」永遠是錯的"],
+            ["dantrolene 半衰期", "約 10 小時", "同一組題目裡固定是正確敘述"],
+            ["復發時間", "多在 6.5 小時內", "同一組題目裡固定是正確敘述"],
+            ["警覺時機", "等體溫超過 38.5°C 才警覺已經太遲", "111 Q37；恢復室出現不明肌肉僵硬仍要懷疑"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "機轉與情境題",
+          "content": "機轉題的陷阱很固定：關鍵離子是**鈣、RyR1**，halothane 是誘發強度**最強**的。111 Q37 考 dantrolene 抑制鈣釋放需要 **Mg2+**，並提醒只有約半數至七成感受性個體找得到 RyR1 突變。\n114 Q29 是情境題：斜視手術小孩出現 EtCO2 與體溫同步上升，誤判成肺炎就是錯的處置。"
+        },
+        {
+          "type": "text",
+          "heading": "Myasthenia gravis",
+          "content": "第二大宗，107 Q59、103 Q73、101 Q71、100 Q34 幾乎是同一組敘述輪流出現，112 Q30 換個問法再考一次。核心觀念只有一句：**對非去極化肌鬆劑極度敏感要大幅減量，對 succinylcholine 反而抗藥、需要較大劑量**。\n其餘固定正確項：術前肺功能檢查、bulbar symptoms 預測術後呼吸器、cholinesterase inhibitor 不應術前停用、sugammadex 可安全使用。"
+        },
+        {
+          "type": "table",
+          "heading": "其他神經肌肉疾病",
+          "columns": ["疾病", "要記的重點", "題號"],
+          "rows": [
+            ["去神經化疾病", "一律**禁用 succinylcholine**，理由是高血鉀", "104 Q39 與 102 Q80 都把 Guillain-Barré 的理由寫成高血鈣"],
+            ["DMD", "困難插管率高於常人、合併 dilated cardiomyopathy", "108 Q96"],
+            ["DMD 的麻醉", "TIVA 加 rocuronium，並以 sugammadex 逆轉", "114 Q28"],
+            ["Multiple sclerosis", "怕**體溫上升**", "113 Q30 把惡化時的體溫方向寫反"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "非去極化肌鬆劑",
+              "b": "succinylcholine",
+              "note": "MG 對非去極化肌鬆劑**極度敏感要大幅減量**，對 succinylcholine **反而抗藥、需要較大劑量**；命題最愛把兩者對調，寫成「各類型肌鬆劑均應減少劑量」（112 Q30、100 Q34 敘述2）"
+            },
+            {
+              "a": "Early signs",
+              "b": "Late signs",
+              "note": "早期是 EtCO2 上升、心搏過速、masseter spasm、大量出汗與混合性酸中毒；**hyperkalemia 屬 late sign**（112 Q29 的答案）"
+            },
+            {
+              "a": "鈣（RyR1）",
+              "b": "氯",
+              "note": "104 Q39 與 102 Q80 兩年都把 MH 的關鍵離子寫成氯"
+            },
+            {
+              "a": "高血鉀",
+              "b": "高血鈣",
+              "note": "去神經化疾病禁用 succinylcholine 的理由是高血鉀；104 Q39 與 102 Q80 寫成高血鈣"
+            },
+            {
+              "a": "propranolol 與低血鉀",
+              "b": "高血鉀、corticosteroid",
+              "note": "111 Q41：惡化 MG 的是 propranolol 與低血鉀，不是高血鉀；corticosteroid 是治療而非誘發"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 104 Q39 與 102 Q80 兩年都把 halothane 說成誘發強度較弱（**實為最強**）。\n- 94 Q17 把突變寫成 Ry3（應為 RyR1）。\n- 官方答案本身不一致：108 Q97 把「dantrolene 與 RyR1 結合、抑制 sarcoplasmic reticulum 釋鈣」判為錯誤敘述，但 113 Q29 與 94 Q17 又以幾乎相同的描述為正確，作答時只能依各年公告答案。\n- 100 Q78 與 99 Q81 是同一題幹，官方答案卻分別是 (1)(2)(3) 與 (2)(4)，彼此矛盾，只能各依該年答案。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "多題屬當年觀念且已更新：\n- 102 Q80「MS 不建議 spinal」現行已無可靠證據支持。\n- 101 Q71 與 100 Q34「周邊神經刺激器無法有效監測」在定量監測與 sugammadex 時代已不適用。\n- 94 Q17 的死亡率也早降到個位數百分比。\n作答依題目答案，臨床別照抄。"
+        }
+      ],
+      "question_refs": [
+        "94_written_Q17",
+        "99_written_Q63",
+        "100_written_Q34",
+        "102_written_Q80",
+        "103_written_Q76",
+        "104_written_Q39",
+        "107_written_Q37",
+        "108_written_Q96",
+        "111_written_Q37",
+        "112_written_Q29",
+        "113_written_Q29",
+        "114_written_Q29"
+      ]
+    },
+    {
+      "subtopic": "ga_conduct_positioning",
+      "title": "全身麻醉實施與手術體位",
+      "exam_focus": "15 題裡擺位佔了絕大多數，截石位是重複率最高的一組——104 Q38、103 Q71、101 Q52 三年幾乎逐字重印。其餘集中在側臥位的 axillary roll、眼與神經傷害、腹腔鏡的 EtCO2 變化與插管的血流動力學反應。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "擺位為主，方向寫反是主要手法",
+          "content": "104 Q38、103 Q71、101 Q52 三年幾乎逐字重印同一題，五個選項一字不改，錯的永遠是「相較其他擺位，下肢腔室症候群發生率以截石位**最低**」——實際上截石位是發生率**最高**的姿勢。\n這種把方向寫反的手法在本子題無所不在，看到「最低」「較低」「不會」就要警覺。"
+        },
+        {
+          "type": "text",
+          "heading": "截石位的固定正確敘述",
+          "content": "- 影響肺順應性與潮氣量\n- 影響回心血流：抬腿時前負荷上升、放下時可能低血壓\n- 最常受傷的是 **common peroneal nerve**，造成 foot drop\n- 雙手不宜緊貼身側，以免收放腿架時夾傷\n- 109 Q40 補了細節：大腿與軀幹屈曲 **80 至 100 度**、小腿離中線 **30 至 45 度**，而且**雙腿必須同時抬起與同時放下**，一次抬一隻腳是錯的"
+        },
+        {
+          "type": "table",
+          "heading": "各體位要記的重點",
+          "columns": ["體位", "重點", "題號"],
+          "rows": [
+            ["截石位", "下肢腔室症候群發生率**最高**；最常受傷的是 common peroneal nerve", "104 Q38、103 Q71、101 Q52"],
+            ["截石位（肥胖或巨大腹腔腫塊）", "腹內壓上升壓迫下腔靜脈使回心血流受阻，**preload 反而下降**，與一般病人相反", "114 Q27"],
+            ["側臥位", "axillary roll 要放在**依賴側腋窩下方靠胸廓處**，標準錯誤寫法就是「置於腋窩」", "101 Q27、102 Q79、110 Q65"],
+            ["俯臥位", "腹部懸空則 FRC 反而增加、氧合優於仰臥；視力損傷以俯臥位較常見", "110 Q63、101 Q27"],
+            ["Trendelenburg", "對腦壓升高者屬**絕對禁忌**", "110 Q63"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "眼與神經傷害的數字",
+          "columns": ["項目", "素材給的答案", "題號"],
+          "rows": [
+            ["最常見的眼部傷害", "**corneal abrasion**，而非 ischemic optic neuropathy", "102 Q79"],
+            ["最常見的周邊神經傷害", "**ulnar nerve** 最多，其次 brachial plexus", "102 Q79"],
+            ["周邊神經傷害佔 ASA closed claims", "約 **18%**，件數僅次於死亡", "101 Q27"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "腹腔鏡與全麻實施",
+          "content": "- 100 Q35 的關鍵是 **CO2 embolism 會使 EtCO2 突然下降**而非上升。\n- 99 Q40 要記 EtCO2 在手術開始 **20 至 30 分鐘**後趨於平台、**皮下氣腫**是最常見的呼吸併發症、EtCO2 再上升約 **25%** 時要高度懷疑。\n- 101 Q46 考插管的血流動力學反應：血壓數秒內開始上升、**1 至 2 分鐘達高峰**、5 分鐘內回復；高劑量 fentanyl **6 μg/kg** 可有效抑制，而纖維內視鏡若未做氣道局部麻醉並不會減少反應。\n- 108 Q42 考甦醒分期：全身麻醉下 **pupillary light reflex 多半仍存在**，先消失的是 corneal 與 gag reflex。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "AION",
+              "b": "PION",
+              "note": "110 Q65 的陷阱是把兩者對調：**PION 對應長時間俯臥脊椎手術，AION 對應心臟手術**"
+            },
+            {
+              "a": "pupillary light reflex",
+              "b": "corneal 與 gag reflex",
+              "note": "108 Q42：全身麻醉下 pupillary light reflex 多半仍存在，**先消失的是 corneal 與 gag reflex**"
+            },
+            {
+              "a": "CO2 embolism 時的 EtCO2",
+              "b": "EtCO2 上升",
+              "note": "100 Q35：CO2 embolism 會使 EtCO2 **突然下降**"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 「下肢腔室症候群發生率以截石位最低」永遠是錯的（104 Q38、103 Q71、101 Q52）。\n- axillary roll「置於腋窩」是標準錯誤寫法。\n- 截石位一次抬一隻腳是錯的，必須同時抬起與同時放下（109 Q40）。\n- 110 Q65 把 anterior 與 posterior ischemic optic neuropathy 對調。\n- 100 Q100 這題素材附的解析內容錯置成腦外傷處置，與題目無關，請直接以題目答案為準；99 Q94 素材已註明官方答案與題幹判讀之間有落差、屬存疑題，別花時間鑽。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "這些擺位原則至今大致未變，只有腹腔鏡的部分現行更強調**較低腹內壓、肺保護性通氣與多模式止痛**。作答舊題仍以題目答案為準。"
+        }
+      ],
+      "question_refs": [
+        "99_written_Q40",
+        "100_written_Q35",
+        "101_written_Q27",
+        "101_written_Q46",
+        "102_written_Q79",
+        "103_written_Q71",
+        "104_written_Q38",
+        "108_written_Q42",
+        "109_written_Q40",
+        "110_written_Q63",
+        "110_written_Q65",
+        "114_written_Q27"
+      ]
+    }
+  ]
+}

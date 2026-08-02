@@ -5,8 +5,8 @@
    VERSION 一改，activate 時舊快取整個清掉，不會留下上一版的殘骸。
    app.js 的 CACHE_NAME 也必須與這裡的 CACHE 一致。 */
 
-const VERSION = 'v18';
-const ASSET_V = '20260802d';   // 與 index.html 的 ?v= 一致
+const VERSION = 'v19';
+const ASSET_V = '20260802e';   // 與 index.html 的 ?v= 一致
 const CACHE = `anes-md-${VERSION}`;
 
 const YEARS = [108, 109, 110, 111, 112, 113, 114];
@@ -33,6 +33,16 @@ const OPTIONAL = [
   './data/subtopic_briefs.json'
 ];
 
+/** 教材：一個分類代碼一份。代碼直接從 taxonomy 讀，
+    新增分類時不必回來改這裡；還沒寫的分類抓不到，交給 allSettled 忽略。 */
+async function conceptList(c) {
+  const res = (await c.match('./data/taxonomy.json')) ||
+              (await fetch('./data/taxonomy.json'));
+  if (!res || !res.ok) return [];
+  const t = await res.json();
+  return (t.categories || []).map(x => `./data/concepts/${x.code}.json`);
+}
+
 /** 題庫引用的圖檔清單。寫死在這裡遲早會漏，所以改讀 manifest
     （由 tools/build_image_manifest.py 產生）。離線時圖載不到，
     有圖的那 40 題就等於無法作答。 */
@@ -58,8 +68,9 @@ async function fillCore() {
     if (!(await c.match(u))) missing.push(u);
   }
   await Promise.all(missing.map(u => put(c, u)));
+  const optional = [...OPTIONAL, ...(await conceptList(c))];
   await Promise.allSettled(
-    OPTIONAL.map(async u => (await c.match(u)) || put(c, u))
+    optional.map(async u => (await c.match(u)) || put(c, u))
   );
   // 圖片放最後：量最大（約 12 MB），但少了它有圖的題目離線就看不了
   const imgs = await imageList(c);

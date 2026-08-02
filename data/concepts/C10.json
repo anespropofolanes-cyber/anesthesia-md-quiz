@@ -1,0 +1,369 @@
+{
+  "code": "C10",
+  "title": "重症及呼吸治療",
+  "intro": "C10 共四個子題、一百餘題，橫跨 93 到 114 年。這一類最大的特徵是觀念變動大：Sepsis-3、ARDS 的 Berlin 定義、俯臥通氣、低溫治療與重症血糖目標都有新舊分界，作答舊題以官方答案為準，讀觀念則以現行為準。優先讀敗血症與休克（SIRS 判準單獨就八題）與呼吸衰竭、機械通氣（肺保護通氣的數字是最穩的分數）；器官功能障礙子題題數最多但最發散，要按器官分堆讀。",
+  "sections": [
+    {
+      "subtopic": "sepsis_shock",
+      "title": "敗血症、休克與重症評估",
+      "exam_focus": "二十六題橫跨 93 到 114 年，是全 C10 觀念變動最大的子題。SIRS 判準單獨佔了八題、是本子題最高頻考點，其次是 SOFA／MODS 評分、各型休克的血行動力學與重症超音波鑑別、乳酸分型。讀之前必須先把「舊題背什麼、現在信什麼」分開。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "SIRS 判準（最高頻，八題）",
+          "content": "考過 103、102（兩題）、101（兩題）、100、99、93 年。四項判準，**符合兩項即成立**：\n- 體溫大於 38 或小於 36\n- 心跳大於 90\n- 呼吸大於 20 或 PaCO2 小於 32\n- 白血球大於 12000 或小於 4000 或未成熟型大於 10%\n\n**血壓與血氧飽和度都不在判準內。**"
+        },
+        {
+          "type": "table",
+          "heading": "SOFA 的六個系統（113、110、100 年）",
+          "columns": ["系統", "SOFA 採用的指標"],
+          "rows": [
+            ["呼吸", "—"],
+            ["凝血", "血小板"],
+            ["肝", "—"],
+            ["心血管", "MAP 與升壓劑劑量"],
+            ["中樞神經", "GCS"],
+            ["腎", "creatinine 與尿量"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "休克的血行動力學與重症超音波鑑別",
+          "columns": ["型態", "表現與處置重點"],
+          "rows": [
+            ["右心衰竭（107 年 COPD cor pulmonale）", "CVP 高而 wedge 低、CO 極低"],
+            ["前負荷不足（102 年）", "CVP 與 PCWP 都低、CI 低；**先補液**，不是先算 SVR 或先給升壓劑"],
+            ["低血容性休克（112 年超音波）", "IVC 塌陷"],
+            ["心因性休克", "IVC 擴張"],
+            ["阻塞性休克（心包填塞或肺栓塞）", "IVC 也是**擴張**，不是塌陷"],
+            ["敗血性休克", "表現多變，無法單憑一次超音波判定"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "Surviving Sepsis 的具體數字（近年考點）",
+          "columns": ["項目", "建議值"],
+          "rows": [
+            ["初始晶體液", "30 mL/kg"],
+            ["MAP 目標", "65"],
+            ["抗生素給藥時限", "1 小時內（113 年把 90 分鐘寫成建議即為錯誤）"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "SOFA 心血管項",
+              "b": "MODS 心血管項",
+              "note": "SOFA 用**升壓劑劑量**，MODS 用 **pressure-adjusted heart rate**；100 年那題就是把兩者對調。"
+            },
+            {
+              "a": "SIRS（舊定義）",
+              "b": "Sepsis-3（現行）",
+              "note": "2016 年 Sepsis-3 廢除以 SIRS 定義敗血症，改為感染合併 **SOFA 上升 2 分以上**，床邊篩檢用 **qSOFA**。"
+            },
+            {
+              "a": "lactate type A",
+              "b": "lactate type B",
+              "note": "只要是**組織灌流不足**造成就是 type A（112 年那題低 CVP 加貧血）。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "SIRS 判準的誘答方式非常固定：把**心跳門檻改成 110**、把白血球改成 **10000／2500／15%**。\nSOFA 的固定錯誤選項：113 年把腎項寫成 **eGFR**、110 年說**血小板不在 SOFA 內**。\n乳酸酸中毒的處置核心是**恢復灌流**，而非給 bicarbonate 或過度換氣（114 年）。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "已經翻案的舊觀念要特別標記：\n- 以 SIRS 定義敗血症已是歷史觀念（2016 年 Sepsis-3 廢除）\n- activated protein C 已下市（102、99 年）\n- EGDT 與常規 ScvO2 導管已被否定（101 年）\n- HES 不再用於敗血症（104 年）\n- dopamine 已非第一線，改以 norepinephrine 取代（93 年）\n\n考古題仍以當年官方答案計分，但別當現行標準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q37",
+        "99_written_Q46",
+        "100_written_Q45",
+        "101_written_Q21",
+        "102_written_Q45",
+        "103_written_Q38",
+        "104_written_Q73",
+        "107_written_Q81",
+        "110_written_Q56",
+        "112_written_Q47",
+        "113_written_Q31",
+        "114_written_Q62"
+      ]
+    },
+    {
+      "subtopic": "respiratory_failure_ventilation",
+      "title": "呼吸衰竭、機械通氣與體外維生",
+      "exam_focus": "二十七題，主軸是 ARDS 與肺保護通氣、呼吸器與心肺交互作用、脫離拔管指標，以及 ECMO。肺保護通氣的數字是最穩的分數；俯臥通氣與 ARDS 定義則要看年份分新舊。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "ARDS 肺保護通氣（最穩的分數）",
+          "content": "考過 114、112、103、101、93 年：\n- 潮氣量 **6 mL/kg 預測體重**\n- plateau pressure **小於 30**\n- 容許性高碳酸血症，但維持 **pH 大於 7.25**\n\n112 年另考 recruitment maneuver：**30–40 cmH2O 只維持十秒不足**，且近年證據顯示常規積極 recruitment 併高 PEEP 未必有益。"
+        },
+        {
+          "type": "table",
+          "heading": "ARDS 定義：AECC 與 Berlin",
+          "columns": ["版本", "要點"],
+          "rows": [
+            ["AECC（99 年那題依此）", "急性發生、雙側浸潤、PaO2/FiO2 小於 200、**PCWP 必須小於等於 18 mmHg**（題目寫成大於 18 才是錯的）"],
+            ["Berlin（現行）", "已取消楔壓條件、要求 **PEEP 至少 5**，並以 **300／200／100** 分輕中重度"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "ECMO（近年新增重點）",
+          "content": "考過 114、110、107、106、111 年。\n- **DO2 等於心輸出量乘動脈含氧量**，目標大於兩倍 VO2\n- 並非所有 ECMO 都必須抗凝（110 年），最常用的仍是 **unfractionated heparin**\n- 114 年考 **RESP score**：年齡是負向加權，**50–59 歲為負 2 分**"
+        },
+        {
+          "type": "text",
+          "heading": "正壓通氣使心輸出量下降（107、102 是完全相同的題目）",
+          "content": "- 降低靜脈回流\n- **增加**（不是降低）右心室後負荷\n- 造成中隔左移、限制左心室可張性\n\n**右心功能不佳者最敏感。**"
+        },
+        {
+          "type": "table",
+          "heading": "脫離與拔管指標（103、93 年）",
+          "columns": ["指標", "門檻"],
+          "rows": [
+            ["吸氣負壓", "負 20 至負 25 以上"],
+            ["潮氣量", "大於 5 mL/kg"],
+            ["肺活量", "大於 10 mL/kg"],
+            ["每分鐘換氣量", "小於 10 L"],
+            ["RSBI", "小於約 105"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "其餘固定小題",
+          "columns": ["主題", "要點"],
+          "rows": [
+            ["鼻導管氧濃度（100、93 年）", "每 1 L/min 約加 4%，4 L 約 36%"],
+            ["心因性肺水腫", "CPAP 或 NIPPV 可降插管率；合併高碳酸血症時選 **NIPPV**"],
+            ["TRALI", "血液學特徵是**暫時性白血球低下**"],
+            ["VAP 預防", "**不包括**停用鼻胃管灌食"],
+            ["肺栓塞", "dead space 增加、HPV 減弱"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "VV ECMO",
+              "b": "VA ECMO",
+              "note": "VV 把氧合血打回**靜脈**系統，適用心臟功能尚可的單純呼吸衰竭；VA 打回**動脈**，用於合併循環衰竭。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "肺保護通氣的錯誤敘述固定是「**10 mL/kg**」或「高峰壓大於 35、潮氣量 8–10 mL/kg 常是必須的」。\n脫離指標的錯誤方向固定是「**吸氣負壓 10–15**」與「**每分鐘換氣量大於 10 L**」。\n107 年把 DO2 寫成 **stroke volume 乘 CaO2** 是錯的。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "**俯臥通氣**是本子題最需要注意年代的考點：103 與 101 年的官方答案採「俯臥改善氧合但不改善死亡率」，那是 PROSEVA 之前的觀念；114 與 112 年則直接把 prone 當成中重度 ARDS 的正解。\n**ARDS 定義**：AECC 的 PCWP 小於等於 18 條件，Berlin 定義已取消。\n**ECMO 適應症**：106 年把敗血症合併多重器官衰竭列為最不適當適應症，屬當年觀念。\n作答時看年份、以官方答案為準，讀觀念時以現行為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q35",
+        "99_written_Q73",
+        "100_written_Q38",
+        "101_written_Q32",
+        "102_written_Q89",
+        "103_written_Q31",
+        "104_written_Q77",
+        "106_written_Q90",
+        "107_written_Q88",
+        "110_written_Q55",
+        "112_written_Q99",
+        "114_written_Q7"
+      ]
+    },
+    {
+      "subtopic": "resuscitation_arrhythmia",
+      "title": "心肺復甦與急救心律處置",
+      "exam_focus": "十九題，題數不多但重複率很高，近年比重明顯上升。最該優先看無脈搏寬 QRS 心搏過速（112 與 114 是完全相同的題目），其次是 CPR 基本參數、114 年的長篇 ACLS 情境題與 adenosine 劑量調整。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "無脈搏寬 QRS 心搏過速（112、114 完全相同的題目）",
+          "content": "末期腎病變病人術中出現 **155/min 的規則寬 QRS** 且量不到血壓：\n- 錯誤處置是**同步整流**——無脈搏就要走 pulseless arrest 流程\n- 立即**高品質 CPR** 並給**非同步去顫**（雙相波約 120–200 J）\n- 因為無脈搏時機器常抓不到 R 波而延遲放電\n\n同一題還提示：**末期腎病變要優先想 hyperkalemia**。"
+        },
+        {
+          "type": "table",
+          "heading": "高血鉀處置的速度排序（114 年）",
+          "columns": ["處置", "起效速度"],
+          "rows": [
+            ["鈣鹽", "**1–3 分鐘，最快**；只穩定細胞膜、**不降血鉀**"],
+            ["insulin 加葡萄糖", "10–20 分鐘"],
+            ["bicarbonate", "更慢"],
+            ["furosemide", "最慢"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "CPR 基本參數（101 兩題、109 年）",
+          "columns": ["項目", "要點"],
+          "rows": [
+            ["按壓通氣比", "單人施救成人與兒童一律 **30:2**"],
+            ["按壓中斷", "小於 10 秒"],
+            ["按壓產生的心輸出", "正常的 25–30%"],
+            ["堆疊電擊", "**不再使用**連續三次堆疊電擊"],
+            ["建立進階呼吸道後", "通氣降到每分鐘 8–10 次"],
+            ["按壓速率", "當年寫 100，**現行是 100–120**"],
+            ["epinephrine", "兒童 0.01 mg/kg；成人 1 mg 每 3 至 5 分鐘"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "114 年長篇 ACLS 情境題（值得整題背）",
+          "content": "- 疑似心因性倒地採 **C-A-B**，先壓胸\n- 可電擊心律要**盡速電擊**，不必等完成 2 分鐘 CPR\n- vasopressin 不能取代 epinephrine；vasopressin 加 steroid 並非常規建議\n- ROSC 後昏迷病人 **35.9°C 已在目標體溫範圍**，不該積極升溫、更不該讓體溫升到 38°C"
+        },
+        {
+          "type": "text",
+          "heading": "Adenosine 劑量調整（104、101 同一組）",
+          "content": "- 周邊 **6 mg**，無效再 **12 mg**\n- 中央靜脈要減半，約 **3 mg**\n- 合併 **theophylline 需加量**、合併 **dipyridamole 需減量**\n- 由遠端周邊慢速給藥可能只造成心率加速而未終止 PSVT\n\n與此相連：**WPW 合併心房顫動禁用 verapamil 等房室結阻斷劑**（104、94 年），否則衝動全走旁路而可能惡化成 VF。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "無脈搏寬 QRS 心搏過速",
+              "b": "穩定型窄 QRS 心搏過速",
+              "note": "前者立即**非同步去顫**；後者**不可用非同步去顫**（106 年），順序是十二導程、vagal maneuver、adenosine、beta-blocker 或鈣離子阻斷劑。"
+            },
+            {
+              "a": "113 年鎮靜後呼吸只剩 6 次",
+              "b": "104 年 symptomatic bradycardia",
+              "note": "前者正解是**先給氧與面罩輔助通氣**而不是 atropine；後者才是真正該給 **atropine** 的情況。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "112 與 114 年同一題的固定誘答是**同步整流**——病人無脈搏，應走 pulseless arrest 流程。\n穩定型窄 QRS 心搏過速用非同步去顫是錯的（106 年）。\n99 年那題檔案答案與主流認知衝突（Torsades 第一線應為 magnesium、不穩定 Af 應立即整流），已註記存疑。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "**低溫治療的年代差異要記**：104 年依 2010 指引為 **32–34°C 維持 12–24 小時**；現行已改為 targeted temperature management、**32–36°C 至少 24 小時**，重點在避免發燒。111 年考到院前冰輸液降溫不建議常規使用；104 年同題還考 ROSC 後要避免 hyperoxia。\n**按壓速率**當年寫 100，現行為 100–120。\n作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "94_written_Q63",
+        "99_written_Q88",
+        "101_written_Q28",
+        "101_written_Q29",
+        "104_written_Q75",
+        "104_written_Q78",
+        "106_written_Q84",
+        "109_written_Q20",
+        "111_written_Q48",
+        "112_written_Q96",
+        "113_written_Q66",
+        "114_written_Q40"
+      ]
+    },
+    {
+      "subtopic": "organ_support_icu_care",
+      "title": "器官功能障礙與加護照護",
+      "exam_focus": "三十七題，是 C10 最大也最發散的子題，橫跨腎、腦、譫妄、營養、感染管制與恢復室併發症，讀的時候要按器官分堆。腎臟（RIFLE 與輸液選擇）與神經重症（腦血流閾值、腦保護、脊髓損傷）最集中也最重複。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "RIFLE 的 Injury 定義（106、102、104 年考過三次）",
+          "columns": ["判準", "內容"],
+          "rows": [
+            ["creatinine", "升為兩倍"],
+            ["GFR", "下降超過 50%"],
+            ["尿量", "小於 0.5 mL/kg/hr 持續 12 小時"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "腎臟：輸液選擇與其他固定考點",
+          "content": "RIFLE 題目常給體重與 12 小時尿量要你自己換算。\n- 輸液選擇反覆出現：**balanced crystalloid 優於 normal saline**；HES 在重症與敗血症會增加腎替代療法需求與死亡率（106、104、108 年）\n- 111 年那題要記：CPB 期間 **Hct 21–24% 可接受**、是 **hyperoxia** 而非低 PaO2 造成腎血管收縮、腎小管損傷的標記是 **KIM-1 與 NGAL** 而非 albumin\n- renal-dose dopamine 無效（93 年）\n- RRT 在無緊急適應症時提早啟動並不改善預後（100、99 年）"
+        },
+        {
+          "type": "table",
+          "heading": "腦血流閾值（106、104 連兩年考同一張表）",
+          "columns": ["腦血流", "表現"],
+          "rows": [
+            ["約 50", "正常"],
+            ["降到 20", "EEG slowing"],
+            ["降到 15", "isoelectric"],
+            ["6–15 以下", "不可逆"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "神經重症：腦保護與頭部外傷",
+          "content": "**腦保護（106、103）**：低溫 32–34、MAP 70–80、當年 PaCO2 30–35 或 normocapnia、缺血病人輸液**不可含葡萄糖**。\n**頭部外傷（103）**：禁用高劑量類固醇；胃排空是**延遲**而非加速；全身併發症有神經性肺水腫、心律不整、DIC 與類 Takotsubo 的**左心室**功能不全。"
+        },
+        {
+          "type": "text",
+          "heading": "脊髓損傷三題（104、102、101 都是同一組）",
+          "content": "- **T5 以上**出現 neurogenic shock 的心搏過緩合併低血壓\n- **C3–C5 支配橫膈**，故 C4 與 C5 損傷會呼吸衰竭\n- **triple-H 是 hypertension 加 hypervolemia 加 hemodilution**，不是 hyperventilation\n- 七成血管痙攣屬**蛛網膜下腔出血**而非硬膜下出血\n- CPP 50 mmHg 不足（現行目標 60–70）"
+        },
+        {
+          "type": "table",
+          "heading": "ICU 日常照護的固定題",
+          "columns": ["主題", "要點"],
+          "rows": [
+            ["FAST HUG 的 H（101、100 兩次同題）", "**床頭抬高**，不是血行動力學"],
+            ["譫妄常見成因（113 年）", "**不含低血鈣**"],
+            ["重症血糖目標（107 年）", "**140–180**；壓到 120 以下屬已被否定的 intensive insulin therapy"],
+            ["導管相關血流感染（103 年）", "含酒精 chlorhexidine 優於 povidone-iodine"],
+            ["TPN 併發症（93、94 年）", "最常見的是高血糖與高氯性代謝性酸中毒"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "恢復室併發症（114、107、106 年）",
+          "columns": ["情境", "處置與要點"],
+          "rows": [
+            ["少尿", "最常見原因是**低血容**（先排除尿管扭折）"],
+            ["PaO2 小於 60", "鑑別**不必先想出血**"],
+            ["laryngospasm", "先 **jaw thrust 加 100% 氧氣正壓通氣**；propofol 與 succinylcholine 是後線"],
+            ["低風險病人無症狀 ST depression", "先觀察並矯正誘因"],
+            ["非去極化肌鬆劑作用延長", "**酗酒不是**原因"],
+            ["腹腔室症候群（107 年）", "氣道壓上升、升壓劑越調越高、無尿加上腹脹的組合"]
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "**Sevoflurane 的 compound A** 連兩年考（113、114），答案固定是「大鼠有腎小管傷害，**人體未證實造成臨床 AKI**」，說「目前確定有關」就是錯的。\n112 年的錯誤選項把頭部外傷類 Takotsubo 的左心室功能不全寫成**右心室**。\ntriple-H 常被寫成 hyperventilation，正解是 **hemodilution**。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "- 重症血糖壓到 120 以下的 intensive insulin therapy 已被否定，現行目標 140–180（107 年）。\n- renal-dose dopamine 無效（93 年）；HES 在重症與敗血症會增加腎替代療法需求與死亡率。\n- 無緊急適應症時提早啟動 RRT 並不改善預後（100、99 年）。\n- CPP 50 mmHg 不足，現行目標 60–70。\n作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q36",
+        "99_written_Q45",
+        "100_written_Q42",
+        "101_written_Q12",
+        "102_written_Q48",
+        "103_written_Q32",
+        "104_written_Q74",
+        "106_written_Q86",
+        "107_written_Q82",
+        "111_written_Q92",
+        "113_written_Q45",
+        "114_written_Q45"
+      ]
+    }
+  ]
+}

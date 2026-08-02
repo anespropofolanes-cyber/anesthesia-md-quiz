@@ -1,0 +1,429 @@
+{
+  "code": "C8",
+  "title": "心臟血管胸腔麻醉",
+  "intro": "六個子題中，心臟疾病與心臟手術麻醉（39 題）最大、體外循環與其併發症（34 題）次之，兩者的分界是「題幹在講 CPB 本身，還是在講病人的心臟病與術式」。單肺通氣與雙腔支氣管內管（29 題）裡，單肺通氣低血氧的處置順序一項就佔九題，是整個 C8 最高頻的單一考點，最該優先讀。小兒與先天性心臟病麻醉（14 題）雖然最小，但考點重複率極高，是最好拿分的一節。",
+  "sections": [
+    {
+      "subtopic": "cpb",
+      "title": "體外循環與其併發症",
+      "exam_focus": "三十四題，考點集中在四塊：抗凝與 ACT、血氣管理、脫離體外循環、術後中樞神經損傷。其中「心臟手術後中樞神經損傷最常見的原因」是最必背的一題，102、101、108、106、109 年各考過一次，題幹幾乎一字不改。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "術後中樞神經損傷（最必背）",
+          "content": "答案永遠是 **microemboli**（主動脈鉗夾與插管剝落的粥狀斑塊、氣泡、脂肪）；低血壓、發炎反應、腦部高溫、麻醉藥都是**加重因子而非主因**。\n延伸考點：\n- **cerebral oximetry**：rSO2 較術前基礎值下降超過 **20%** 就要處置（109、112、110 年都考），但務必守住「相關性有證據、預防效果沒有證據」這條線。\n- **BIS** 這類 processed EEG 明確不是可靠的腦缺血監測。"
+        },
+        {
+          "type": "text",
+          "heading": "抗凝與 ACT",
+          "content": "ACT 干擾因素幾乎必考，114、104、100 年三次考同一組。\n93 年另考 CPB 期間的 ACT 目標：**300–400 秒不足，要 400 秒以上**。"
+        },
+        {
+          "type": "table",
+          "heading": "ACT 的干擾因素",
+          "columns": ["對 ACT 的影響", "因素"],
+          "rows": [
+            ["**延長**", "低體溫、血小板不足、血液稀釋"],
+            ["**縮短**", "血小板溶解、手術壓力"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "降溫期",
+              "b": "復溫期",
+              "note": "α-stat 與 pH-stat 考過三次（107、106、104），核心只有一句：combination strategy 是**降溫用 pH-stat、復溫改 α-stat**。104 與 107 年的錯誤選項都把兩期對調。"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Protamine（共四題）",
+          "content": "- 必須等**體外循環完全脫離、確認不需重新上機**才給。\n- 緩慢給藥可降低但**無法百分之百避免**反應。\n- 一旦肺動脈壓急升合併右心衰竭與嚴重低血壓，正解一律是**重新 heparin 化並回到 CPB**（108、107 年都考）。\n- protamine 半衰期比 heparin 短，**1 mg 中和約 100 IU**。"
+        },
+        {
+          "type": "table",
+          "heading": "脫離 CPB 的細節數字",
+          "columns": ["項目", "目標"],
+          "rows": [
+            ["心率", "80–100"],
+            ["核心溫度", "至少 35.5°C"],
+            ["回流血與鼻咽溫", "不超過 37°C"],
+            ["血鉀", "3.8–5"],
+            ["血比容／血紅素", "Hct 21–24% 即可，Hb **不需**拉到 8–10"]
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- **血糖**年年同一個陷阱：壓到 80–110 或 100–120 mg/dL 一律錯，正解是 **180 mg/dL 以下並避免低血糖**。\n- **LCOS 與心室功能不良的風險因子**連考三年，陷阱都在性別：**女性才是風險因子**，看到「男性」就選它。\n- 113 年的錯誤選項是「CPB 停止前給完 protamine」。\n- 102 年那題記住 BP 降、wedge 升、CO 降就是**左心室衰竭**，此時最不該做的是繼續給輸液。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "幾個已翻案的舊觀念要分清：99 年 **fenoldopam** 腎保護、100 年 **off-pump 較少中風**、99 年**類固醇與 aprotinin** 抗發炎，當年都被採計，後續試驗均未證實；aprotinin 更因**急性腎損傷退出市場**，109 年直接考這一點。作答舊題仍以當年官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q27",
+        "99_written_Q6",
+        "100_written_Q74",
+        "102_written_Q29",
+        "104_written_Q96",
+        "106_written_Q41",
+        "107_written_Q43",
+        "108_written_Q83",
+        "109_written_Q81",
+        "112_written_Q58",
+        "113_written_Q68",
+        "114_written_Q72"
+      ]
+    },
+    {
+      "subtopic": "cardiac_surgery",
+      "title": "心臟疾病與心臟手術麻醉",
+      "exam_focus": "三十九題，是 C8 最大的一塊。瓣膜病的血行動力學目標是最穩定的分數，其次是 SAM 與動態流出道阻塞、ICD／CRT／電燒、TAVI、心包填塞、PCWP 與 LVEDP、肺高壓。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "與 cpb 子題的分界",
+          "content": "分界很簡單：凡是題幹在講 **CPB 本身**的抗凝、血氣、脫機與其併發症，屬 cpb 子題；這裡考的是**病人的心臟病與術式**——瓣膜生理、缺血性心臟病、導管介入、心律裝置、心包填塞、肺高壓與血行動力學監測。"
+        },
+        {
+          "type": "table",
+          "heading": "瓣膜病的血行動力學目標",
+          "columns": ["瓣膜病", "處置目標"],
+          "rows": [
+            ["Aortic stenosis（至少考過五次：102、93、104、99、100）", "維持**竇性節律**、足夠**前負荷**、偏**慢**心率、維持**收縮力**與 **SVR**"],
+            ["Mitral stenosis", "**增加 preload**、放慢心率"],
+            ["Mitral regurgitation", "維持**前負荷**、**降低後負荷**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "SAM 與動態流出道阻塞",
+          "content": "近年重點，114 與 109 年連著考。處置永遠是**補液、減慢心率、降低收縮力、維持或提高後負荷**；inotrope 與血管擴張劑一定是錯的，**esmolol 與 beta-blocker 一定是對的**。93 年的 HCM 題是同一個邏輯。"
+        },
+        {
+          "type": "table",
+          "heading": "PCWP 與 LVEDP 的比較（107、104 年）",
+          "columns": ["關係", "情況"],
+          "rows": [
+            ["PCWP **小於** LVEDP", "aortic regurgitation、嚴重左心室肥厚"],
+            ["PCWP **大於** LVEDP", "正壓通氣與 PEEP、COPD、肺血管阻力上升、mitral stenosis、心搏過速"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "心律裝置與導管介入",
+          "content": "**ICD、CRT 與電燒**累積六題（112、111、106、110、99），反覆出現的是：\n- ICD 以**高能量**電擊終止室性快速心律（說低壓電擊就是錯）。\n- 植入時**所有病人都要先貼體外去顫貼片**。\n- 做 defibrillation threshold testing 必須**加深鎮靜或全身麻醉**，標準監測並不足夠。\n\n**TAVI** 三題（113、106、103）：必考 **rapid ventricular pacing** 經股靜脈或鎖骨下靜脈置入電極，且**可在 MAC 下完成**。"
+        },
+        {
+          "type": "text",
+          "heading": "心包填塞、肺高壓與心臟移植",
+          "content": "- **心包填塞**口訣是 **fast、full、forward**；100 年那題要的是概念而非數字，**累積速度決定壓力**，慢性尿毒性積液可容納數百毫升而壓力不高。\n- **肺高壓**（108、107、103）：**hypocapnia 與鹼血症降 PVR**、**高頻與噴射通氣降 PVR**，而刻意抬高右心室 filling pressure 是錯的。\n- **心臟移植**：去神經心臟對 **atropine 無效**；術後 Af 好發於第 **2 至 3 天**，且不以電擊為首選。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- Aortic stenosis 的錯誤選項不是「**降低 SVR**」就是「**較快心跳**」。\n- 103 年 mitral regurgitation 的錯誤選項是「盡量**減少**前負荷」。\n- 109 年心包填塞的錯誤選項是「應**絕對避免心跳過快**」。\n- ICD 題說成「低壓電擊」就是錯。\n- TAVI 題說成「**只能全身麻醉**」就是錯。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q33",
+        "99_written_Q90",
+        "100_written_Q18",
+        "102_written_Q34",
+        "103_written_Q20",
+        "104_written_Q97",
+        "106_written_Q47",
+        "107_written_Q48",
+        "108_written_Q80",
+        "109_written_Q80",
+        "113_written_Q67",
+        "114_written_Q66"
+      ]
+    },
+    {
+      "subtopic": "one_lung_ventilation",
+      "title": "單肺通氣與雙腔支氣管內管",
+      "exam_focus": "二十九題裡，單肺通氣低血氧的處置順序就佔了九題（113、111、109、108、107、106、102、101、99），是整個 C8 最高頻的單一考點，順序年年重複。其餘是呼吸器設定、HPV、低血氧危險因子與 DLT 定位。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "低血氧的處置順序（年年重複）",
+          "content": "1. 先把 **FiO2 調到 1.0**。\n2. 同時以**纖維支氣管鏡確認 double lumen tube 有無移位**（管位不正是最常見且可立即矯正的原因）。\n3. **通氣側加 PEEP、非通氣側給 CPAP**。\n4. 維持足夠心輸出量，並把吸入麻醉藥降到 **1 MAC 以下**。\n5. 仍無效才請外科**夾閉術側肺動脈**或**恢復雙肺通氣**。"
+        },
+        {
+          "type": "table",
+          "heading": "單肺通氣的呼吸器設定（111、110、106、104、101、100）",
+          "columns": ["參數", "建議值"],
+          "rows": [
+            ["潮氣量", "**5–6 mL/kg 理想體重**"],
+            ["PEEP", "5–10（**COPD 不加**）"],
+            ["peak pressure", "小於 **35**"],
+            ["plateau pressure", "小於 **25**"],
+            ["PCV vs VCV", "PCV 只降低 peak pressure，**未證實**比 VCV 改善氧合"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "通氣側加 PEEP",
+              "b": "非通氣側給 CPAP",
+              "note": "加錯邊就是錯誤選項：把 PEEP 加在**非通氣側**是 101、99 年的固定誘答。"
+            },
+            {
+              "a": "CPAP 5–10 cmH2O",
+              "b": "CPAP 1–2 cmH2O",
+              "note": "CPAP 的**有效壓力是 5–10 cmH2O**；113 年那題把 1–2 cmH2O 當成處置就不夠。"
+            },
+            {
+              "a": "一般病人：通氣側加 PEEP 有幫助",
+              "b": "emphysema／COPD：加 PEEP 反而惡化",
+              "note": "這類病人**已有 auto-PEEP**，通氣側再加 PEEP 反而把血流推向非通氣側而**惡化分流**（109、107 年）。"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "HPV（113、103 年兩題）",
+          "content": "- 主要由 **alveolar PO2** 驅動。\n- 可讓非通氣側血流**減少約一半**。\n- 與 **NO 及 cyclooxygenase** 路徑相關。\n- **1 MAC 以內**的 volatile 只抑制約**兩成**。"
+        },
+        {
+          "type": "text",
+          "heading": "低血氧危險因子與 DLT 定位",
+          "content": "危險因子（109、104、100 年反覆考同一組）：\n- **側臥雙肺通氣時 PaO2 就偏低**是最強預測因子。\n- 平躺做單肺通氣。\n- 術前 **V/Q scan 顯示術側佔比高**。\n- **右側開胸**（右肺約佔灌流 **55%**）。\n- **COPD 反而不易缺氧**，**左側開胸也不是**危險因子。\n\nDLT 定位題（109、103、102）要熟支氣管鏡影像與左管夾管邏輯：**夾住氣管側等於隔離右肺**。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "錯誤選項高度固定，看到就能直接圈：\n- 把 PEEP 加在**非通氣側**（101、99 年）。\n- 把吸入麻醉濃度**加深到 1 MAC 以上**（111 年）。\n- 宣稱**非通氣側不可使用 CPAP**（107 年）。\n- 給 **nitroglycerin**（102 年）。\n- 呼吸器設定的三個常見錯誤敘述：「10–12 mL/kg」、「氣道壓可維持 40 cmH2O」、「I:E 增加則 auto-PEEP 減少」。\n- HPV 題的兩個錯誤敘述：「**TIVA 氧合較佳**」與「**胸椎硬膜外會抑制 HPV**」。\n\n另外注意層次差別：**SpO2 已掉到 78% 且快速下降**時，正解是**先恢復雙肺通氣**。"
+        }
+      ],
+      "question_refs": [
+        "99_written_Q7",
+        "100_written_Q77",
+        "101_written_Q96",
+        "102_written_Q27",
+        "103_written_Q15",
+        "104_written_Q98",
+        "106_written_Q43",
+        "107_written_Q57",
+        "109_written_Q94",
+        "110_written_Q77",
+        "111_written_Q88",
+        "113_written_Q69"
+      ]
+    },
+    {
+      "subtopic": "thoracic_surgery",
+      "title": "胸腔手術麻醉",
+      "exam_focus": "十七題，主軸是開胸前的肺功能評估、肺切除的輸液與併發症、擺位神經傷害、止痛策略，以及縱膈腔鏡與食道切除等特殊術式。與單肺通氣子題的界線是：呼吸器參數與缺氧處置歸那邊，這裡問的是病人選案、術式風險與周邊照護。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "術前評估的 three-legged stool（108 年直接考）",
+          "columns": ["三腳", "代表指標"],
+          "rows": [
+            ["respiratory mechanics", "**ppoFEV1%**"],
+            ["lung parenchymal function", "**DLCO**"],
+            ["cardiopulmonary reserve", "**VO2max**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "術前肺功能評估的算法與門檻",
+          "content": "- **V/Q scintigraphy 不屬於**這三腳。\n- 99 年考**肺節法算 ppoFEV1**：全肺 **19 節**，切右中葉 2 節加右下葉 5 節，45% 乘以（1 減 7/19）約 **28%**。同題還要記 **AWaC**（清醒、溫暖、舒適）即可在手術室拔管。\n- 93 年那題是**舊式絕對值門檻**，注意 **FEV1/FVC 要大於預測值 50%**。"
+        },
+        {
+          "type": "table",
+          "heading": "肺切除的輸液處置（110 年）",
+          "columns": ["項目", "數字／要點"],
+          "rows": [
+            ["24 小時內總輸液", "約 **20 mL/kg 以內**"],
+            ["crystalloid", "不超過 **3 L**"],
+            ["third space", "胸腔手術**沒有真正的 third space**"],
+            ["尿量", "**0.5 mL/kg/h** 即可接受"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "肺切除的併發症與擺位",
+          "content": "- **post-pneumonectomy pulmonary edema：右側風險高於左側**（114、107 年都考），因**右肺血管床較大**；預防靠**限制輸液**。\n- 擺位神經傷害連兩年出（112、106）：**axillary roll 的正確位置是腋窩遠端的胸壁**；上側手臂**外展不超過 90 度**、下側**腓骨頭加墊**、**頭部與脊柱同軸**。"
+        },
+        {
+          "type": "compare",
+          "heading": "止痛的易混淆對照（108、106 年）",
+          "items": [
+            {
+              "a": "胸椎硬膜外",
+              "b": "paravertebral block",
+              "note": "**胸椎硬膜外是降低術後呼吸併發症證據最強者**；paravertebral 是很好的替代，但**不是答案**。"
+            },
+            {
+              "a": "親水性 opioid",
+              "b": "親脂性 opioid",
+              "note": "硬膜外用**親水性**者噁心嘔吐與搔癢較多；**親脂性**作用範圍窄但副作用少。"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "特殊術式",
+          "content": "- **縱膈腔鏡**（104、102）記死一句：**pulse oximeter 或動脈導管放右手**偵測 innominate artery 受壓，**血壓計放左手**；大出血時**靜脈通路要打在下肢**。\n- **食道切除**：限水、及早拔管、以升壓劑維持血壓，且 **transthoracic 途徑要塌陷的是右肺**。\n- **前縱膈腫塊**（93 年）最重要的觀念是**無症狀的孩子照樣可能在誘導後塌陷**。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 擺位最經典的錯誤是**把 axillary roll 塞進腋窩**——塞進腋窩反而**壓迫臂神經叢**。\n- 107 年肺水腫題的錯誤選項是「**增加尿量可預防**」。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "**術後心房顫動**（109、100）在當年都以 **diltiazem 為最常用預防藥**，amiodarone 因**肺毒性顧慮**在當年不被視為最有效——這一點**現行指引已改**，作答仍以當年答案為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q25",
+        "93_written_Q26",
+        "99_written_Q2",
+        "100_written_Q56",
+        "102_written_Q28",
+        "104_written_Q99",
+        "106_written_Q49",
+        "107_written_Q42",
+        "108_written_Q59",
+        "110_written_Q82",
+        "112_written_Q56",
+        "114_written_Q65"
+      ]
+    },
+    {
+      "subtopic": "vascular_aortic",
+      "title": "主動脈與血管手術麻醉",
+      "exam_focus": "二十一題，最集中的是脊髓缺血與 paraplegia（107 與 102 年是完全相同的題目），其次是主動脈阻斷與鬆夾的病生理，再來是這群病人的冠心病處置。EVAR 是近年新增方向。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Paraplegia：最主要原因",
+          "content": "胸腹主動脈手術造成截癱的最主要原因是 **spinal cord 缺血**——不是手術壓迫、不是低體溫、不是 CSF 流失。107 與 102 年是完全相同的題目，每隔幾年就重複一次。"
+        },
+        {
+          "type": "table",
+          "heading": "脊髓保護的配套數字（必背）",
+          "columns": ["項目", "數值／要點"],
+          "rows": [
+            ["脊髓灌流壓", "**遠端主動脈壓 減去 CSF 壓**"],
+            ["CSF drainage 目標", "**10 mmHg**（106 年寫成 20 mmHg 就是錯的）"],
+            ["Adamkiewicz 動脈", "約起於 **T8–L2 或 T9–T12**，而非單一血管負責全部"],
+            ["脊髓血流自動調節", "約在 **MAP 50–125**（112 年寫成 150–180 為錯）"],
+            ["mild hypothermia", "**34°C** 即有保護效果"],
+            ["distal aortic perfusion", "可降低癱瘓率"],
+            ["barbiturate、naloxone、papaverine", "只是**佐劑**"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "主動脈阻斷與鬆夾的生理變化",
+          "columns": ["時期", "變化"],
+          "rows": [
+            ["阻斷（cross-clamping）", "後負荷驟升、近端血壓上升、左心室壁張力上升、射出分率下降、腎血流下降、代謝性酸中毒"],
+            ["鬆夾（unclamping）", "prostaglandin 上升、補體活化、SvO2 下降、pH 下降合併**高血鉀**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "冠心病、beta-blocker 與腎功能",
+          "content": "冠心病與 beta-blocker 的組合考了五次（111、104、101、100、99），兩條穩定答案：\n- **不要**因為要開大血管手術就一律先做**冠狀動脈血運重建**。\n- 長期服用 beta-blocker 者**圍術期要續用**，但**術前才急性給高劑量會增加中風與死亡**。\n\n腎功能（101、100、109）：\n- 術後腎功能不全**最強的預測因子是術前既有腎功能異常**，而非術中低血壓；**術中尿量也無法預測**術後腎功能。\n- 腎保護題（109 年）採計的是 **mannitol 加輸液**，**ACE inhibitor 與 T6 硬膜外阻斷都不列入**。"
+        },
+        {
+          "type": "text",
+          "heading": "EVAR 與術後照護",
+          "content": "EVAR 是近年新增方向（113 年連出兩題）：\n- **不靠低溫**保護脊髓，反而應**積極保溫**。\n- 可在**局部麻醉合併 MAC** 下完成，且**肺部併發症較少**。\n- **CSF 引流過多**會造成**顱內低壓與硬膜下出血**；引流液**呈血性應停止並考慮延期**。\n\n術後照護（99 年）：**心肌缺血九成無症狀**，且應**盡早拔管**，而非例行送加護病房階段性脫離。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 108 年的陷阱是：主動脈阻斷時**冠狀動脈血流其實增加**（舒張壓上升），只是**氧需求增加更多**。\n- 102 年那題要選的非是 **normothermia**。\n- 111 年那題因**阻斷位置不同**而給 **A 與 D 雙答案**。\n- 99 年那題**檔案答案與生理學不符，已註記存疑**，不要被帶偏。"
+        }
+      ],
+      "question_refs": [
+        "99_written_Q16",
+        "99_written_Q92",
+        "100_written_Q72",
+        "102_written_Q32",
+        "103_written_Q16",
+        "104_written_Q92",
+        "106_written_Q48",
+        "107_written_Q50",
+        "108_written_Q82",
+        "109_written_Q90",
+        "112_written_Q60",
+        "113_written_Q78"
+      ]
+    },
+    {
+      "subtopic": "pediatric_congenital_cardiac",
+      "title": "小兒與先天性心臟病麻醉",
+      "exam_focus": "十四題，是 C8 最小但最好拿分的子題，因為考點重複率極高。三大重複考點依序是 Tetralogy of Fallot 的分流方向與負荷型態（六次）、ductal-dependent circulation、小兒與成人體外循環的差異（連五年）。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "分流方向與負荷型態（114、111、110、104、102、99 年共六次）",
+          "columns": ["病灶", "分流方向", "負荷型態與表現"],
+          "rows": [
+            ["**Tetralogy of Fallot**", "右心室流出道阻塞使血流經 VSD **由右往左**", "**發紺型**、右心室是 **pressure-overloaded**、肺血流減少、造成**右心室肥厚**"],
+            ["VSD、PDA", "**左至右**", "**容積負荷**"],
+            ["ASD", "**左至右**", "**右側容積負荷、不發紺**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Ductal-dependent circulation",
+          "content": "**coarctation of aorta、interrupted aortic arch、hypoplastic left heart syndrome** 這三個一組，靠 **PDA 供應體循環**，必須用 **prostaglandin E1** 維持開放（114、111、103 年考）。\n嚴重 **TOF 合併肺動脈閉鎖**則是靠 PDA **供應肺血流**；**單一心室不能一概而論**，103 年就把它排除在外。"
+        },
+        {
+          "type": "table",
+          "heading": "小兒與成人體外循環的差異（114、113、112、111、110 連五年）",
+          "columns": ["面向", "小兒的特點"],
+          "rows": [
+            ["溫度", "**更低**，常需 **15–20°C 與 total circulatory arrest**"],
+            ["灌流壓", "需求**較低**"],
+            ["priming", "相對血容量比例**極高**，稀釋效應大，故需 **blood 或 albumin priming**"],
+            ["血氣管理", "偏好 **pH-stat**"],
+            ["血糖", "嬰幼兒**肝醣儲存少，容易低血糖而非高血糖**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "其餘散題",
+          "content": "- **ketamine** 提高 SVR、減少右至左分流，適合**發紺型病童誘導**。\n- **TAPVR** 屬完全混合型病變，SpO2 **不必也不該拉到 90% 以上**，目標是 **Qp:Qs 約 1:1** 並維持 **normocarbia**。\n- **Fontan 循環**仰賴**被動肺血流**，要**降低 PVR**，**permissive hypercapnia 是錯的**。\n- **congenital long QT** 病人用 **amiodarone、ondansetron、glycopyrrolate** 可能誘發 **Torsade de Pointes**。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- TOF 的錯誤選項幾乎一字不改地重複：「TOF 是 **left to right shunt**，是 **volume-overloaded ventricle**，日後演變成**充血性心衰竭**」。看到把 **TOF 和 VSD 綁在同一句**敘述，通常整句就錯。\n- 102 年的致命錯誤選項是給 **indomethacin 關掉 PDA**。\n- 110 與 112 年都拿**嬰幼兒容易高血糖**當錯誤選項（實為容易低血糖）。\n- 113 年把「**兒童 CPB 溫度較成人高**」寫反。"
+        }
+      ],
+      "question_refs": [
+        "99_written_Q26",
+        "99_written_Q28",
+        "102_written_Q7",
+        "102_written_Q35",
+        "103_written_Q12",
+        "104_written_Q64",
+        "110_written_Q14",
+        "110_written_Q15",
+        "111_written_Q74",
+        "112_written_Q86",
+        "113_written_Q88",
+        "114_written_Q90"
+      ]
+    }
+  ]
+}

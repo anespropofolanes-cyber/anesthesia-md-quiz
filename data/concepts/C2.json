@@ -1,0 +1,236 @@
+{
+  "code": "C2",
+  "title": "區域麻醉",
+  "intro": "區域麻醉分三個子題：神經軸麻醉（32 題）、周邊神經阻斷術（33 題）、阻斷通則與抗凝血（16 題）。命題高度集中在少數幾個反覆出現的題型——硬膜穿刺後頭痛、interscalene block、ASRA 抗血栓藥時機——而且多年逐字重複同一題。神經軸與周邊阻斷題數最多要先讀，阻斷通則題數最少卻最好拿分，值得優先補完。",
+  "sections": [
+    {
+      "subtopic": "neuraxial",
+      "title": "神經軸麻醉",
+      "exam_focus": "93 到 113 年幾乎年年出現，考點集中在三處：硬膜穿刺後頭痛（六次以上，可直接當必考）、spinal 與 epidural 各自的阻斷高度決定因子、以及體表解剖標記。後兩者的誘答選項多年固定。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "考點一：硬膜穿刺後頭痛（PDPH）",
+          "content": "在這個子題被問了六次以上（113、110、108、107、100、93 年都有），可以直接當必考。反覆出現的觀念是：\n- **好發族群**：年輕、女性、孕婦。\n- **針具**：針徑愈粗、cutting（Quincke）針、穿刺次數愈多，發生率愈高；pencil-point 針較安全；切割型針的 bevel 應與脊椎長軸**平行**。\n- **時程**：症狀多在 12 至 48 小時出現，九成在三天內，多數一週內自行緩解。\n- **治療**：單次 epidural blood patch 改善率超過九成；第一次無效可在 24 至 48 小時後重做；**預防性 blood patch 無效**。"
+        },
+        {
+          "type": "table",
+          "heading": "考點二：阻斷高度決定因子（spinal 與 epidural 要分開背）",
+          "columns": ["麻醉方式", "會影響高度", "被設計成「最不影響」的標準誘答"],
+          "rows": [
+            ["Spinal", "baricity、劑量、注射後姿勢、個體 CSF 容積", "注射後咳嗽、注射速度、barbotage、體重（101 Q77、93 Q65）"],
+            ["Epidural", "容積與總藥量、穿刺節段、年齡、擺位", "推注速度、adjuvant（epinephrine、opioid、NaHCO3）（110 Q87、109 Q44、106 Q97）"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "考點三：體表解剖標記",
+          "columns": ["體表標記", "對應節段", "備註"],
+          "rows": [
+            ["C7 vertebra prominens", "C7", "成立"],
+            ["肩胛骨下緣連線", "**T7**", "題目寫成 T10 即為錯誤選項；T10 約在臍水平"],
+            ["Tuffier's line", "約 L4", "成立"],
+            ["PSIS", "約 S2", "成立"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Morphine（親水）",
+              "b": "Fentanyl／sufentanil（親脂）",
+              "note": "morphine 脂溶性最低、滯留 CSF 久、擴散廣，有 **6 小時後的延遲性呼吸抑制**；fentanyl、sufentanil 起效快、節段性強，呼吸抑制屬**早發**。"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "其餘高頻點",
+          "content": "- **有效容積變小的族群**：孕婦、腹水、肥胖因硬膜外靜脈叢怒張，有效容積變小、阻斷偏高，產科劑量約需減三分之一（109 Q50）。\n- **生理效應**：阻斷達 T1–T4 時 cardiac accelerator fibers 被阻斷，血壓下降時心跳「**不一定**」上升，反而常見心搏過緩。\n- **Taylor approach**：由 PSIS 內側、下方各 1 公分朝 L5-S1 進針的旁正中入路。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "最常被設計成正確答案的是「**臥床時間長短、下床早晚不影響 PDPH 發生率**」——113 Q49 與 93 Q66 幾乎逐字重複這一句。\n體表解剖標記題的 108 Q12、103 Q3、101 Q37 三年題幹與選項幾乎一字不差，答案永遠是「肩胛骨下緣連線＝T10」錯。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "93 Q42 把每日 aspirin 視為脊椎麻醉禁忌，卻把未矯正的出血性休克與全身性感染當成可行，與現行判準完全相反；94 Q52 說一歲以下嬰兒脊髓止於 L4，現行多寫 L3；99 Q49、99 Q50 的官方答案在今日已站不住腳。這幾題請照當年官方答案作答，臨床觀念另記。"
+        }
+      ],
+      "question_refs": [
+        "113_written_Q49",
+        "110_written_Q87",
+        "109_written_Q44",
+        "109_written_Q50",
+        "108_written_Q12",
+        "106_written_Q97",
+        "103_written_Q3",
+        "101_written_Q37",
+        "101_written_Q77",
+        "99_written_Q49",
+        "94_written_Q52",
+        "93_written_Q42"
+      ]
+    },
+    {
+      "subtopic": "peripheral_block",
+      "title": "周邊神經阻斷術",
+      "exam_focus": "interscalene block 一個術式就吃掉將近三分之一的題目（114、113、111、109、108、107、106、99、93 年都出現過）。其次是超音波影像判讀，準備方向是記各入路的地標肌肉或骨頭，而不是死背神經位置。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "Interscalene block 的四個必考點",
+          "content": "1. **阻斷層次**在 superior 與 middle trunk（C5–C7）；inferior trunk（C8–T1）常被遺漏而出現 **ulnar sparing**，所以適合肩部與上臂近端、不適合前臂與手部。\n2. **同側 phrenic nerve 麻痺**：傳統劑量下發生率接近百分之百；肺功能不佳、對側肺切除或雙側手術屬禁忌。\n3. 清醒坐姿肩部手術可能因 **Bezold-Jarisch reflex** 出現嚴重低血壓與心搏過緩。\n4. **傳統穿刺點**在環狀軟骨（約 C6）高度、胸鎖乳突肌「**後緣**」外側的前中斜角肌間溝。"
+        },
+        {
+          "type": "table",
+          "heading": "超音波地標判讀",
+          "columns": ["影像地標", "對應入路或構造", "題號"],
+          "rows": [
+            ["fascia lata 與 fascia iliaca 的層次", "femoral nerve 位於 **fascia iliaca 深部、iliopsoas 表面**，不是介於 fascia lata 與 fascia iliaca 之間", "109 Q97、101 Q76"],
+            ["sartorius", "adductor canal 的頂蓋", "109 Q98"],
+            ["omohyoid", "phrenic-sparing shoulder block", "109 Q99"],
+            ["胸大肌／胸小肌", "infraclavicular", "103 Q10"],
+            ["腋窩短軸中動脈的深面", "radial nerve", "102 Q23"],
+            ["腹股溝由外而內", "**NAV**", "—"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "下肢的固定組合",
+          "content": "反覆出現的組合是 **popliteal（sciatic）合併 saphenous 或 adductor canal block**，涵蓋膝下與足踝手術；足內側由 saphenous 支配，需另外追加。saphenous 是**純感覺神經**、阻斷後不影響股四頭肌，這是它被選為術後止痛的理由（107 Q97、108 Q69、112 Q68、109 Q52）。"
+        },
+        {
+          "type": "table",
+          "heading": "下肢神經速記",
+          "columns": ["項目", "要記的內容"],
+          "rows": [
+            ["sciatic nerve", "由 L4–S3 ventral rami 組成"],
+            ["lumbar plexus", "T12–L4"],
+            ["three-in-one block", "obturator nerve 最難阻斷"],
+            ["ankle block", "五條神經中只有 **deep peroneal** 屬深層"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Axillary block",
+              "b": "Supraclavicular block",
+              "note": "axillary 最容易遺漏 **musculocutaneous**（已離開鞘進入 coracobrachialis）；supraclavicular 反而涵蓋得到，但有 **0.5–6% 氣胸風險**（104 Q88，該數字為盲觸年代數據，超音波導引後已大幅下降）。"
+            },
+            {
+              "a": "Fascia lata",
+              "b": "Fascia iliaca",
+              "note": "femoral nerve 位於 fascia iliaca **深部**、iliopsoas 表面，而不是介於兩層筋膜之間——這是 101 Q76 的主要誘答。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 109 Q6 與 107 Q95 是**逐字重複的同一題**。\n- interscalene 的選項寫成「middle and inferior trunks」或「上中下幹較完全阻斷」**一定是錯的**。\n- 108 Q55 把 phrenic 麻痺敘述中的「some patients」判為錯誤，就是在挑「幾乎必然」這一點。\n- 左手 CRPS 選 **stellate ganglion block** 這一題在 108、107、104 年三度原封不動出現，看到就直接作答。"
+        }
+      ],
+      "question_refs": [
+        "112_written_Q68",
+        "109_written_Q6",
+        "109_written_Q97",
+        "109_written_Q99",
+        "108_written_Q55",
+        "108_written_Q69",
+        "107_written_Q95",
+        "107_written_Q97",
+        "104_written_Q88",
+        "103_written_Q10",
+        "102_written_Q23",
+        "101_written_Q76"
+      ]
+    },
+    {
+      "subtopic": "block_safety",
+      "title": "阻斷通則、併發症與抗凝血",
+      "exam_focus": "題數最少但最好拿分，考點只有兩大塊：ASRA 抗血栓藥的停藥／給藥時機（幾乎是數字背誦），以及神經定位與神經傷害的極限。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "兩大塊主軸",
+          "content": "抗凝血部分幾乎是 **ASRA 建議的數字背誦**，112 Q48、111 Q62、108 Q51、106 Q93、104 Q85、103 Q99 反覆在同一組數字上打轉。第二塊是**神經定位**：超音波與神經刺激器各自做得到與做不到什麼。"
+        },
+        {
+          "type": "table",
+          "heading": "ASRA 抗血栓藥時機",
+          "columns": ["藥物／情境", "時機", "備註"],
+          "rows": [
+            ["靜脈 unfractionated heparin（術中全身肝素化）", "椎管內針或導管置放後**至少間隔 1 小時**再給", "112 與 111 年連續兩年當正解，最常被設計成正確答案"],
+            ["clopidogrel", "停 **5–7 天**", "寫 24 小時或 72 小時都是錯的"],
+            ["ticlopidine", "停 10–14 天", "—"],
+            ["dipyridamole", "約 24 小時", "—"],
+            ["GP IIb/IIIa：tirofiban、eptifibatide", "8 小時", "—"],
+            ["GP IIb/IIIa：abciximab", "24–48 小時", "—"],
+            ["LMWH 預防劑量", "12 小時", "導管拔除後 **2 小時**才給第一劑"],
+            ["LMWH 治療劑量", "24 小時", "同上"],
+            ["DOAC（apixaban、rivaroxaban）", "約 72 小時", "—"],
+            ["warfarin", "術前 4–5 天停藥", "拔管前 INR 需回到 **1.5 以下**（「INR 為 2 即可拔管」是 108 Q51 的錯誤選項）"],
+            ["使用 heparin 數日以上", "拔管前要驗血小板", "排除 HIT"],
+            ["單獨低劑量 aspirin", "**不是禁忌**", "這點年年一致"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "超音波下的神經影像",
+          "content": "超音波下神經可呈**圓形、卵圓形或三角形**，蜂巢狀只見於較遠端的神經；使用的是 **B-mode**。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "神經刺激器 < 0.5 mA 仍有反應",
+              "b": "降到 < 0.2 mA 仍有運動反應",
+              "note": "前者代表針尖已極近或在神經內；後者**不是理想位置**，而是必須立即退針的訊號——114 Q46 就把「0.2 mA 以下仍有運動反應是理想位置」列為錯誤。"
+            },
+            {
+              "a": "靜脈",
+              "b": "動脈",
+              "note": "超音波下靜脈可壓扁，動脈不易壓扁（103 Q1）。"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "其他各考過一次的點",
+          "content": "- ropivacaine 周邊阻斷總量約 **3 mg/kg**。\n- 區域麻醉**不會**增加創傷手術出血量。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "超音波「可以明顯區分 interfascicular 與 intrafascicular 注射」是本子題**最愛用的錯誤敘述**，112 Q46 與 110 Q89 連續兩年拿它當答案：目前解析度做不到，只能靠注射壓力上升、神經腫脹與病人異感等**間接徵象**判斷。\n另有一組跨子題重複題：「只要小心執行 interscalene block 即可避免橫膈麻痺」在 102 Q94 與 101 Q4 一字不差地出現兩次，答案都是「**錯**」，因為那是解剖位置決定的必然。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "93 Q64 以「病人沒簽同意書」為絕對禁忌，現行列的是**病人拒絕、穿刺部位感染、局麻藥真性過敏**；94 Q53 說 2% lidocaine 不建議用於周邊阻斷、接指手術禁用 epinephrine，都是當年觀點，臨床上已被挑戰。作答舊題仍以當年官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "114_written_Q46",
+        "112_written_Q46",
+        "112_written_Q48",
+        "111_written_Q62",
+        "110_written_Q89",
+        "108_written_Q51",
+        "106_written_Q93",
+        "104_written_Q85",
+        "103_written_Q1",
+        "102_written_Q94",
+        "94_written_Q53",
+        "93_written_Q64"
+      ]
+    }
+  ]
+}

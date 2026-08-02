@@ -1,0 +1,266 @@
+{
+  "code": "B4",
+  "title": "醫品病安與氣道處理",
+  "intro": "B4 共三個子題、53 題，一半是氣道評估與器材操作，一半是醫療品質、病人安全與專業執業。題型幾乎清一色是「下列何者為非」的四到五選一，錯的那個選項通常只是把一個方向、一個數量級或一個因果關係寫反，沒有計算，純粹考有沒有讀過那個具體說法。時間有限就先讀氣道評估裡的清醒插管那一組、器材節的 LMA，以及品質病安節裡幾乎年年出現、高度重複的職業安全數字。",
+  "sections": [
+    {
+      "subtopic": "airway_assessment_difficult",
+      "title": "氣道評估與困難氣道處置",
+      "exam_focus": "集中在三件事：術前用哪些理學檢查預測困難插管與困難面罩通氣、預期困難氣道時清醒插管怎麼做、誘導後插不上時該照什麼順序退場。年份橫跨 93 到 114 年，題型幾乎都是「下列何者為非」，真正在考的是能不能從四個看似都對的敘述裡抓出被動過手腳的那一個。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "三條主軸",
+          "content": "整節只繞著三件事打轉，讀的時候照這三條掛：\n- **術前預測**：哪些理學檢查預測困難插管與困難面罩通氣\n- **清醒插管**：預期困難氣道時怎麼做\n- **失敗後退場**：誘導後插不上時的處置順序\n\n最該先讀熟的是清醒插管那一組。103 Q4、106 Q30、108 Q20 幾乎是同一題反覆出現，選項只換順序。"
+        },
+        {
+          "type": "table",
+          "heading": "清醒插管：反覆出現的固定選項（103 Q4／106 Q30／108 Q20）",
+          "columns": ["選項敘述", "判定", "理由"],
+          "rows": [
+            ["cocaine 兼具血管收縮與表面麻醉，是最安全的選擇", "**錯**", "有心律不整與冠狀動脈痙攣風險，稱不上最安全"],
+            ["spray as you go 可麻醉整個呼吸道", "**錯**", "只能處理咽喉與聲門下；舌根、扁桃體窩等 glossopharyngeal 支配區須另外補強"],
+            ["compromised airway 不需要外科在旁備 surgical airway", "**錯**", "必須請外科在旁備 surgical airway"],
+            ["topical anesthesia 下以 flexible fiberoptic 完成清醒插管", "**對**", "這幾年一貫的標準答案"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "預測因子的方向陷阱",
+          "columns": ["題號", "被動手腳的地方", "正確說法"],
+          "rows": [
+            ["114 Q25", "把 mandibular protrusion 的主詞對調", "正確測試是**下顎能往前推超過上顎**"],
+            ["113 Q48", "困難面罩通氣預測因子裡塞入「女性」", "年齡大於 55 歲、BMI 高、OSA、鬍鬚、無牙都算；**男性才是**，女性不是"],
+            ["93 Q55", "用 macrognathia 混淆 micrognathia", "是 **micrognathia**，不是 macrognathia"],
+            ["100 Q87", "「以上皆非」的陷阱", "micrognathia、macroglossia、morbid obesity **三者都算**，逐一挑選反而中計"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "流程決策與特殊情境",
+          "content": "**誘導後失敗的退場順序**（113 Q53 與 111 Q61 確認同一件事）：插管失敗合併面罩通氣不佳，下一步是 **supraglottic airway**；只有連它也無法通氣、確立 cannot intubate cannot oxygenate 之後，才進入 emergency invasive airway。\n\n102 Q19 與 108 Q11 是完全相同的甲狀腺個案：三次插管失敗、自主呼吸正在恢復，**最不該做的是再給長效非去極化肌鬆劑**，那會消滅唯一的退路。\n\n**創傷與感染性氣道的固定考點**：\n- 疑似 laryngeal trauma 時 cricoid pressure 屬相對禁忌\n- 疑似顱底骨折走經口、不走經鼻\n- 緊急狀況經口優於經鼻\n- Ludwig's angina 的風險在氣道而非心血管共病"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "superior laryngeal nerve block",
+              "b": "glossopharyngeal nerve block",
+              "note": "114 Q43 把 superior laryngeal nerve block 的**操作**冠上 glossopharyngeal nerve block 之名，考的是認得出張冠李戴。"
+            },
+            {
+              "a": "external laryngeal nerve",
+              "b": "黏膜感覺支",
+              "note": "93 Q71 要認出 external laryngeal nerve 是**運動支**，不管黏膜感覺。"
+            },
+            {
+              "a": "supraglottic airway",
+              "b": "emergency invasive airway",
+              "note": "插管失敗合併面罩通氣不佳先放 supraglottic airway；確立 cannot intubate cannot oxygenate 之後才進入 emergency invasive airway，順序不能跳。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 清醒插管那一組（103 Q4、106 Q30、108 Q20）幾乎是同一題反覆出現，選項只換順序，把四個判定背熟就直接得分。\n- 固定誘答是**把預測因子的方向寫反**：mandibular protrusion 主詞對調、女性寫成困難面罩通氣的預測因子、macrognathia 替換 micrognathia。\n- 100 Q87 是「以上皆非」的陷阱，三個選項其實都算，逐一挑選反而中計。\n- 神經題考的是名稱與功能對不對得上，不是操作細節。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "93 到 103 年那幾題的解析已註記為當年觀念：\n- 清醒 **videolaryngoscopy 現已與軟式氣管鏡同等可接受**\n- **cricoid pressure 在 RSI 中已被視為證據不足、可省略**\n\n作答舊題仍以當年觀念（官方答案）為準，臨床上不要照抄。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q55",
+        "93_written_Q71",
+        "100_written_Q87",
+        "102_written_Q19",
+        "103_written_Q4",
+        "106_written_Q30",
+        "108_written_Q20",
+        "111_written_Q61",
+        "113_written_Q48",
+        "113_written_Q53",
+        "114_written_Q25",
+        "114_written_Q43"
+      ]
+    },
+    {
+      "subtopic": "airway_devices_complications",
+      "title": "氣道器材、插拔管與併發症",
+      "exam_focus": "分成器材（LMA、影像喉鏡、氣管內管路徑）與併發症（喉頭痙攣、拔管、氣道傷害）兩塊。14 題裡超過一半來自 93 到 100 年，會看到不少第一代 LMA 的操作細節，讀的時候要分清楚哪些是當年題目的前提。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "兩塊分開讀",
+          "content": "一塊是**器材**：LMA、影像喉鏡、氣管內管路徑。另一塊是**併發症**：喉頭痙攣、拔管、氣道傷害。\n\nLMA 是絕對主角，拔管題近年比重上升。年代分布偏舊（14 題超過一半來自 93 到 100 年），第一代 LMA 的操作細節要當成當年題目的前提看。"
+        },
+        {
+          "type": "table",
+          "heading": "LMA 固定考點",
+          "columns": ["項目", "素材說法", "題號與陷阱"],
+          "rows": [
+            ["傳統 LMA cuff 壓", "建議不超過 **60 cmH2O**；40 到 60 cmH2O 是正確敘述", "100 Q41 直接問這個上限；112 Q45 把 40 到 60 cmH2O 列為正確敘述"],
+            ["ProSeal 口咽密封壓", "提高到約 **30 cmH2O**", "寫成「可容許超過 30 cmH2O 的正壓通氣」就被判錯"],
+            ["食道封閉", "無法可靠封閉食道，正壓偏高仍會造成 gastric distension", "93 Q54 的陷阱是「兩者皆不會引起」"],
+            ["潤滑", "只在**背面**薄塗，且潤滑不是用來防漏氣", "93 Q56：塗到面向喉部那面反而誘發嗆咳與喉痙攣"],
+            ["尺寸與置入", "成人女性 4 號、男性 5 號；sniffing position、食指沿 hard palate 滑送", "都被當成正確選項用過"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "拔管：不能為了舒服而妥協",
+          "columns": ["題號", "考點", "重點"],
+          "rows": [
+            ["113 Q85", "cuff leak test", "只是**輔助工具、不是 gold standard**，未通過也不等於絕對不能拔管；同題順帶考 TOF ratio 須大於 0.9 咽部功能才恢復"],
+            ["110 Q86", "bite block", "**oropharyngeal airway 不適合**當 bite block，咬合力會集中在門齒；應改用捲起的紗布讓臼齒承受"],
+            ["108 Q90", "肥胖合併 OSA、長時間下頜骨手術", "先給足量 opioid 再深度拔管是**明確錯誤**；此類病人要等完全清醒、肌力恢復才拔，可先置入 airway exchange catheter。拔管後 stridor 用吸入 racemic epinephrine 加靜脈 dexamethasone"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "喉頭痙攣的處理步驟",
+          "content": "100 Q3 與 108 Q9 是同一題重複，五個選項一字不差。步驟要記牢：\n- jaw thrust 加壓迫 **Larson's point**\n- 靜脈 **lidocaine** 或**鎂離子**預防\n- SpO2 持續下降時給低劑量 **succinylcholine 0.1 至 0.5 mg/kg**"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "GlideScope",
+              "b": "Airtraq／Pentax AWS",
+              "note": "GlideScope 鏡片有固定陡彎，**必須搭配專用 rigid stylet 塑形**；Airtraq 與 Pentax AWS 屬帶導引槽裝置，本來就不用 stylet（109 Q72）。"
+            },
+            {
+              "a": "急性雙側 recurrent laryngeal nerve 損傷",
+              "b": "雙側 vagus 損傷",
+              "note": "前者才會**立刻出現 stridor**；後者因聲帶落在中間位置，以**失聲與吸入**為主。"
+            },
+            {
+              "a": "經口插管",
+              "b": "經鼻插管",
+              "note": "經口插管對喉頭的傷害**並不比經鼻少**，別順著「經鼻比較傷」的直覺選。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "容易失分的是「最」字題與方向題：\n- 氣道處置**最常見的永久性傷害是 dental trauma**，不是聲帶麻痺或穿孔。\n- 100 Q3 與 108 Q9 完全重複，答案都是「**深度拔管不會降低拔管誘發的喉頭痙攣**」為非。\n- 93 Q54 的「兩者皆不會引起」是為 LMA 無法可靠封閉食道設下的誘答。\n- 潤滑劑寫成「用來防漏氣」或「塗在面向喉部那面」都錯（93 Q56）。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "- **深度拔管**在現行文獻已不再視為普遍優選。\n- 第一代 LMA 的**胃脹疑慮**已被具引流孔的第二代裝置改善。\n- 94 Q26 的**小兒無氣囊管**觀念也已被低壓高容氣囊管取代。\n\n這些題依當年觀念作答即可，官方答案仍是準則。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q54",
+        "93_written_Q56",
+        "94_written_Q26",
+        "100_written_Q3",
+        "100_written_Q41",
+        "108_written_Q9",
+        "108_written_Q90",
+        "109_written_Q72",
+        "110_written_Q86",
+        "112_written_Q45",
+        "113_written_Q85"
+      ]
+    },
+    {
+      "subtopic": "quality_safety_professional",
+      "title": "醫療品質、病人安全與專業執業",
+      "exam_focus": "B4 裡最發散的一塊，22 題橫跨麻醉學趨勢、風險統計、CRM、職業安全、醫學倫理、感染防護與文獻判讀。共同點是幾乎全部用「下列何者為非」的四到五選一，錯誤選項通常只是把一個方向、一個數量級或一個因果關係寫反。沒有計算，純粹考有沒有讀過那個具體說法。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "趨勢與照護模式",
+          "content": "近三年的固定班底。114 Q9、113 Q1、112 Q1 都在問**現代麻醉的挑戰**；114 Q16 專考 **ERAS 與 PSH 的分工**。這一組全是敘述對錯，把下表的判定背熟即可。"
+        },
+        {
+          "type": "table",
+          "heading": "趨勢與照護模式的敘述判定",
+          "columns": ["敘述", "判定"],
+          "rows": [
+            ["族群老化、肥胖、鴉片類用量上升是現代麻醉的挑戰", "**對**"],
+            ["產科需求逐年減少", "**錯**"],
+            ["醫療費用上升與品質提升同步", "**錯**：兩者並不同步"],
+            ["麻醉人力短缺已趨緩解", "**錯**：持續惡化"],
+            ["品質指標正從術中短期結果轉向以病人為中心的長期結果", "**對**"],
+            ["PSH 的核心是縮短手術時間與減少麻醉藥用量", "**錯**：核心是從決定手術到術後復健的**全程整合**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "風險統計的固定考點",
+          "content": "- 術中**心跳停止小兒高於成人**\n- **POCA 登錄**顯示小兒心跳停止最常見原因是**藥物與心血管事件**\n- **ASA physical status** 的評分者間一致性只屬**中等**\n- **住院死亡率單獨不足以評估品質**（106 Q24）"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "107 Q31：regional anesthesia 取代全身麻醉，產科母體死亡率下降",
+              "b": "114 Q24：區域麻醉大幅減少麻醉相關併發症",
+              "note": "兩題**並不衝突**。前者講的是**死亡率成因**，後者說這種講法是**過度推論**，因為 LAST、high spinal、硬脊膜外血腫等仍在。作答要看清問的是哪一層。"
+            },
+            {
+              "a": "針扎後 HIV 感染機率約 0.3%",
+              "b": "3%",
+              "note": "3% 是 **HCV** 的量級，題目常拿來對調。"
+            },
+            {
+              "a": "拒絕輸血的權利",
+              "b": "宗教身分",
+              "note": "權利來自**病人自主**，不是宗教身分。"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "職業安全要記的具體數字",
+          "columns": ["項目", "素材數值"],
+          "rows": [
+            ["女性麻醉工作人員自然流產", "relative risk 約 **1.48**"],
+            ["職業輻射年劑量上限", "約 **5 rem**，不是 50 rem"],
+            ["針扎後 HIV 感染機率", "約 **0.3%**（3% 是 HCV 的量級）"],
+            ["NIOSH 對揮發性麻醉藥建議暴露", "小於 **2 ppm**"],
+            ["與輻射源距離", "至少 **6 英尺**，不是 2 英尺"],
+            ["麻醉科醫師物質濫用風險", "**高於**多數其他專科，不是跟其他科一樣"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "倫理與文獻判讀",
+          "content": "集中在 109 與 112 年，答錯多半是沒讀過定義：\n- **therapeutic privilege** 不能只因怕病人有壓力就省略風險討論\n- **拒絕輸血的權利**來自病人自主，而非宗教身分\n- **產程中的疼痛不等於喪失 capacity**，不能援引 **Ulysses directive** 改用預立指令\n- **adverse event** 不論是否與產品有因果關係都要記錄通報\n- **evidence pyramid** 在掠奪性期刊興起後已不足以反映真正的臨床影響力"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- **職業安全幾乎年年出現且高度重複**，113 Q63 與 112 Q76 有兩個選項一字不差，背過就是送分。\n- 固定誘答是**把數量級寫反**：50 rem 換掉 5 rem、3% 換掉 0.3%、2 英尺換掉 6 英尺。\n- 趨勢題的錯誤選項固定是**把方向寫反**：產科需求「減少」、人力短缺「緩解」、費用與品質「同步」。\n- 107 Q31 與 114 Q24 看似打架，實際問的是不同層次，別用其中一題去推翻另一題。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "107 Q32、107 Q33 的解析已註記為當年觀念：\n- **手術當日停胰島素** → 現行已改為當日仍給**減量 basal insulin**\n- **戒菸需 8 週以上** → 現行約 **4 週**即見效益\n\n作答依當年觀念（官方答案），臨床照現行標準。"
+        }
+      ],
+      "question_refs": [
+        "106_written_Q24",
+        "107_written_Q31",
+        "107_written_Q32",
+        "107_written_Q33",
+        "112_written_Q1",
+        "112_written_Q76",
+        "113_written_Q1",
+        "113_written_Q63",
+        "114_written_Q9",
+        "114_written_Q16",
+        "114_written_Q24"
+      ]
+    }
+  ]
+}

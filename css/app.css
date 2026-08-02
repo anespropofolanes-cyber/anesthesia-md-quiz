@@ -245,7 +245,8 @@ p.lede { color: var(--ink-2); margin: 0 0 20px; font-size: .93rem; }
 }
 .blk { margin-bottom: 15px; }
 .blk .bh { font-size: .78rem; font-weight: 700; letter-spacing: .08em; color: var(--ink-3); margin-bottom: 6px; }
-.blk p { margin: 0; line-height: 1.85; }
+/* 教材內文用換行分條列，rich() 不轉 <br>，靠 pre-line 保住 */
+.blk p { margin: 0; line-height: 1.85; white-space: pre-line; }
 /* 考古題陷阱獨立標紅——這是整份教材最該被看見的部分 */
 .blk.pitfall {
   background: var(--no-bg); border-left: 3px solid var(--no-line);
@@ -256,7 +257,7 @@ p.lede { color: var(--ink-2); margin: 0 0 20px; font-size: .93rem; }
 .tblwrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: var(--radius-sm); border: 1px solid var(--line); }
 table.ct { width: 100%; border-collapse: collapse; font-size: .88rem; min-width: 380px; }
 table.ct th, table.ct td { padding: 8px 11px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
-table.ct th { background: var(--brand); color: var(--brand-ink); font-weight: 700; white-space: nowrap; }
+table.ct th { background: var(--sky); color: var(--sky-ink); font-weight: 700; white-space: nowrap; }
 table.ct tr:last-child td { border-bottom: none; }
 
 .cmp { display: flex; flex-direction: column; gap: 8px; }

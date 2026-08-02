@@ -1,0 +1,728 @@
+{
+  "code": "B2",
+  "title": "麻醉藥理",
+  "intro": "B2 是題數最多的分類之一，八個子題合計兩百多題，年份從 93 一路橫跨到 114。這一類最鮮明的命題特徵是「重複」——同一組選項常隔三、四年一字不差地再出現，把重複題組吃透等於拿下大半。優先順序建議先讀肌肉鬆弛劑與拮抗（題數最多但考點集中得驚人）與吸入性麻醉藥（血氣分配係數與代謝率年年變形），再讀靜脈麻醉藥與鴉片類；藥物動力學與 TCI 近年（110 到 114）出題密度明顯升高，也值得投資。",
+  "sections": [
+    {
+      "subtopic": "inhalational",
+      "title": "吸入性麻醉藥",
+      "exam_focus": "四十多題只繞著四條主軸打轉：溶解度與攝取分佈、各藥代謝與毒性、對心血管與呼吸道的作用，以及近年才加進來的環境議題。MAC 本身反而考得少，真正年年變形出現的是 blood/gas partition coefficient。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "四條主軸",
+          "content": "這個子題從 93 年一路考到 114 年，四十多題其實只繞著四條主軸打轉：\n- **溶解度與攝取分佈**\n- **各藥的代謝與毒性**\n- **對心血管與呼吸道的作用**\n- **近年才加進來的環境議題**\n\nMAC 本身反而考得少：只有 93 年考過「MAC 就是藥理學上的 **ED50**」，以及 107 年用 methoxyflurane 考「血氣分配係數最高、MAC 最低」。"
+        },
+        {
+          "type": "table",
+          "heading": "血氣分配係數（由低到高，請把順序背熟）",
+          "columns": ["藥物", "blood/gas partition coefficient"],
+          "rows": [
+            ["Desflurane", "約 **0.42**"],
+            ["Nitrous oxide", "約 **0.46**"],
+            ["Sevoflurane", "約 **0.65**"],
+            ["Isoflurane", "約 **1.4**"],
+            ["Enflurane", "約 **1.8**"],
+            ["Halothane", "約 **2.4**"],
+            ["Methoxyflurane", "約 **12**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "同一件事的三種問法",
+          "content": "溶解度數值與誘導速度是最高頻的考點，但題目每年換包裝：\n- **106 年**直接問血氣分配係數最低者。\n- **104 年**換成「固定蒸發器輸出、6 L/min 新鮮氣流下十分鐘 **Palv/Pdel 最高**者」。\n- **103 年**則叫你比 sevoflurane 與 desflurane。\n\n本質都是同一件事。"
+        },
+        {
+          "type": "table",
+          "heading": "代謝率",
+          "columns": ["藥物", "代謝率"],
+          "rows": [
+            ["Desflurane", "約 **0.02%**"],
+            ["Isoflurane", "約 **0.2%**"],
+            ["Sevoflurane", "約 **5%**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "吸收劑產生的兩種毒物",
+          "content": "這兩件事要分清楚：\n- **compound A** 來自 sevoflurane 與**強鹼**作用，不是強酸。\n- **一氧化碳**來自「**乾燥**」的吸收劑與含 **difluoromethyl** 結構的藥，順序是 **desflurane 大於 enflurane 大於 isoflurane**，sevoflurane 幾乎不產生。"
+        },
+        {
+          "type": "text",
+          "heading": "心血管作用",
+          "content": "這是重複最嚴重的地方。同組固定會搭配考：\n- 粒線體 **KATP channel** 是 preconditioning 的關鍵。\n- **desflurane 只有輕度冠脈擴張**，不會造成 coronary steal。\n- **N2O 有負性收縮**但臨床不明顯。\n\n103 年與 99 年那組複選題也是同一題重複。"
+        },
+        {
+          "type": "text",
+          "heading": "呼吸道與環境",
+          "content": "呼吸道部分反覆考 **N2O 對呼吸驅動的抑制相對輕微**；**desflurane 刺激性強**，不適合小兒誘導；**抑制 hypoxic pulmonary vasoconstriction 是壞事**，不是保護。\n\n環境題只出現一次但好記：**desflurane 不含氯**故幾乎不破壞臭氧層，但**溫室效應遠強於** isoflurane 與 sevoflurane。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "增加初期 uptake",
+              "b": "加快誘導",
+              "note": "113 年的好陷阱：高血中溶解度「增加初期 uptake」是**對的**，「加快誘導」是**錯的**。兩句看似矛盾，實際上正是同一個機轉。"
+            },
+            {
+              "a": "compound A",
+              "b": "一氧化碳",
+              "note": "compound A 來自 sevoflurane 與**強鹼**作用；一氧化碳來自**乾燥**的吸收劑與含 difluoromethyl 結構的藥（desflurane 大於 enflurane 大於 isoflurane，sevoflurane 幾乎不產生）。"
+            },
+            {
+              "a": "破壞臭氧層",
+              "b": "溫室效應",
+              "note": "desflurane **不含氯**故幾乎不破壞臭氧層，但溫室效應**遠強於** isoflurane 與 sevoflurane。兩個指標不能混為一談。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 溶解度題最典型的誘答是**把 N2O 當成最低**，它其實僅次於 desflurane。\n- 代謝率題把 **desflurane 寫成 0.2%**（那是 isoflurane 的數字）就是答案，106 年與 108 年出過一字不差的同一題；93 年則反過來把 **sevoflurane 寫成千分之五**。\n- 113 年把吸收劑的**水分方向寫反**來誘答。\n- 「CABG 病人用 sevoflurane 比 propofol 術後 **troponin I 與 CK-MB 明顯較高**」這個選項在 **102、107、109** 三年一模一樣地出現，答案都是它最不適當，因為方向剛好相反。\n- 「所有吸入性麻醉藥都會明顯抑制呼吸驅動」在 **112 與 114 年都是錯的**。\n- 支氣管擴張複選題在 101 與 103 年幾乎相同，固定誘答是「**desflurane 或 xenon 降低氣道阻力最好**」與「**低體溫可加強擴張**」，兩個都錯。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "94 年那一整組舊題要特別提醒：心肌抑制的分子機轉至今未變，但 **isoflurane 造成 coronary steal**、**glyburide 能增強 isoflurane 心肌保護**的說法都已被推翻，現行認為 **KATP 阻斷劑是消除保護**。93 年把 **1.3 MAC 當 ED75**，現行教科書已改為約當 **ED95**。近年大型隨機試驗也未證實吸入麻醉能降低心臟手術死亡率，preconditioning 的臨床價值大幅下修。\n\n作答舊題仍以**官方答案為準**，但腦中的觀念要照現行版本更新。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q39",
+        "94_written_Q29",
+        "101_written_Q33",
+        "102_written_Q63",
+        "103_written_Q64",
+        "104_written_Q12",
+        "106_written_Q12",
+        "107_written_Q18",
+        "108_written_Q17",
+        "112_written_Q14",
+        "113_written_Q14",
+        "114_written_Q1"
+      ]
+    },
+    {
+      "subtopic": "iv_anesthetics",
+      "title": "靜脈麻醉藥",
+      "exam_focus": "二十九題幾乎全部集中在 propofol、etomidate、ketamine、barbiturates、benzodiazepines 五個藥，而且考的多半不是機轉，而是「這個藥的特點是什麼、副作用是什麼、跟別的藥比起來如何」。最該先背的是 propofol infusion syndrome。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "準備方向",
+          "content": "這一子題二十九題，幾乎全部集中在五個藥：**propofol、etomidate、ketamine、barbiturates、benzodiazepines**。考的多半不是機轉，而是「這個藥的特點是什麼、副作用是什麼、跟別的藥比起來如何」——把五個藥的**個性差異**記牢就是準備方向。"
+        },
+        {
+          "type": "text",
+          "heading": "propofol infusion syndrome（最該先背）",
+          "content": "**106、108、109** 三年出過選項幾乎一字不差的同一題。核心診斷要素包括：\n- 難治性**心搏過緩**甚至心搏停止\n- **代謝性酸中毒**（base deficit 大於 10 mmol/L）\n- **rhabdomyolysis**\n- **肝腫大**與**脂血症**\n\n危險因子是**敗血症、嚴重頭部外傷、碳水化合物攝取不足**，以及**併用 catecholamine 或類固醇**。劑量門檻反覆出現的是**超過 4 至 5 mg/kg/hr 且超過 48 小時**。"
+        },
+        {
+          "type": "text",
+          "heading": "propofol 本身的固定考點",
+          "content": "- 低血壓主因是 **SVR 下降**，心跳多半不變。\n- 幾乎不引起臨床上明顯的 **histamine 釋放**（111 與 114 年都被當成錯誤答案）。\n- 總清除率**超過肝血流**、有明顯 **extrahepatic clearance**，所以輕中度肝病不需大幅調整。\n- **次催眠劑量即有止吐效果**。\n- 誘導劑量的三個決定因素是**年齡、lean body mass、central blood volume**（110 與 111 年重複考過）。"
+        },
+        {
+          "type": "table",
+          "heading": "其餘四類藥的個性",
+          "columns": ["藥物", "要背的特點"],
+          "rows": [
+            ["etomidate", "只有兩個方向——優點是**血行動力學穩定**、降低腦血流與腦壓；缺點是 **myoclonus 與打嗝**（發生率被寫成 0 至 70%）、**PONV 偏高**、**無止痛作用**、抑制 **11beta-hydroxylase** 造成腎上腺皮質抑制"],
+            ["ketamine", "「和別人不一樣」的那一個——收縮壓與舒張壓**同時上升**、**CBF 與 CMR 上升**（其餘靜脈麻醉藥都下降，100 與 102 年都用這點命題）、**呼吸抑制最輕**、**支氣管擴張**、**唾液分泌增加**、**血漿蛋白結合率最低**"],
+            ["benzodiazepines", "**midazolam 確實有預防 PONV 的效果**（111 年把「沒有預防效果」當錯誤選項、113 年正面問 **0.05 至 0.075 mg/kg** 可用於預防）；**alpha1** 次單位管鎮靜與失憶、**alpha2/alpha3** 管抗焦慮與肌肉鬆弛"],
+            ["remimazolam／flumazenil", "remimazolam 靠**組織與血漿 carboxylesterase** 而非肝臟代謝；flumazenil 是**競爭性拮抗**且半衰期短於多數 BZD，要防 **resedation**"]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "hypokalemia",
+              "b": "hyperkalemia",
+              "note": "PRIS 題的答案永遠是 **hypokalemia 為非**——橫紋肌溶解會釋出鉀，臨床看到的是 **hyperkalemia**。"
+            },
+            {
+              "a": "心搏過緩",
+              "b": "心搏過速",
+              "note": "PRIS 的前驅心律變化是**心搏過緩**，不是過速（100 年的誘答）。"
+            },
+            {
+              "a": "propofol 止吐",
+              "b": "propofol 止咳",
+              "note": "103 年與 101 年那組比較題（barbiturate 腦保護、BZD 失憶、ketamine 支氣管擴張、propofol **止吐**）四項全對就選全選；101 年把第四項偷偷改成「**止咳**」就變成三項對。"
+            },
+            {
+              "a": "ketamine 的 CBF/CMR",
+              "b": "其餘靜脈麻醉藥",
+              "note": "ketamine 是**上升**，其餘靜脈麻醉藥都**下降**，100 與 102 年都用這點命題。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- PRIS 的危險因子是敗血症、嚴重頭部外傷、碳水化合物攝取不足與併用 catecholamine 或類固醇，**不是高血糖**。\n- 103 年用 **2 mg/kg/hr** 說「發生機率很高」當**誇大敘述**（門檻是超過 4 至 5 mg/kg/hr 且超過 48 小時）。\n- 112 年的兒童陷阱：誘導量要加大是對的，但「**代謝速率與成人無異、維持期不需加量**」是錯的，兒童維持輸注速率同樣要調高。\n- ketamine 寫成「**減少 salivation**」是錯的。\n- **一字之差的字面替換**（止吐改止咳）是這一子題最常見的誘答手法。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "**barbiturates 的腦保護**在現行版本已被指出缺乏改善整體神經學預後的證據，thiopental 也多已停產；「**顱內壓升高就絕對禁用 ketamine**」的說法已不再被主流教科書採用；**droperidol 的 QT 黑框警示**近年也被重新檢討。這些舊題作答仍以**官方答案為準**。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q15",
+        "100_written_Q50",
+        "101_written_Q16",
+        "103_written_Q63",
+        "106_written_Q17",
+        "108_written_Q13",
+        "109_written_Q2",
+        "110_written_Q93",
+        "111_written_Q9",
+        "112_written_Q22",
+        "113_written_Q19",
+        "114_written_Q3"
+      ]
+    },
+    {
+      "subtopic": "nmba",
+      "title": "肌肉鬆弛劑與拮抗",
+      "exam_focus": "四十二題，是 B2 裡題數最多的子題，但考點集中得驚人，投報率很高。真正反覆出現的只有四塊：受體上下調、sugammadex 與 neostigmine 的劑量對應阻斷深度、phase II block，以及各藥的代謝排除途徑與交互作用。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "四塊考點",
+          "content": "四十二題，是 B2 裡題數最多的子題，但考點集中得驚人，準備起來**投報率很高**。真正反覆出現的只有四塊：\n1. 受體上下調\n2. sugammadex 與 neostigmine 的劑量對應阻斷深度\n3. phase II block\n4. 各藥的代謝排除途徑與交互作用"
+        },
+        {
+          "type": "table",
+          "heading": "acetylcholine receptor 上下調",
+          "columns": ["方向", "原因", "臨床意義"],
+          "rows": [
+            ["**Upregulation**（上調）", "燒傷、脊髓損傷、Guillain-Barré、multiple sclerosis、中風癱瘓肢、長期臥床", "給 succinylcholine 會**致命性高血鉀**"],
+            ["**Downregulation**（下調）", "**myasthenia gravis**（自體抗體破壞受體）；organophosphate 與 anticholinesterase 中毒（突觸內乙醯膽鹼長期過量，113 年多加的轉折）", "myasthenia gravis 的臨床表現是對**非去極化肌鬆劑異常敏感**、對 **succinylcholine 相對抗性**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "一句話原則",
+          "content": "**缺乏神經活化訊號則上調，長期過度活化則下調。**\n\n111、112、113、114 連續四年都問「下列何者**不會**造成 acetylcholine receptor upregulation」，答案永遠是 **myasthenia gravis**。"
+        },
+        {
+          "type": "table",
+          "heading": "sugammadex 劑量對應阻斷深度（要背死）",
+          "columns": ["阻斷深度", "監測所見", "sugammadex 劑量"],
+          "rows": [
+            ["中度阻斷", "TOF 出現**兩個反應**", "**2 mg/kg**"],
+            ["Deep block", "TOF 為 **0**，PTC 有 **1 至 2**", "**4 mg/kg**"],
+            ["Intense block", "**PTC 也是 0**；或剛給完插管劑量要立即逆轉", "**16 mg/kg**"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "neostigmine 劑量與天花板效應",
+          "columns": ["阻斷深度／監測", "neostigmine 處置"],
+          "rows": [
+            ["T4/T1 **小於 0.4**", "**0.05 mg/kg**"],
+            ["T4/T1 **0.4 到 0.9**", "**0.02 mg/kg**"],
+            ["TOF count **0 至 1**（阻斷太深）", "**給了也沒用**，應等 TOF 出現 2 至 3 個 twitch，或直接改用 sugammadex"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "phase II block",
+          "content": "在 101、103、106 年重複三次，選項幾乎相同。要記的是：\n- 只發生在**去極化肌鬆劑重複或過量給予**後。\n- TOF **反而測得到 fade** 與 **post-tetanic potentiation**。\n- 給 cholinesterase inhibitor 效果**不可預測**，甚至可能加深阻斷。\n- **吸入麻醉藥會促成它提早出現**。"
+        },
+        {
+          "type": "table",
+          "heading": "代謝與排除途徑",
+          "columns": ["藥物", "代謝與排除"],
+          "rows": [
+            ["rocuronium", "幾乎**不代謝**，七成以上經**肝膽**排除"],
+            ["pancuronium", "靠**腎**"],
+            ["vecuronium", "**肝為主**，但約**四分之一**經腎"],
+            ["cisatracurium", "約 **77%** 靠 **Hofmann elimination**，**不依賴腎功能**"],
+            ["atracurium／cisatracurium", "代謝物是 **laudanosine**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "交互作用與 succinylcholine 細節",
+          "content": "**強化阻斷**：揮發性麻醉藥的強化順序是 **desflurane 大於 sevoflurane 大於 isoflurane**；**鎂離子、局部麻醉藥、aminoglycoside** 都強化阻斷。唯獨**長期使用抗癲癇藥是產生「抗性」**（100 年那題的關鍵誘答）。\n\n**組織胺釋放**以 **tubocurarine 最強**，**cisatracurium 幾乎沒有**。\n\n**succinylcholine** 另要記：**dibucaine number 反映酵素的「質」**而非血中濃度；心搏過緩作用在 **SA node** 不是 AV node；靜脈注射後**只約 10%** 到達接合處。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 102、104、106 年出過**三次一模一樣的圖題**：rocuronium 1.2 mg/kg 後三分鐘給藥、TOF 迅速回到 100%，答案都是 **sugammadex 16 mg/kg**。\n- 111 與 112 年把「**TOF 0、PTC 0 給 4 mg/kg**」寫成錯誤選項。\n- 肥胖病人 sugammadex 要用「**實際體重**」計算，寫成理想體重或淨體重就是錯（110、111、112 年都考過）。\n- phase II block 固定的離子誘答是**把方向寫反**——去極化是**鈉內流、鉀外流**。\n- 114 年把 **laudanosine 安在 rocuronium 頭上**就是答案。\n- 103 與 112 年都把 **sevoflurane 排到 desflurane 前面**當錯誤選項。\n- 另外 109 年那題 sugammadex 已公告**送分**、112 年那題 **B 與 D 皆給分**，練到時不必鑽牛角尖。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "跨年觀念變動不多，但可留意：**succinylcholine 在神經肌肉疾病幾乎已被 rocuronium 加 sugammadex 取代**；拔管標準也已明確定為**定量監測 TOF ratio 大於等於 0.9**。作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "100_written_Q36",
+        "101_written_Q40",
+        "102_written_Q70",
+        "103_written_Q60",
+        "104_written_Q18",
+        "106_written_Q16",
+        "109_written_Q66",
+        "110_written_Q98",
+        "111_written_Q16",
+        "112_written_Q18",
+        "113_written_Q24",
+        "114_written_Q19"
+      ]
+    },
+    {
+      "subtopic": "opioids_analgesics",
+      "title": "鴉片類與止痛藥物",
+      "exam_focus": "二十八題，主軸有三：鴉片類的藥物動力學比較、副作用與其機轉、remifentanil 的特殊性，另外附帶非鴉片止痛藥與 IV-PCA。這一子題「同一題組跨年重複」的程度非常高，把重複的那幾組吃透等於拿下一半。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "三條主軸",
+          "content": "二十八題，主軸有三：**鴉片類的藥物動力學比較**、**副作用與其機轉**、**remifentanil 的特殊性**，另外附帶**非鴉片止痛藥與 IV-PCA**。\n\n這一子題的特色是「**同一題組跨年重複**」的程度非常高，把重複的那幾組吃透，等於拿下一半。"
+        },
+        {
+          "type": "table",
+          "heading": "藥動比較（100、102、106、107 年至少出現五次）",
+          "columns": ["藥物", "藥動重點"],
+          "rows": [
+            ["morphine", "血漿蛋白結合率**低**（約**二到四成**）；**腎臟在肝外代謝扮演重要角色**（答案常是這一項）；morphine-6-glucuronide **完全靠腎排除**，腎衰竭病人最容易蓄積"],
+            ["meperidine", "蛋白結合率約**七成**，明顯高於 morphine；**normeperidine 的半衰期遠長於 meperidine**，腎功能不佳時蓄積會造成**肌抽動與癲癇**"],
+            ["alfentanil", "蛋白結合率**高於 fentanyl**，這正是它**非離子化游離比例高、起效極快**的原因（pKa 約 **6.5**）"],
+            ["fentanyl", "主要由 **CYP3A4** 進行 **oxidative N-dealkylation** 生成 **norfentanyl**"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "峰值效應時間排序（113 與 114 連續兩年一字不差）",
+          "columns": ["峰值效應時間", "藥物"],
+          "rows": [
+            ["最長", "**sufentanil**"],
+            ["次之", "**fentanyl**"],
+            ["再次", "**alfentanil**"],
+            ["最短", "**remifentanil**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "副作用與其機轉",
+          "content": "- **搔癢**是**中樞 mu 受體**機轉，與組織胺釋放**無必然關係**；**臉部最常見**。naloxone 有效但會抵消止痛，**nalbuphine 才是實用選擇**（101 與 111 年都考過）。\n- **Opioid-induced rigidity**：**聲門與聲門上閉合**才是無法通氣的主因，且**肺動脈壓與中心靜脈壓是上升**不是下降。\n- **心血管作用**來自**中樞交感抑制與迷走張力增加**造成心搏過緩，不是心肌抑制（**meperidine 是例外**）。\n- **naloxone**：**renarcotization 風險取決於原藥是否長效**，所以 morphine 的風險高於 alfentanil。"
+        },
+        {
+          "type": "text",
+          "heading": "remifentanil（近年新寵）",
+          "content": "114、112 年重複考同一組敘述：**ester 結構被非特異性 esterase 水解**、製劑含 **glycine** 故**不可用於脊髓腔或硬脊膜外**、與**麻醉後顫抖發生率增加**相關。\n\n產婦無法接受 neuraxial 止痛時，remifentanil PCA 確實是**首選替代方案**（111 年）；106 年考過選它的真正理由是**會被快速代謝、對新生兒相對安全**。"
+        },
+        {
+          "type": "text",
+          "heading": "非鴉片止痛藥與 IV-PCA",
+          "content": "- **gabapentin 與 pregabalin** 作用在鈣通道的 **alpha2-delta 次單位**；**carbamazepine** 則是**阻斷鈉通道**。\n- 神經病理性疼痛以**多模式併用**優於單一藥物。\n- **IV-PCA** 一般**不加 background infusion**，必須設 **lockout time 與總量上限**。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "gabapentin／pregabalin",
+              "b": "carbamazepine",
+              "note": "前者作用在鈣通道的 **alpha2-delta 次單位**，後者是**阻斷鈉通道**；把兩者機轉混為一談就是答案。"
+            },
+            {
+              "a": "naloxone",
+              "b": "nalbuphine",
+              "note": "治療鴉片類搔癢時，naloxone 有效但會**抵消止痛**，**nalbuphine 才是實用選擇**。"
+            },
+            {
+              "a": "高劑量 ketamine + alpha1 agonist",
+              "b": "低劑量 ketamine + alpha2 agonist",
+              "note": "OUD 病人那題的陷阱就在此：正確應是**次麻醉低劑量 ketamine** 與 **alpha2 agonist**。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- fentanyl 代謝題若列出 **O-demethylation 與 ether glucuronide 就是錯的**。\n- 「**non-histamine-releasing opioids 不會造成搔癢**」是錯的——搔癢是中樞 mu 受體機轉。\n- **opioid-induced hyperalgesia** 的機轉是 **GSK-3beta「活化」**，寫成抑制就錯。\n- 產婦用 remifentanil PCA 絕不是「**不需監控**」（114 年），必須**一對一照護、持續血氧監測**。\n- 峰值效應排序的臨床意義：用 fentanyl 或 sufentanil 對抗插管刺激**必須提前數分鐘給**。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "有兩處版本問題要提醒。**mu receptor 那組題**在 104、106、107 年反覆出現，但「agonist 會刺激還是抑制 acetylcholine 分泌」在不同年份被判成**不同答案**，且「antagonist 會增加 sedation」以現行藥理學同樣不精確——本題組**選項設計有瑕疵**，作答以各年官方答案為準即可。另外 93 年把 **sedation 歸給 kappa 受體**，是當年 mu1／mu2 次分類的產物，現行分子藥理已不支持。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q17",
+        "94_written_Q71",
+        "100_written_Q53",
+        "101_written_Q35",
+        "102_written_Q76",
+        "104_written_Q15",
+        "106_written_Q14",
+        "107_written_Q11",
+        "111_written_Q11",
+        "112_written_Q21",
+        "113_written_Q22",
+        "114_written_Q5"
+      ]
+    },
+    {
+      "subtopic": "local_anesthetics",
+      "title": "局部麻醉藥",
+      "exam_focus": "二十七題，年份從 93 橫跨到 114。核心只有兩塊：基礎藥理（鈉通道機轉、酯類與醯胺類的分類與代謝、影響效價與起效的因素、佐劑）與全身毒性（LAST）；後者幾乎每隔幾年就換個包裝再考一次。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "兩大核心",
+          "content": "二十七題，年份從 93 橫跨到 114。核心只有兩塊：\n1. **基礎藥理**：鈉通道機轉、酯類與醯胺類的分類與代謝、影響效價與起效的因素、佐劑。\n2. **全身毒性（LAST）**：幾乎每隔幾年就換個包裝再考一次。"
+        },
+        {
+          "type": "table",
+          "heading": "LAST 中毒症狀順序（101、102、104 年出過三次完全相同的排序題）",
+          "columns": ["順序", "症狀"],
+          "rows": [
+            ["1", "**舌頭麻木**（93 年問最早出現的症狀，答案是舌頭麻木加**頭重感**）"],
+            ["2", "**視聽覺異常**"],
+            ["3", "**癲癇發作**"],
+            ["4", "**呼吸停止**"],
+            ["5", "**心跳停止**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "記憶原則與兩個高頻觀念",
+          "content": "**感覺異常先於抽搐，抽搐先於呼吸停止，心血管崩潰最後**——也就是中樞神經毒性的血中濃度門檻**低於**心血管虛脫。\n\n**混用兩種局麻藥毒性是相加**（111、112、114 年連著出現，93 年也考過同一觀念）：實務上要把**各藥佔最大劑量的百分比加總不得超過 100%**。\n\n**懷孕**：孕婦對 **bupivacaine 的心臟毒性更敏感**（102、114 年）、**各孕期都應減量**（111、112 年）。機轉包括**黃體素增加神經敏感度**、**硬脊膜外靜脈叢充血使腔隙容積變小**、**蛋白結合改變使游離藥物上升**。**產科不使用 0.75% bupivacaine** 也是固定考點。"
+        },
+        {
+          "type": "table",
+          "heading": "分類與代謝",
+          "columns": ["類別", "重點"],
+          "rows": [
+            ["**aminoamide**", "臨床常用的**絕大多數**屬此類：lidocaine、bupivacaine、ropivacaine、mepivacaine"],
+            ["**aminoester**", "**容易過敏**，因為水解產生 **PABA**"],
+            ["**cocaine**", "雖屬 ester，卻主要由**肝臟 carboxylesterase** 代謝，是固定的例外題"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "全身吸收速度（由快到慢）",
+          "columns": ["排序", "部位"],
+          "rows": [
+            ["1（最快）", "**氣管內**"],
+            ["2", "**薦椎**"],
+            ["3", "**硬脊膜外**"],
+            ["4", "**臂神經叢**"],
+            ["5", "**坐骨神經**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "效價與佐劑",
+          "content": "**效價由脂溶性決定**：**bupivacaine 大於 lidocaine 大於 procaine**。\n\n佐劑要記：\n- **epinephrine** 減緩吸收並可偵測血管內誤注。\n- **sodium bicarbonate** 提高 pH、增加非離子型而**加快起效**。\n- **dexamethasone** 延長阻斷。\n- **dexmedetomidine** 目前未見明顯神經毒性。\n\n加重毒性的三兄弟是 **hypercapnia、acidosis、hypoxia**。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "additive（相加）",
+              "b": "synergistic（協同）",
+              "note": "混用兩種局麻藥毒性是**相加**；93 年用「**synergistic**」當字面陷阱。"
+            },
+            {
+              "a": "aminoamide",
+              "b": "aminoester",
+              "note": "臨床常用的**絕大多數是 aminoamide**；寫成「以 aminoester 居多」在 103 與 106 年都是錯誤選項。容易過敏的是 **ester** 類。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 混用局麻藥寫成「**不會疊加所以更安全**」或「**兩者皆可用到最高劑量**」都是錯的。\n- 懷孕題把「**第一期不需降低劑量**」或「**懷孕會減弱效價所以要增量**」寫進選項就是答案。\n- 100 年把**效價順序中的 lidocaine 與 procaine 對調**當答案。\n- 任何題目說 hypercapnia／acidosis／hypoxia「**不影響**」或「**提高抽搐閾值**」都是錯的。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "**LAST 的循序漸進前驅症狀**在使用 bupivacaine 這類高效價長效藥、或病人已被鎮靜或全身麻醉時**常常不會出現**，**心律不整可能就是首發表現**；同時 **20% lipid emulsion** 已是現行 LAST 的標準處置，舊題的年代還沒有。\n\n**神經纖維敏感度排序**在各版教科書並不一致：102 年官方答案取 **Aγ 最敏感**，114 年又寫成 **Aδ 大於 C**，不必強求統一，記住**粗大有髓鞘纖維需要較高濃度**、**C 纖維因無髓鞘也不算特別容易阻斷**即可。另外 93 年把**手指、腳趾、陰莖加 epinephrine 列為禁忌**，近二十年文獻顯示適當濃度其實相當安全，這個禁忌在現行手外科與急診已大幅鬆動；同年把 **B 與 C 纖維一併說成無髓鞘**，現行已明確區分 **B 纖維屬薄髓鞘**。作答舊題仍以**官方答案為準**。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q2",
+        "94_written_Q25",
+        "99_written_Q17",
+        "100_written_Q43",
+        "101_written_Q24",
+        "102_written_Q74",
+        "103_written_Q62",
+        "104_written_Q20",
+        "106_written_Q11",
+        "111_written_Q18",
+        "112_written_Q19",
+        "114_written_Q22"
+      ]
+    },
+    {
+      "subtopic": "adjuncts_cardiovascular",
+      "title": "輔助用藥與心血管藥物",
+      "exam_focus": "B2 裡題數最少的子題，只有十五題，但集中度極高——超過一半只考兩件事：dexmedetomidine 的藥理特性，以及高血壓用藥在手術當天要不要停。把這兩塊背熟基本就過了。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "兩塊就夠了",
+          "content": "這是 B2 裡題數最少的子題，只有十五題，但集中度極高——**超過一半的題目只考兩件事**：\n1. **dexmedetomidine 的藥理特性**（100、101、103、104、112、114 年各出現一次）\n2. **高血壓用藥在手術當天要不要停**（100、103、106、112 年四度出現）"
+        },
+        {
+          "type": "table",
+          "heading": "dexmedetomidine 要背的數字",
+          "columns": ["項目", "正確內容"],
+          "rows": [
+            ["血漿蛋白結合率", "約 **94%**（大於 90%）"],
+            ["alpha2 相對 alpha1 的選擇性", "約 **1600 比 1**"],
+            ["elimination half-life", "約 **2 至 3 小時**"],
+            ["受體次型", "對 **alpha2A、alpha2B、alpha2C** 三個次型**都有作用**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "dexmedetomidine 的雙相反應與臨床定位",
+          "content": "正確方向是：**快速注射時**先因周邊血管平滑肌的 **alpha2B** 造成**血壓短暫上升並伴心搏減慢**，隨後**中樞交感抑制**使**血壓與心跳都下降**。112 年還加碼考**心輸出量是「下降」**不是上升。\n\n近年新增的角度是唾液：dexmedetomidine **減少唾液分泌**又保留**自主呼吸與可喚醒的鎮靜**，所以很適合**清醒插管**。**降低譫妄**則是固定的正確敘述。"
+        },
+        {
+          "type": "table",
+          "heading": "慢性降血壓用藥的圍術期處置",
+          "columns": ["藥物類別", "手術當天", "理由"],
+          "rows": [
+            ["**ACEI／ARB**", "**停用**", "**誘導期低血壓發生率較高**（不是住院併發症或 30 天死亡率）"],
+            ["**beta-blocker**", "照常服用", "驟停會**反彈性心搏過速與心肌缺血**"],
+            ["**clonidine**", "照常服用", "驟停會**嚴重反彈性高血壓**"],
+            ["**鈣離子阻斷劑**", "照常服用", "續用安全"],
+            ["**利尿劑**", "照常服用", "續用安全"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "ACEI／ARB 的機轉要能講出來",
+          "content": "renin-angiotensin 系統被阻斷後，遇上**麻醉藥血管擴張、正壓通氣與禁食造成的相對低血容**，病人**失去代償**，出現對 **ephedrine 與 phenylephrine 反應不佳**的低血壓，往往要 **vasopressin** 才拉得起來。"
+        },
+        {
+          "type": "table",
+          "heading": "升壓與強心藥的受體對應",
+          "columns": ["藥物", "受體與作用"],
+          "rows": [
+            ["epinephrine", "**低劑量以 beta 為主**；**高劑量**（一般以每分鐘 **10 微克**為界）**alpha 血管收縮居主導**"],
+            ["norepinephrine", "以 **alpha1 與 beta1** 為主、**beta2 極弱**；會**升高肺血管阻力**，肺高壓病人要小心"],
+            ["dopamine", "具**劑量依賴性**"],
+            ["dobutamine", "以 **beta1** 為主"],
+            ["isoproterenol", "**非選擇性 beta agonist**，beta2 作用使周邊血管阻力**下降**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "其餘單點（行有餘力再看）",
+          "content": "- **PDE III 抑制劑**（amrinone、milrinone）是**抑制 cAMP 的分解**使 cAMP **上升**。\n- 不會造成高血鉀的是 **insulin**（ARB、mannitol、spironolactone、succinylcholine 都會）。\n- **Vaughan-Williams Class III** 延長再極化的代表是 **amiodarone**。\n- **heparin** 靠與 **antithrombin III 結合**才發揮作用，本身**沒有直接抗凝血酵素活性**。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "dexmedetomidine 的誘答設計非常固定，幾乎年年重複：\n- 把選擇性寫成 **200 比 1**（那是 **clonidine** 的數字）。\n- 把廓清半衰期寫成**小於 30 分鐘**。\n- 說「**僅作用於 alpha2A、對 alpha2B 與 alpha2C 無作用**」。\n- 把**心血管雙相反應的方向寫反**；112 年把心輸出量寫成上升。\n- 114 年把「**促使唾液分泌、不適合清醒插管**」寫成錯誤選項。\n\n其他固定手法就是**方向顛倒**：108 年把 isoproterenol 的周邊血管阻力寫成**上升**、103 年把 PDE III 抑制劑寫成**減少 cAMP**，都是錯誤敘述。112 年則專門用「住院併發症／30 天死亡率」這幾個選項，分辨你是不是只背結論。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "近年大型隨機試驗顯示 ACEI／ARB **續用或停用在主要心血管事件上並無顯著差異**，指引已趨向**個別化決定**。舊題答案仍選**停用**，作答以官方答案為準，但別把它當成鐵律。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q77",
+        "99_written_Q10",
+        "100_written_Q33",
+        "100_written_Q54",
+        "101_written_Q86",
+        "103_written_Q57",
+        "103_written_Q65",
+        "104_written_Q16",
+        "106_written_Q39",
+        "108_written_Q78",
+        "112_written_Q23",
+        "114_written_Q4"
+      ]
+    },
+    {
+      "subtopic": "pk_tci",
+      "title": "藥物動力學與標靶控制輸注",
+      "exam_focus": "十八題，考的東西比想像中窄：TCI 模型的辨識、context-sensitive half-time、肥胖病人的劑量換算，加上少數幾題基本藥動觀念。近年（110 到 114）出題密度明顯升高，值得投資。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "三塊主軸",
+          "content": "十八題，考的東西比想像中窄：**TCI 模型的辨識**、**context-sensitive half-time**、**肥胖病人的劑量換算**，加上少數幾題基本藥動觀念。這一子題近年（**110 到 114**）出題密度明顯升高，值得投資。"
+        },
+        {
+          "type": "table",
+          "heading": "TCI 模型（要能一眼分辨）",
+          "columns": ["模型", "協變量與特點"],
+          "rows": [
+            ["**Marsh**", "**只以體重**為單一協變量；原始版本**沒有 effect compartment 資訊**，這是它公認的缺點"],
+            ["**Schnider**", "納入**年齡、身高、體重**並換算 **lean body mass**；附有 **ke0**，可做 effect-site targeting"],
+            ["**Kataria**", "適用 **3 至 11 歲**兒童，以**體重**為主要協變量"],
+            ["**Paedfusor**", "涵蓋**年齡範圍較廣**，一般被認為比 Kataria **精確**"],
+            ["**Minto**", "**remifentanil** 要用這個"],
+            ["**Eleveld**", "族群涵蓋**極端體重**，被認為較適合**病態肥胖**者"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "context-sensitive half-time 比較",
+          "columns": ["藥物", "context-sensitive half-time"],
+          "rows": [
+            ["**remifentanil**", "**最短**"],
+            ["**propofol**", "次之；即使連續輸注**八小時**仍在約 **40 分鐘**以內"],
+            ["**midazolam**", "較 propofol 長"],
+            ["**thiopental**", "**最長**；因**大量蓄積且清除率低**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "定義要背",
+          "content": "context-sensitive half-time＝**停止輸注後血漿濃度下降 50% 所需的時間**，且**會隨輸注時間長短改變**。"
+        },
+        {
+          "type": "table",
+          "heading": "肥胖病人的劑量換算（近年最愛考）",
+          "columns": ["情境", "用哪個體重", "理由"],
+          "rows": [
+            ["單次 bolus 或**誘導劑量**", "**lean body weight**", "避免**峰值濃度過高與低血壓**"],
+            ["**維持輸注**", "**total body weight 或校正體重**", "涉及**清除率**"],
+            ["**remifentanil**", "**瘦體重**", "分布體積與清除率在**肥胖與非肥胖者相近**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "肥胖的其他考點",
+          "content": "- **propofol 的絕對清除率是上升的**：肥胖者**心輸出量與肝血流增加**，而 propofol 屬**高肝萃取率**藥物。\n- 以**校正體重**輸注所得的血中濃度會**低於**以總體重輸注（111 年）。\n- **midazolam** 因**脂溶性高、分布體積大**，肥胖者**清除時間延長**。\n- 長時間手術用吸入麻醉，肥胖病人甦醒是較**慢**不是較快（112 年）。"
+        },
+        {
+          "type": "text",
+          "heading": "其餘單點題（值得掃過）",
+          "content": "- **ke0 變小則 time to peak effect 延長**。\n- 肝臟 biotransformation **不是全部由 cytochrome P450 負責**，**hydrolysis 與 conjugation** 都由非 P450 酵素執行。\n- fentanyl 對不同效應的 **C50 由低至高**：**止痛 → 呼吸抑制 → 對喉頭鏡刺激失去反應 → 腦電波改變**。\n- 腎衰竭時受影響最小的是 **fentanyl**。\n- 半衰期公式是 **0.693 除以 k**；藥物基因體學研究最透徹的是 **CYP2D6**；**ketamine** 是選項中血漿蛋白結合率最低者。\n- **isobologram** 判讀（113 年）：**向原點凹陷是 synergistic、直線是 additive、外凸是 antagonistic**。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "TCI 模型的命題手法幾乎固定就是「**對調**」：\n- **104 與 111 年**把 **Marsh 與 Schnider 的特性互換**。\n- **110 年**把 **Paedfusor 的適用年齡寫成 3 至 11 歲**（那是 **Kataria**）。\n- **109 年**說 **remifentanil 成人小兒都可用 Marsh**。\n\n另外要記：**TCI 預設濃度與實測濃度的落差，主因永遠是個體間的 biologic variability**，不是幫浦誤差也不是模型錯誤（107 與 109 年都考過）。thiopental 寫成「**比 midazolam 短、清除率更高**」就是錯的（110 年）。112 與 113 年都把「**propofol 在肥胖病人 clearance 不受影響**」或「**較慢**」當成錯誤選項。\n\n111 年那題把「Schnider 的計算變項包含年齡、**性別**、體重、身高」判為**錯誤**（理由是 V1 固定、性別只是計算 LBM 的參數），而 110 年又把「Schnider 參數包含年齡、體重、身高、lean body mass」判為**正確**，兩題標準不完全一致，練習時不必糾結，抓住「**Marsh 只有體重、Schnider 多變項**」這個主軸即可。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "101 年把「**腎病症候群病人白蛋白低下使 thiopental 效應變大**」歸類為**藥效學**改變，但現行藥理學多把**蛋白結合率改變歸入分布**，也就是**藥物動力學**範疇。作答舊題仍以**官方答案為準**。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q95",
+        "94_written_Q24",
+        "101_written_Q14",
+        "104_written_Q11",
+        "107_written_Q13",
+        "109_written_Q82",
+        "110_written_Q27",
+        "110_written_Q94",
+        "111_written_Q14",
+        "112_written_Q11",
+        "113_written_Q12",
+        "114_written_Q18"
+      ]
+    },
+    {
+      "subtopic": "mechanism_systemic",
+      "title": "麻醉藥作用機轉與全身效應",
+      "exam_focus": "十六題，性質偏「觀念題」而非數字題，考的是麻醉藥在分子與系統層次做了什麼。四條主線：分子標的、作用部位（脊髓與脊髓上）、腦血流與腦代謝率的比較，以及麻醉藥對記憶與免疫的影響。方向題居多。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "四條主線",
+          "content": "這個子題十六題，性質偏「**觀念題**」而非數字題，考的是麻醉藥在分子與系統層次做了什麼。四條主線：\n1. **分子標的**\n2. **作用部位**（脊髓與脊髓上）\n3. **腦血流與腦代謝率的比較**\n4. **麻醉藥對記憶與免疫的影響**"
+        },
+        {
+          "type": "text",
+          "heading": "分子標的：一句話記住方向",
+          "content": "吸入麻醉藥的分子作用是「**加強抑制性、抑制興奮性**」。所以：\n- **增強** GABA-A 與 glycine receptor 的**氯離子電流**\n- **活化**雙孔鉀離子通道 **K2P**\n- **抑制**突觸前 **voltage-gated Na channel**，因而**減少 glutamate 釋放**\n- **抑制** neuronal nicotinic acetylcholine receptor 與 **NMDA receptor**\n\n另外 112 年考結合位在「**疏水性**」口袋而非親水性結構，理由是要能解釋 **Meyer-Overton** 與脂溶性的關聯。"
+        },
+        {
+          "type": "text",
+          "heading": "作用部位與失憶",
+          "content": "在 101、112、113 年反覆出現：**immobility 的主要部位在脊髓**（山羊分離循環的經典實驗），**sedation 與 hypnosis 靠皮質與視丘等 supraspinal 結構**，兩者所需濃度並不相同。\n\n**失憶發生在更低的濃度**：111 年考 **anterograde amnesia 約在 0.2 至 0.4 MAC** 即可達成。101 年考過失憶的解剖定位是**邊緣系統、海馬迴與杏仁核**（腦幹與籠統的前腦都要排除）。110 年細分得更精：**輕度鎮靜劑量的 propofol 造成 anterograde amnesia 併 retrograde facilitation**；**propofol 主要傷害記憶的 consolidation，dexmedetomidine 則傷 encoding**。"
+        },
+        {
+          "type": "table",
+          "heading": "腦血流與腦代謝率",
+          "columns": ["藥物／情境", "對 CBF 與 CMR 的影響"],
+          "rows": [
+            ["**吸入麻醉藥**", "降低 **CMRO2** 卻**直接擴張腦血管**，造成 **flow-metabolism uncoupling**，使 **CBF 與顱內壓上升**"],
+            ["**N2O**", "少數**同時增加 CMR 與 CBF** 者"],
+            ["**barbiturate、etomidate**", "都能壓到 **burst suppression** 為止"],
+            ["**外源性 norepinephrine**", "**BBB 完整**時影響**甚微**"],
+            ["**flumazenil 反轉 BZD**（頭部外傷）", "**CBF、CMR 與 ICP 回升**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "癲癇風險與免疫",
+          "content": "**癲癇風險**那一題在 99 與 100 年一字不差重複，三項都對：吸入麻醉藥**增加顱內壓**、**enflurane 增加癲癇機會**、**兒童高濃度 sevoflurane 誘導可能出現癲癇樣腦波**。\n\n**免疫**那塊近年才出現，整體方向是**手術與多數麻醉藥偏向抑制免疫**：\n- 揮發性麻醉藥**降低 NK 細胞數目與毒殺活性**\n- **ketamine 與 fentanyl 抑制 NK 活性**\n- **lidocaine 抑制 EGF receptor 與腫瘤細胞增生**\n- **propofol 的特點是「相對不抑制」**"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "anterograde amnesia + retrograde facilitation",
+              "b": "retrograde amnesia",
+              "note": "110 年那題：輕度鎮靜劑量的 propofol 造成的是**前者**，寫成 **retrograde amnesia** 就是答案。"
+            },
+            {
+              "a": "propofol 傷 consolidation",
+              "b": "dexmedetomidine 傷 encoding",
+              "note": "兩者傷害記憶的**階段不同**，110 年考過這個細分。"
+            },
+            {
+              "a": "laudanosine 來自 atracurium",
+              "b": "laudanosine 來自 rocuronium",
+              "note": "癲癇題的關鍵誘答就是把致癲癇代謝物 **laudanosine 安在 rocuronium 頭上**，它其實來自 **atracurium**。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "分子標的幾乎都是**純粹考方向**：113 年把「**isoflurane 抑制 GABAA 及 glycine receptors**」寫成錯誤選項，102 年把「**增強 NMDA receptors**」寫成錯誤選項。\n\n其他固定誘答：\n- 「**0 至 1 MAC 可同步降低腦血流與腦代謝率**」是**錯的**（吸入麻醉藥造成 uncoupling）。\n- 失憶題寫「**需要開到約 0.5 MAC**」就是錯的（0.2 至 0.4 MAC 即可）。\n- propofol 寫成「**會增加 NK 細胞數量**」就是錯（111 年），它只是**相對不抑制**。\n- 說「**RCT 已證明 TIVA 減少癌症復發**」是過度肯定——114 年給的現行結論是**目前缺乏臨床實證推薦特定麻醉藥來增強手術病人免疫功能**。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "**remifentanil 對 CMR 的定位在不同年份說法不同**：102 年把它列為唯一可能「**增加**」CMR 者，101 年說它降 CMR 的效果**較 fentanyl 與 sufentanil 差**，114 年卻說它對腦代謝率**影響最小**。現行版本認為**各類 opioid 對 CMR 的影響都輕微、彼此差異無臨床意義**，遇到這類題目請**依當年答案作答，不要試圖統一**。\n\n另一個明確的更新：101 年把「**吸入麻醉劑直接鍵結突觸後 GABA-A 受體**」判為錯誤（當年認為只是調節作用）；但現行因**光親和標定與 cryo-EM 結構研究**，已明確承認吸入麻醉劑會**直接結合 GABA-A 受體上的特定疏水口袋**，這一項以今日標準已不宜逕稱為錯。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q98",
+        "99_written_Q21",
+        "100_written_Q95",
+        "101_written_Q3",
+        "101_written_Q15",
+        "102_written_Q41",
+        "110_written_Q26",
+        "110_written_Q34",
+        "111_written_Q80",
+        "112_written_Q13",
+        "113_written_Q16",
+        "114_written_Q23"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "code": "C5",
+  "title": "老人麻醉",
+  "intro": "老人麻醉共兩個子題、各 14 題，份量相當。「老年生理藥理與圍術期照護」的分數高度集中在 cisatracurium 與 MAC 隨年齡下降兩個反覆出現的點，把數字與機轉記牢就能拿走大部分；「術後譫妄與神經認知障礙」表面上是危險因子清單題，實際上是這幾年觀念更新最密集的子題，腦波監測與名詞更新都要特別小心。兩節都建議優先讀。",
+  "sections": [
+    {
+      "subtopic": "geriatric_physiology",
+      "title": "老年生理藥理與圍術期照護",
+      "exam_focus": "八成分數落在兩個反覆出現的點：年齡對肌肉鬆弛劑的影響在 pharmacokinetics 而非 pharmacodynamics（cisatracurium 最不受影響），以及 MAC 自 40 歲起每增加十歲約下降 6%。其餘是各藥減量機轉、心血管老化，以及手術風險因子。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "兩條主軸",
+          "content": "十四題考的是老化怎麼改變**藥物**與**器官儲備**，八成的分數落在兩個反覆出現的點上。\n\n**第一是 cisatracurium。** 109 Q59、107 Q67、106 Q65、104 Q56、99 Q78 五題都在問同一件事：年齡對肌肉鬆弛劑的影響主要在 **pharmacokinetics**（肝腎血流與清除率下降，使 rocuronium、vecuronium 作用延長），**不在 pharmacodynamics**。cisatracurium 靠 Hofmann elimination 與 ester hydrolysis，不依賴肝腎，是老人身上最不需要減量的藥。\n\n**第二是 MAC。** 111 Q24、109 Q59、104 Q56、99 Q78 反覆考同一個數字：以 **40 歲**為基準，之後每增加十歲約**下降 6%**。"
+        },
+        {
+          "type": "table",
+          "heading": "肌肉鬆弛劑與老化",
+          "columns": ["藥物", "清除途徑", "老年人的影響"],
+          "rows": [
+            ["Rocuronium", "肝腎清除", "肝腎血流與清除率下降，作用延長"],
+            ["Vecuronium", "肝腎清除", "肝腎血流與清除率下降，作用延長"],
+            ["**Cisatracurium**", "Hofmann elimination 與 ester hydrolysis", "不依賴肝腎，**最不需要減量**；但心輸出量下降、循環時間延長仍會讓起效變慢"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "麻醉藥減量的主因（藥動 vs 藥效）",
+          "columns": ["藥物", "減量主因", "補充"],
+          "rows": [
+            ["Thiopental", "**初始分佈容積縮小**（心輸出量減少、體水與肌肉量下降）", "100 Q27 考的就是這個區別"],
+            ["Propofol", "**腦部敏感性上升**", "—"],
+            ["Midazolam", "**腦部敏感性上升**", "—"],
+            ["Morphine", "**腦部敏感性上升**", "另有活性代謝物 **M6G** 蓄積"],
+            ["Fentanyl", "**腦部敏感性上升**", "—"],
+            ["Remifentanil", "—", "老年人效價約**增加一倍**"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "肝臟代謝",
+          "content": "110 Q8 補上代謝面：依 cytochrome P450 的 **phase-1 反應**隨肝血流與肝體積下降而**明顯減弱**，**phase-2 的 conjugation 相對維持**。選項寫反就是錯。"
+        },
+        {
+          "type": "text",
+          "heading": "心血管與器官老化",
+          "content": "- 心室肥厚僵硬使 **early diastolic filling 受損**，心輸出更依賴 **preload** 與 **atrial kick**，輕微失血即大幅掉心輸出。\n- **beta 受器反應性下降**，最大心率與對 beta-agonist 的反應變差。\n- 老年人**低血鈉多於高血鈉**。\n- 主動脈瓣狹窄：肥厚心室的冠狀動脈灌流高度依賴舒張期，因此**心搏過速才是大忌**；同時要避免低血容。"
+        },
+        {
+          "type": "text",
+          "heading": "手術風險因子與原則",
+          "content": "103 Q43 與 101 Q79 是同一題重出，答案都是**四項全選**：年齡、ASA 與共病、常規或緊急手術、手術種類。103 Q48 則明講**實際年齡本身從來不是手術禁忌**。\n\n其他常被拿來當誘答的細節：\n- 94 Q70：老人的感覺閾值是**上升**，不是下降。\n- 112 Q69 三個小點：PONV **隨年齡下降**；是**體溫調節反應受損**而非核心溫度較低；咽部肌張力是**下降**而非增加。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Pharmacokinetics",
+              "b": "Pharmacodynamics",
+              "note": "年齡對肌肉鬆弛劑的影響主要在 **pharmacokinetics**（肝腎清除下降），不在 pharmacodynamics。"
+            },
+            {
+              "a": "Thiopental 減量",
+              "b": "Propofol／midazolam／opioids 減量",
+              "note": "thiopental 是**初始分佈容積縮小**；propofol、midazolam、morphine、fentanyl 是**腦部敏感性上升**。"
+            },
+            {
+              "a": "Phase-1 反應",
+              "b": "Phase-2 conjugation",
+              "note": "phase-1（cytochrome P450）隨肝血流與肝體積下降而**明顯減弱**；phase-2 **相對維持**。"
+            },
+            {
+              "a": "110 Q8 主動脈瓣狹窄敘述",
+              "b": "111 Q22 主動脈瓣狹窄敘述",
+              "note": "110 Q8 把「避免低血容與**心搏過速**」判為**正確**；111 Q22 把「應避免低血壓跟**心搏過緩**」判為**錯**。方向差在過速與過緩。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- **MAC 方向寫反**：111 Q24 的錯誤選項把「每十歲下降 6%」寫成「**上升** 6%」，是最典型的誘答。\n- **cisatracurium 說成完全沒影響**：99 Q78 把「對 cisatracurium 完全沒有顯著影響」判為**錯**——心輸出量下降、循環時間延長仍會讓**起效變慢**。\n- **phase-1／phase-2 寫反**（110 Q8）。\n- **主動脈瓣狹窄寫成怕心搏過緩**（111 Q22 判錯）。\n- 103 Q43 與 101 Q79 是同一題重出，答案都是四項全選。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "解析已註記現行觀念的移動：**校正共病與功能狀態後，單純年齡的獨立預測力其實有限**，frailty、功能自主性與認知篩檢才是現行術前風險分層的核心。不過作答舊題仍以官方答案為準（103 Q43／101 Q79 仍是四項全選）。"
+        }
+      ],
+      "question_refs": [
+        "99_written_Q78",
+        "94_written_Q70",
+        "100_written_Q27",
+        "103_written_Q43",
+        "103_written_Q48",
+        "106_written_Q65",
+        "107_written_Q67",
+        "109_written_Q59",
+        "110_written_Q8",
+        "111_written_Q22",
+        "111_written_Q24",
+        "112_written_Q69"
+      ]
+    },
+    {
+      "subtopic": "postop_delirium",
+      "title": "術後譫妄與神經認知障礙",
+      "exam_focus": "危險因子清單是最穩定的骨幹（反向誘答固定是「年齡小於 65 歲」與「更年期女性」），藥物線固定考 haloperidol 是處置用藥而非危險因子。高頻點還有「麻醉方式不影響譫妄」，以及三題判定方向不一致的腦波監測。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "這一節的性質",
+          "content": "十四題，看起來像危險因子清單題，實際上是這幾年**觀念更新最密集**的子題，要特別小心。最穩定的骨幹是危險因子：101 Q60 與 100 Q24 是同一題重出，五項（年齡大於 65、失聰、酗酒、疼痛、失血量）**全是**；110 Q4、108 Q61、106 Q69、113 Q86 把清單補完整。"
+        },
+        {
+          "type": "table",
+          "heading": "術後譫妄危險因子",
+          "columns": ["類別", "內容"],
+          "rows": [
+            ["年齡", "**大於 65 歲**"],
+            ["認知", "**既有認知障礙或失智**是最強因子之一"],
+            ["感覺", "失聰、視聽覺障礙造成**感覺剝奪**"],
+            ["生活史", "酗酒"],
+            ["圍術期狀態", "疼痛、失血量、電解質與血糖顯著異常、長期臥床、術後入住加護病房"],
+            ["手術類型", "**骨科**尤其**髖部骨折與大關節置換**族群發生率最高"]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "藥物線",
+          "columns": ["藥物", "角色", "備註"],
+          "rows": [
+            ["Benzodiazepines", "**致譫妄**", "—"],
+            ["抗膽鹼藥物", "**致譫妄**", "atropine、scopolamine、diphenhydramine；113 Q61 用 diphenhydramine 造成 confusion 當正解"],
+            ["Meperidine", "**致譫妄**", "—"],
+            ["Haloperidol", "**處置用藥，不是危險因子**", "109 Q58 與 104 Q57 兩題重出都以此為答案"],
+            ["Dexmedetomidine", "降低譫妄", "證據相對**充分**"],
+            ["Clonidine", "降低譫妄", "證據**缺乏**"],
+            ["Ketamine", "未證實有效", "老年人並未證實可降低譫妄，反而**增加精神不良反應**（112 Q100）"],
+            ["Dexamethasone", "未證實有效", "—"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "麻醉方式不影響譫妄",
+          "content": "114 Q75、111 Q46、106 Q69 三題都講：隨機試驗與統合分析顯示**全身麻醉與區域麻醉的術後譫妄發生率並無顯著差異**，真正相關的是**麻醉深度、鎮靜藥物選擇、疼痛控制與術後環境**。這與 C3 骨科子題「區域麻醉不能降低術後認知功能障礙」互相呼應。"
+        },
+        {
+          "type": "table",
+          "heading": "腦波監測：三題判定方向並不一致",
+          "columns": ["題目", "敘述", "官方判定"],
+          "rows": [
+            ["113 Q61", "EEG-based titration **不會**減低譫妄風險", "判**錯**（即認為有效）"],
+            ["111 Q46", "cerebral oxygen monitoring 的證據比 BIS、Entropy **更多**", "判**錯**（即 processed EEG 證據較強）"],
+            ["112 Q100", "使用腦波監測**不見得**可以降低 PND 風險", "列為**正確**選項之一"]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "腦波監測該怎麼記",
+          "content": "要記的不是單一結論，而是**命題者的立場**：processed EEG 導引、避免麻醉過深與 burst suppression 的證據**相對較多且方向一致**；cerebral oximetry 證據**薄弱**；但放到 **PND** 這個更廣的名詞下，腦波監測**仍非保證**。\n\n112 Q100 本身是**雙答案題（B 與 D 皆給分）**，也順帶考了 ketamine 在老年人並未證實可降低譫妄、反而增加精神不良反應，以及 **APOE 等基因型與 PND 的關聯尚不一致**。"
+        },
+        {
+          "type": "text",
+          "heading": "臨床細節與非藥物預防",
+          "content": "- POD 典型在**術後 1 至 3 天達高峰**，不是「不可能發生在三天內」（113 Q86）。\n- **hypoactive subtype 最容易被忽略**，預後反而比 hyperactive 差。\n- 術中低血壓、高血壓與**血壓變異度**都與術後認知變化相關。\n- 非藥物預防的方向題（111 Q23）答案永遠是「**及早**」下床活動，延緩活動是錯的。配套是家人陪伴、歸還眼鏡助聽器、改善睡眠、適當止痛、避免便秘與尿滯留。"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Haloperidol",
+              "b": "Benzodiazepines／抗膽鹼藥／meperidine",
+              "note": "haloperidol 是**處置用藥**，不是危險因子；後三類才是**致譫妄**藥物。"
+            },
+            {
+              "a": "Dexmedetomidine",
+              "b": "Clonidine",
+              "note": "dexmedetomidine 降低譫妄的證據**相對充分**，clonidine 則**缺乏**。"
+            },
+            {
+              "a": "Processed EEG（BIS、Entropy）",
+              "b": "Cerebral oximetry",
+              "note": "processed EEG 導引、避免麻醉過深與 burst suppression 的證據**較多且方向一致**；cerebral oximetry 證據**薄弱**（111 Q46）。"
+            },
+            {
+              "a": "Hypoactive subtype",
+              "b": "Hyperactive subtype",
+              "note": "hypoactive **最容易被忽略**，預後反而**比 hyperactive 差**。"
+            },
+            {
+              "a": "成人術後譫妄",
+              "b": "幼兒甦醒期躁動",
+              "note": "100 Q37 把 **2 至 4 歲**幼兒的甦醒期躁動視為與成人譫妄**不同的實體**。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- **反向誘答固定兩個**：「年齡**小於** 65 歲」（110 Q4）與「**更年期女性**」（108 Q61）。\n- **haloperidol 被放進危險因子選項**：109 Q58 與 104 Q57 兩題重出都以此為答案。\n- **113 Q86**：POD 典型在術後 1 至 3 天達高峰，「不可能發生在三天內」是錯的。\n- **111 Q23**：非藥物預防要「**及早**」下床活動，寫成延緩活動就是錯。\n- 101 Q60 與 100 Q24 是同一題重出，五項全是。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "**名詞更新**：舊題用 **postoperative cognitive dysfunction**，現行已改用 **perioperative neurocognitive disorders（PND）** 體系。\n\n**腦波監測**的判定方向在三題之間並不一致（113 Q61 認為 EEG-based titration 有效、112 Q100 卻認為腦波監測不見得降低 PND 風險），這是命題年代與名詞範圍不同造成的。作答舊題仍以官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "100_written_Q37",
+        "101_written_Q60",
+        "106_written_Q69",
+        "108_written_Q61",
+        "109_written_Q58",
+        "110_written_Q4",
+        "111_written_Q23",
+        "111_written_Q46",
+        "112_written_Q100",
+        "113_written_Q61",
+        "113_written_Q86",
+        "114_written_Q75"
+      ]
+    }
+  ]
+}

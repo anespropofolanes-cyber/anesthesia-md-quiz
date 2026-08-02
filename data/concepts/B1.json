@@ -1,0 +1,529 @@
+{
+  "code": "B1",
+  "title": "麻醉生理",
+  "intro": "麻醉生理共 158 題，橫跨呼吸、心血管與自主神經、神經與意識、肝腎腸胃、體液電解質與體溫五個子題。命題極度偏好「何者為非、何者錯誤、最不適當」的方向題，同一組選項會被反覆使用好幾年，真正需要計算的題目屈指可數。優先讀呼吸生理（HPV 與 FRC／closing capacity）與肝腎腸胃（肝血流比例、腎自動調節），這兩節的重複題組最多、投報率最高。",
+  "sections": [
+    {
+      "subtopic": "respiratory",
+      "title": "呼吸生理",
+      "exam_focus": "42 題幾乎清一色是「何者為非、何者錯誤、最不適當」的方向題，只有兩題要真的計算。HPV 是絕對主角，93 到 113 年幾乎隔一兩年就出現且角度固定；其次是 FRC 與 closing capacity。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "題型與唯二的計算題",
+          "content": "這 42 題幾乎清一色是**方向題**，全看你有沒有抓到選項把增加寫成減少、左移寫成右移。真正要算的只有兩題：\n- 104 年用 alveolar gas equation 算出 PaCO2 80 mmHg 時 PAO2 約 50 mmHg\n- 94 年的 Poiseuille 公式單位換算"
+        },
+        {
+          "type": "text",
+          "heading": "主軸一：缺氧性肺血管收縮（HPV）",
+          "content": "HPV 是絕對主角，93 到 113 年幾乎隔一兩年就出現，角度固定。\n- 啟動刺激是 **alveolar oxygen tension**，而非血中或混合靜脈血氧分壓\n- PAO2 降到約 **100 mmHg 以下**就開始作用\n- 血流約**減少一半**而非七成\n- 第一相約 **15 分鐘**、第二相約 **2 小時**達高原"
+        },
+        {
+          "type": "table",
+          "heading": "影響 HPV 的因素",
+          "columns": [
+            "方向",
+            "因素"
+          ],
+          "rows": [
+            [
+              "削弱",
+              "吸入性麻醉藥（**濃度依賴**地抑制）、calcium-channel blocker、血管擴張劑、prostaglandin、低體溫、二尖瓣狹窄、容積過量、低碳酸血症"
+            ],
+            [
+              "加強",
+              "高 PACO2、酸血症"
+            ],
+            [
+              "幾乎不影響",
+              "靜脈麻醉藥、barbiturates"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "主軸二：FRC、closing capacity 與其他固定考點",
+          "content": "- CC 主要隨**年齡**上升，幾乎不受體位與麻醉影響；被仰臥與麻醉拉低的是 **FRC**\n- FRC 隨年齡**增加**而非減少\n- 仰臥約 44 至 45 歲、直立約 66 歲，CC 即超過 FRC\n- 110 年考過全身麻醉後再給肌鬆劑，不會使 FRC 更明顯下降\n- 麻醉使 compliance **下降**但 airway resistance **上升**，114、113、111、110 年都出\n\n**Atelectasis** 的固定答案：九成病人會發生、好發於 dependent region、COPD 反而較少、純氧造成 absorption atelectasis、抽痰是原因不是預防。\n另有兩題圖表型：Zone III 的壓力順序是 **PPA 大於 PLA 大於 PALV**；PVR 對肺容積呈 **U 形**、最低點落在 FRC 而非 TLC。"
+        },
+        {
+          "type": "table",
+          "heading": "氧合血紅素解離曲線的移動方向",
+          "columns": [
+            "方向",
+            "因素"
+          ],
+          "rows": [
+            [
+              "左移",
+              "alkalosis、hypocarbia、低體溫、fetal Hb、carboxyhemoglobin"
+            ],
+            [
+              "右移",
+              "酸中毒、高溫、2,3-DPG、慢性缺氧"
+            ]
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "FRC",
+              "b": "Closing capacity",
+              "note": "CC 主要隨**年齡**上升、幾乎不受體位與麻醉影響；被仰臥與麻醉拉低的是 **FRC**。"
+            },
+            {
+              "a": "Shunt",
+              "b": "V/Q mismatch",
+              "note": "低血氧的鑑別要分清這兩者：**shunt 給氧改善不了**，這是 113 年的關鍵句。"
+            },
+            {
+              "a": "死腔增加",
+              "b": "Alveolar ventilation",
+              "note": "CO2 擴散能力強，故死腔增加不影響排除；決定 CO2 排除的是 **alveolar ventilation**。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 113 年把 HPV 的啟動門檻寫成「**低於 40 mmHg 才啟動**」，正是陷阱（實際 PAO2 約 100 mmHg 以下就開始作用）。\n- 最常重複的一題：100 年與 101 年都問 calcium-channel blocker 能否「**減輕**」吸入麻醉藥對 HPV 的抑制，答案是不但不能，還會相加削弱；113 年再從正面問一次。\n- 死腔題近乎逐字重複：「CO2 擴散能力強故死腔增加不影響排除」在 100、101 年各出現一次，114 年再換句話問。\n- 麻醉使 airway resistance **上升**，選項寫成阻力下降一律錯。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "94 年那批依舊版教科書命題，出現 halothane 與 enflurane 的比較、**40 cmH2O 維持 7 至 8 秒可打開全部塌陷肺泡**等敘述，101、99 年沿用。這些留著是為求完整，現行已改為個體化低壓肺保護策略；作答舊題仍以當年官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "94_written_Q35",
+        "99_written_Q1",
+        "100_written_Q30",
+        "101_written_Q57",
+        "103_written_Q53",
+        "104_written_Q2",
+        "106_written_Q1",
+        "107_written_Q1",
+        "110_written_Q38",
+        "111_written_Q6",
+        "113_written_Q6",
+        "114_written_Q10"
+      ]
+    },
+    {
+      "subtopic": "cardiovascular_autonomic",
+      "title": "心血管與自主神經生理",
+      "exam_focus": "23 題有一半在考心臟反射，而且反覆用同一招——把方向寫反。其餘集中在自主神經藥理（受體對應、抗蕈毒鹼三藥比較）與心肌電生理的固定敘述。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "主軸：心臟反射，招式就是把方向寫反",
+          "content": "這 23 題有一半在考心臟反射。認出反射本身不難，難的是選項把心跳快慢、傳入傳出神經、血管收縮擴張整個對調。下表把正確內容與歷屆的改寫方向並列。"
+        },
+        {
+          "type": "table",
+          "heading": "五個心臟反射與歷屆改寫方向",
+          "columns": [
+            "反射",
+            "正確內容",
+            "歷屆改寫方向"
+          ],
+          "rows": [
+            [
+              "Bainbridge reflex",
+              "右心房充填增加時**心跳變快**",
+              "113 年寫成抑制交感使心跳變慢、111 年寫成刺激副交感降低心率；101 年則直接問哪個反射會讓心跳變快，答案就是它"
+            ],
+            [
+              "Bezold-Jarisch reflex",
+              "低血壓、心搏過緩加**冠狀動脈擴張**",
+              "111 年改寫成 tachycardia、113 年改寫成肺動脈擴張"
+            ],
+            [
+              "Oculocardiac reflex",
+              "**三叉神經**傳入、**迷走**傳出",
+              "100 年說「不會因 atropine 而降低發生率」為非"
+            ],
+            [
+              "Baroreceptor reflex",
+              "傳入是 glossopharyngeal 與 vagus，進的是 **nucleus tractus solitarius** 而非 locus ceruleus；延腦升壓區在 **rostral**、降壓區在 **caudal**",
+              "106 年把升壓區與降壓區對調；112 年把 sinus nerve of Hering 說成三叉神經分支，實際屬**舌咽神經**"
+            ],
+            [
+              "Cushing reflex",
+              "顱內壓上升**初期**是交感興奮的高血壓與收縮力增強，反射性心搏過緩是**後來**的事",
+              "把心搏過緩當成初期表現即錯，記住次序"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "heading": "抗蕈毒鹼三藥比較（出過兩次，方向要背牢）",
+          "columns": [
+            "最強的項目",
+            "藥物"
+          ],
+          "rows": [
+            [
+              "作用最長",
+              "glycopyrrolate"
+            ],
+            [
+              "增加心跳最強",
+              "atropine"
+            ],
+            [
+              "抗唾液分泌最強",
+              "scopolamine"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "自主神經藥理與解剖的高頻點",
+          "content": "- 交感節後纖維並非「**皆**」釋放 norepinephrine，汗腺是**膽鹼性**的\n- Presynaptic α2 抑制的是 **norepinephrine** 不是 epinephrine\n- β3 在脂肪細胞做的是 **lipolysis** 而非 lipogenesis，102 與 101 年各考一次\n- 所有**節前**纖維都釋放 acetylcholine；副交感節前長、節後短\n- Prevertebral 神經節數量**少於** paravertebral\n- **三叉神經**是唯一不含副交感成分的那條腦神經\n- 升壓藥題只考劑量與受體對應：dobutamine 在常用劑量以 **β1 為主**，寫成 β2 大於 β1 就是答案"
+        },
+        {
+          "type": "text",
+          "heading": "心肌電生理與心功能指標",
+          "content": "Plateau 是 **phase 2**、由 **L-type calcium channel** 內流維持，104 年答鈣離子；106 年那題題幹把標號與 plateau 併寫、官方答案是**鈉離子**，判讀請依圖上標號。\n其他反覆出現的敘述：\n- Gap junction 負責電氣機械耦合\n- Excitation-contraction coupling 的 second messenger 是**鈣**不是鈉\n- SA 與 AV node 屬**慢反應**細胞\n- Frank-Starling 曲線**左移**代表 inotropy 上升，且心衰竭仍適用\n- EF 等於 **SV 除以 EDV**\n- 心房收縮的貢獻**大於** slow filling phase\n- CVP **不是**可靠的前負荷指標\n- 正壓通氣：降低的是**左心室後負荷**，右心室後負荷是**上升**\n- Adrenomedullin 兩年都考：自 pheochromocytoma 分離、正性 inotropic 與 chronotropic、走**細胞膜受體與 cAMP** 而非核受體"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "固定誘答就是把反射方向整個寫反：Bainbridge 被寫成心跳變慢（111、113 年），Bezold-Jarisch 被寫成 tachycardia（111 年）或肺動脈擴張（113 年），baroreceptor 的延腦升壓／降壓區被對調（106 年）。\n另有一字之差的替換：112 年把 **sinus nerve of Hering** 說成三叉神經分支（實際屬舌咽神經）；102 年把 antisialagogue 最好的說成 atropine（實際是 scopolamine）就是答案。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "這個子題多屬基礎生理，方向性至今未變，可放心以現行觀念作答。只有 93 年**單看 EF 評估心室功能**，以及膀胱受體那題的舊敘述，屬當年寫法；作答舊題仍以當年官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "93_written_Q86",
+        "100_written_Q21",
+        "101_written_Q48",
+        "102_written_Q64",
+        "104_written_Q3",
+        "106_written_Q2",
+        "107_written_Q6",
+        "110_written_Q39",
+        "111_written_Q8",
+        "112_written_Q5",
+        "113_written_Q7",
+        "114_written_Q11"
+      ]
+    },
+    {
+      "subtopic": "neuro_consciousness",
+      "title": "神經生理、腦血流與意識",
+      "exam_focus": "32 題裡有兩組幾乎逐字重複的題組（腦血流基本數值、高位脊髓損傷），先認出來就先拿分。第二主軸是麻醉藥與體溫對 CBF／CMR 的影響，近年重心則移到意識、記憶與睡眠。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "兩組幾乎逐字重複的題組",
+          "content": "**第一組：腦血流基本數值。** 102、104、106 年三次出現同一份選項，答案永遠是「PaCO2 上升造成血管收縮、CBF 下降」這句**方向寫反**的敘述；101 年換成把灰質寫成佔 20% 為非。\n**第二組：脊髓損傷題。** 100、101、103 年三次完全相同，答案都是高位脊髓損傷**抽痰時典型反應為心搏過緩**而非過速。"
+        },
+        {
+          "type": "table",
+          "heading": "腦血流基本數值",
+          "columns": [
+            "項目",
+            "數值"
+          ],
+          "rows": [
+            [
+              "CBF",
+              "約 50 mL/100 g/min"
+            ],
+            [
+              "灰質／白質",
+              "灰質約 80、白質約 20"
+            ],
+            [
+              "Autoregulation 範圍",
+              "約 65 至 150 mmHg（下限各年不同：早年寫 50、101 年改成 70、107 與 108 年用 65，作答依該年題目給的範圍）"
+            ],
+            [
+              "PaO2 對 CBF",
+              "低於 60 mmHg 才明顯上升"
+            ],
+            [
+              "PaCO2 對 CBF",
+              "最強的調節因子；約 20 至 80 mmHg 間每變動 1 mmHg，CBF 改變約 1 至 2 mL/100 g/min"
+            ],
+            [
+              "體溫對 CMR",
+              "每降 1°C 約降 6 至 7%"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "麻醉藥與體溫對 CBF、CMR 的影響",
+          "content": "107 與 108 年幾乎同一題：吸入麻醉藥**降低 CMRO2 卻直接擴張腦血管**，1 MAC 以上出現 flow-metabolism uncoupling，CBF 是**上升**而非下降，isoflurane 同樣是增加。\nBarbiturate 與 propofol 壓到 electrophysiologic silence 後，CMRO2 約降**五至六成**即達平台。\n體溫每降 1°C 約降 6 至 7% CMR，但超過 **42°C** 蛋白質變性，CMR 與 CBF 反而下降，110 與 113 年都拿這個轉折當陷阱。\n另要記：flumazenil 拮抗 midazolam 會使 CBF **明顯上升**；BBB 缺損時 epinephrine 對 CBF 影響最大。"
+        },
+        {
+          "type": "text",
+          "heading": "意識、記憶與睡眠（近年重點）",
+          "content": "- 麻醉藥造成 **anterograde amnesia**；證據並不支持 retrograde amnesia，但存在 **retrograde facilitation**\n- 抑制記憶所需濃度**遠低於**意識喪失，**0.2 至 0.3 MAC** 就有影響；propofol 在 sub-hypnotic dose 已影響記憶\n- 意識喪失的關鍵在**皮質下與 thalamocortical 連結中斷**，不是只有 cerebral cortex\n- 術後**第一晚 REM 被抑制**，之後幾晚才 rebound\n- 治失眠用的是 orexin **receptor antagonist**\n- NREM 佔**七八成**\n- PSG 是分期**金標準**，卻不適合當常規術前評估"
+        },
+        {
+          "type": "text",
+          "heading": "神經肌肉傳導：集中在幾個機轉錯位",
+          "content": "- Botulinum toxin 作用在**突觸前切 SNARE**，不是阻斷突觸後結合\n- nAChR **兩個 α 位置都要被佔**才開啟\n- 燒傷後受體**上調**，不可用 succinylcholine\n- Phase II block **不能**靠 neostigmine 可靠反轉"
+        },
+        {
+          "type": "compare",
+          "heading": "易混淆對照",
+          "items": [
+            {
+              "a": "Anterograde amnesia",
+              "b": "Retrograde amnesia",
+              "note": "麻醉藥造成的是 **anterograde**；retrograde amnesia 證據並不支持，但存在 **retrograde facilitation**。"
+            },
+            {
+              "a": "Explicit 記憶",
+              "b": "Implicit 記憶",
+              "note": "術中清醒屬 **explicit** 記憶，寫成 implicit 就錯。"
+            },
+            {
+              "a": "Coupling",
+              "b": "Autoregulation",
+              "note": "barbiturate 與 propofol 壓到 electrophysiologic silence 後 CMRO2 降五至六成達平台，那是 **coupling** 不是 autoregulation。"
+            },
+            {
+              "a": "Orexin 與 emergence",
+              "b": "Orexin 與 induction",
+              "note": "orexin 影響的是 **emergence** 而非 induction。"
+            }
+          ]
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 腦血流題組的固定答案就是那句方向寫反的「**PaCO2 上升造成血管收縮、CBF 下降**」。\n- 吸入麻醉藥對 CBF 寫成**下降**即錯，實際是上升（1 MAC 以上 uncoupling）。\n- 110 與 113 年拿**超過 42°C 時 CMR 與 CBF 反而下降**這個轉折當陷阱。\n- 術中清醒寫成 **implicit** 記憶就錯；睡眠題把「第一晚 REM rebound」與「REM 被抑制」對調也是常見誘答。\n- 高位脊髓損傷抽痰的典型反應寫成心搏**過速**即錯。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "94 年那三題屬舊版寫法，包括**血比容維持 30 至 34%**、以及把「腦血管接受交感副交感支配」判為非——現行教科書已承認其存在。留題僅為完整，作答舊題仍依當年觀念與官方答案為準。"
+        }
+      ],
+      "question_refs": [
+        "94_written_Q83",
+        "100_written_Q64",
+        "101_written_Q42",
+        "102_written_Q69",
+        "103_written_Q51",
+        "104_written_Q1",
+        "106_written_Q3",
+        "107_written_Q3",
+        "108_written_Q27",
+        "110_written_Q35",
+        "111_written_Q1",
+        "113_written_Q2"
+      ]
+    },
+    {
+      "subtopic": "hepatorenal_gi",
+      "title": "肝、腎與腸胃生理",
+      "exam_focus": "34 題的特色是同一組選項被反覆使用：肝血流比例題出現四次、腎臟自動調節題出現四次，內容幾乎相同。腸胃道題近年變多，是新增分。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "肝血流與 hepatic arterial buffer response",
+          "content": "肝血流比例題出現四次，選項固定把 **75 與 25 對調**當錯誤答案。Hepatic arterial buffer response 也考方向：門靜脈血流下降時肝動脈是**增加**，101 年寫成隨之減少即為非。"
+        },
+        {
+          "type": "table",
+          "heading": "肝血流比例（固定考點）",
+          "columns": [
+            "項目",
+            "數值／方向"
+          ],
+          "rows": [
+            [
+              "肝臟占心輸出量",
+              "約 25 至 30%"
+            ],
+            [
+              "Portal vein",
+              "約占肝血流 75%"
+            ],
+            [
+              "Hepatic artery",
+              "約占肝血流 25%"
+            ],
+            [
+              "供氧",
+              "兩者**各半**"
+            ],
+            [
+              "Hepatic arterial buffer response",
+              "門靜脈血流下降時，肝動脈血流**增加**"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "肝硬化的固定考點",
+          "content": "肝硬化的核心是 **hyperdynamic circulation**：心輸出量上升、周邊血管阻力下降、血壓略降，但對升壓刺激的反應是**遲鈍**而非增強。\n- 2,3-DPG 上升使曲線**右移**不是左移\n- 腎損傷屬**腎前性與 hepatorenal**，而非腎後性\n- 急性肝病看 **PT** 而非 albumin，因為白蛋白半衰期太長"
+        },
+        {
+          "type": "text",
+          "heading": "腎自動調節與麻醉對腎的影響",
+          "content": "腎臟自動調節題出現四次，內容幾乎相同：MAP 約 **80 至 180 mmHg**，靠 afferent arteriole 的 **myogenic response** 與 macula densa 的 **tubuloglomerular feedback**。糖尿病腎病變則會使自動調節消失。\n麻醉對腎的部分：\n- 全身麻醉藥普遍降低 GFR 與尿量，且屬心輸出量與血壓下降的**間接效應**\n- PEEP 與正壓通氣同時降低腎血流與尿量\n- Epidural 加 epinephrine 會**降低**腎血流\n- Sevoflurane 的 compound A 只有動物毒性，人體**未證實**\n114 年新題轉向臨床判斷：低血容時靠 renin-angiotensin 收縮 **efferent arteriole** 維持 GFR；低血壓少尿最直接的處置是把動脈壓拉回自動調節範圍。"
+        },
+        {
+          "type": "table",
+          "heading": "腎功能異常時的藥物處置（固定題型）",
+          "columns": [
+            "藥物",
+            "素材裡的定位"
+          ],
+          "rows": [
+            [
+              "Alfentanil",
+              "受腎功能影響**最小**，固定是答案"
+            ],
+            [
+              "Pancuronium",
+              "拿來與 alfentanil 對照的藥物"
+            ],
+            [
+              "Neostigmine",
+              "拿來與 alfentanil 對照的藥物"
+            ],
+            [
+              "Meperidine",
+              "有**活性代謝物蓄積**"
+            ],
+            [
+              "Morphine",
+              "有**活性代謝物蓄積**"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "腸胃道生理（近年變多）",
+          "content": "- 管壁由外而內是 **serosa、longitudinal、circular、submucosa、mucosa**\n- Motility 主導者是 **myenteric plexus** 而非 submucosal\n- Vagus 只到**橫結腸中段**，之後由 **S2 至 S4** 支配\n- 脊髓麻醉交感阻斷後副交感相對優勢，腸蠕動是**增加**而非變慢，這點兩年都考"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 肝血流比例的選項固定把 **portal vein 75% 與 hepatic artery 25% 對調**當錯誤答案。\n- 腎自動調節題的答案幾乎都落在「**calcium channel blocker 不會抑制自動調節**」這句上——實際上它會削弱。另一個常見錯敘述是把急性腎衰竭的調節失效**單一歸因於內皮無法製造 NO**。\n- Ketamine 那個陷阱 110 與 113 年連考兩次：ketamine 並**不會**增加腎血流與尿量。\n- 慢性腎衰竭漏透析那兩題，答案都是**血小板功能異常**而非數目低下。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "99 年那題腎功能用藥的官方答案標為 **morphine**，與後來各年判讀相反，解析已註記存疑；112 年腸道交感神經節段那題經委員會決議 **A 與 D 皆給分**。舊卷依當年判定作答，臨床上以現行觀念為準。"
+        }
+      ],
+      "question_refs": [
+        "99_written_Q5",
+        "100_written_Q22",
+        "101_written_Q5",
+        "103_written_Q47",
+        "104_written_Q6",
+        "106_written_Q4",
+        "107_written_Q2",
+        "109_written_Q1",
+        "110_written_Q40",
+        "112_written_Q7",
+        "113_written_Q9",
+        "114_written_Q12"
+      ]
+    },
+    {
+      "subtopic": "homeostasis_metabolism",
+      "title": "體液電解質、酸鹼、體溫與代謝",
+      "exam_focus": "27 題裡電解質基礎題被重複使用四次、選項幾乎不變，答案永遠是氯離子那一項。另外三個固定主軸是鎂的儲存部位、近年偏向 Stewart 模型的酸鹼題，以及圍術期低體溫的尿量方向。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "電解質基礎題（重複四次，選項幾乎不變）",
+          "content": "- 鈉是**細胞外**主要陽離子\n- 鉀是**細胞內**主要陽離子，並決定靜止膜電位\n- 鈣負責 **excitation-contraction coupling**\n- 答案永遠是**氯離子**那一項——大量輸注高氯溶液造成的是**高氯性代謝酸中毒**，不是鹼化\n\n同一組題還會夾帶：TURP 症候群屬**低張性稀釋性**低血鈉而非高張性；肝硬化屬 **hypervolemic hyponatremia**。"
+        },
+        {
+          "type": "text",
+          "heading": "鎂、鈣、鉀",
+          "content": "**鎂**的考法也重複。111 與 112 年兩題錯的都是同一句「鎂大部分儲存於細胞外」——實際約**一半在骨骼**、其餘多在細胞內，細胞外僅約 **1%**，所以血鎂正常不代表沒有缺乏。113 年換方向陷阱，把「高血鎂增強神經肌肉阻斷」寫成低血鎂。低血鎂常與低血鉀、低血鈣共存，**補鉀補鈣前要先補鎂**。\n**低血鈣**則考 **Trousseau sign** 作為甲狀腺術後呼吸困難的決定性線索。"
+        },
+        {
+          "type": "table",
+          "heading": "數值與門檻",
+          "columns": [
+            "項目",
+            "數值"
+          ],
+          "rows": [
+            [
+              "補鉀走中央靜脈的濃度",
+              "大於 40 mEq/L"
+            ],
+            [
+              "補鉀速度上限",
+              "不超過 0.5 mEq/kg/h"
+            ],
+            [
+              "Calcium chloride 對 gluconate",
+              "元素鈣是 gluconate 的**三倍**，外滲傷害**更大**而非較小"
+            ],
+            [
+              "Anion gap",
+              "Na 減去 Cl 與 HCO3，正常約 12±4"
+            ],
+            [
+              "急性呼吸性酸中毒代償",
+              "PaCO2 每上升 10 mmHg，HCO3 僅代償約 1 mEq/L"
+            ],
+            [
+              "J 或 Osborn wave",
+              "體溫低於 32°C 出現"
+            ],
+            [
+              "低體溫定義",
+              "早年題目用中心體溫低於 36°C，111 年那題用低於 35°C，依題目脈絡判斷"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "酸鹼：Stewart 模型與傳統項目",
+          "content": "近年偏向 **Stewart 模型**：獨立變項只有 **PaCO2、strong ion difference 與弱酸總濃度**，**PaO2 不是**。SID 下降或 ATOT 上升都造成**酸中毒**。低白蛋白血症是重症最常見的**隱性鹼化**來源。\n傳統項目也要顧：\n- Hypochloremic 對應的是**鹼中毒**不是酸中毒\n- Bicarbonate **不能**用來治呼吸性酸中毒\n113 年新題很實用：慢性高碳酸血症的 COPD 病人術中 EtCO2 應維持**接近術前 baseline**，不宜矯正到正常值。"
+        },
+        {
+          "type": "text",
+          "heading": "圍術期低體溫",
+          "content": "尿量方向要分清：**cold diuresis 出現在早期**，機轉是中央血容量增加與 ADH 受抑制；**極度低體溫時腎血流與 GFR 其實是下降的**，112 與 114 年分別從兩個方向考同一個機轉。\n其餘固定考點：\n- 周邊血管收縮使 SVR 與血壓**上升**\n- 抑制 insulin 分泌與敏感度而**高血糖**\n- PT 與 aPTT 在 **37°C** 檢驗，故測不出低溫凝血障礙\n- 全身麻醉初期降溫主因是**熱量再分布**而非散失"
+        },
+        {
+          "type": "pitfall",
+          "heading": "考古題陷阱",
+          "content": "- 電解質基礎題的答案永遠是**氯離子**那一項（高氯溶液造成酸中毒，不是鹼化）。\n- 「**鎂大部分儲存於細胞外**」是 111、112 年兩題共用的固定錯句。\n- 113 年把「高血鎂增強神經肌肉阻斷」寫成**低血鎂**，屬一字之差的替換。\n- 110 年把「SID 下降或 ATOT 上升」並列說成**鹼中毒**即為非。\n- Hypochloremic 寫成酸中毒即錯；TURP 症候群寫成**高張性**低血鈉即錯。"
+        },
+        {
+          "type": "pitfall",
+          "heading": "新舊觀念落差",
+          "content": "留意 100 與 99 年是同一題但採計不同：99 年只採計**凝血檢驗**那一項，因為「低 1 至 2°C 使感染率增三倍」這類數值在文獻並不一致。作答舊題依當年答案；臨床上現行已要求**主動加溫維持 36°C 以上**。"
+        }
+      ],
+      "question_refs": [
+        "94_written_Q66",
+        "99_written_Q61",
+        "100_written_Q13",
+        "101_written_Q67",
+        "103_written_Q6",
+        "106_written_Q35",
+        "109_written_Q46",
+        "110_written_Q90",
+        "111_written_Q65",
+        "112_written_Q50",
+        "113_written_Q52",
+        "114_written_Q60"
+      ]
+    }
+  ]
+}
