@@ -17,6 +17,7 @@
 import json
 import re
 import sys
+from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,8 +28,25 @@ REPORT = ROOT / "audit" / "crosscheck_legacy.md"
 PUNCT = re.compile(r"[，,。.、？?！!：:；;（）()「」【】\[\]\"'’“”]")
 
 
+# 同一題在不同年份的卷子上會有異體字差異（週／周、台／臺…）
+VARIANTS = str.maketrans("週裡佈昇歷麽жЖ", "周里布升历么жЖ")
+
+
 def norm(s):
-    return PUNCT.sub("", re.sub(r"[\s　]+", "", str(s))).lower()
+    s = PUNCT.sub("", re.sub(r"[\s　]+", "", str(s))).lower()
+    return s.translate(VARIANTS)
+
+
+def close(a, b):
+    """兩段文字是不是同一句話的不同轉錄。
+
+    同一題被兩年沿用時，轉錄常有細微出入——多一個「雖」字、把「狀況」寫進去、
+    異體字——語意完全相同。這種差異不該被當成答案矛盾擋下部署，
+    但門檻要夠高，免得把真的不同的選項也吞掉。
+    """
+    if not a or not b:
+        return False
+    return SequenceMatcher(None, a, b).ratio() >= 0.85
 
 
 def load(dir_path, pattern):
@@ -53,6 +71,8 @@ def classify(lq, oq):
         return "一致", "答案字母與內容都相同"
     if l_ans and l_ans == o_ans:
         return "一致", f"選項順序不同（舊 {lq['answer']} ＝ 官方 {oq['answer']}），答案內容相同"
+    if close(l_ans, o_ans):
+        return "一致", "答案內容相同，兩年的轉錄有細微字句差異"
     if not shared or len(shared) <= 1:
         return "不同版本", f"選項組幾乎無交集（共用 {len(shared)} 個選項），是沿用題幹另出的題"
     return "矛盾", f"選項組有 {len(shared)} 個重疊，但答案內容不同——需要人工判斷"

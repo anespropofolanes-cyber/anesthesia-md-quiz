@@ -26,14 +26,23 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: 檢查題庫完整性
-        # 這四道任何一道沒過就不會部署。
+        # 任何一道沒過就不會部署。
         # validate_questions 會逐題比對學會公告的答案卡；
+        # validate_explanations 會擋下「解析寫的答案與官方答案矛盾」——
+        #   修正 94 年答案那次，它當場攔下 37 處照舊答案寫的解析；
         # crosscheck_legacy 會確認舊考題與官方年份的重複題沒有矛盾。
         run: |
           python3 tools/validate_questions.py
           python3 tools/validate_legacy.py
+          python3 tools/validate_explanations.py
           python3 tools/crosscheck_legacy.py
           python3 tools/validate_oral.py
+
+      - name: 檢查離線圖檔清單是最新的
+        # manifest 沒跟上就代表新抽的圖不會被離線快取，有圖的題目離線讀不到
+        run: |
+          python3 tools/build_image_manifest.py
+          git diff --exit-code data/image_manifest.json
 
       - uses: actions/configure-pages@v5
 
