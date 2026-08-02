@@ -149,12 +149,27 @@ function sourceHTML(q) {
   return `<div class="explain"><span class="h">答案出處</span>${rows.join('')}</div>`;
 }
 
-function noteHTML(q) {
+function noteHTML(q) { return noteBoxHTML(q.source); }
+
+/* 筆記欄。題目、分類、子題共用同一個元件，只有鍵與文案不同。 */
+function noteBoxHTML(key, label = '我的筆記', placeholder = '寫下你自己的理解、記憶法或補充…') {
   return `<div class="noteblk">
-    <div class="lbl">我的筆記 <span class="saved" id="saved-${esc(q.source)}">已儲存</span></div>
-    <textarea placeholder="寫下你自己的理解、記憶法或補充…"
-      oninput="onNote('${q.source}', this.value)">${esc(store.getNote(q.source))}</textarea>
+    <div class="lbl">${esc(label)} <span class="saved" id="saved-${esc(key)}">已儲存</span></div>
+    <textarea placeholder="${esc(placeholder)}"
+      oninput="onNote('${key}', this.value)">${esc(store.getNote(key))}</textarea>
   </div>`;
+}
+
+/* 分類頁與子題頁底部的筆記。上面是 AI 整理的重點，這一欄是使用者自己的結論——
+   讀完一輪之後把自己的話寫下來，才是真的讀進去了。 */
+function topicNoteHTML(code, subId, name) {
+  return `<div class="sect-label">我的整理</div>
+    <div class="card">
+      <p class="hint" style="margin:0 0 10px">上面的重點整理是 AI 依考題歸納的；這一欄是你自己的，
+        會存在這台裝置上，也會出現在「筆記」頁。</p>
+      ${noteBoxHTML(topicNoteKey(code, subId), name,
+        '例如：自己歸納的口訣、老是記錯的地方、想再查的問題…')}
+    </div>`;
 }
 
 let noteTimer = null;
@@ -280,14 +295,23 @@ function openCategory(code) {
           ${isLegacyYear(y) ? legacyTag(y) : ''}
           ${done ? `<span class="tag topic">已答對 ${done}</span>` : ''}</div>
       </button>`;
-    }).join('')}</div>`;
+    }).join('')}</div>
+    ${topicNoteHTML(code, null, `${c.code}　${c.name}`)}`;
 
   // 教材另外抓，抓不到就當作沒有——分類頁其餘部分照樣能用
+  const seq = ++catSeq;
   loadConcept(code).then(cc => {
     const slot = document.getElementById('concept-slot');
-    if (slot && cc) slot.innerHTML = conceptHTML(cc, code);
+    if (seq !== catSeq || !slot || !cc) return;
+    slot.innerHTML = conceptHTML(cc, code);
   });
 }
+
+/* 分類頁與子題頁都把教材塞進 #concept-slot，而教材是非同步抓的。
+   首次進某分類時若在抓完前就切走（點進子題、或改點別的分類），
+   先前那次的 promise 會把內容灌進新畫面。每次重繪換一個序號，
+   回來時對不上就不寫。 */
+let catSeq = 0;
 
 /* ── 教材（重點整理） ──
    一份教材對應一個學會代碼，底下每個小節就是一個子題。
@@ -317,6 +341,27 @@ function conceptHTML(c, code) {
         </div>
       </details>`).join('')}
   </div>`;
+}
+
+/* 子題頁的教材。分類頁一次列 2–9 節所以要收合，這裡只有一節，直接攤開，
+   也不需要重複那一節的標題（頁面 h1 就是它）。 */
+function subtopicConceptHTML(s) {
+  return `<div class="card concept">
+    <div class="chead"><h2>重點整理</h2><span class="aitag">AI 整理，非官方</span></div>
+    ${s.exam_focus ? `<div class="focus">歷屆考點：${rich(s.exam_focus)}</div>` : ''}
+    ${(s.blocks || []).map(blockHTML).join('')}
+    ${(s.question_refs || []).length ? `
+      <button class="btn sm" onclick="practiceSources(${jsonAttr(s.question_refs)}, '${esc(s.title)}', 'cat')">
+        練這一段的代表題（${s.question_refs.length}）</button>` : ''}
+  </div>`;
+}
+
+/* 還沒改成結構化區塊的子題，退回純文字版（data/subtopic_briefs.json）。 */
+function briefHTML(brief) {
+  return `<details class="explain ai" open>
+    <summary><span class="h" style="display:inline">重點整理</span><span class="aitag">AI 整理，非官方</span></summary>
+    <div class="expltext">${esc(brief)}</div>
+  </details>`;
 }
 
 function toggleAllSections() {
@@ -357,10 +402,7 @@ function openSubtopic(code, subId) {
     <button class="btn sm" onclick="openCategory('${code}')" style="margin-bottom:14px">← ${esc(c.name)}</button>
     <h1 class="page">${esc(s.name)}</h1>
     <p class="lede">${esc(c.code)}　${esc(c.name)}　共 ${qs.length} 題${s.desc ? `。${esc(s.desc)}` : ''}</p>
-    ${brief ? `<details class="explain ai" open>
-      <summary><span class="h" style="display:inline">重點整理</span><span class="aitag">AI 整理，非官方</span></summary>
-      <div class="expltext">${esc(brief)}</div>
-    </details>` : ''}
+    <div id="concept-slot"></div>
     <div class="btnrow" style="margin:14px 0 18px">
       <button class="btn primary" onclick="practiceSources(${jsonAttr(qs.map(q => q.source))}, '${esc(s.name)}', 'cat', true)">
         練習全部 ${qs.length} 題（隨機順序）</button>
@@ -375,7 +417,18 @@ function openSubtopic(code, subId) {
           ${isLegacyYear(y) ? legacyTag(y) : ''}
           ${done ? `<span class="tag topic">已答對 ${done}</span>` : ''}</div>
       </button>`;
-    }).join('')}</div>`;
+    }).join('')}</div>
+    ${topicNoteHTML(code, subId, s.name)}`;
+
+  // 教材另外抓：優先用結構化的那一節，沒有才退回純文字版，都沒有就當作沒有
+  const seq = ++catSeq;
+  loadConcept(code).then(cc => {
+    const slot = document.getElementById('concept-slot');
+    if (seq !== catSeq || !slot) return;   // 使用者已經切走了
+    const sec = (cc?.sections || []).find(x => x.subtopic === subId);
+    if (sec) slot.innerHTML = subtopicConceptHTML(sec);
+    else if (brief) slot.innerHTML = briefHTML(brief);
+  });
 }
 
 /* ══ 清單頁 ══ */
@@ -384,19 +437,22 @@ function renderList(kind) {
   const el = document.getElementById(map);
   const table = kind === 'wrong' ? store.s.wrong : kind === 'mark' ? store.s.marks : store.s.notes;
   const keys = Object.keys(table);
-  // 口試筆記的鍵不在筆試索引裡，要另外查，否則會整批消失
+  // 口試與分類／子題筆記的鍵都不在筆試索引裡，要另外查，否則會整批消失
   const oralKeys = kind === 'note' ? keys.filter(isOralNoteKey) : [];
-  const items = keys.filter(k => !isOralNoteKey(k)).map(s => DB.index[s]).filter(Boolean);
-  if (!items.length && !oralKeys.length) {
+  const topicKeys = kind === 'note' ? keys.filter(isTopicNoteKey) : [];
+  const items = keys.filter(k => !isOralNoteKey(k) && !isTopicNoteKey(k))
+    .map(s => DB.index[s]).filter(Boolean);
+  if (!items.length && !oralKeys.length && !topicKeys.length) {
     const msg = { wrong: '還沒有錯題。開始練習後答錯的題目會自動收進來。',
                   mark: '還沒有書籤。作答時點題號右邊的「☆ 收藏」就會收進來。',
-                  note: '還沒有筆記。在任何一題下方的筆記欄寫下想法即可。' }[kind];
+                  note: '還沒有筆記。任何一題下方、或分類頁與子題頁下方的筆記欄都可以寫。' }[kind];
     el.innerHTML = `<div class="empty"><div class="big">·</div>${msg}</div>`;
     return;
   }
   items.sort((a, b) => (table[b.source].at || 0) - (table[a.source].at || 0));
   oralKeys.sort((a, b) => (table[b].at || 0) - (table[a].at || 0));
-  el.innerHTML = `<div class="list">${oralKeys.map(oralNoteItem).join('')}${items.map(q => {
+  topicKeys.sort((a, b) => (table[b].at || 0) - (table[a].at || 0));
+  el.innerHTML = `<div class="list">${topicKeys.map(topicNoteItem).join('')}${oralKeys.map(oralNoteItem).join('')}${items.map(q => {
     const extra = kind === 'wrong'
       ? `<div class="ans">你答過：<strong>${esc(store.s.wrong[q.source].my || '—')}</strong>　正解：<strong>${esc(answerText(q))}</strong>　答錯 ${store.s.wrong[q.source].n} 次</div>`
       : kind === 'note'
@@ -412,6 +468,23 @@ function renderList(kind) {
       </div>
     </div>`;
   }).join('')}</div>`;
+}
+
+/** 筆記頁裡的分類／子題筆記。分類代碼即使日後改名也還原得出來，回不去就顯示原鍵。 */
+function topicNoteItem(key) {
+  const [, code, subId] = key.split(':');
+  const c = (DB.taxonomy?.categories || []).find(x => x.code === code);
+  const s = subId && (c?.subtopics || []).find(x => x.id === subId);
+  const head = c ? `${c.code}　${c.name}` : code;
+  const title = s ? s.name : (subId || '整個分類');
+  const jump = subId ? `openSubtopic('${code}','${subId}')` : `openCategory('${code}')`;
+  return `<div class="item">
+    <div class="top"><strong>${esc(head)}</strong>
+      <span class="tag topic">${subId ? '子題' : '分類'}</span>
+      <button class="btn sm" style="margin-left:auto" onclick="${jump}">前往</button></div>
+    <div class="q">${esc(title)}</div>
+    <div class="explain" style="margin-top:10px"><span class="h">我的整理</span>${esc(store.getNote(key))}</div>
+  </div>`;
 }
 
 /** 筆記頁裡的口試筆記。索引沒建起來時（還沒載入口試資料）也要看得到內容。 */

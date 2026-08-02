@@ -99,6 +99,12 @@ function oralNoteKey(q, i) {
 }
 function isOralNoteKey(k) { return String(k).startsWith('oral:'); }
 
+/* 分類／子題筆記的鍵。`topic:B2` 是整個分類，`topic:B2:nmba` 是子題。
+   跟題目的 source（`114_written_Q1`）分屬不同命名空間，筆記頁要分開查，
+   否則會像口試筆記那樣在清單裡整批消失。 */
+function topicNoteKey(code, subId) { return subId ? `topic:${code}:${subId}` : `topic:${code}`; }
+function isTopicNoteKey(k) { return String(k).startsWith('topic:'); }
+
 function byCategory(code, { verifiedOnly = false } = {}) {
   return allQuestions()
     .filter(q => q.category === code && (!verifiedOnly || q.verified))

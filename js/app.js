@@ -239,6 +239,69 @@ function exportData() {
 
 const PICK_LABEL = { marks: '書籤', notes: '筆記', wrong: '錯題', right: '答對紀錄', prefs: '設定' };
 
+/** 把筆記匯成看得懂的 Markdown。
+    JSON 備份是給「還原」用的，打開來讀不了；要印出來或貼進別的筆記軟體用這個。
+    三種筆記的鍵分屬不同命名空間，各自還原標題。 */
+function notesMarkdown() {
+  const notes = store.s.notes;
+  const keys = Object.keys(notes);
+  if (!keys.length) return null;
+  const body = t => String(notes[t]?.text || '').trim();
+  const out = [`# 麻醉專科醫師題庫　我的筆記`,
+               `匯出於 ${new Date().toLocaleString('zh-TW')}　共 ${keys.length} 則`, ''];
+
+  // 分類與子題：依 taxonomy 的順序排，讀起來才是一份有結構的筆記本
+  const topic = [];
+  for (const c of (DB.taxonomy?.categories || [])) {
+    const k = topicNoteKey(c.code);
+    if (notes[k]) topic.push([`${c.code}　${c.name}`, body(k)]);
+    for (const s of (c.subtopics || [])) {
+      const sk = topicNoteKey(c.code, s.id);
+      if (notes[sk]) topic.push([`${c.code}　${c.name}／${s.name}`, body(sk)]);
+    }
+  }
+  if (topic.length) {
+    out.push(`## 分類與子題整理（${topic.length} 則）`, '');
+    for (const [h, t] of topic) out.push(`### ${h}`, '', t, '');
+  }
+
+  // 題目筆記：附上題幹與正解，離開網站也讀得懂
+  const qs = keys.filter(k => !isOralNoteKey(k) && !isTopicNoteKey(k))
+    .map(k => DB.index[k]).filter(Boolean)
+    .sort((a, b) => b.year - a.year || a.id - b.id);
+  if (qs.length) {
+    out.push(`## 題目筆記（${qs.length} 則）`, '');
+    for (const q of qs) {
+      out.push(`### ${q.year} 年 Q${q.id}`, '', q.question, '',
+               `正解：${answerText(q)}`, '', body(q.source), '');
+    }
+  }
+
+  const oral = keys.filter(isOralNoteKey).sort();
+  if (oral.length) {
+    out.push(`## 口試筆記（${oral.length} 則）`, '');
+    for (const k of oral) {
+      const hit = (DB.oralIndex || {})[k];
+      const [, year, qid, idx] = k.split(':');
+      out.push(`### ${hit ? `${hit.question.year} 年 ${hit.question.title}` : `${year} 年 口試第${qid}題`}`, '',
+               hit ? hit.sub.title : `子題 ${idx}`, '', body(k), '');
+    }
+  }
+  return out.join('\n');
+}
+
+function exportNotes() {
+  const md = notesMarkdown();
+  if (!md) { toast('還沒有任何筆記'); return; }
+  const url = URL.createObjectURL(new Blob([md], { type: 'text/markdown;charset=utf-8' }));
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `麻醉醫師題庫_筆記_${new Date().toISOString().slice(0, 10)}.md`;
+  a.click();
+  URL.revokeObjectURL(url);
+  toast('筆記已下載');
+}
+
 /** 勾選項旁邊顯示筆數，才知道自己到底匯出了什麼。 */
 function refreshExportCounts() {
   const c = store.counts();
@@ -267,7 +330,7 @@ function importData(input) {
   r.readAsText(f);
 }
 
-const CACHE_NAME = 'anes-md-v20';   // 必須與 sw.js 的 CACHE 一致
+const CACHE_NAME = 'anes-md-v21';   // 必須與 sw.js 的 CACHE 一致
 
 /** 核心資源（不含圖片）。由頁面確保入快取，不倚賴 service worker 的安裝時機——
     使用者清過瀏覽器資料、或 sw.js 未改版時 install 不會重跑，靠這裡補齊。 */
