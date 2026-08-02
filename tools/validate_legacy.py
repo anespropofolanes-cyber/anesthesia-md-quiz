@@ -105,9 +105,11 @@ def check(path, codes):
         if category and category not in codes:
             errors.append(f"{tag}: 分類代碼 {category!r} 不在 taxonomy.json 裡")
 
-    labelled = sum(1 for q in questions if q.get("category"))
+    # 分官方與推定：104／106 年是學會自己標的，其餘是依其慣例推定（有 category_source）
+    official = sum(1 for q in questions if q.get("category") and not q.get("category_source"))
+    guessed = sum(1 for q in questions if q.get("category") and q.get("category_source"))
     tier = questions[0].get("answer_tier") if questions else None
-    return year, len(questions), labelled, tier, errors, warnings
+    return year, len(questions), official, guessed, tier, errors, warnings
 
 
 def main():
@@ -118,17 +120,21 @@ def main():
         return 1
 
     total = 0
+    total_cat = 0
     all_errors = []
     all_warnings = []
     for path in files:
-        year, count, labelled, tier, errors, warnings = check(path, codes)
+        year, count, official, guessed, tier, errors, warnings = check(path, codes)
         total += count
+        total_cat += official + guessed
         all_errors += errors
         all_warnings += warnings
         status = "OK" if not errors else f"{len(errors)} 項問題"
         bits = []
-        if labelled:
-            bits.append(f"有官方分類 {labelled} 題")
+        if official:
+            bits.append(f"官方分類 {official} 題")
+        if guessed:
+            bits.append(f"推定分類 {guessed} 題")
         bits.append("答案來自命題端檔案" if tier == "examiner" else "答案取自考卷檔案")
         print(f"民國 {year}：{count} 題 — {status}（{'、'.join(bits)}）")
         for e in errors[:10]:
@@ -137,7 +143,9 @@ def main():
             print(f"    ! {w}")
 
     print()
-    print(f"共 {total} 題。**這些年份學會網站沒有公開公告的答案卡可交叉核對。**")
+    print(f"共 {total} 題，其中 {total_cat} 題有分類代碼"
+          f"（沒有分類的題目進不了分類練習）。")
+    print("**這些年份學會網站沒有公開公告的答案卡可交叉核對。**")
     print("答案本身是隨學會發出的考卷檔案一併附上的；104／106 年的檔案還附了教科書出處。")
     print("跨年重複題的交叉驗證請跑 tools/crosscheck_legacy.py。")
     if all_errors:
