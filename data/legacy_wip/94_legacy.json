@@ -484,7 +484,7 @@
    "year": 94,
    "western_year": 2005,
    "era": "old",
-   "question": "下列有關於麻醉藥物之Pharmacokinetics 或Pharmacodynamics 之敘述何者有誤? (1)Pharmacodynamics 指藥物對身體產生之影響而Pharmacokinetics 指藥物在身體內如何 吸收,分佈及代謝 (2)一般而言,藥物之protein binding 若很強,則其作用時間 (duration )較久,例如 Bupivacaine 在成人,可達85-95% (3)關於pharmacogenetics,被研究最透徹的為Cytochrome P-4503D6 (CYP3D6) (4)t1/2=k/0.693 (註:t1/2=半衰期 ) (k=藥物代謝速率常數 )",
+   "question": "下列有關於麻醉藥物之Pharmacokinetics 或Pharmacodynamics 之敘述何者有誤? (1)Pharmacodynamics 指藥物對身體產生之影響而Pharmacokinetics 指藥物在身體內如何 吸收,分佈及代謝 (2)一般而言,藥物之protein binding 若很強,則其作用時間 (duration )較久,例如 Bupivacaine 在成人,可達85-95% (3)關於pharmacogenetics,被研究最透徹的為Cytochrome P-4503D6 (CY D6) (4)t1/2=k/0.693 (註:t1/2=半衰期 ) (k=藥物代謝速率常數 )",
    "options": {
     "A": "2,3",
     "B": "2,4",
@@ -683,7 +683,7 @@
    "year": 94,
    "western_year": 2005,
    "era": "old",
-   "question": "有關笑氣對心臟之作用,下列敘述何者最正確? 237 處:p98-99 處:p99 處:p104 P109-110 8",
+   "question": "有關笑氣對心臟之作用,下列敘述何者最正確? 237 處 處 處",
    "options": {
     "A": "在冠狀動脈繞道手術之病人使用笑氣,可導致左心室舒張期功能不良(LV diastolic dysfunction)",
     "B": "笑氣可致心肌細胞對Ca++敏感度降低",
@@ -806,7 +806,7 @@
    "question": "功能肺餘量(Functional Residual Capacity, FRC)在何時減少之程度最多?",
    "options": {
     "A": "站立時",
-    "B": "平躺時 P113-115 P611-612 P606 P583 P587 9",
+    "B": "平躺時",
     "C": "麻醉誘導後",
     "D": "使用肌肉鬆弛劑後",
     "E": "與病人姿勢無關"
@@ -965,7 +965,7 @@
    "era": "old",
    "question": "半身麻醉造成的呼吸停止,其原因為何?",
    "options": {
-    "A": "膈神經阻斷 P605 P604 P2843 P2324 P1492 P2333 P1496 10",
+    "A": "膈神經阻斷",
     "B": "迷走神經阻斷",
     "C": "喉返回神經阻斷",
     "D": "呼吸肌有關之神經路徑阻斷",
@@ -1009,7 +1009,7 @@
     "B": "手臂外側至中指",
     "C": "手臂內側至小指",
     "D": "手臂內側至無名指",
-    "E": "手臂內側至手掌 F. p 1522"
+    "E": "手臂內側至手掌 F."
    },
    "answer": "B",
    "scoring": "exact",
@@ -1109,7 +1109,7 @@
     "B": "脊髓前角神經元",
     "C": "A-delta-fiber",
     "D": "C-fiber",
-    "E": "神經末梢 P1479 P1505 P1522 P1512 P1549 P1546-7 P2352 P2353 11"
+    "E": "神經末梢"
    },
    "answer": "E",
    "scoring": "exact",
@@ -1223,7 +1223,7 @@
    "year": 94,
    "western_year": 2005,
    "era": "old",
-   "question": "以下為四種volume preset 模式的airway pressure 波型。Thick solid lines 代表 參考處:Anesthesia, 5th edition, p2386-87 難易度: 參考處:Anesthesia, 5th edition, p2160 表 難易度: 參考處:Anesthesia, 5th edition, p2394-95 難易度: 參考處:Anesthesia, 5th edition, p2425-26 難易度: 參考處:Anesthesia, 5th edition, p2426 難易度: ventilator breaths. Thick dotted lines 代表spontaneous breaths. Thin dotted lines 代表 沒有ventilator 時病人的spontaneous breath patterns。下列配對何者最適合: 1. (a) 2. (b) (c) 3. 4. (d)",
+   "question": "以下為四種volume preset 模式的airway pressure 波型。Thick solid lines 代表 表 ventilator breaths. Thick dotted lines 代表spontaneous breaths. Thin dotted lines 代表 沒有ventilator 時病人的spontaneous breath patterns。下列配對何者最適合: 1. (a) 2. (b) (c) 3. 4. (d)",
    "options": {
     "A": "1 + a,2 + b,3 + d,4 + c",
     "B": "1 + d,2 + a,3 + c,4 + b 12",
@@ -1355,7 +1355,7 @@
     "B": "Bradycardia 合併low cardiac output",
     "C": "Pulmonary edema",
     "D": "Hyperthermia",
-    "E": "Intraventricular hemorrhage edition, p2523 表、2524 表 14"
+    "E": "Intraventricular hemorrhage edition, 表、2524 表 14"
    },
    "answer": "A",
    "scoring": "exact",
@@ -1513,7 +1513,7 @@
    "options": {
     "A": "糖尿病人常併發心臟、神經系統、腎臟和血管等病變",
     "B": "據英、美學者統計,糖尿病人手術死亡率比正常人高3 倍",
-    "C": "施行區域麻醉時,局部麻醉藥量應減少 edition, p905 (應5 倍) 難易 度: 15",
+    "C": "施行區域麻醉時,局部麻醉藥量應減少 edition, (應5 倍) 15",
     "D": "施行區域麻醉時,傷及神經的危險度增高",
     "E": "投與之局部麻醉藥不加epinephrine 較好"
    },
@@ -1652,7 +1652,7 @@
    "question": "腦血流是影響腦壓之重要因素之一,下列有關於此一機制之敘述,何者為正確?",
    "options": {
     "A": "除ketamine 外,所有靜脈麻醉劑均會降低腦血流及腦之代謝率,故ketamine 對腦部損 傷之病人並無保護作用,在手術中及術後之照顧是絕對禁止使用的。",
-    "B": "一般而言,靜脈麻醉劑對於腦血管之自主性調控(autoregulation)和二氧化碳之反應 題 題 edition, p1896-1990 難 易度: 16 性是沒有影響的",
+    "B": "一般而言,靜脈麻醉劑對於腦血管之自主性調控(autoregulation)和二氧化碳之反應 題 題 edition, 16 性是沒有影響的",
     "C": "所有的吸入性麻醉劑均會造成腦血管之擴張,其擴張之效力如下:halothan>enflurane >isoflurane ≈ desflurane>sevoflurane",
     "D": "笑氣也會引起腦血管擴張,但當與靜脈麻醉劑同時使用時,會抑制靜脈麻醉劑降腦壓 之效果,故所謂的balance anesthesia 並不適用於神經外科之急症手術",
     "E": "Sucinylcholine 會增加ICP 為急症神經麻醉之禁忌"
@@ -1773,7 +1773,7 @@
    "options": {
     "A": "EtCO2",
     "B": "PA pressure",
-    "C": "TEE 題 題 edition, p697-698 ; p1899 題 edition, p698-699 ; p1899-1900 題 題 edition, p1901-1902 難易 度: 題 edition, p1024-1025 難易 度: edition, p1027 ; p1906 難 易度:",
+    "C": "TEE 題 題 edition, 題 edition, 題 題 edition, 題 edition, edition,",
     "D": "TcPO2",
     "E": "Doppler"
    },
@@ -1852,7 +1852,7 @@
    "year": 94,
    "western_year": 2005,
    "era": "old",
-   "question": "腦細胞內過多之鈣離子會造成腦細胞之傷害,而造成腦細胞中鈣離子增加之來源,下 列何者為非? 題參考處:Anesthesia, 5th edition, p1028 ; p1906 難 易度: 題參考處:Anesthesia, 5th edition, p1910; p1911 難易 度: 題參考處:Anesthesia, 5th edition, p1914 難易度:",
+   "question": "腦細胞內過多之鈣離子會造成腦細胞之傷害,而造成腦細胞中鈣離子增加之來源,下 列何者為非?",
    "options": {
     "A": "Valtage-gated Ca2+ channel",
     "B": "Endoplasmic reticulum",
@@ -1998,7 +1998,7 @@
     "B": "血小板減少",
     "C": "第五、八凝血因子(factor V、VIII )降低",
     "D": "體溫上升",
-    "E": "血壓下降 題 edition, p1914 Fig 19-12 題 edition, p718 Table 19-6 難 易度: 題 edition, p1927 Table 52-14 題 題 度: 題 度: 題 易度: 題 度: 19"
+    "E": "血壓下降 題 edition, : 題 edition, : 題 度: 題 易度: 題 度: 19"
    },
    "answer": "",
    "scoring": "unscored",

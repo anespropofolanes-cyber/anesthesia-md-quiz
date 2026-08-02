@@ -1805,7 +1805,7 @@
    "era": "old",
    "question": "有關Dexmedetomidine的藥理特性何者為非?",
    "options": {
-    "A": "靜脈注射後,與蛋白質的結合比例大於90%(p752)。",
+    "A": "靜脈注射後,與蛋白質的結合比例大於90%( )。",
     "B": "對腎上腺受體α2 有高度的選擇性(α2 /:α1:1600/1 )。",
     "C": "擴清半衰期為2-3小時。",
     "D": "靜脈注射後,在心血管系統的效應為biphasic,初期為血壓下降,隨後是血壓上升。",
@@ -2017,8 +2017,8 @@
    "options": {
     "A": "提升FiO2到1.0;以光纖內視鏡重新確認呼吸管位置",
     "B": "務求有足夠的心搏出量(cardiac output),必要時可降低吸入性麻醉劑濃度",
-    "C": "在非換氣中的肺葉使用PEEP 5 cmH2O",
-    "D": "在非換氣中的肺葉加入CPAP 1-2 cmH2O,或間歇性換氣(Intermittent Ventilation)",
+    "C": "在非換氣中的肺葉使用PEE cmH2O",
+    "D": "在非換氣中的肺葉加入CPA cmH2O,或間歇性換氣(Intermittent Ventilation)",
     "E": "在非換氣中的肺葉執行局部換氣,例如氧氣導入(Oxygen Insufflation)或高頻換氣(High-frequency Ventilation)。"
    },
    "answer": "C",

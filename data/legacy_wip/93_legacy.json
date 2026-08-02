@@ -836,7 +836,7 @@
    "question": "小兒麻醉有關藥物使用,以下何者敘述有誤:",
    "options": {
     "A": "小兒因為水份的比例較成人高,因此如肌肉鬆弛劑等水溶性藥物,單位體重使用 量比成人少",
-    "B": "肝臟內 cytochrome P450,在出生時尚未成熟,用藥的劑量應特別小心",
+    "B": "肝臟內 cytochrome 在出生時尚未成熟,用藥的劑量應特別小心",
     "C": "惡性高熱常見的誘導藥物包括去極化肌肉鬆弛劑, 揮發性麻醉氣體",
     "D": "治療惡性高熱可使用Dantrolene 2.5 mg/kg 每5 分鐘靜脈注射,"
    },
@@ -1583,7 +1583,7 @@
    "question": "下有關吸入性麻醉劑之敘述,何者正確?",
    "options": {
     "A": "為防止麻醉催醒病患時,可能因 N2O 產生diffusion hypoxia 之效 果,所以須給予純氧至少5-10 分鐘",
-    "B": "肝內Cytochrome P-450 之 isoezyme system 中,尤其 CYP 2EI 對 某些吸入性麻藥之代謝很重要",
+    "B": "肝內Cytochrome P-450 之 isoezyme system 中,尤其 CY EI 對 某些吸入性麻藥之代謝很重要",
     "C": "一般麻醉教科書認為 MAC 相當於藥學上的 ED50,而1.3 x MAC 相當於藥學上之 ED75",
     "D": "Sevoflurane 的 MAC=2.0,他特別非常適用於孩童麻醉,過曾有 產生 Compound A,造成 Neprotoxicity 之疑慮過"
    },

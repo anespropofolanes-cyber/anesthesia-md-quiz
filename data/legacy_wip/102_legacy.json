@@ -147,7 +147,7 @@
     "B": "可以考慮採用interscalene block",
     "C": "若病患接受靜脈麻醉，手術中併發低血氧症(Hypoxemia SpO2<90%)，此時緊急置放laryngeal mask airway是合宜的呼吸道處置方式",
     "D": "為避免手術後過度鎮靜與噁心嘔吐等鴉片類藥物副作用，本病患應考慮術前給予NSAID或COX-2 inhibitor作為止痛選擇",
-    "E": "病患術後於恢復室呈現SpO2 93% (術前95%)，BP 170/100 mmHg (術前130/80 mmHg)，無頭暈可行 走，中度噁心感及嘔吐，手術傷口無出血亦無疼痛，本病患仍未達可出院狀態(home ready)"
+    "E": "病患術後於恢復室呈現SpO2 93% (術前95%)，B /100 mmHg (術前130/80 mmHg)，無頭暈可行 走，中度噁心感及嘔吐，手術傷口無出血亦無疼痛，本病患仍未達可出院狀態(home ready)"
    },
    "answer": "B",
    "scoring": "exact",
@@ -842,7 +842,7 @@
    "id": 47,
    "year": 102,
    "western_year": 2013,
-   "question": "75歲男性，罹患無法切除性膽管癌(unresectable cholangioma)因阻塞性黃疸(obstruction jaundice)住加護病 房，目前體溫39.5℃，HR 125 bpm，BP 70/40 mmHg，CVP 1 mmHg，PAP 20/5 mmHg，PCWP 4 mmHg，CI 2 L/min/m2，PaO2/FiO2 250。目前最優先的處置為：",
+   "question": "75歲男性，罹患無法切除性膽管癌(unresectable cholangioma)因阻塞性黃疸(obstruction jaundice)住加護病 房，目前體溫39.5℃，HR 125 bpm，B /40 mmHg，CV mmHg，PA /5 mmHg，PCW mmHg，CI 2 L/min/m2，PaO2/FiO2 250。目前最優先的處置為：",
    "options": {
     "A": "計算systemic vascular resistance (SVR)",
     "B": "補充輸液(volume resuscitation)",
@@ -1330,7 +1330,7 @@
    "western_year": 2013,
    "question": "關於局部麻醉劑的敘述 何者正確?",
    "options": {
-    "A": "Cocaine主要由肝臟cytochrome P450代謝",
+    "A": "Cocaine主要由肝臟cytochrome 代謝",
     "B": "Ropivacaine 主要由血漿esterase代謝",
     "C": "當血中二氧化碳濃度下降發生鹼中毒時，會使bupivacaine心臟毒性更強",
     "D": "低濃度lidocaine作用在周邊血管，會直接產生血管擴張",

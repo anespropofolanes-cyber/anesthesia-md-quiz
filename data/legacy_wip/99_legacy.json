@@ -62,7 +62,7 @@
    "options": {
     "A": "使用吐氣末正壓(PEEP)可以打開塌陷的肺部,但是會增加血液分流 (shunt)",
     "B": "維持呼吸肌肉的張力可以預防肺塌陷,因此使用Ketamine 不會影響 肌肉張力,所以不會引起肺塌陷",
-    "C": "使用嘆息法(sigh maneuver)可以打開塌陷的肺泡,但是要用到40 公分 水柱的壓力才有效 出處:Miller 7th P362 易 出處:Miller 7th P1820-1822 中(術後FEV1% : 27%)",
+    "C": "使用嘆息法(sigh maneuver)可以打開塌陷的肺泡,但是要用到40 公分 水柱的壓力才有效 (術後FEV1% : 27%)",
     "D": "抽痰可以減少手術後肺塌陷",
     "E": "麻醉誘導時使用純氧可能會加麻醉後肺塌陷的可能"
    },
@@ -118,7 +118,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "體外循環(cardio-pulmonary bypass, CPB)是心臟手術中常用的技術。但是 體外循環也會引發或者加重術後的全身發炎反應。下列關於減低體外循環 相關發炎反應的處置,何者為非? (1)手術或灌流方式的改善,例如微創式手術可以縮短或避免體外循環的使 用,藉以降低其相關發炎反應 (2)體外循環的驅動方式也可改變其發炎效應。研究顯示離心式泵浦 (Centrifugal Pumps) 的發炎反應比滾輪式泵浦(Roller Pumps)輕微 (3)藥物處置也可以影響體外循環相關的發炎反應,研究顯示類固醇 (Steroids)和Aprotinin 的使用都可以減低其發炎反應,但是其臨床上的 好處並不明顯 (4)研究顯示,不停跳手術(Beating Heart Surgery)因為仍會使用體外循 環,所以不會減輕其相關的發炎反應 出處:Miller 7th P380-381 難易度:中 出處:Miller 7th P468-469 難易度:易 出處:Miller 7th P426, 431 難易度:中",
+   "question": "體外循環(cardio-pulmonary bypass, CPB)是心臟手術中常用的技術。但是 體外循環也會引發或者加重術後的全身發炎反應。下列關於減低體外循環 相關發炎反應的處置,何者為非? (1)手術或灌流方式的改善,例如微創式手術可以縮短或避免體外循環的使 用,藉以降低其相關發炎反應 (2)體外循環的驅動方式也可改變其發炎效應。研究顯示離心式泵浦 (Centrifugal Pumps) 的發炎反應比滾輪式泵浦(Roller Pumps)輕微 (3)藥物處置也可以影響體外循環相關的發炎反應,研究顯示類固醇 (Steroids)和Aprotinin 的使用都可以減低其發炎反應,但是其臨床上的 好處並不明顯 (4)研究顯示,不停跳手術(Beating Heart Surgery)因為仍會使用體外循 環,所以不會減輕其相關的發炎反應",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -142,8 +142,8 @@
    "options": {
     "A": "提升FiO2 到1.0;以光纖內視鏡重新確認呼吸管位置",
     "B": "務求有足夠的心搏出量(cardiac output),必要時可降低吸入性麻醉劑 濃度",
-    "C": "在非換氣中的肺葉使用PEEP 5 cmH2O",
-    "D": "在非換氣中的肺葉加入CPAP 1-2 cmH2O,或間歇性換氣(Intermittent Ventilation)",
+    "C": "在非換氣中的肺葉使用PEE cmH2O",
+    "D": "在非換氣中的肺葉加入CPA cmH2O,或間歇性換氣(Intermittent Ventilation)",
     "E": "在非換氣中的肺葉執行局部換氣,例如氧氣導入(Oxygen Insufflation) 或高頻換氣(High-frequency Ventilation)"
    },
    "answer": "C",
@@ -203,7 +203,7 @@
     "A": "Angiotension IIantagonists",
     "B": "Insulin",
     "C": "Mannitol",
-    "D": "Spironolactone 出處:Miller 7th P1919-1920 易 出處:Miller 7th P1851, Table 59-19 易 出處:Miller 7th P1641, 1647-1648 中 出處:Miller 7th P1705, 1707 中 出處:Miller 7th P1711 易",
+    "D": "Spironolactone",
     "E": "Succinylcholine"
    },
    "answer": "B",
@@ -278,7 +278,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "下列何者正確? 出處:Miller 7th P565-567 難易度:易 出處:Miller 7th P603-605 難易度:易 出處:Miller 7th P895 難易度:易 (1)Propofol 的作用部位主要在促進GABA 接受器的氯離子電流,是目前 最常用的靜脈注射藥物 (2)Ketamine 主要作用在NMDA 接受器,但是有很強精神副作用 (3)Etomidate 注射時常有灼熱感,血管炎和術後噁心嘔吐 (4)Droperidol 會產生QT 延長而被美國食品藥物管理局加註警語",
+   "question": "下列何者正確? (1)Propofol 的作用部位主要在促進GABA 接受器的氯離子電流,是目前 最常用的靜脈注射藥物 (2)Ketamine 主要作用在NMDA 接受器,但是有很強精神副作用 (3)Etomidate 注射時常有灼熱感,血管炎和術後噁心嘔吐 (4)Droperidol 會產生QT 延長而被美國食品藥物管理局加註警語",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -324,7 +324,7 @@
     "B": "凝血功能異常,其原因可能包括術中Heparin 的殘存,以及大量補充 體液、血液的稀釋效果",
     "C": "低體溫本身會導致心肌缺氧而後續的寒顫(Shivering)會更加惡化此一 併發症",
     "D": "低血量(Hypovolemia)常在主動脈術後發生,主要原因是第三空間的流 失(Third-Space Fluid Loss)。低血量可能造成低血壓及心肌灌流低下 (Coronary Hypoperfusion)必需及時處置",
-    "E": "血管病人最適當的術後處置應該是送往加護單位進行階段性脫離呼 出處:Miller 7th P719 易 出處:Miller 7th P1982-1983 易 吸管作業,以避免手術室內立即拔管的壓力反應(Stress Response)"
+    "E": "血管病人最適當的術後處置應該是送往加護單位進行階段性脫離呼 吸管作業,以避免手術室內立即拔管的壓力反應(Stress Response)"
    },
    "answer": "E",
    "scoring": "exact",
@@ -380,7 +380,7 @@
    "era": "old",
    "question": "血管手術的挑戰性在於病人多半年邁而有多重併發疾病,手術過程動用 到動脈夾放,以及對於重要臟器可能產生缺血性影響等,關於其術前的準 備工作,下列敘述何者為非?",
    "options": {
-    "A": "因為動脈硬化的關係,血管病人通常伴有全身性血管疾患。其中,腦 血管阻塞是血管病人最常見的併發症,而且術後的長期存活也是與此 出處:Miller 7th P2033-2034 易 出處:Miller 7th P932-933 中 出處:Miller 7th P1981-1982 易 併發症最有相關性",
+    "A": "因為動脈硬化的關係,血管病人通常伴有全身性血管疾患。其中,腦 血管阻塞是血管病人最常見的併發症,而且術後的長期存活也是與此 併發症最有相關性",
     "B": "研究顯示血管病人擁有正常冠狀動脈系統者不及10%;而有超過50% 的血管病人其冠狀動脈有嚴重的阻塞",
     "C": "血管病人術後發生的肺部併發症通會很嚴重,包括肺塌陷 (Atelectasis)、肺炎、呼吸衰竭,以及原先肺疾之惡化",
     "D": "慢性腎臟疾病在血管病人極為常見,而且也會顯著增加術後的死亡 率。因此血管病人在術前應該以血清肌酐酸(Serum creatinine)評估其 腎臟功能",
@@ -438,7 +438,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "對神經外科術中靜脈氣體血栓(Venous air embolism)應有的考量包括 (1)好發於坐姿(Sitting position)病患 (2)較易發生於Posterior fossa 手術 (3)除常規監測外至少需有吐氣末端二氧化碳(End-tidal CO2)及胸前都卜 勒(precordial doppler)監測 (4)胸前都卜勒監測效果與食道超音波(TEE)靈敏度(Sensitivity)相似 出處:Miller 7th P1987, 1992, 1994 難易度:易 出處:Miller 7th P1767, 1775 難易度:難 出處:Miller 7th 305, 316, 320 難易度:易",
+   "question": "對神經外科術中靜脈氣體血栓(Venous air embolism)應有的考量包括 (1)好發於坐姿(Sitting position)病患 (2)較易發生於Posterior fossa 手術 (3)除常規監測外至少需有吐氣末端二氧化碳(End-tidal CO2)及胸前都卜 勒(precordial doppler)監測 (4)胸前都卜勒監測效果與食道超音波(TEE)靈敏度(Sensitivity)相似",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -498,7 +498,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "下列何者為是? (1)新生兒因body surface-to-weight ratio 大,術中容易低體溫 (2)在新生兒,Halothane 較Sevoflurane 容易引發Coughing (3)Sevoflurane 及Baralyme 可形成放熱反應及造成起火 (4)Desflurane 可引發laryngospasm 出處:Miller 7th P2045、2055、2056 難易度:易 出處:Miller 7th P2212、2213、2215 難易度:中 出處:Miller 7th P2559 難易度:易",
+   "question": "下列何者為是? (1)新生兒因body surface-to-weight ratio 大,術中容易低體溫 (2)在新生兒,Halothane 較Sevoflurane 容易引發Coughing (3)Sevoflurane 及Baralyme 可形成放熱反應及造成起火 (4)Desflurane 可引發laryngospasm",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -558,7 +558,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "下列何者為是 (1)Tricuspid valve stenosis, tetralogy of Fallot 及VSD 皆屬hypoxic lesions. (2)Isoproterenol 具有α effect,可使血管收縮。 (3)β-adrenergic blockers 如Nifedipine 及Nimodipine 可用以治療高血壓 (4)Large closing volume 會增加dead space ventilation,造成atelectasis 及 right-to-left shunting of blood 出處:Miller 7th P2560、2566、2568 難易度:易 出處:Miller 7th P2604、2605、2606 難易度:中 出處:Miller 7th P2599、2608、2611 難易度:易",
+   "question": "下列何者為是 (1)Tricuspid valve stenosis, tetralogy of Fallot 及VSD 皆屬hypoxic lesions. (2)Isoproterenol 具有α effect,可使血管收縮。 (3)β-adrenergic blockers 如Nifedipine 及Nimodipine 可用以治療高血壓 (4)Large closing volume 會增加dead space ventilation,造成atelectasis 及 right-to-left shunting of blood",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -618,7 +618,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "有關懷孕婦女接受腹腔鏡手術(Laparoscopic surgery)的敘述,下列何者 為是 (1)可適用於闌尾切除,膽囊切除 (2)胎兒血中酸鹼值、心跳血壓呈現微變化 (3)妊娠32 週內接受腹腔鏡手術,無證據顯示增加懷孕相關併發症 出處:Miller 7th P2655、2658、2660、 2662 難易度:中 出處:Miller 7th P2667、2677、2678、 2682 難易度:中 出處:Miller 7th P2419、2420、2422、 2423 難易度:易 (4)因為pneumoperitoneum 造成血流動力變化較未懷孕婦女明顯",
+   "question": "有關懷孕婦女接受腹腔鏡手術(Laparoscopic surgery)的敘述,下列何者 為是 (1)可適用於闌尾切除,膽囊切除 (2)胎兒血中酸鹼值、心跳血壓呈現微變化 (3)妊娠32 週內接受腹腔鏡手術,無證據顯示增加懷孕相關併發症 (4)因為pneumoperitoneum 造成血流動力變化較未懷孕婦女明顯",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -682,7 +682,7 @@
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
-    "C": "(2)+(4) 出處:Miller 7th P2193~2194 中 出處:Miller 7th P2461、2464、2467、 2466 易 出處:Miller 7th P2221 易 出處:Miller 7th P2358 易~中",
+    "C": "(2)+(4)",
     "D": "(4)",
     "E": "(1)+(2)+(3)+(4)"
    },
@@ -744,7 +744,7 @@
     "B": "(1)+(3)",
     "C": "(2)+(4)",
     "D": "(4)",
-    "E": "(1)+(2)+(3)+(4) 出處:Miller 7th P2357、2379、2383 易 出處:Miller 7th P2359、2360、2366、 2369 易~中 出處:Miller 7th P2575、2582、2568 易"
+    "E": "(1)+(2)+(3)+(4)"
    },
    "answer": "A",
    "scoring": "exact",
@@ -823,7 +823,7 @@
     "A": "維持PaCO2 在20mmHg 雖對正常腦組織無害,卻加重受傷部位缺血 狀況,應避免",
     "B": "確保適當腦循環的最基本原則,就是確保平均動脈壓(mean arterial pressure)不低於60mmHg",
     "C": "建議執行輕度低體溫(mild hypothermia)處置以改善預後",
-    "D": "吸入性麻醉藥物會造成腦血管舒張(cerebral vasodilatation)最明顯為 Enflurane(相較於Halothane, Isoflurane, Sevoflurane 及Desflurane) 出處:Miller 7th P2411 中 出處:Miller 7th P2063~2065 中 出處:Miller 7th P2186~2191 易 出處:Miller 7th P2046~2060 中",
+    "D": "吸入性麻醉藥物會造成腦血管舒張(cerebral vasodilatation)最明顯為 Enflurane(相較於Halothane, Isoflurane, Sevoflurane 及Desflurane)",
     "E": "以上皆非"
    },
    "answer": "A",
@@ -898,7 +898,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "腎臟替代療法(renal replacement therapy)目前在加護病房已普遍使用, 下列有關其適應症中,何者為是? (1)嚴重代謝性酸中毒(pH<7.10) (2)嚴重血鈉異常(Na≦115 或≧160 mEg/L) 出處:Miller 7th P2413 難易度:中 出處:Miller 7th P3007、3011、3012 難易度:易 出處:Miller 7th P3011 難易度:易 (3)多重器官衰竭合併腎功能不全及/或全身性發炎反應症候群,敗血症或 敗血性休克合併腎功能不全 (4)BUN≧60 mg/dl 或creatinine>3mg/dl",
+   "question": "腎臟替代療法(renal replacement therapy)目前在加護病房已普遍使用, 下列有關其適應症中,何者為是? (1)嚴重代謝性酸中毒(pH<7.10) (2)嚴重血鈉異常(Na≦115 或≧160 mEg/L) (3)多重器官衰竭合併腎功能不全及/或全身性發炎反應症候群,敗血症或 敗血性休克合併腎功能不全 (4)BUN≧60 mg/dl 或creatinine>3mg/dl",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -958,7 +958,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "判斷術後神經肌肉恢復(neuromuscular recovery)程度,何者最可靠(most reliable)? 出處:Miller 7th P2959 難易度:易 出處:Miller 7th P2939 難易度:中 出處:Miller 7th P2253 難易度:難",
+   "question": "判斷術後神經肌肉恢復(neuromuscular recovery)程度,何者最可靠(most reliable)?",
    "options": {
     "A": "持續張開眼睛",
     "B": "依口令吐出舌頭",
@@ -1018,7 +1018,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "下列那些關於肝臟功能異常和麻醉或手術關係敘述為真? (1)肝臟為代謝藥物的重要器官,因此在有肝硬化的病患propofol 及 fentanyl 的排除(elimination)均會有顯著改變。 (2)常用的術前肝功能評估系統為Child-Turcotte-Pugh 評分,主要評分 項目包含白蛋白(albumin),凝血時間(prothrombin time),膽色素 (bilirubin),腹水(ascites)與腦病變(encephalopathy)。 (3)病患62 歲,預定接受部份肝臟切除手術,術前一天抽血結果顯示 ALT 375 IU/L, AST 130 IU/L, albumin 3.9 g/dL, total bilirubin 1.8 出處:Miller 7th P1526~1529 難易度:中 出處:Miller 7th Ch P.2765 Tab 87-3 難易度:易 出處:Miller 7th Ch P.2767-2768 Tab 87-5 難易度:易 mg/dL, prothrombin time INR 為1.2 無腹水或腦病變現象,麻醉醫師 建議可使用desflurane 麻醉,並儘可能維持術中血壓穩定,對術後結 果不會有影響,可按預定時程接受手術。 (4)Child-turcotte-Pugh 評分為C 級(class C)病患接受主要腹部手術的死 亡率可高達70%以上。",
+   "question": "下列那些關於肝臟功能異常和麻醉或手術關係敘述為真? (1)肝臟為代謝藥物的重要器官,因此在有肝硬化的病患propofol 及 fentanyl 的排除(elimination)均會有顯著改變。 (2)常用的術前肝功能評估系統為Child-Turcotte-Pugh 評分,主要評分 項目包含白蛋白(albumin),凝血時間(prothrombin time),膽色素 (bilirubin),腹水(ascites)與腦病變(encephalopathy)。 (3)病患62 歲,預定接受部份肝臟切除手術,術前一天抽血結果顯示 ALT 375 IU/L, AST 130 IU/L, albumin 3.9 g/dL, total bilirubin 1.8 Tab 87-3 Tab 87-5 mg/dL, prothrombin time INR 為1.2 無腹水或腦病變現象,麻醉醫師 建議可使用desflurane 麻醉,並儘可能維持術中血壓穩定,對術後結 果不會有影響,可按預定時程接受手術。 (4)Child-turcotte-Pugh 評分為C 級(class C)病患接受主要腹部手術的死 亡率可高達70%以上。",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -1078,7 +1078,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "你好友的父親預定接受根除性攝護腺切除手術(Radical Prostatectomy),你的好友向你詢問麻醉和術後止痛方式的意見,身為一 出處:Miller 7th Ch P.2139.2143.2142.2143 Tab 難易度:中 出處:Miller 7th Ch P.2758 Tab 難易度:中 出處:Miller 7th Ch P.2750 Tab 難易度:中 位麻醉專科醫師,你會給他的建議與理由可能是: (1)全身麻醉合併硬脊膜外麻醉,和單純全身麻醉比可降低術後血栓 機率 (2)全身麻醉加靜脈注射病患自控式止痛,比硬脊膜外麻醉/止痛可較快 恢復腸胃功能 (3)硬脊膜外麻醉,和全身麻醉相比可減少術中失血量 (4)全身麻醉加靜脈注射自控式止痛,和全身麻醉合併硬脊膜外自控式止 痛相比,其術後止痛效果相當但不易產生腰酸背痛",
+   "question": "你好友的父親預定接受根除性攝護腺切除手術(Radical Prostatectomy),你的好友向你詢問麻醉和術後止痛方式的意見,身為一 Tab Tab Tab 位麻醉專科醫師,你會給他的建議與理由可能是: (1)全身麻醉合併硬脊膜外麻醉,和單純全身麻醉比可降低術後血栓 機率 (2)全身麻醉加靜脈注射病患自控式止痛,比硬脊膜外麻醉/止痛可較快 恢復腸胃功能 (3)硬脊膜外麻醉,和全身麻醉相比可減少術中失血量 (4)全身麻醉加靜脈注射自控式止痛,和全身麻醉合併硬脊膜外自控式止 痛相比,其術後止痛效果相當但不易產生腰酸背痛",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -1138,7 +1138,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "下列敘述有關類鴉片藥物應用於術後止痛,何者為正確? (1)肌肉給予途徑相較於靜脈給予途徑有較大的血清藥物濃度差異性 (2)類鴉片藥物在理論上並無止痛上限現象(ceiling effect),但實際上止痛效 果常受到藥物耐受性產生或相關副作用限制 出處:Miller 7th Ch P.2127 Tab 難易度:中 出處:Miller 7th Ch P.2120 Tab 難易度:易 出處:Miller 7th Ch P.2758-2759 Tab 難易度:中 (3)雖然多數點滴性病患自控式止痛除了病患要求劑量(demand dose)外 提供連續性或背景性(background)藥物給予,但有些臨床研究發現背 景性藥物給予可能對未接受過類鴉片藥物的成人並無止痛效果,只是 增加藥物使用量與併發症產生機會 (4)類鴉片藥物通常是經由中樞神經系統的μ接受體產生止痛效果,但亦 有證據顯示類鴉片藥物也可以作用於週邊的μ接受體",
+   "question": "下列敘述有關類鴉片藥物應用於術後止痛,何者為正確? (1)肌肉給予途徑相較於靜脈給予途徑有較大的血清藥物濃度差異性 (2)類鴉片藥物在理論上並無止痛上限現象(ceiling effect),但實際上止痛效 果常受到藥物耐受性產生或相關副作用限制 Tab Tab Tab (3)雖然多數點滴性病患自控式止痛除了病患要求劑量(demand dose)外 提供連續性或背景性(background)藥物給予,但有些臨床研究發現背 景性藥物給予可能對未接受過類鴉片藥物的成人並無止痛效果,只是 增加藥物使用量與併發症產生機會 (4)類鴉片藥物通常是經由中樞神經系統的μ接受體產生止痛效果,但亦 有證據顯示類鴉片藥物也可以作用於週邊的μ接受體",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -1198,7 +1198,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "有關脈搏式血氧飽合度(Pulse Oximetry, SpO2)的應用,何者為是? (1)使用紅色可見光(660nm)及紅外線(940nm)來偵測不同帶氧 出處:Miller 7th Ch P.2760-2761 Tab 難易度:易 出處:Miller 7th Ch P.2762-2765 Tab 難易度:易 出處:Miller 7th Ch P.1427-1429 Tab 難易度:易 (oxygenated)程度的動脈血 (2)低體溫、低心輸出量及血紅素低於6 g/dL 皆會低估偵測值 (3)一氧化碳血紅素(COHb)因為吸收很少的紅外線,所以一氧化碳中毒 病人的SpO2 會被高估 (4)一般而言,只要SpO2>90%,即可準確反應SaO2,代表通氣量足夠",
+   "question": "有關脈搏式血氧飽合度(Pulse Oximetry, SpO2)的應用,何者為是? (1)使用紅色可見光(660nm)及紅外線(940nm)來偵測不同帶氧 Tab Tab Tab (oxygenated)程度的動脈血 (2)低體溫、低心輸出量及血紅素低於6 g/dL 皆會低估偵測值 (3)一氧化碳血紅素(COHb)因為吸收很少的紅外線,所以一氧化碳中毒 病人的SpO2 會被高估 (4)一般而言,只要SpO2>90%,即可準確反應SaO2,代表通氣量足夠",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -1258,7 +1258,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "有關惡性高溫(malignant hyperthermia)的處置,以下何者為是? (1)立即停掉所有麻醉藥物,給予100%氧氣,並將二氧化碳洗出 (2)Dantrolene 的半生期(half-life)為10 小時,症狀復發常在6.5 小時內, 出處:Miller 7th Ch P.1420-1421 難易度:中 出處:Miller 7th Ch P.1533.1542 難易度:易 出處:Miller 7th Ch P.1097 難易度:中 必要時可重複給一劑,以防復發 (3)給予碳酸氫鈉(NaHCO3),鈣離子及利尿劑以防止致命的高血鉀 (4)中心體溫降至37°C 即可停止降溫動作。",
+   "question": "有關惡性高溫(malignant hyperthermia)的處置,以下何者為是? (1)立即停掉所有麻醉藥物,給予100%氧氣,並將二氧化碳洗出 (2)Dantrolene 的半生期(half-life)為10 小時,症狀復發常在6.5 小時內, 必要時可重複給一劑,以防復發 (3)給予碳酸氫鈉(NaHCO3),鈣離子及利尿劑以防止致命的高血鉀 (4)中心體溫降至37°C 即可停止降溫動作。",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -1322,7 +1322,7 @@
    "options": {
     "A": "高血壓",
     "B": "心跳過速",
-    "C": "肺水腫 出處:Miller 7th Ch P.1189 中 出處:Miller 7th Ch P. 易 出處:Miller 7th Ch P.2721 易",
+    "C": "肺水腫",
     "D": "便秘",
     "E": "低血糖"
    },
@@ -1383,7 +1383,7 @@
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
     "C": "(2)+(4)",
-    "D": "(4) 出處:Miller 7th Ch P.2900 易 出處:Miller 7th Ch P.1029-1050 中 出處:Miller 7th Ch P.2290-2292 易 出處:Miller 7th Ch P.1802-1804 中",
+    "D": "(4)",
     "E": "(1)+(2)+(3)+(4)"
    },
    "answer": "D",
@@ -1458,7 +1458,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "下列有關急性呼吸窘迫症候群(ARDS)之診斷,何者為非 出處:Miller 7th Ch P.1805-1806 難易度:中 出處:Miller 7th Ch P.1803.1806 難易度:中 出處:Miller 7th Ch P.1079.1082-1083 難易度:中 (1)症狀為急性發生 (2)胸部X 光顯示兩側肺部有浸潤 (3)PaO2/FiO2 < 200 (4)肺動脈楔壓(PCWP)大於18 mmHg",
+   "question": "下列有關急性呼吸窘迫症候群(ARDS)之診斷,何者為非 (1)症狀為急性發生 (2)胸部X 光顯示兩側肺部有浸潤 (3)PaO2/FiO2 < 200 (4)肺動脈楔壓(PCWP)大於18 mmHg",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -1522,7 +1522,7 @@
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
-    "C": "(2)+(4) 出處:Miller 7th Ch P.2893 易 出處:Miller 7th Ch P.2808-2815 易 出處:Miller 7th Ch P.1808-1809 易 出處:Miller 7th Ch P.2723 易",
+    "C": "(2)+(4)",
     "D": "(4)",
     "E": "(1)+(2)+(3)+(4)"
    },
@@ -1598,7 +1598,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "對嚴重敗血症的病人其死亡率極高,下列敘述何者為是? (1)由於敗血症為全身性之過度發炎反應,因此補充大量類固醇將使病人 出處:Miller 7th Ch P.2113 難易度:中 出處:Miller 7th Ch P.2270-2271 難易度:難 出處:Miller 7th Ch P.B62 難易度:中 更易康復 (2)由於敗血症會使身體代謝增加,因此血糖必需維持在200 mg/dl 以上 (3)活化蛋白C (Activated Protein C)可防止血液凝固,因敗血症病人常 合併有凝血功能異常所以絕對不可使用活化蛋白C (4)活性蛋白C 主要作用為抑制Factor Va 及VIIIa 之活性而防止血栓之產 生",
+   "question": "對嚴重敗血症的病人其死亡率極高,下列敘述何者為是? (1)由於敗血症為全身性之過度發炎反應,因此補充大量類固醇將使病人 B62 更易康復 (2)由於敗血症會使身體代謝增加,因此血糖必需維持在200 mg/dl 以上 (3)活化蛋白C (Activated Protein C)可防止血液凝固,因敗血症病人常 合併有凝血功能異常所以絕對不可使用活化蛋白C (4)活性蛋白C 主要作用為抑制Factor Va 及VIIIa 之活性而防止血栓之產 生",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -1658,7 +1658,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "有關非類固醇抗發炎藥物與antipyretic 止痛藥(例如:acetaminophen)的 敘述,何者正確? (1)兩者皆可以抑制cyclooxygenase(COX)活性,減少arachidonic acid 出處:Miller 7th Ch P.2852-2854 難易度:中 出處:Miller 7th Ch P.2265 難易度:易 出處:Miller 7th Ch P.2765 難易度:易 與thromboxane 的產生 (2)selective COX-2 inhibitors 仍有心肌梗塞,中風的潛在副作用 (3)COX 的isoform,COX-1 與COX-2,在週邊組織與中樞神經系統皆 可存在表現 (4)在週邊組織,prostaglandins(主要是PGE2)會活化疼痛接受器",
+   "question": "有關非類固醇抗發炎藥物與antipyretic 止痛藥(例如:acetaminophen)的 敘述,何者正確? (1)兩者皆可以抑制cyclooxygenase(COX)活性,減少arachidonic acid 與thromboxane 的產生 (2)selective COX-2 inhibitors 仍有心肌梗塞,中風的潛在副作用 (3)COX 的isoform,COX-1 與COX-2,在週邊組織與中樞神經系統皆 可存在表現 (4)在週邊組織,prostaglandins(主要是PGE2)會活化疼痛接受器",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
@@ -1721,7 +1721,7 @@
    "question": "對非心臟手術病人進行術前評估時,下列何者不是主要的心臟危險因子?",
    "options": {
     "A": "缺血性心臟病Ischemic heart disease",
-    "B": "充血性心臟衰竭(congestive heart failure)病史 出處:Miller 7th Ch P.1803.1805 易 出處:Miller 7th Ch P.2247 中 出處:Miller 7th Ch P.2243-2244 易",
+    "B": "充血性心臟衰竭(congestive heart failure)病史",
     "C": "糖尿病",
     "D": "長期吸煙",
     "E": "慢性腎功能不足,creatinine 2.0 mg/dL ≧"
@@ -1784,7 +1784,7 @@
     "B": "(1)+(3)",
     "C": "(2)+(4)",
     "D": "(4)",
-    "E": "(1)+(2)+(3)+(4) 出處:Miller 7th Ch P.1009.BOX34-2 易 出處:Miller 7th Ch P.1393 中 出處:Miller 7th Ch P.2979-2985 易 出處:Miller 7th Ch P.2716-2719 難"
+    "E": "(1)+(2)+(3)+(4) BOX34-2 易"
    },
    "answer": "B",
    "scoring": "exact",
@@ -1860,7 +1860,7 @@
    "era": "old",
    "question": "85 歲高齡患者因右髖關節類風濕性關節炎行全髖關節置換術,當灌注骨 泥(cement)時,血壓急速下降,下列敘述,何者為非?",
    "options": {
-    "A": "可能因為空氣,脂肪、骨泥或bone marrow 進入靜脈造成血栓所致 出處:Miller 7th Ch P.1015 易 出處:Miller 7th P2203、2204、2209 中 出處:Miller 6th P2073 中",
+    "A": "可能因為空氣,脂肪、骨泥或bone marrow 進入靜脈造成血栓所致",
     "B": "在TEE 之影像中,血壓下降之比例和右心房及右心室中之雪雨量成 正相關",
     "C": "若減少bone marrow 之破壞程度可減少血栓之產生",
     "D": "骨泥內含之methylmethacrylate 可直接造成血管舒張和心肌抑制",
@@ -1938,7 +1938,7 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "有關術中經食道心臟超音波(Transesophageal echocardiography)的適應 症中,下列何者不屬於最有必要的第一類(category I)? 出處:Miller 6th Ch P.2414-2146 難易度:易 出處:Miller 6th P2286-2297 難易度:中 出處:Miller 6th P2331, 2333 難易度:中 出處:Miller 6th Ch P.607 Table 15-2 難易度:中",
+   "question": "有關術中經食道心臟超音波(Transesophageal echocardiography)的適應 症中,下列何者不屬於最有必要的第一類(category I)? :中",
    "options": {
     "A": "心臟瓣膜修補手術(valve repair)",
     "B": "心內膜炎合併贅生物(Vegetation)移除手術",
@@ -2007,13 +2007,13 @@
    "year": 99,
    "western_year": 2010,
    "era": "old",
-   "question": "關於體外震波碎石術(extracorporeal shock wave lithotripsy)之敘述,何 者正確? (1)shock wave 可能引發腎臟內皮受損,造成血尿 (2)shock wave 可能引發肺泡傷害,而造成咳血,尤以小孩為甚 出處:Miller 7th Ch P.1330 難易度:易 出處:Miller 7th Ch P.2797 難易度:中 出處:Millar 6th P.2423-2424 難易度:中 (3)shock wave 可能使10~14%之病人引發心律不整,如atrial premature contraction、atrial fibrillation 及ventricular tachycardia (4)懷孕、腹主動脈瘤及未治療之易出血傾向之病人為absolute contraindication",
+   "question": "關於體外震波碎石術(extracorporeal shock wave lithotripsy)之敘述,何 者正確? (1)shock wave 可能引發腎臟內皮受損,造成血尿 (2)shock wave 可能引發肺泡傷害,而造成咳血,尤以小孩為甚 (3)shock wave 可能使10~14%之病人引發心律不整,如atrial premature contraction、atrial fibrillation 及ventricular tachycardia (4)懷孕、腹主動脈瘤及未治療之易出血傾向之病人為absolute contraindication",
    "options": {
     "A": "(1)+(2)+(3)",
     "B": "(1)+(3)",
     "C": "(2)+(4)",
     "D": "(4)",
-    "E": "(1)+(2)+(3)+(4) 出處:Miller 6th P.2195-2197 中"
+    "E": "(1)+(2)+(3)+(4)"
    },
    "answer": "",
    "scoring": "unscored",
