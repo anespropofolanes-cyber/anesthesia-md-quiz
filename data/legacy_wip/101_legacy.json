@@ -60,7 +60,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "全身麻醉藥物之失憶(amnesia)作用,主要是影響了下列腦中那些部份的功能? 腦幹(brain stem)。 邊緣系統(limbic system)。 杏仁核(amygdala)。 前腦(forebrain)。 海馬迴(hippocampus)。",
+   "question": "全身麻醉藥物之失憶(amnesia)作用,主要是影響了下列腦中那些部份的功能?\n1. 腦幹(brain stem)。\n2. 邊緣系統(limbic system)。\n3. 杏仁核(amygdala)。\n4. 前腦(forebrain)。\n5. 海馬迴(hippocampus)。",
    "options": {
     "A": "1+2+3",
     "B": "2+3+4",
@@ -165,7 +165,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "下列有關病患自控式止痛(PCA)的敘述組合,何者是最適合的選項? 病患一次需求劑量(demand dose) 1mg,鎖定時間(lock-out interval) >15分鐘,這樣的靜脈式嗎啡(IV morphine) PCA之設定對於無特殊內科疾患的手術病人而言是最適當的。 不論是以何種路徑給藥(如靜脈、肌肉、皮下注射、神經軸neuraxial),PCA都有產生呼吸抑制的機率,其發生率並無顯著差異,故適當的病患監測是必要的。 給予基礎輸注量(background infusion)可增進止痛效果,改善晚上睡眠品質。 給予基礎輸注量(background infusion)可以減少止痛藥的總使用量及呼吸抑制的發生率。",
+   "question": "下列有關病患自控式止痛(PCA)的敘述組合,何者是最適合的選項?\n1. 病患一次需求劑量(demand dose) 1mg,鎖定時間(lock-out interval) >15分鐘,這樣的靜脈式嗎啡(IV morphine) PCA之設定對於無特殊內科疾患的手術病人而言是最適當的。\n2. 不論是以何種路徑給藥(如靜脈、肌肉、皮下注射、神經軸neuraxial),PCA都有產生呼吸抑制的機率,其發生率並無顯著差異,故適當的病患監測是必要的。\n3. 給予基礎輸注量(background infusion)可增進止痛效果,改善晚上睡眠品質。\n4. 給予基礎輸注量(background infusion)可以減少止痛藥的總使用量及呼吸抑制的發生率。",
    "options": {
     "A": "1+2+3+4",
     "B": "2+3+4",
@@ -186,7 +186,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "有關急性術後疼痛與慢性疼痛的敘述組合,何者是最合適選項? 通常需要相對長時間的持續性疼痛刺激(noxious input),才會誘發神經敏感化(neuronal sensitization),最後產生慢性疼痛。 「藉由防止中樞神經敏感化(central sensitization),預先止痛(preemptive analgesia)可減緩急性與慢性疼痛。」此一論點,雖然動物實驗已獲得廣泛的支持,但於臨床實驗尚未能獲得一致的結論。 使用於術後止痛時,相較於嗎啡類止痛藥(opioids),低劑量ketamine有較高的副作用,如噁心、嘔吐、幻覺(hallucination)、認知障礙(cognitive impairment)。 慢性術後疼痛(chronic postsurgical pain)之發生率可能高達10~65%,常好發於截肢、開胸、乳房或膽囊切除手術。",
+   "question": "有關急性術後疼痛與慢性疼痛的敘述組合,何者是最合適選項?\n1. 通常需要相對長時間的持續性疼痛刺激(noxious input),才會誘發神經敏感化(neuronal sensitization),最後產生慢性疼痛。\n2. 「藉由防止中樞神經敏感化(central sensitization),預先止痛(preemptive analgesia)可減緩急性與慢性疼痛。」此一論點,雖然動物實驗已獲得廣泛的支持,但於臨床實驗尚未能獲得一致的結論。\n3. 使用於術後止痛時,相較於嗎啡類止痛藥(opioids),低劑量ketamine有較高的副作用,如噁心、嘔吐、幻覺(hallucination)、認知障礙(cognitive impairment)。\n4. 慢性術後疼痛(chronic postsurgical pain)之發生率可能高達10~65%,常好發於截肢、開胸、乳房或膽囊切除手術。",
    "options": {
     "A": "1+2+3+4",
     "B": "1+2+3",
@@ -291,7 +291,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "下列何種臨床現象是因為藥效學(pharmacodynamics),而非藥物動力學(pharmacokinetics)改變所致? 長期注射嗎啡造成耐藥性。 Succinylcholine造成燙傷病人高血鉀。 神經肌肉阻斷劑(neuromuscular blocking agent)的藥效,在重症肌無力病人明顯延長。 相對於健康人,腎病徵候群(nephrotic syndrome)病人注射2.5mg/kg之thiopental一分鐘後產生更明顯的血壓變化。",
+   "question": "下列何種臨床現象是因為藥效學(pharmacodynamics),而非藥物動力學(pharmacokinetics)改變所致?\n1. 長期注射嗎啡造成耐藥性。\n2. Succinylcholine造成燙傷病人高血鉀。\n3. 神經肌肉阻斷劑(neuromuscular blocking agent)的藥效,在重症肌無力病人明顯延長。\n4. 相對於健康人,腎病徵候群(nephrotic syndrome)病人注射2.5mg/kg之thiopental一分鐘後產生更明顯的血壓變化。",
    "options": {
     "A": "僅1+3",
     "B": "僅2+4",
@@ -312,7 +312,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "有關吸入性麻醉劑(inhalation anesthetics)的藥理作用,以下敘述組合何者為是? 脂溶性高者效力(potency)較強。 造成肌張力消失(immobilization)的作用部位是脊髓。 經由抑制神經突觸前麩胺酸(glutamate)之釋放,來抑制神經衝動。 直接鍵結(binding)突觸後γ-胺基丁酸(GABA)受體,來抑制神經衝動。",
+   "question": "有關吸入性麻醉劑(inhalation anesthetics)的藥理作用,以下敘述組合何者為是?\n1. 脂溶性高者效力(potency)較強。\n2. 造成肌張力消失(immobilization)的作用部位是脊髓。\n3. 經由抑制神經突觸前麩胺酸(glutamate)之釋放,來抑制神經衝動。\n4. 直接鍵結(binding)突觸後γ-胺基丁酸(GABA)受體,來抑制神經衝動。",
    "options": {
     "A": "僅1+3",
     "B": "僅2+4",
@@ -333,7 +333,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "下列有關靜脈麻醉劑之比較,何者為是? 相較於其它靜脈麻醉劑,barbiturates有較佳大腦保護作用(cerebral protection)。 相較於其它靜脈麻醉劑,benzodiazepine有較佳失憶作用(amnesia)。 相較於其它靜脈麻醉劑,ketamine有較佳支氣管擴張功能。 相較於其它靜脈麻醉劑,propofol有較佳止咳功能。",
+   "question": "下列有關靜脈麻醉劑之比較,何者為是?\n1. 相較於其它靜脈麻醉劑,barbiturates有較佳大腦保護作用(cerebral protection)。\n2. 相較於其它靜脈麻醉劑,benzodiazepine有較佳失憶作用(amnesia)。\n3. 相較於其它靜脈麻醉劑,ketamine有較佳支氣管擴張功能。\n4. 相較於其它靜脈麻醉劑,propofol有較佳止咳功能。",
    "options": {
     "A": "僅1+2",
     "B": "僅2+3",
@@ -396,7 +396,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "關於血氧監視儀(pulse oximeter)的敘述中,下列何者是正確的? 利用兩種波長660 nm及940 nm的光線,來測量oxyhemoglobin在血中的比例。 甲基血紅素(methemoglobin)、減氧血紅素(reduced hemoglobin)、一氧化碳血紅素(carboxyhemoglobin)具有相同的光吸收表現(light absorption profile)。 外在環境光線(ambient light)、低灌流(low perfusion)、靜脈血波動(venous blood pulsation)等,均會影響pulse oximeter的數值大小。 在低灌流情形下,因放大雜訊(noise)的因素,可能得到一個錯誤數值(約85%)。 外在環境光線的干擾,目前仍是最困難、尚須解決的問題。",
+   "question": "關於血氧監視儀(pulse oximeter)的敘述中,下列何者是正確的?\n1. 利用兩種波長660 nm及940 nm的光線,來測量oxyhemoglobin在血中的比例。\n2. 甲基血紅素(methemoglobin)、減氧血紅素(reduced hemoglobin)、一氧化碳血紅素(carboxyhemoglobin)具有相同的光吸收表現(light absorption profile)。\n3. 外在環境光線(ambient light)、低灌流(low perfusion)、靜脈血波動(venous blood pulsation)等,均會影響pulse oximeter的數值大小。\n4. 在低灌流情形下,因放大雜訊(noise)的因素,可能得到一個錯誤數值(約85%)。\n5. 外在環境光線的干擾,目前仍是最困難、尚須解決的問題。",
    "options": {
     "A": "1+2+3",
     "B": "1+3+4",
@@ -417,7 +417,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "手術麻醉後低體溫所導致之主要合併症,何者正確? 增加傷口感染率 術後troponinΙ昇高 延長恢復室停留時間 術後顫抖增加 交感神經活性增加",
+   "question": "手術麻醉後低體溫所導致之主要合併症,何者正確?\n1. 增加傷口感染率\n2. 術後troponinΙ昇高\n3. 延長恢復室停留時間\n4. 術後顫抖增加\n5. 交感神經活性增加",
    "options": {
     "A": "僅1+3+4",
     "B": "僅1+2+3+4",
@@ -606,7 +606,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "對於心肺復甦術(cardiopulmonary resuscitation)的敘述,下列何者正確? 對於兒童及成人而言,胸部按壓(chest compression)的速率要保持在100/min。 若需胸部按壓,需注意保持中斷(interruption)時間不要大於10秒。 不間斷的胸部按壓,約可達到正常循環狀態下25~30%的心輸出量(cardiac output)。 若需使用電擊(electric shock)去顫及整流,應連續使用三次以達最大去顫整流效果。 低肺部通氣(hypoventilation)將可能導致二氧化碳滯留,故當進階呼吸道(advanced airway)建立之後,速率應保持在15~20/分。",
+   "question": "對於心肺復甦術(cardiopulmonary resuscitation)的敘述,下列何者正確?\n1. 對於兒童及成人而言,胸部按壓(chest compression)的速率要保持在100/min。\n2. 若需胸部按壓,需注意保持中斷(interruption)時間不要大於10秒。\n3. 不間斷的胸部按壓,約可達到正常循環狀態下25~30%的心輸出量(cardiac output)。\n4. 若需使用電擊(electric shock)去顫及整流,應連續使用三次以達最大去顫整流效果。\n5. 低肺部通氣(hypoventilation)將可能導致二氧化碳滯留,故當進階呼吸道(advanced airway)建立之後,速率應保持在15~20/分。",
    "options": {
     "A": "1+2+3",
     "B": "2+3+4",
@@ -627,7 +627,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "關於Adenosine使用在PSVT (paroxysmal supraventricular tachycardia)的敘述,下列何者為正確? Adenosine的半衰期(half-life)極短,約只有<5秒。 一般在中央靜脈給藥時,劑量跟周邊靜脈相同,先給6mg,第二次給12mg。 若病人原先就有使用dipyridamole藥物時,第一次劑量可加大至9mg。 Adenosine主要延長sinoatrial node及atrioventricular node的傳導,並使心臟細胞之不反應期(refractoriness)增長。 由周邊遠端靜脈慢速給予時,adenosine可能會對原先之心搏過速產生加速(acceleration)之情形。",
+   "question": "關於Adenosine使用在PSVT (paroxysmal supraventricular tachycardia)的敘述,下列何者為正確?\n1. Adenosine的半衰期(half-life)極短,約只有<5秒。\n2. 一般在中央靜脈給藥時,劑量跟周邊靜脈相同,先給6mg,第二次給12mg。\n3. 若病人原先就有使用dipyridamole藥物時,第一次劑量可加大至9mg。\n4. Adenosine主要延長sinoatrial node及atrioventricular node的傳導,並使心臟細胞之不反應期(refractoriness)增長。\n5. 由周邊遠端靜脈慢速給予時,adenosine可能會對原先之心搏過速產生加速(acceleration)之情形。",
    "options": {
     "A": "1+2+3",
     "B": "2+3+4",
@@ -648,7 +648,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "關於腦死(brain death)的敘述中,下列何者正確? 頭部外傷(head injury)或顱內出血(intracranial hemorrhage)後引發的腦死病人,常因顱內壓上升及壓迫腦幹導致血壓上升及心跳過慢。 大腦死(cerebral death),又稱為持續性植物人狀態(persistent vegetative state),是指失去大腦皮質功能,但不等於病人已死亡。 Lazarus sign可能發生於brain death病人進行apnea test時。 當腦扁桃體疝脫(tonsillar herniation)發生時,病人血壓會突然上升。",
+   "question": "關於腦死(brain death)的敘述中,下列何者正確?\n1. 頭部外傷(head injury)或顱內出血(intracranial hemorrhage)後引發的腦死病人,常因顱內壓上升及壓迫腦幹導致血壓上升及心跳過慢。\n2. 大腦死(cerebral death),又稱為持續性植物人狀態(persistent vegetative state),是指失去大腦皮質功能,但不等於病人已死亡。\n3. Lazarus sign可能發生於brain death病人進行apnea test時。\n4. 當腦扁桃體疝脫(tonsillar herniation)發生時,病人血壓會突然上升。",
    "options": {
     "A": "1+2+3",
     "B": "2+3+4",
@@ -690,7 +690,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "吸入性麻醉劑(Inhaled anesthetics)具有支氣管擴張效應,以下敘述何者為是? 當傳統治療對重症氣喘(status asthmaticus)無效時,以吸入性麻醉劑治療是有效替代方法。 相較於其他吸入性麻醉劑,氙氣(Xenon)會更明顯地降低呼吸道阻力。 對類過敏(anaphyloid)反應造成的支氣管痙攣有良好擴張效果。 低體溫可加強擴張效果。",
+   "question": "吸入性麻醉劑(Inhaled anesthetics)具有支氣管擴張效應,以下敘述何者為是?\n1. 當傳統治療對重症氣喘(status asthmaticus)無效時,以吸入性麻醉劑治療是有效替代方法。\n2. 相較於其他吸入性麻醉劑,氙氣(Xenon)會更明顯地降低呼吸道阻力。\n3. 對類過敏(anaphyloid)反應造成的支氣管痙攣有良好擴張效果。\n4. 低體溫可加強擴張效果。",
    "options": {
     "A": "1+3",
     "B": "2+4",
@@ -921,7 +921,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "有關小兒麻醉的敘述,何者正確? 小兒初期大都靠增加心跳以提高心輸出量。 新生兒的呼吸道,喉頭(larynx)位於頸部較後下方。 一般直型喉鏡葉片(straight blade)較常使用於新生兒插管。 所謂的propofol infusion syndrome包含了乳酸中毒(lactate acidosis)、橫紋肌溶解症(rhabdomyolysis)、肝衰竭。",
+   "question": "有關小兒麻醉的敘述,何者正確?\n1. 小兒初期大都靠增加心跳以提高心輸出量。\n2. 新生兒的呼吸道,喉頭(larynx)位於頸部較後下方。\n3. 一般直型喉鏡葉片(straight blade)較常使用於新生兒插管。\n4. 所謂的propofol infusion syndrome包含了乳酸中毒(lactate acidosis)、橫紋肌溶解症(rhabdomyolysis)、肝衰竭。",
    "options": {
     "A": "1+2",
     "B": "1+3",
@@ -963,7 +963,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "關於使用喉頭鏡(direct laryngoscopy)進行氣管插管的刺激,所導致血流動力學變化,下列敍述何者正確? 氣管插管造成之血壓上升,於5秒內開始。 血壓上升在1至2分鐘達到高峰,通常5分鐘內恢復正常。 相較於喉頭鏡,使用纖維內視鏡插管,在無呼吸道局部麻醉下,也可以減少血壓之變化。 給予高劑量鴉片類藥物,如fentanyl 6μg/kg,可有效抑制血壓之變化。",
+   "question": "關於使用喉頭鏡(direct laryngoscopy)進行氣管插管的刺激,所導致血流動力學變化,下列敍述何者正確?\n1. 氣管插管造成之血壓上升,於5秒內開始。\n2. 血壓上升在1至2分鐘達到高峰,通常5分鐘內恢復正常。\n3. 相較於喉頭鏡,使用纖維內視鏡插管,在無呼吸道局部麻醉下,也可以減少血壓之變化。\n4. 給予高劑量鴉片類藥物,如fentanyl 6μg/kg,可有效抑制血壓之變化。",
    "options": {
     "A": "僅1+2+3",
     "B": "僅1+2+4",
@@ -1047,7 +1047,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "病人於恢復室發生呼吸道阻塞的敘述,何者正確? 術後昏睡病人的咽部肌力喪失為恢復室呼吸道阻塞的最常見原因。 TOF (train of four) ratio達到0.9以上,才代表喉部功能恢復正常。 病人可維持抬頭姿勢(sustained head lift)亦代表TOF已達0.9以上。 若TOF達0.6代表病人舌頭可強力頂開壓舌板壓迫。",
+   "question": "病人於恢復室發生呼吸道阻塞的敘述,何者正確?\n1. 術後昏睡病人的咽部肌力喪失為恢復室呼吸道阻塞的最常見原因。\n2. TOF (train of four) ratio達到0.9以上,才代表喉部功能恢復正常。\n3. 病人可維持抬頭姿勢(sustained head lift)亦代表TOF已達0.9以上。\n4. 若TOF達0.6代表病人舌頭可強力頂開壓舌板壓迫。",
    "options": {
     "A": "1+2+3+4",
     "B": "僅1+2+3",
@@ -1068,7 +1068,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "有關局部麻醉劑的敘述,下列何者為是? 局部麻醉劑可逆性的阻斷鈉離子通道,抑制神經衝動傳遞。 在合宜溶解度下,pH值每升高1,局部麻醉劑未解離形態升高10倍。 Cocaine歸類於esters,其主要代謝途徑是肝臟。 低血氧會加重局部麻醉劑的毒性。",
+   "question": "有關局部麻醉劑的敘述,下列何者為是?\n1. 局部麻醉劑可逆性的阻斷鈉離子通道,抑制神經衝動傳遞。\n2. 在合宜溶解度下,pH值每升高1,局部麻醉劑未解離形態升高10倍。\n3. Cocaine歸類於esters,其主要代謝途徑是肝臟。\n4. 低血氧會加重局部麻醉劑的毒性。",
    "options": {
     "A": "1+2+3+4",
     "B": "僅1+2+4",
@@ -1257,7 +1257,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "下列哪些因子被認為與術後譫妄有關? 年紀>65歲。 失聰。 酗酒。 疼痛。 失血量。",
+   "question": "下列哪些因子被認為與術後譫妄有關?\n1. 年紀>65歲。\n2. 失聰。\n3. 酗酒。\n4. 疼痛。\n5. 失血量。",
    "options": {
     "A": "1+2+3",
     "B": "2+3+4",
@@ -1404,7 +1404,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "人體對於壓力(stress)的代謝反應(metabolic response)中,主要具有下列何種特性? 分解作用 (catabolism)。 代謝亢進 (hypermetabolism)。 高血糖血症 (hyperglycemia)。 增強脂肪分解 (enhanced lipolysis)。",
+   "question": "人體對於壓力(stress)的代謝反應(metabolic response)中,主要具有下列何種特性?\n1. 分解作用 (catabolism)。\n2. 代謝亢進 (hypermetabolism)。\n3. 高血糖血症 (hyperglycemia)。\n4. 增強脂肪分解 (enhanced lipolysis)。",
    "options": {
     "A": "1+2+3+4",
     "B": "僅 2+3+4",
@@ -1425,7 +1425,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "下列何者為非? 孕婦肺功能殘餘容積(Functional residual capacity)在懷孕第一期(First trimester)開始下降。 硫酸鎂(Magnesium sulfate)可預防Preeclamptic病人癲癇的發作,拮抗肌肉鬆弛劑的作用。 懷孕末期婦人平躺時心輸出量降低是因子宮壓迫腹主動脈,可以側躺防範期發生。 非去極性肌肉鬆弛劑因高度離子化且脂溶性低,故較不易穿越胎盤。",
+   "question": "下列何者為非?\n1. 孕婦肺功能殘餘容積(Functional residual capacity)在懷孕第一期(First trimester)開始下降。\n2. 硫酸鎂(Magnesium sulfate)可預防Preeclamptic病人癲癇的發作,拮抗肌肉鬆弛劑的作用。\n3. 懷孕末期婦人平躺時心輸出量降低是因子宮壓迫腹主動脈,可以側躺防範期發生。\n4. 非去極性肌肉鬆弛劑因高度離子化且脂溶性低,故較不易穿越胎盤。",
    "options": {
     "A": "1+2+3",
     "B": "1+3",
@@ -1593,7 +1593,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "關於利用超音波導引執行股神經阻斷術(femoral nerve block)之敘述,何者正確? 優點有較佳之阻斷效果,節省局部麻醉藥量及減少血管穿刺 股神經位於股動脈外側,介於fascia lata與fascia iliaca之間 股神經在超音波橫切面(cross-section)影像呈現卵圓形或三角型 適合的定位區在介於inguinal ligament之上10 cm及之下5 cm之間 若在影像下發現深股動脈(profunda femoris artery),則是阻斷之最佳部位",
+   "question": "關於利用超音波導引執行股神經阻斷術(femoral nerve block)之敘述,何者正確?\n1. 優點有較佳之阻斷效果,節省局部麻醉藥量及減少血管穿刺\n2. 股神經位於股動脈外側,介於fascia lata與fascia iliaca之間\n3. 股神經在超音波橫切面(cross-section)影像呈現卵圓形或三角型\n4. 適合的定位區在介於inguinal ligament之上10 cm及之下5 cm之間\n5. 若在影像下發現深股動脈(profunda femoris artery),則是阻斷之最佳部位",
    "options": {
     "A": "1+2+3",
     "B": "1+3+5",
@@ -1656,7 +1656,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "老年人(大於65歲)接受手術後,影響結果(outcome)的主要風險因素,以下何者為是? 年齡(Age) 病人ASA等級及合併疾病 常規或急診手術 手術種類",
+   "question": "老年人(大於65歲)接受手術後,影響結果(outcome)的主要風險因素,以下何者為是?\n1. 年齡(Age)\n2. 病人ASA等級及合併疾病\n3. 常規或急診手術\n4. 手術種類",
    "options": {
     "A": "僅1+2",
     "B": "1+2+3+4",
@@ -1782,7 +1782,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "關於乙型交感神經接受器阻斷劑(β-adrenergic receptor blockade)在甲狀腺機能亢進的處置中所扮演之角色,下列敍述何者為是? 應該長期穩定使用,包括手術當天早上也不可以停藥 可以縮小甲狀腺,並比傳統的甲狀腺用藥更快收效 其使用可以顯著降低圍術期(Peri-operative)發生甲狀腺風暴(Thyroid storm)的風險。 在心跳過速,控制不良而需接受緊急手術的甲狀腺機能亢進病人,這是首選用藥",
+   "question": "關於乙型交感神經接受器阻斷劑(β-adrenergic receptor blockade)在甲狀腺機能亢進的處置中所扮演之角色,下列敍述何者為是?\n1. 應該長期穩定使用,包括手術當天早上也不可以停藥\n2. 可以縮小甲狀腺,並比傳統的甲狀腺用藥更快收效\n3. 其使用可以顯著降低圍術期(Peri-operative)發生甲狀腺風暴(Thyroid storm)的風險。\n4. 在心跳過速,控制不良而需接受緊急手術的甲狀腺機能亢進病人,這是首選用藥",
    "options": {
     "A": "1+2+3+4",
     "B": "僅1+2+3",
@@ -2034,7 +2034,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "長時間cross clamping後,於unclamping時會出現下列何種hemodynamic或metabolic變化? prostaglandins level上昇 complement activation mixed venous oxygen saturation下降 產生血中pH上升",
+   "question": "長時間cross clamping後,於unclamping時會出現下列何種hemodynamic或metabolic變化?\n1. prostaglandins level上昇\n2. complement activation\n3. mixed venous oxygen saturation下降\n4. 產生血中pH上升",
    "options": {
     "A": "1+2+3",
     "B": "1+3",
@@ -2055,7 +2055,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "下列敘述有關術後疼痛造成臨床與病態生理現象,何者有誤? 疼痛造成主要的神經內分泌反應包括hypothalamic-pituitary-adrenocortical與sympathoadrenal交互作用 神經內分泌反應產生鈉與水分堆積,血糖升高,游離脂肪酸降低,乳酸堆 術後疼痛控制不良可能導致併發症或死亡率增加 神經內分泌反應也會造成凝血功能降低(hypocoagulability)現象",
+   "question": "下列敘述有關術後疼痛造成臨床與病態生理現象,何者有誤?\n1. 疼痛造成主要的神經內分泌反應包括hypothalamic-pituitary-adrenocortical與sympathoadrenal交互作用\n2. 神經內分泌反應產生鈉與水分堆積,血糖升高,游離脂肪酸降低,乳酸堆\n3. 術後疼痛控制不良可能導致併發症或死亡率增加\n4. 神經內分泌反應也會造成凝血功能降低(hypocoagulability)現象",
    "options": {
     "A": "僅1+2+3",
     "B": "僅1+3",
@@ -2097,7 +2097,7 @@
    "year": 101,
    "western_year": 2012,
    "era": "old",
-   "question": "全身性發炎反應症候群(SIRS)之診斷需有2項或以上之準據,下列有關SIRS之準據,何者為非? 心跳大於每分鐘110次。 體溫大於38°C或小於36°C。 白血球每立方毫米大於10000或小於2500或不成熟血球大於15%。 呼吸速率大於每分鐘20次或動脈血二氧化碳分壓PaCO2小於32毫米汞柱。",
+   "question": "全身性發炎反應症候群(SIRS)之診斷需有2項或以上之準據,下列有關SIRS之準據,何者為非?\n1. 心跳大於每分鐘110次。\n2. 體溫大於38°C或小於36°C。\n3. 白血球每立方毫米大於10000或小於2500或不成熟血球大於15%。\n4. 呼吸速率大於每分鐘20次或動脈血二氧化碳分壓PaCO2小於32毫米汞柱。",
    "options": {
     "A": "僅1+2+3",
     "B": "僅1+3",

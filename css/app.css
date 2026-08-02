@@ -286,7 +286,12 @@ p.lede { color: var(--ink-2); margin: 0 0 20px; font-size: .93rem; }
 /* 命題端檔案：沒有官方公告可核對，但比純考卷檔案可信，用中性的輔色而不是警示紅 */
 .tag.unofficial { background: var(--accent); border-color: var(--accent-deep); color: var(--accent-ink); font-weight: 700; }
 
-.stem { font-family: var(--serif); font-size: 1.06rem; line-height: 1.85; margin-bottom: 14px; }
+/* pre-line 是為了複合題：題幹後面接「1. …2. …」的敘述，各自要獨立成行，
+   否則選項寫著「1+2+3」而讀者看不出哪一句是 1。 */
+.stem {
+  font-family: var(--serif); font-size: 1.06rem; line-height: 1.85;
+  margin-bottom: 14px; white-space: pre-line;
+}
 .enote {
   font-size: .84rem; color: var(--accent-ink); background: color-mix(in srgb, var(--accent) 26%, transparent);
   border-left: 3px solid var(--accent-deep); border-radius: 0 6px 6px 0;

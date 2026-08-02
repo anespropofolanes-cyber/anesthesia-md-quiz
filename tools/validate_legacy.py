@@ -60,6 +60,20 @@ def check(path, codes):
         if re.search(r"送\s*分", q["question"]) and q.get("scoring") != "free":
             errors.append(f"{tag}: 題幹寫明送分，scoring 應為 'free'，實際 {q.get('scoring')!r}")
 
+        # 複合題（選項是「1+2+3」這種組合）的題幹必須有對應編號的敘述，
+        # 否則讀者無從得知哪一句是 1、哪一句是 2，題目根本無法作答
+        combo = [t for t in options.values() if re.fullmatch(r"\s*(?:僅\s*)?\d(?:\s*\+\s*\d)+\s*", t)]
+        if combo:
+            # 編號寫法各年不同：101 年是「1. 」、102／103 年是「(1)」後面直接接內文
+            listed = [int(a or b) for a, b in
+                      re.findall(r"(?:^|\s)(?:\((\d)\)|(\d)[.、]\s)", q["question"])]
+            used = {int(d) for t in combo for d in re.findall(r"\d", t)}
+            if not listed:
+                errors.append(f"{tag}: 選項是數字組合，但題幹沒有編號敘述")
+            elif used and max(used) > max(listed):
+                errors.append(
+                    f"{tag}: 選項用到編號 {max(used)}，題幹只有 {max(listed)} 個敘述")
+
         if incomplete:
             if q.get("scoring") != "unscored":
                 errors.append(f"{tag}: 原檔不完整，scoring 應為 'unscored'")
